@@ -1,0 +1,986 @@
+[
+ {
+  "id": "img-046.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "about 8"
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 15"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": "about 8"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue-grey"
+    ],
+    "count": "1 clear"
+   },
+   {
+    "species": "zebra",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": "about 3"
+   }
+  ],
+  "person_visible": "yes, adult partial (torso/legs) at top of frame",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.8,
+  "notes": "market stall on turquoise table; also other vendors' bags and clothes in background"
+ },
+ {
+  "id": "img-048.jpg",
+  "items": [
+   {
+    "species": "hippo",
+    "colours": [
+     "dark blue-grey",
+     "magenta dress",
+     "multicolour trim"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "yes, adult woman behind, holding toy",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.6,
+  "notes": "uncertain: hippo or mouse or bear; round face, small ears, pink-purple eyes"
+ },
+ {
+  "id": "img-059.jpg",
+  "items": [
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "multicolour green yellow purple collar"
+    ],
+    "count": 1
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "cream",
+     "brown spots"
+    ],
+    "count": "1 partial"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.9,
+  "notes": "wooden carvings in background (other brand)"
+ },
+ {
+  "id": "img-060.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane",
+     "dark brown nose"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-061.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 15"
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "1 partial"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.9,
+  "notes": ""
+ },
+ {
+  "id": "img-062.jpg",
+  "items": [
+   {
+    "species": "elephant",
+    "colours": [
+     "dark grey",
+     "blue-grey",
+     "white tusks"
+    ],
+    "count": "about 10"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "cream horns"
+    ],
+    "count": "about 6"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "pastel multicolour vest"
+    ],
+    "count": "1 partial"
+   }
+  ],
+  "person_visible": "yes, adults in background, blurry",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.85,
+  "notes": ""
+ },
+ {
+  "id": "img-063.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "about 8 across panels"
+   },
+   {
+    "species": "octopus",
+    "colours": [
+     "yellow",
+     "green"
+    ],
+    "count": "2 in one panel"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": true,
+  "confidence": 0.9,
+  "notes": "4-panel collage"
+ },
+ {
+  "id": "img-064.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 20 across panels"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": "few in background"
+   },
+   {
+    "species": "bear or lion",
+    "colours": [
+     "tan"
+    ],
+    "count": "background, uncertain"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": true,
+  "confidence": 0.9,
+  "notes": "4-panel collage"
+ },
+ {
+  "id": "img-066.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "orange spots"
+    ],
+    "count": "about 12"
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "about 6"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "cream horns"
+    ],
+    "count": "about 10"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": "about 14"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown"
+    ],
+    "count": "few at back"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.85,
+  "notes": "plastic water bottle in scene"
+ },
+ {
+  "id": "img-067.jpg",
+  "items": [
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "red green white striped vest"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-068.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane",
+     "black nose"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-069.jpg",
+  "items": [
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "blue white vest",
+     "red green white vest"
+    ],
+    "count": 2
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "cream",
+     "yellow",
+     "orange"
+    ],
+    "count": "3 partial"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": "2 partial"
+   },
+   {
+    "species": "rhino or hippo",
+    "colours": [
+     "light blue"
+    ],
+    "count": "2 partial"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.85,
+  "notes": ""
+ },
+ {
+  "id": "img-070.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "cream",
+     "yellow",
+     "tan",
+     "brown"
+    ],
+    "count": "about 6"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-071.jpg",
+  "items": [
+   {
+    "species": "elephant",
+    "colours": [
+     "blue-grey",
+     "white tusks"
+    ],
+    "count": "about 6"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "cream horns"
+    ],
+    "count": "1"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "brown",
+     "cream horns"
+    ],
+    "count": "1"
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 4"
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "1"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown"
+    ],
+    "count": "1 partial"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.85,
+  "notes": ""
+ },
+ {
+  "id": "img-072.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "tan",
+     "brown spots"
+    ],
+    "count": "about 7"
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "1"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown"
+    ],
+    "count": 2
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "blue-grey"
+    ],
+    "count": "2 plus"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "cream horn"
+    ],
+    "count": "1"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.85,
+  "notes": "lion could be bear: uncertain: lion or bear but mane present"
+ },
+ {
+  "id": "img-073.jpg",
+  "items": [
+   {
+    "species": "monkey",
+    "colours": [
+     "brown",
+     "cream face"
+    ],
+    "count": 1
+   },
+   {
+    "species": "monkey",
+    "colours": [
+     "tan",
+     "pale yellow face"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "yes, one adult hand only",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.65,
+  "notes": "uncertain: monkey or bear; long limbs and big round muzzle and ears suggest monkey"
+ },
+ {
+  "id": "img-074.jpg",
+  "items": [
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "pink white vest",
+     "blue white vest",
+     "yellow green white vest",
+     "blue purple white vest"
+    ],
+    "count": 4
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-075.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "about 5"
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 18"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "brown"
+    ],
+    "count": "about 4"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey blue-grey"
+    ],
+    "count": "about 6"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "rainbow vest"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.8,
+  "notes": "market stall, small sign at right edge"
+ },
+ {
+  "id": "img-076.jpg",
+  "items": [
+   {
+    "species": "elephant",
+    "colours": [
+     "dark blue-grey",
+     "white tusks"
+    ],
+    "count": 2
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown"
+    ],
+    "count": "partial background"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown"
+    ],
+    "count": "partial"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-077.jpg",
+  "items": [
+   {
+    "species": "duck",
+    "colours": [
+     "cream",
+     "orange beak and feet"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.7,
+  "notes": "uncertain: duck or goose; long neck suggests goose"
+ },
+ {
+  "id": "img-078.jpg",
+  "items": [
+   {
+    "species": "monkey",
+    "colours": [
+     "brown",
+     "purple",
+     "yellow face",
+     "blue face",
+     "pink face"
+    ],
+    "count": 4
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.7,
+  "notes": "uncertain: monkey or bear; long limbs, round muzzle"
+ },
+ {
+  "id": "img-079.jpg",
+  "items": [
+   {
+    "species": "doll",
+    "colours": [
+     "tan skin tone",
+     "cream skin tone",
+     "black hair bun",
+     "colourful dresses"
+    ],
+    "count": 5
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.95,
+  "notes": "human-figure dolls, not animals"
+ },
+ {
+  "id": "img-080.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "orange",
+     "yellow",
+     "cream"
+    ],
+    "count": "about 20"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "purple",
+     "maroon",
+     "grey"
+    ],
+    "count": "about 8"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "purple"
+    ],
+    "count": "about 4"
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "orange",
+     "pink white vest"
+    ],
+    "count": "about 3"
+   }
+  ],
+  "person_visible": "yes, adults legs in background",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.75,
+  "notes": "orange colour cast from lighting"
+ },
+ {
+  "id": "img-081.jpg",
+  "items": [
+   {
+    "species": "duck",
+    "colours": [
+     "white",
+     "pale yellow wings",
+     "orange beak and feet"
+    ],
+    "count": 3
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.7,
+  "notes": "uncertain: duck or goose; long neck"
+ },
+ {
+  "id": "img-082.jpg",
+  "items": [
+   {
+    "species": "hippo",
+    "colours": [
+     "dark blue-grey",
+     "magenta dress",
+     "multicolour trim"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "yes, adult woman behind, holding toy",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.6,
+  "notes": "uncertain: hippo or mouse or bear; appears identical to img-048"
+ },
+ {
+  "id": "img-083.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane",
+     "dark brown nose"
+    ],
+    "count": 4
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": true,
+  "confidence": 0.95,
+  "notes": "overlay text XL Large Medium Small; GOtv decoder visible at corner (non-Mikono branding)"
+ },
+ {
+  "id": "img-084.jpg",
+  "items": [
+   {
+    "species": "turtle",
+    "colours": [
+     "mint green",
+     "cream",
+     "pink",
+     "salmon",
+     "blue",
+     "purple"
+    ],
+    "count": 3
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.8,
+  "notes": "uncertain: turtle or tortoise; red striped cloth underneath"
+ },
+ {
+  "id": "img-085.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": "about 6"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey",
+     "dark blue",
+     "white tusks"
+    ],
+    "count": "about 10"
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 10"
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "cream horn"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.8,
+  "notes": "pile of toys"
+ },
+ {
+  "id": "img-086.jpg",
+  "items": [
+   {
+    "species": "unicorn head",
+    "colours": [
+     "white",
+     "pink mane",
+     "brown horn"
+    ],
+    "count": 1
+   },
+   {
+    "species": "zebra head",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": 1
+   },
+   {
+    "species": "warthog head",
+    "colours": [
+     "brown",
+     "white tusks"
+    ],
+    "count": 1
+   },
+   {
+    "species": "giraffe head",
+    "colours": [
+     "yellow",
+     "brown spots"
+    ],
+    "count": 1
+   },
+   {
+    "species": "lion head",
+    "colours": [
+     "tan",
+     "white muzzle"
+    ],
+    "count": 1
+   },
+   {
+    "species": "elephant head",
+    "colours": [
+     "purple",
+     "white tusks"
+    ],
+    "count": 1
+   },
+   {
+    "species": "hippo head",
+    "colours": [
+     "dark grey",
+     "blue"
+    ],
+    "count": 1
+   },
+   {
+    "species": "rhino head",
+    "colours": [
+     "blue-grey",
+     "cream horn"
+    ],
+    "count": 1
+   },
+   {
+    "species": "secretary bird or similar bird head",
+    "colours": [
+     "grey",
+     "orange",
+     "black"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": true,
+  "confidence": 0.85,
+  "notes": "9-panel collage of wall mounted heads; partial watermark text at lower right of lion/elephant panel (reads like Believe Discover); wall mounts, not standard toys"
+ },
+ {
+  "id": "img-087.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream",
+     "brown spots"
+    ],
+    "count": "about 6"
+   },
+   {
+    "species": "zebra",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": 3
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "pastel yellow"
+    ],
+    "count": "about 8"
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": "about 4"
+   },
+   {
+    "species": "cat or rabbit",
+    "colours": [
+     "pink",
+     "cream",
+     "yellow",
+     "blue",
+     "green"
+    ],
+    "count": "about 6"
+   }
+  ],
+  "person_visible": "no",
+  "child_visible": false,
+  "collage_or_overlay_or_branding": false,
+  "confidence": 0.75,
+  "notes": "uncertain: cat or rabbit for pastel standing animals with long bodies and pointed ears"
+ }
+]

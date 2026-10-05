@@ -1,0 +1,314 @@
+{
+ "mobile-home": {
+  "body": 14,
+  "hs": {
+   "h1": 28,
+   "h2": 18,
+   "h3": 13
+  },
+  "hdr": 62,
+  "cards": 22,
+  "cw": 114,
+  "ch": 114,
+  "onScreen": 5,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 40,
+  "btnMin": 36,
+  "secPad": 32,
+  "gap": "8px",
+  "cols": 3,
+  "inputMed": null,
+  "pageH": 4415,
+  "vh": 844,
+  "navH": "50px"
+ },
+ "mobile-shop": {
+  "body": 14,
+  "hs": {
+   "h1": 22,
+   "h2": 18,
+   "h3": 13
+  },
+  "hdr": 62,
+  "cards": 7,
+  "cw": 114,
+  "ch": 189,
+  "onScreen": 7,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 36,
+  "btnMin": 32,
+  "secPad": null,
+  "gap": "8px",
+  "cols": 3,
+  "inputMed": null,
+  "pageH": 1559,
+  "vh": 844,
+  "navH": "50px"
+ },
+ "mobile-product": {
+  "body": 14,
+  "hs": {
+   "h1": 22,
+   "h2": 18,
+   "h3": 13
+  },
+  "hdr": 62,
+  "cards": 15,
+  "cw": 168,
+  "ch": 243,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 36,
+  "btnMin": 32,
+  "secPad": 32,
+  "gap": "8px",
+  "cols": 3,
+  "inputMed": 48,
+  "pageH": 3264,
+  "vh": 844,
+  "navH": "50px"
+ },
+ "mobile-journal": {
+  "body": 14,
+  "hs": {
+   "h1": 22,
+   "h2": 18,
+   "h3": 13
+  },
+  "hdr": 62,
+  "cards": 9,
+  "cw": 358,
+  "ch": 108,
+  "onScreen": 0,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 20,
+  "btnMin": 20,
+  "secPad": 32,
+  "gap": "8px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 2689,
+  "vh": 844,
+  "navH": "50px"
+ },
+ "mobile-studio": {
+  "body": 14,
+  "hs": {
+   "h1": 22,
+   "h2": 18,
+   "h3": null
+  },
+  "hdr": 62,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 36,
+  "btnMin": 36,
+  "secPad": 32,
+  "gap": "0px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 2392,
+  "vh": 844,
+  "navH": "50px"
+ },
+ "mobile-cart": {
+  "body": 14,
+  "hs": {
+   "h1": 22,
+   "h2": 18,
+   "h3": null
+  },
+  "hdr": 62,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 36,
+  "btnMin": 36,
+  "secPad": null,
+  "gap": null,
+  "cols": null,
+  "inputMed": null,
+  "pageH": 1103,
+  "vh": 844,
+  "navH": "50px"
+ },
+ "desktop-home": {
+  "body": 15,
+  "hs": {
+   "h1": 52,
+   "h2": 22,
+   "h3": 14
+  },
+  "hdr": 68,
+  "cards": 28,
+  "cw": 193,
+  "ch": 226,
+  "onScreen": 5,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 36,
+  "btnMin": 36,
+  "secPad": 48,
+  "gap": "12px",
+  "cols": 3,
+  "inputMed": null,
+  "pageH": 4374,
+  "vh": 900,
+  "navH": "50px"
+ },
+ "desktop-shop": {
+  "body": 15,
+  "hs": {
+   "h1": 28,
+   "h2": 22,
+   "h3": 13
+  },
+  "hdr": 68,
+  "cards": 7,
+  "cw": 193,
+  "ch": 268,
+  "onScreen": 7,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 36,
+  "btnMin": 32,
+  "secPad": null,
+  "gap": "12px",
+  "cols": 6,
+  "inputMed": null,
+  "pageH": 1374,
+  "vh": 900,
+  "navH": "50px"
+ },
+ "desktop-product": {
+  "body": 15,
+  "hs": {
+   "h1": 28,
+   "h2": 22,
+   "h3": 13
+  },
+  "hdr": 68,
+  "cards": 15,
+  "cw": 250,
+  "ch": 325,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 36,
+  "btnMin": 32,
+  "secPad": 48,
+  "gap": "12px",
+  "cols": 6,
+  "inputMed": 48,
+  "pageH": 2507,
+  "vh": 900,
+  "navH": "50px"
+ },
+ "desktop-journal": {
+  "body": 15,
+  "hs": {
+   "h1": 28,
+   "h2": 22,
+   "h3": 13
+  },
+  "hdr": 68,
+  "cards": 9,
+  "cw": 602,
+  "ch": 93,
+  "onScreen": 4,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 20,
+  "btnMin": 20,
+  "secPad": 48,
+  "gap": "12px",
+  "cols": 2,
+  "inputMed": null,
+  "pageH": 1784,
+  "vh": 900,
+  "navH": "50px"
+ },
+ "desktop-studio": {
+  "body": 15,
+  "hs": {
+   "h1": 28,
+   "h2": 22,
+   "h3": null
+  },
+  "hdr": 68,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 44,
+  "btnMin": 36,
+  "secPad": 48,
+  "gap": "0px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 1619,
+  "vh": 900,
+  "navH": "50px"
+ },
+ "desktop-cart": {
+  "body": 15,
+  "hs": {
+   "h1": 28,
+   "h2": 22,
+   "h3": null
+  },
+  "hdr": 68,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 36,
+  "btnMin": 36,
+  "secPad": null,
+  "gap": null,
+  "cols": null,
+  "inputMed": null,
+  "pageH": 1061,
+  "vh": 900,
+  "navH": "50px"
+ }
+}

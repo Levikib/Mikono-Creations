@@ -1,0 +1,60 @@
+{
+ "base": "https://mikono-creations.vercel.app",
+ "cpu": 4,
+ "res": {
+  "qty": {
+   "label": "Change quantity in the cart (One more)",
+   "inp": 216,
+   "all": [
+    216,
+    616,
+    200
+   ],
+   "inDelay": 112.89999997615814,
+   "proc": 82.09999999403954,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 273,
+    "b": 223,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fD",
+      "d": 56,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 36,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "studio": {
+   "label": "Studio step Next",
+   "inp": 688,
+   "all": [
+    688,
+    496,
+    888
+   ],
+   "inDelay": 118.89999997615814,
+   "proc": 314.40000000596046,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 629,
+    "b": 579,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 497,
+      "t": "event-listener"
+     }
+    ]
+   }
+  }
+ }
+}

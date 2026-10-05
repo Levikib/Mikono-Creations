@@ -1,0 +1,10 @@
+import { chromium } from '/tmp/claude-1000/-home-shannara-mikono-creations/dc36e544-c58f-4c8b-ab4e-71cdc2ebcd35/scratchpad/node_modules/playwright-core/index.mjs';
+const b=await chromium.launch({executablePath:process.env.HOME+'/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome',args:['--no-sandbox']});
+let p=await b.newPage({viewport:{width:1440,height:700}});await p.goto('file://'+process.cwd()+'/cards.html');
+const el=p.locator('#tiers .mk-card').nth(0);await el.scrollIntoViewIfNeeded();await el.hover();await p.waitForTimeout(450);
+await p.screenshot({path:'shots/hover-tier.png',clip:{x:130,y:0,width:1200,height:700}});
+await p.close();
+p=await b.newPage({viewport:{width:390,height:844},deviceScaleFactor:2});await p.goto('https://mikono-creations.vercel.app/');await p.waitForTimeout(9000);
+await p.screenshot({path:'shots/live-hero-390.png'});
+console.log(await p.evaluate(()=>[...document.querySelectorAll('[class*=chip],[class*=Chip]')].slice(0,8).map(e=>e.className.toString().slice(0,80)+' '+JSON.stringify(e.getBoundingClientRect()))));
+await b.close();

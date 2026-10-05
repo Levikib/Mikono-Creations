@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" data-fx="full">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mikono fx preview</title>
+<link rel="stylesheet" href="../../../components/fx/fx.css">
+<style>
+  :root{--bone:#F3EEE5;--paper:#FBF8F2;--ink:#2A2420;--soft:#5F5348;--action:#8A4630;--sand:#E1D4BF}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bone);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+  body{overflow-x:hidden}main{max-width:1200px;margin:0 auto;padding:24px 16px 80px}
+  h1{font-size:28px;margin:0 0 4px} h2{font-size:18px;margin:36px 0 10px}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+  button.t{font:inherit;padding:8px 14px;border-radius:999px;border:1px solid var(--sand);background:var(--paper);cursor:pointer}
+  button.t[aria-pressed=true]{background:var(--action);color:#fff}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+  .cell{background:var(--paper);border-radius:24px;padding:12px;text-align:center;font-size:13px;color:var(--soft);position:relative;min-height:190px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;overflow:hidden}
+  .wide{grid-column:span 2}
+  .lane{position:relative;height:150px;background:var(--paper);border-radius:24px;overflow:hidden}
+  .basket{display:inline-block;padding:10px 16px;border-radius:14px;background:var(--action);color:#fff}
+  .yarnhost{height:700px;margin-top:10px;background:var(--paper);border-radius:24px;padding:20px 60px}
+  .yarnhost p{max-width:520px;margin:0 0 14px;color:var(--soft)}
+</style>
+</head>
+<body>
+<main class="fx-host" id="host">
+  <h1>Mikono fx preview</h1>
+  <p>Yarn cast, motion tiers and the placeholder hero. Served from the project root.</p>
+  <div class="bar" role="group" aria-label="Motion tier">
+    <button class="t" data-tier="full" aria-pressed="true">full</button>
+    <button class="t" data-tier="lite" aria-pressed="false">lite</button>
+    <button class="t" data-tier="off" aria-pressed="false">off</button>
+  </div>
+
+  <h2>Hero scene (placeholder for the Veo clip)</h2>
+  <div id="hero"></div>
+
+  <h2>Idle (component output): blink, sway, ear, tail, neck</h2>
+  <div class="grid" id="idle"></div>
+
+  <h2>Animations</h2>
+  <div class="grid" id="anims"></div>
+
+  <h2>Parade and hop</h2>
+  <div class="lane" id="lane"></div>
+  <p><button class="t" id="hopbtn">Add to cart (hop)</button> <span class="basket" id="basket">Basket</span></p>
+
+  <h2>Ambient cast (home config) and yarn path</h2>
+  <div class="yarnhost fx-host" id="yarnhost" style="margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);border-radius:0;padding:20px calc(50vw - 520px)">
+    <div id="ambient"></div><div id="yarn"></div>
+    <p>Scroll the page: the stitched thread at the left draws itself as you scroll. Ambient characters sit behind content in the gutters.</p>
+    <p>This host is padded so content never touches the thread or the characters.</p>
+  </div>
+</main>
+<script>
+const NAMES=['giraffe','elephant','lion','rhino','zebra','rabbit','hippo','monkey','octopus','turtle','butterfly','yarn'];
+let n=0;
+async function svg(name){
+  const t=await (await fetch('../../../public/fx/cast/'+name+'.svg')).text();
+  const p='p'+(n++)+'-';
+  return t.replace(/(id="|href="#|url\(#)(\w+)/g,'$1'+p+'$2');
+}
+function span(name,anim,size,html,extra){
+  const s=document.createElement('span');
+  s.className='fx-char';s.dataset.anim=anim;s.setAttribute('aria-hidden','true');
+  const h=Math.abs(name.split('').reduce((a,c)=>a*31+c.charCodeAt(0)+n,7));
+  s.style.cssText='--fx-s:'+size+'px;--fx-d:'+((h%4000)/1000)+'s;--fx-b:'+(4+(h%2000)/1000)+'s;'+(extra||'');
+  s.innerHTML=html;return s;
+}
+function cell(label,child,cls){const c=document.createElement('div');c.className='cell '+(cls||'');c.appendChild(child);const l=document.createElement('div');l.textContent=label;c.appendChild(l);return c;}
+(async()=>{
+  document.getElementById('hero').innerHTML=await (await fetch('hero-fragment.html')).text();
+  document.getElementById('ambient').innerHTML=await (await fetch('ambient-fragment.html')).text();
+  document.getElementById('yarn').innerHTML=await (await fetch('yarn-fragment.html')).text();
+  document.getElementById('idle').innerHTML=await (await fetch('chars-fragment.html')).text();
+  document.querySelectorAll('#idle .fx-char').forEach(c=>{const d=document.createElement('div');d.className='cell';c.replaceWith(d);d.appendChild(c);d.append(c.dataset.name)});
+  const A=document.getElementById('anims');
+  const demos=[['peek (right)','rabbit','peek','--fx-d:0s','right'],['peek (left)','giraffe','peek','--fx-d:.3s','left'],['peek (bottom)','monkey','peek','','bottom'],['celebrate','rabbit','celebrate','',''],['lost','giraffe','lost','',''],['float','butterfly','float','',''],['wings idle','butterfly','idle','',''],['octopus arms','octopus','idle','','']];
+  for(const [l,nm,an,ex,edge] of demos){const s=span(nm,an,110,await svg(nm),ex);if(edge)s.dataset.edge=edge;
+    const c=cell(l,s);if(an==='celebrate'){const cf=document.createElement('span');cf.className='fx-confetti';
+      const cols=['#B0654A','#C9A05A','#6A7049','#C79B7D'];for(let i=0;i<16;i++){const a=i/16*6.28,d=60+(i*37)%50,e=document.createElement('i');e.style.cssText='--x:'+Math.cos(a)*d+'px;--y:'+(Math.sin(a)*d-30)+'px;--r:'+(i%2?1:-1)*(160+i*13)+'deg;--c:'+cols[i%4]+';--dl:'+(i*.04)+'s';cf.appendChild(e)}
+      c.appendChild(cf);}
+    A.appendChild(c);}
+  const lane=document.getElementById('lane');
+  for(const [nm,d] of [['zebra','0s'],['elephant','-7s'],['rhino','-12s']]){lane.appendChild(span(nm,'parade',80,await svg(nm),'--fx-d:'+d+';--fx-t:16s;--fx-bottom:6px'));}
+  const hopSvg=await svg('rabbit');
+  document.getElementById('hopbtn').onclick=e=>{
+    const b=e.currentTarget.getBoundingClientRect(),t=document.getElementById('basket').getBoundingClientRect();
+    const x=b.left+b.width/2,y=b.top+b.height/2;
+    const s=span('rabbit','hop',56,hopSvg,'--fx-dx:'+(t.left+t.width/2-x)+'px;--fx-dy:'+(t.top+t.height/2-y)+'px;left:'+(x-28)+'px;top:'+(y-28)+'px');
+    document.body.appendChild(s);setTimeout(()=>s.remove(),1000);};
+  // offscreen observer (what FxProvider does)
+  const io=new IntersectionObserver(es=>es.forEach(e=>e.target.setAttribute('data-offscreen',e.isIntersecting?'false':'true')),{rootMargin:'120px'});
+  document.querySelectorAll('.fx-char[data-anim],.fx-hero,.fx-yarn').forEach(el=>io.observe(el));
+  // hero parallax + pause (what HeroShell does)
+  const hero=document.querySelector('.fx-hero'),st=hero.querySelector('.fx-hero-stage');
+  st.addEventListener('pointermove',e=>{const r=st.getBoundingClientRect();hero.style.setProperty('--px',(((e.clientX-r.left)/r.width-.5)*2).toFixed(3))});
+  addEventListener('scroll',()=>{const r=st.getBoundingClientRect();hero.style.setProperty('--sy',Math.min(1,Math.max(0,-r.top/r.height)).toFixed(3))},{passive:true});
+  hero.querySelector('.fx-hero-pause').onclick=e=>{const p=hero.dataset.paused!=='true';hero.dataset.paused=p;e.target.textContent=p?'Play motion':'Pause motion';e.target.setAttribute('aria-pressed',p)};
+  document.body.dataset.ready='1';
+})();
+document.querySelectorAll('[data-tier]').forEach(b=>b.onclick=()=>{document.documentElement.dataset.fx=b.dataset.tier;document.querySelectorAll('[data-tier]').forEach(x=>x.setAttribute('aria-pressed',x===b))});
+</script>
+</body>
+</html>

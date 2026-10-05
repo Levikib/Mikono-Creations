@@ -1,0 +1,650 @@
+[
+ {
+  "id": "img-045.jpg",
+  "shot_type": "retail_display",
+  "items": [
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.95,
+    "colours": [
+     "charcoal grey",
+     "cream"
+    ],
+    "dominant_colour": "charcoal grey",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference, but about 25 to 30 cm on the table next to giraffes",
+    "details": "Grey elephants with cream tusks, big ears, short stitched trunk; in two or three grey tones, several rows plus a stack at lower left"
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "caramel brown",
+     "ochre"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Yellow giraffes with brown patches, cream muzzle and ossicones in brown; about 8 in a row"
+   },
+   {
+    "animal": "lion",
+    "animal_confidence": 0.9,
+    "colours": [
+     "brown",
+     "tan",
+     "caramel"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Lions with long brown yarn fringe mane and tan faces; groups at right and left edge"
+   },
+   {
+    "animal": "hippo",
+    "animal_confidence": 0.3,
+    "colours": [
+     "light yellow",
+     "cream"
+    ],
+    "dominant_colour": "light yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Small pale yellow rows behind elephants, partly hidden, could be chicks, bears or hippos, unclear"
+   },
+   {
+    "animal": "unknown",
+    "animal_confidence": 0.3,
+    "colours": [
+     "orange",
+     "mint green",
+     "blue",
+     "hot pink",
+     "cream"
+    ],
+    "dominant_colour": "mixed bright",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Four bright long-bodied toys lying flat, cream paw tips, X stitched noses, pointed ears and woven ribbon collars. Species unclear (cat, rabbit or bear). Colours are saturated and off the earthy palette"
+   }
+  ],
+  "item_count": 30,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "Market or event table with white cloth, jewellery trays at left, white plastic chairs behind",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "phone photo, slightly soft",
+    "clutter and bags at top",
+    "background items visible"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "social",
+   "category_tile",
+   "project_story"
+  ],
+  "best_use_reason": "Strong range overview showing giraffes, elephants and lions together, but crowded and not a single product shot.",
+  "proposed_alt_text": "Table at a market covered with rows of crocheted yellow giraffes, grey elephants, brown maned lions and four bright cat-like toys in orange, green, blue and pink",
+  "possible_duplicate_of": [
+   "img-046.jpg"
+  ],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Bright orange, mint, blue and pink toys have an unclear species and clash with the earthy palette; confirm what they are and whether they are current products."
+ },
+ {
+  "id": "img-046.jpg",
+  "shot_type": "retail_display",
+  "items": [
+   {
+    "animal": "lion",
+    "animal_confidence": 0.92,
+    "colours": [
+     "brown",
+     "tan"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Brown yarn-mane lions on table, also stacked on the floor by the table front; some tan bears or lions without manes at left"
+   },
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.9,
+    "colours": [
+     "charcoal grey",
+     "grey"
+    ],
+    "dominant_colour": "grey",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Grey elephants with cream tusks on table and lined on the floor at right"
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "brown"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Cream-coloured giraffes with brown patches and yellow ones, plus a back row of small yellow giraffes"
+   },
+   {
+    "animal": "zebra",
+    "animal_confidence": 0.85,
+    "colours": [
+     "black",
+     "white"
+    ],
+    "dominant_colour": "black and white",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Three striped zebras between the elephants and giraffes"
+   },
+   {
+    "animal": "rhino",
+    "animal_confidence": 0.7,
+    "colours": [
+     "pale blue grey",
+     "cream"
+    ],
+    "dominant_colour": "pale blue grey",
+    "size_guess": "unknown",
+    "size_reasoning": "front of table; about the size of the lions beside it",
+    "details": "Light grey blue animal at front with a cream horn, rhino likely, could be a hippo or a different animal"
+   },
+   {
+    "animal": "unknown",
+    "animal_confidence": 0.3,
+    "colours": [
+     "cream",
+     "pastel pink",
+     "mint",
+     "yellow",
+     "white"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Pastel multicoloured lying toys, species unclear"
+   }
+  ],
+  "item_count": 30,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": false,
+   "setting": "one shopper partly visible at the top, torso only"
+  },
+  "setting_background": "Craft fair or shop with turquoise tablecloth, kitenge style fabrics, bags and tiled floor",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "busy background",
+    "bystander partly visible",
+    "tilted phone shot"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "social",
+   "category_tile",
+   "project_story"
+  ],
+  "best_use_reason": "Good overview of the full range including zebra and rhino, but cluttered and not suited as a hero.",
+  "proposed_alt_text": "Craft fair table with a turquoise cloth displaying crocheted lions, elephants, giraffes, zebras and a grey rhino, with more lions and elephants lined on the floor",
+  "possible_duplicate_of": [
+   "img-045.jpg"
+  ],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Partial bystander visible (no face), confirm no permission issue; rhino identification should be confirmed."
+ },
+ {
+  "id": "img-047.jpg",
+  "shot_type": "group_of_people",
+  "items": [],
+  "item_count": 0,
+  "people": {
+   "present": true,
+   "count": 13,
+   "children": true,
+   "faces_visible": true,
+   "setting": "outdoor group portrait at a home compound, elderly people seated with crutches, a toddler and a baby"
+  },
+  "setting_background": "Outdoor yard with blue painted timber wall, clothes line and plants",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "very small image 708 by 308",
+    "wide crop"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "project_story",
+   "partner_or_stockist"
+  ],
+  "best_use_reason": "Community group of the women and elders supported, usable for a story page once permission is cleared.",
+  "proposed_alt_text": "Group of about thirteen adults and children posing outdoors in front of a blue wall, some seated, including elderly people with walking sticks and a toddler in an orange jacket",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.9,
+  "needs_human_review": true,
+  "review_reason": "Identifiable people including children and a toddler: photo permission needed. Also confirm who they are and whether to name the group."
+ },
+ {
+  "id": "img-048.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "hippo",
+    "animal_confidence": 0.55,
+    "colours": [
+     "slate blue grey",
+     "magenta",
+     "purple",
+     "white",
+     "teal"
+    ],
+    "dominant_colour": "slate blue grey",
+    "size_guess": "S",
+    "size_reasoning": "held in one adult hand, roughly 25 cm tall",
+    "details": "Dressed in a magenta crocheted dress with multicolour scalloped hem, sparkly pink purple eyes, round ears; looks like a hippo or bear, ambiguous. Sewn legs very short"
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman seated behind the toy, face visible, slightly out of focus"
+  },
+  "setting_background": "Living room with sofa, door and patterned cushions",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "person in background",
+    "toy partially cropped at the feet"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "social"
+  ],
+  "best_use_reason": "Cute dressed animal, but a person sits behind it and the species is unsure.",
+  "proposed_alt_text": "Hand holding a slate blue crocheted animal wearing a magenta crocheted dress with a multicolour trim, a woman sitting on a sofa in the background",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.6,
+  "needs_human_review": true,
+  "review_reason": "Woman identifiable in background, photo permission needed; species (hippo or bear) uncertain; magenta is a saturated colour."
+ },
+ {
+  "id": "img-049.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "unknown",
+    "animal_confidence": 0.2,
+    "colours": [
+     "orange",
+     "gold"
+    ],
+    "dominant_colour": "orange",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Only thin orange or gold yarn visible between her hands, no clear toy"
+   }
+  ],
+  "item_count": 0,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman in a blue patterned top crocheting, seated, eyes down"
+  },
+  "setting_background": "Red wall",
+  "quality": {
+   "sharpness": "poor",
+   "lighting": "poor",
+   "cropping": "tight",
+   "issues": [
+    "blurry",
+    "glass or table reflection in the foreground",
+    "low resolution"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "making_process_feature"
+  ],
+  "best_use_reason": "Genuine maker portrait but low quality.",
+  "proposed_alt_text": "Woman in a blue patterned top and a brown head wrap crocheting with orange yarn, eyes looking down",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.8,
+  "needs_human_review": true,
+  "review_reason": "Identifiable maker, photo permission needed; image quality is poor."
+ },
+ {
+  "id": "img-050.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.97,
+    "colours": [
+     "mustard yellow",
+     "cream white",
+     "caramel brown",
+     "ochre"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "M",
+    "size_reasoning": "about 30 to 35 cm tall, front giraffe nearly reaches the seated woman's shoulder when in front of her",
+    "details": "About 15 giraffes in two colourways, yellow with cream and cream with brown patches; brown or orange ossicones; yarn tails"
+   }
+  ],
+  "item_count": 15,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman in a yellow black striped dress seated behind the toys"
+  },
+  "setting_background": "Living room with maroon sofa, teal knitted blanket",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "ok",
+   "issues": [
+    "toys overlap",
+    "person partly hidden"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "making_process_feature",
+   "project_story",
+   "homepage_hero",
+   "social"
+  ],
+  "best_use_reason": "Beautiful rank of giraffes with the maker behind, shows the colourways and handmade scale.",
+  "proposed_alt_text": "Woman in a yellow and black striped dress sitting behind a crowd of crocheted giraffes in yellow and cream with brown patches on a teal blanket",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.9,
+  "needs_human_review": true,
+  "review_reason": "Identifiable maker, photo permission needed; confirm giraffe size labels."
+ },
+ {
+  "id": "img-051.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "caramel",
+     "ochre"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "L",
+    "size_reasoning": "foreground giraffe neck is huge due to perspective; no true scale",
+    "details": "Yellow giraffes piled in the foreground, an ochre ossicone close up; woman sewing a yellow piece"
+   }
+  ],
+  "item_count": 3,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman in black t shirt seated behind, face visible, focus is on the toy"
+  },
+  "setting_background": "Home interior with beige walls",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "awkward",
+   "issues": [
+    "shallow depth, person blurred",
+    "foreground cropped"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "making_process_feature",
+   "blog_hero"
+  ],
+  "best_use_reason": "Stitch texture close up with maker behind, good for a making story.",
+  "proposed_alt_text": "Close up of crocheted yellow giraffe necks and an ochre knob with a woman in a black t shirt sewing in the background",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Identifiable person, photo permission needed."
+ },
+ {
+  "id": "img-052.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "unknown",
+    "animal_confidence": 0.2,
+    "colours": [
+     "cream",
+     "grey",
+     "pastel orange",
+     "teal"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Some toys at the lower right edge, only partly visible"
+   }
+  ],
+  "item_count": 2,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman in a yellow black striped dress and floral head wrap, seated on a white plastic chair with a blue patterned fabric on her lap"
+  },
+  "setting_background": "Small living room with maroon armchair, curtain, wooden chair",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "toys cropped",
+    "cluttered"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "making_process_feature",
+   "project_story"
+  ],
+  "best_use_reason": "Documents hand sewing at home, with a variety of toys at the corner.",
+  "proposed_alt_text": "Woman in a yellow striped dress and head wrap sitting in a white chair stitching, with a bright patterned fabric on her lap and crocheted toys at the lower right",
+  "possible_duplicate_of": [
+   "img-050.jpg"
+  ],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Identifiable maker (appears to be the same woman as in img-050), photo permission needed."
+ },
+ {
+  "id": "img-053.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.92,
+    "colours": [
+     "cream",
+     "mustard yellow",
+     "caramel",
+     "ochre"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Unstuffed or assembled giraffe pieces piled on a table and in a yellow basket, scissors and orange yarn bits beside"
+   }
+  ],
+  "item_count": 10,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman in a red knitted hat and a navy hoodie looking at a phone"
+  },
+  "setting_background": "Simple room with blue plastic chair and white sack",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "cluttered",
+    "phone use visible"
+   ]
+  },
+  "visible_text": "Hoodie logo partially readable: 'URBAN LION' (paw print)",
+  "best_use": [
+   "making_process_feature",
+   "project_story"
+  ],
+  "best_use_reason": "Shows production stage with giraffe parts piled up.",
+  "proposed_alt_text": "Woman in a red hat and navy hoodie sitting with a phone beside a table of crocheted cream and yellow giraffes waiting to be finished",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.8,
+  "needs_human_review": true,
+  "review_reason": "Identifiable maker, photo permission needed; hoodie has a logo that is not Mikono."
+ },
+ {
+  "id": "img-054.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "orange"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "M",
+    "size_reasoning": "held at forearm length, roughly 30 cm",
+    "details": "Yellow giraffe with brown patches and a cream muzzle; carton labelled 'Yello Gold' with orange yarn beside her"
+   }
+  ],
+  "item_count": 3,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman in a red patterned head wrap and striped top seated on a sofa"
+  },
+  "setting_background": "Home with red floor and a sofa",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "tight",
+   "issues": [
+    "person slightly dark",
+    "cluttered"
+   ]
+  },
+  "visible_text": "'Yello Gold' on a cardboard box",
+  "best_use": [
+   "making_process_feature"
+  ],
+  "best_use_reason": "Hand finishing of a giraffe.",
+  "proposed_alt_text": "Woman in a striped top and red head wrap holding a yellow crocheted giraffe, with a box of orange yarn at the lower right",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.8,
+  "needs_human_review": true,
+  "review_reason": "Identifiable maker, photo permission needed; brand text visible on box."
+ },
+ {
+  "id": "img-055.jpg",
+  "shot_type": "making_process",
+  "items": [
+   {
+    "animal": "bear",
+    "animal_confidence": 0.8,
+    "colours": [
+     "tan",
+     "beige",
+     "golden"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "M",
+    "size_reasoning": "held on the lap, roughly 30 cm",
+    "details": "Teddy bear style animal with round ears and black eyes and nose, a woman adding stitches with a pink crochet hook; small yellow giraffes at left"
+   }
+  ],
+  "item_count": 2,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman with locs in a grey t shirt seated on a grey sofa, smiling"
+  },
+  "setting_background": "Living room with a sofa and mint green wall",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "ok",
+   "issues": [
+    "person in background",
+    "plastic bag at corner"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "making_process_feature",
+   "blog_hero",
+   "social"
+  ],
+  "best_use_reason": "Bright and warm maker moment, shows a bear in tan.",
+  "proposed_alt_text": "Smiling woman with locs holding a tan crocheted teddy bear on her lap while she works with a pink crochet hook",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.8,
+  "needs_human_review": true,
+  "review_reason": "Identifiable maker, photo permission needed; bear confirmed as tan."
+ }
+]

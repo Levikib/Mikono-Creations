@@ -1,0 +1,108 @@
+<!doctype html><html lang="en-KE" data-fx="full"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Living lab 4: footer watering hole</title>
+<style><!--@css--></style>
+<style>
+.cta{margin:30px auto 0;padding:22px;color:#fff;background:linear-gradient(135deg,#c0735a,#8a4630);border-radius:26px}
+.cta h2{font-size:clamp(24px,6vw,34px)}.cta p{margin:8px 0 14px;opacity:.9;font-size:14px;max-width:46ch}
+.cta .btn{background:#fbf8f2;color:var(--terra-d);border-color:transparent}
+.fill{height:260px}
+.hole{position:relative;height:196px;margin-top:80px;overflow:hidden;background:linear-gradient(180deg,var(--bone) 0%,#f0dcbc 30%,#e6bd8c 58%,#cf8c66 80%,#7a4c3b 100%);isolation:isolate}
+.hole .sun{position:absolute;left:24%;bottom:46px;width:74px;height:74px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#fff1c9,#f2c27a);box-shadow:0 0 0 18px rgb(255 232 180/.28),0 0 0 44px rgb(255 232 180/.14)}
+.hole svg.bg{position:absolute;inset:0;width:100%;height:100%}
+.ground{position:absolute;left:-5%;right:-5%;bottom:0;height:46px;background:var(--dusk);border-radius:50% 50% 0 0/100% 100% 0 0;z-index:2}
+.hole .a{position:absolute;z-index:3}
+.pond{position:absolute;z-index:3;right:12%;bottom:12px;width:170px;height:34px;border-radius:50%;background:radial-gradient(ellipse at 50% 30%,#c4d3d6 0%,#7fa0aa 45%,#587783 100%);box-shadow:inset 0 3px 6px rgb(255 255 255/.25),0 0 0 3px #3f322a}
+.pond .rip{position:absolute;left:50%;top:50%;width:74%;height:62%;margin:-31% 0 0 -37%;border-radius:50%;border:1.5px solid rgb(255 255 255/.7);opacity:0;transform:scale(.5)}
+.pond .rip.r2{animation-delay:-1.6s}.pond .rip.r3{animation-delay:-3.2s}
+html:not([data-fx=off]) .pond .rip{animation:ripple 4.8s ease-out infinite}
+@keyframes ripple{0%{opacity:.85;transform:scale(.45)}100%{opacity:0;transform:scale(1.35)}}
+.hip{position:absolute;z-index:3;right:calc(12% + 36px);bottom:26px;width:100px;height:56px;overflow:hidden}
+.hip .fx-char{position:absolute;left:0;bottom:-34px}
+html:not([data-fx=off]) .hip .fx-char{animation:surface 9s cubic-bezier(.3,.8,.3,1) infinite}
+@keyframes surface{0%,12%{transform:translateY(105%)}22%,64%{transform:translateY(0)}76%,100%{transform:translateY(105%)}}
+.pond-front{position:absolute;z-index:4;right:12%;bottom:12px;width:170px;height:20px;border-radius:0 0 50% 50%/0 0 100% 100%;background:linear-gradient(180deg,rgb(88 119 131/.0),rgb(88 119 131/.9));pointer-events:none}
+.walker{left:-60px;bottom:4px;width:44px;z-index:5}
+html:not([data-fx=off]) .walker{animation:walkacross 60s linear infinite}
+@keyframes walkacross{from{transform:translateX(0)}to{transform:translateX(calc(100vw + 140px))}}
+.hide-rabbit{position:absolute;z-index:6;left:19%;bottom:6px;width:56px;height:56px;border:0;background:none;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.hide-rabbit .rb{position:absolute;left:12px;bottom:-8px;width:44px;height:52px;overflow:hidden;transition:transform .5s cubic-bezier(.34,1.5,.64,1)}
+.hide-rabbit .fx-char{position:absolute;left:-14px;top:-6px}
+.hide-rabbit .rb{transform:translateY(46%)}.hide-rabbit:hover .rb,.hide-rabbit:focus-visible .rb,.hide-rabbit.out .rb{transform:translateY(8%)}
+.hide-rabbit:focus-visible{outline:3px solid #fff;outline-offset:2px;border-radius:12px}
+.grass{position:absolute;z-index:7;left:3%;bottom:0;width:72px;height:26px;pointer-events:none}
+.flinks{background:var(--dusk);color:#e8ddcf;padding:26px 0 26px}
+.flinks .cols{display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:14px}
+.flinks h4{margin:0 0 8px;font:600 11px/1 ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:#bda894}
+.flinks li{list-style:none;margin:6px 0}.flinks ul{padding:0;margin:0}
+.fbar{background:var(--dusk);color:#cdbfae;padding:0 0 100px;font-size:13px}
+.fbar .wrap{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px solid rgb(255 255 255/.12);padding-top:16px}
+.found{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border-radius:999px;border:1px solid rgb(255 255 255/.22);color:#f3e7d8;font-weight:600;font-size:13px}
+.found i{display:inline-flex;gap:3px}.found i b{width:7px;height:7px;border-radius:50%;background:rgb(255 255 255/.25)}.found i b.on{background:#C9A05A}
+.fbar .fx-toggle{background:transparent;color:#f3e7d8;border-color:rgb(255 255 255/.22)}
+.msg{position:fixed;left:50%;bottom:calc(76px + env(safe-area-inset-bottom));transform:translate(-50%,20px);opacity:0;z-index:90;background:var(--paper);color:var(--ink);border-radius:18px;padding:12px 16px;font-size:14px;font-weight:600;box-shadow:0 14px 30px -12px rgb(0 0 0/.5);max-width:min(92vw,380px);text-align:center;pointer-events:none;transition:opacity .4s,transform .5s cubic-bezier(.34,1.4,.64,1)}
+.msg.show{opacity:1;transform:translate(-50%,0)}
+.burst{position:absolute;z-index:8;pointer-events:none;left:0;top:0}
+.burst i{position:absolute;width:4px;height:15px;border-radius:3px;background:var(--c);opacity:0;animation:bit 1.6s cubic-bezier(.15,.8,.3,1) forwards}
+@keyframes bit{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(var(--r))}}
+.cookie{display:none}
+@media(min-width:900px){
+ .hole{height:270px}.pond{width:300px;height:56px;right:16%}.pond-front{width:300px;height:34px;right:16%}
+ .hip{right:calc(16% + 78px);width:150px;height:84px;bottom:42px}.hip .fx-char{bottom:-50px}
+ .hole .sun{left:30%;width:110px;height:110px;bottom:64px}
+ .ground{height:58px}
+ .flinks .cols{grid-template-columns:2fr 1fr 1fr 1fr 1fr}.walker{width:60px}
+ .hide-rabbit{left:22%}
+}
+</style></head><body>
+<header class="hdr"><svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#B0654A"/><path d="M6 17c10 6 20 6 30-2M7 27c9-5 19-5 28 2" stroke="#f3d3bd" fill="none" stroke-width="1.6"/></svg><b>Mikono</b><span class="sp"></span></header>
+<main class="page">
+<div class="wrap"><div class="card cta" style="border:0"><h2>Got an idea that fits here?</h2><p>A colour, an animal or a tag you have in mind? Plan it in the Studio and a person replies on WhatsApp.</p><a class="btn">Start your brief</a></div></div>
+<footer>
+ <div class="hole" id="hole" aria-hidden="true">
+  <svg class="bg" viewBox="0 0 1200 270" preserveAspectRatio="xMidYMax slice"><path d="M0 170C150 130 280 160 420 150S700 110 860 150 1100 130 1200 160V270H0z" fill="#8a5f4a" opacity=".42"/><g fill="#4a362b" opacity=".9"><path d="M170 190h6v-52h-6z"/><ellipse cx="173" cy="132" rx="58" ry="12"/><ellipse cx="205" cy="148" rx="30" ry="7"/><path d="M1010 190h5v-40h-5z"/><ellipse cx="1012" cy="146" rx="46" ry="10"/></g></svg>
+  <div class="sun"></div>
+  <div class="ground"></div>
+  <div class="pond"><i class="rip"></i><i class="rip r2"></i><i class="rip r3"></i></div>
+  <div class="hip" id="hip"></div><div class="pond-front"></div>
+  <span class="a" id="ele" style="left:5%;bottom:20px"></span>
+  <span class="a" id="gir" style="left:30%;bottom:22px"></span>
+  <span class="a" id="bf1" style="right:34%;top:34px"></span>
+  <span class="a walker" id="walker"></span>
+  <button class="hide-rabbit" id="rab" tabindex="-1" aria-hidden="true"><span class="rb"></span></button>
+  <svg class="grass" viewBox="0 0 72 26"><path fill="#4d5530" d="M0 26l4-18 5 12 5-20 5 22 6-16 5 20 6-18 5 18 6-14 5 14 5-12 5 12z"/></svg>
+ </div>
+ <div class="flinks"><div class="wrap"><div class="cols"><div><b style="font-size:16px">Mikono Creations</b><p style="margin-top:8px;opacity:.85;max-width:30ch">Crocheted animals, handmade in Nairobi from recycled acrylic yarn.</p></div><div><h4>Shop</h4><ul><li>Safari animals</li><li>Domestic animals</li><li>Gifts</li></ul></div><div><h4>Make it yours</h4><ul><li>Design your own</li><li>Custom orders</li></ul></div><div><h4>Work with us</h4><ul><li>Wholesale</li><li>Stockists</li></ul></div><div><h4>Help</h4><ul><li>Care guide</li><li>Delivery</li><li>Contact</li></ul></div></div></div></div>
+ <div class="fbar"><div class="wrap"><span>2026 Mikono Creations. Nairobi, Kenya.</span><span style="flex:1"></span><span class="found" id="found"><i id="dots"></i><span id="cnt"></span></span><span id="toggle"></span></div></div>
+</footer>
+</main>
+<div class="msg" id="msg" role="status"></div>
+<script><!--@js--></script>
+<script>
+(() => {
+  const m = innerWidth < 600;
+  const put = (id, name, size, o = {}) => { const e = sprite(name, { size, ...o }); document.getElementById(id).appendChild(e); return e; };
+  put('hip', 'hippo', m ? 96 : 150); put('ele', 'elephant', m ? 92 : 150); put('walker', 'turtle', m ? 46 : 62, { anim: 'idle' });
+  put('bf1', 'butterfly', 34, { anim: 'float' });
+  if (!m) put('gir', 'giraffe', 130, { flip: false });
+  const rb = sprite('rabbit', { size: 64, anim: 'idle' }); document.querySelector('#rab .rb').appendChild(rb);
+  mountToggle(document.getElementById('toggle'));
+  // Thread ends in the water
+  const T = Thread({ maxW: 1200, startY: 20, knots: [], endEl: document.querySelector('.pond'), endDy: 14 });
+  // found-animals counter (12 hidden across the site). Demo starts at 11 so the last find shows the reward.
+  let found = +(params.get('found') ?? 11); const TOTAL = 12;
+  const dots = document.getElementById('dots'), cnt = document.getElementById('cnt'), msg = document.getElementById('msg');
+  const draw = () => { dots.innerHTML = Array.from({ length: TOTAL }, (_, i) => `<b class="${i < found ? 'on' : ''}"></b>`).join(''); cnt.textContent = `Animals found ${found} of ${TOTAL}`; };
+  draw();
+  const show = (t, ms = 5200) => { msg.textContent = t; msg.classList.add('show'); setTimeout(() => msg.classList.remove('show'), ms); };
+  document.getElementById('rab').addEventListener('click', e => {
+    const b = e.currentTarget; if (b.dataset.done) return; b.dataset.done = 1; b.classList.add('out'); found = Math.min(TOTAL, found + 1); draw();
+    const r = b.getBoundingClientRect(); const host = document.getElementById('hole'); const hr = host.getBoundingClientRect();
+    const burst = document.createElement('div'); burst.className = 'burst'; burst.style.left = (r.left - hr.left + 28) + 'px'; burst.style.top = (r.top - hr.top + 10) + 'px';
+    const cols = ['#B0654A', '#C9A05A', '#6A7049', '#587783', '#F3D3BD']; for (let i = 0; i < 26; i++) { const s = document.createElement('i'); s.style.cssText = `--c:${cols[i % 5]};--dx:${(Math.random() - .5) * 220}px;--dy:${-40 - Math.random() * 120}px;--r:${(Math.random() - .5) * 600}deg;animation-delay:${i * 16}ms`; burst.appendChild(s); }
+    host.appendChild(burst); setTimeout(() => burst.remove(), 2200);
+    show(found >= TOTAL ? 'You found the herd. All 12 animals are out. Thank you for looking.' : `Found one. ${found} of ${TOTAL}.`);
+  });
+  if (params.get('hint')) document.getElementById('rab').classList.add('out');
+  if (params.get('click')) setTimeout(() => document.getElementById('rab').click(), +params.get('click'));
+})();
+</script></body></html>

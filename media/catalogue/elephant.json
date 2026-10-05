@@ -1,0 +1,384 @@
+{
+ "group": "elephant",
+ "products": [
+  {
+   "slug": "elephant",
+   "species": "elephant",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey",
+     "images": [
+      {
+       "file": "media/work/elephant/elephant-grey-01.jpg",
+       "source_id": "img-066.jpg",
+       "crop": [
+        0,
+        480,
+        645,
+        472
+       ],
+       "role": "hero",
+       "bg": "white",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 645,
+       "height": 472,
+       "quality": "ok",
+       "alt": "Rows of mid grey crocheted elephants with white tusks on a white table",
+       "verified": true
+      },
+      {
+       "file": "media/raw/img-012.jpg",
+       "source_id": "img-012.jpg",
+       "crop": null,
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 736,
+       "height": 736,
+       "quality": "ok",
+       "alt": "A large and a small grey crocheted elephant with white tusks on a striped cloth outdoors",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "slate-blue",
+     "label": "Slate blue",
+     "images": [
+      {
+       "file": "media/raw/img-076.jpg",
+       "source_id": "img-076.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 1600,
+       "height": 1059,
+       "quality": "good",
+       "alt": "Two blue grey crocheted elephants with white tusks in front of giraffes, with a blue cast on the cloth",
+       "verified": true
+      },
+      {
+       "file": "media/work/elephant/elephant-slate-blue-01.jpg",
+       "source_id": "img-071.jpg",
+       "crop": [
+        0,
+        400,
+        640,
+        560
+       ],
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.25,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 640,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Two slate blue crocheted elephants with white tusks side by side on a table",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "lavender",
+     "label": "Lavender",
+     "images": [
+      {
+       "file": "media/raw/img-040.jpg",
+       "source_id": "img-040.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 770,
+       "height": 1025,
+       "quality": "good",
+       "alt": "A group of lavender crocheted elephants with white tusks on a wooden table, with a caramel elephant in the foreground",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "caramel-brown",
+     "label": "Caramel brown",
+     "images": [
+      {
+       "file": "media/work/elephant/elephant-caramel-brown-01.jpg",
+       "source_id": "img-040.jpg",
+       "crop": [
+        0,
+        420,
+        490,
+        480
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 490,
+       "height": 480,
+       "quality": "good",
+       "alt": "Caramel brown crocheted elephant with a white tusk on a wooden table",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "dusty-purple",
+     "label": "Dusty purple",
+     "images": [
+      {
+       "file": "media/work/elephant/elephant-dusty-purple-01.jpg",
+       "source_id": "elephant-dusty-purple-01.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 1200,
+       "height": 500,
+       "quality": "ok",
+       "alt": "Dusty purple crocheted elephants with white tusks lined up on a market table",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "charcoal-grey",
+     "label": "Charcoal grey",
+     "images": [
+      {
+       "file": "media/raw/img-085.jpg",
+       "source_id": "img-085.jpg",
+       "crop": null,
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 977,
+       "quality": "ok",
+       "alt": "A heap of crocheted lions, giraffes and elephants, with charcoal grey elephants in the middle",
+       "verified": true,
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone."
+      },
+      {
+       "file": "media/work/elephant/elephant-charcoal-grey-pile-01.jpg",
+       "source_id": "img-085.jpg",
+       "crop": [
+        295,
+        215,
+        265,
+        180
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 265,
+       "height": 180,
+       "quality": "ok",
+       "alt": "Charcoal grey crocheted elephant with a white tusk, lying in a heap of other crocheted animals",
+       "verified": true,
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone."
+      },
+      {
+       "file": "media/work/elephant/elephant-charcoal-grey-table-02.jpg",
+       "source_id": "img-045.jpg",
+       "crop": [
+        120,
+        350,
+        420,
+        160
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.4,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 420,
+       "height": 160,
+       "quality": "ok",
+       "alt": "Charcoal grey crocheted elephants with white tusks lined up on a market table",
+       "verified": true,
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone."
+      }
+     ]
+    },
+    {
+     "key": "navy",
+     "label": "Navy",
+     "images": [
+      {
+       "file": "media/work/elephant/elephant-navy-pile-01.jpg",
+       "source_id": "img-085.jpg",
+       "crop": [
+        480,
+        372,
+        240,
+        240
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 240,
+       "height": 240,
+       "quality": "ok",
+       "alt": "Navy blue crocheted elephant with a white tusk among other crocheted animals in a heap",
+       "verified": true,
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone."
+      },
+      {
+       "file": "media/raw/img-085.jpg",
+       "source_id": "img-085.jpg",
+       "crop": null,
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.68,
+        0.55
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 977,
+       "quality": "ok",
+       "alt": "A heap of crocheted lions, giraffes and elephants, with a navy elephant at the right",
+       "verified": true,
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-035.jpg",
+     "source_id": "img-035.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.55,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 878,
+     "height": 432,
+     "quality": "ok",
+     "alt": "A zebra, a lavender elephant and a lion standing in a row on a wooden table in a garden",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-003.jpg",
+   "reason": "Collage tile of a purple wall mounted elephant head with tusks; different product from the standing toy, tile too small and collage layout"
+  },
+  {
+   "source_id": "img-086.jpg",
+   "reason": "Duplicate of img-003 collage, partial watermark"
+  },
+  {
+   "source_id": "img-007.jpg",
+   "reason": "Elephants small in crowded stall, no clean single crop reaching 400 px"
+  },
+  {
+   "source_id": "img-009.jpg",
+   "reason": "Elephants only partly visible at back of octopus display"
+  },
+  {
+   "source_id": "img-017.jpg",
+   "reason": "Elephants out of focus behind a large octopus"
+  },
+  {
+   "source_id": "img-026.jpg",
+   "reason": "Colours heavily edited and elephants crowded; unreliable colour"
+  },
+  {
+   "source_id": "img-042.jpg",
+   "reason": "Jumbled pile, elephants overlap, duplicate of img-085"
+  },
+  {
+   "source_id": "img-043.jpg",
+   "reason": "Elephants tiny at a distance in crowded event stall"
+  },
+  {
+   "source_id": "img-046.jpg",
+   "reason": "Elephants small at distance on a crowded table"
+  },
+  {
+   "source_id": "img-052.jpg",
+   "reason": "No elephant visible, maker only"
+  },
+  {
+   "source_id": "img-062.jpg",
+   "reason": "Elephants soft and cut off behind foreground rhino"
+  },
+  {
+   "source_id": "img-069.jpg",
+   "reason": "Elephant only partly visible, rabbits are subject, colour cast"
+  },
+  {
+   "source_id": "img-075.jpg",
+   "reason": "Elephants small, mixed with rhinos and lions, duplicate of img-039 scene"
+  },
+  {
+   "source_id": "media/work/elephant/elephant-slate-blue-02.jpg",
+   "reason": "Crop 430x550 from img-072 was blurry and cut off; deleted"
+  },
+  {
+   "source_id": "media/work/elephant/elephant-charcoal-grey-01.jpg",
+   "reason": "Crop included lions and giraffes; clean elephant-only crop of lower shelf would be about 330x220, under 400 px"
+  }
+ ],
+ "client_review": [
+  "Grey vs charcoal grey vs slate blue are close shades; confirm they are three colourways, not one or two.",
+  "Baby elephant in img-012 is light grey (sage tint); confirm if it is a separate light grey colourway.",
+  "Dusty purple (mauve, maroon tones in photos with colour casts) may be the same yarn as lavender; confirm.",
+  "Navy elephant appears only in a pile shot (img-085); confirm it exists as a colourway and get a clean photo.",
+  "Purple wall mounted elephant head (img-003, img-086) is a different product, not used.",
+  "Tusks: most elephants have white tusks; img-035 lavender and small light grey elephants show none. Confirm tusk is standard.",
+  "No clean single-product photos exist for most colourways; most images are stall photos, so ask for studio shots.",
+  "No sizes shown; shownSize left null throughout."
+ ]
+}

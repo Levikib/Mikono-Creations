@@ -1,0 +1,926 @@
+[
+ {
+  "id": "img-067.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.95,
+    "colours": [
+     "brown",
+     "red",
+     "teal",
+     "white"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference. Sits on a log among leaves; looks small and compact.",
+    "details": "Long upright ears, one arm raised in a wave, black embroidered eyes and smile. Wears a small crocheted vest with a collar in variegated red, teal and white yarn, with a red bow at the neck."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Garden foliage with long green leaves, sitting on a piece of bark",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "Leaves cross in front of the left ear"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_hero",
+   "product_gallery",
+   "social"
+  ],
+  "best_use_reason": "Clear single shot of a rabbit in a natural outdoor setting, sharp and well framed.",
+  "proposed_alt_text": "Brown crocheted rabbit with long ears and a red, teal and white striped vest, waving from a log among green leaves",
+  "possible_duplicate_of": [
+   "img-069.jpg",
+   "img-072.jpg",
+   "img-075.jpg",
+   "img-076.jpg"
+  ],
+  "overall_confidence": 0.9,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-068.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "lion",
+    "animal_confidence": 0.85,
+    "colours": [
+     "tan",
+     "light brown",
+     "dark brown"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "M",
+    "size_reasoning": "No scale reference. Chunky body and thick legs suggest a mid to large plush, but not measurable.",
+    "details": "Dark brown yarn fringe mane, small rounded ears, black nose and eye. Resembles a bear from the front, but the long mane marks it as a lion."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Garden foliage, resting on bark",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "good",
+   "cropping": "tight",
+   "issues": [
+    "Leaf blades cut across the body",
+    "Shallow focus, rear body soft"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "social",
+   "lifestyle_banner"
+  ],
+  "best_use_reason": "Attractive texture and mane detail, but foliage obscures the body so it suits a gallery more than a hero.",
+  "proposed_alt_text": "Tan crocheted lion with a long brown yarn mane standing among green leaves",
+  "possible_duplicate_of": [
+   "img-070.jpg",
+   "img-072.jpg",
+   "img-075.jpg",
+   "img-076.jpg"
+  ],
+  "overall_confidence": 0.8,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-069.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.95,
+    "colours": [
+     "brown",
+     "blue",
+     "white",
+     "lilac"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference. Similar size to the neighbouring plush.",
+    "details": "Left rabbit wears a blue and white variegated vest."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.95,
+    "colours": [
+     "brown",
+     "red",
+     "teal",
+     "white",
+     "pale blue"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference.",
+    "details": "Right rabbit wears a red, teal and white vest with a pale blue tassel tie."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "cream",
+     "brown"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "Partly visible, background.",
+    "details": "Cream giraffe with brown spots."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "mustard yellow",
+     "orange",
+     "brown"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "Partly visible, background.",
+    "details": "Yellow giraffes with brown spots, cropped."
+   },
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.8,
+    "colours": [
+     "grey",
+     "dark purple grey"
+    ],
+    "dominant_colour": "grey",
+    "size_guess": "unknown",
+    "size_reasoning": "Partly visible, foreground right.",
+    "details": "Elephant with white tusk stitches, partly cropped."
+   },
+   {
+    "animal": "hippo",
+    "animal_confidence": 0.3,
+    "colours": [
+     "periwinkle",
+     "pale blue"
+    ],
+    "dominant_colour": "periwinkle",
+    "size_guess": "unknown",
+    "size_reasoning": "Only rounded tops visible in the foreground.",
+    "details": "Two rounded pale blue shapes at the bottom, likely the backs of blue rhinos or elephants. Cannot identify."
+   }
+  ],
+  "item_count": 6,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Market stall display on a pink cloth, with a green object top right",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "tight",
+   "issues": [
+    "Foreground items cropped and out of focus",
+    "Pink and purple colour cast from the cloth"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "social",
+   "product_gallery"
+  ],
+  "best_use_reason": "Charming pair of rabbits holding paws, but busy and cropped so not a clean product shot.",
+  "proposed_alt_text": "Two brown crocheted rabbits in blue and red vests holding paws on a stall, with giraffes and an elephant behind them",
+  "possible_duplicate_of": [
+   "img-067.jpg",
+   "img-072.jpg",
+   "img-075.jpg",
+   "img-076.jpg"
+  ],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Foreground blue items cannot be identified; colour cast on the display."
+ },
+ {
+  "id": "img-070.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "cream",
+     "brown"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "Taken in a group; all similar slim height.",
+    "details": "Cream giraffe, brown spiral spots and ear tufts, pink toned muzzle patch."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "mustard yellow",
+     "orange",
+     "cream"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Bright yellow giraffe with orange spots, cream muzzle patch."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "brown",
+     "dark brown"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Deep brown giraffe behind, partly hidden."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "tan",
+     "light brown",
+     "cream"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Tan giraffe with brown spots and cream muzzle."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.7,
+    "colours": [
+     "orange yellow"
+    ],
+    "dominant_colour": "orange yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Second yellow giraffe partly hidden behind the first."
+   }
+  ],
+  "item_count": 5,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Outdoor market stall with blurred green trees and a dark pole",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "Shallow depth of field, rear giraffes soft"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "category_tile",
+   "product_gallery",
+   "homepage_hero"
+  ],
+  "best_use_reason": "Sharp, colourful line-up showing four giraffe colourways with a soft green backdrop.",
+  "proposed_alt_text": "Row of crocheted giraffes in cream, yellow, brown and tan with spiral spots, standing on a stall under trees",
+  "possible_duplicate_of": [
+   "img-071.jpg",
+   "img-072.jpg",
+   "img-076.jpg"
+  ],
+  "overall_confidence": 0.9,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-071.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.95,
+    "colours": [
+     "blue grey",
+     "dark grey"
+    ],
+    "dominant_colour": "blue grey",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference. Group of similar size on a table.",
+    "details": "Several elephants with white tusk stitches and large ears."
+   },
+   {
+    "animal": "rhino",
+    "animal_confidence": 0.85,
+    "colours": [
+     "brown",
+     "cream"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Small brown rhino with two cream horns; could be mistaken for a hippo from this angle."
+   },
+   {
+    "animal": "rhino",
+    "animal_confidence": 0.9,
+    "colours": [
+     "light blue",
+     "cream"
+    ],
+    "dominant_colour": "light blue",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Blue rhino with two cream horns and round ears."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "brown"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Yellow, cream and tan giraffes in the background."
+   },
+   {
+    "animal": "lion",
+    "animal_confidence": 0.85,
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Lion with brown yarn mane, background left. Face resembles a bear."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.8,
+    "colours": [
+     "brown"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Brown rabbit with raised ears, partly visible behind giraffes."
+   }
+  ],
+  "item_count": 6,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Open-sided market stall with bamboo roof and green trees, blue cloth on table",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "Focus on the middle rhinos, rest soft"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "category_tile",
+   "product_gallery",
+   "lifestyle_banner",
+   "social"
+  ],
+  "best_use_reason": "Shows the full safari range together with rhino colourways, useful for a range overview.",
+  "proposed_alt_text": "Table of crocheted elephants, brown and blue rhinos, giraffes, a lion and a rabbit at an outdoor market stall",
+  "possible_duplicate_of": [
+   "img-072.jpg",
+   "img-076.jpg",
+   "img-075.jpg"
+  ],
+  "overall_confidence": 0.82,
+  "needs_human_review": true,
+  "review_reason": "Check rhino versus hippo identification and brown rhino colourway."
+ },
+ {
+  "id": "img-072.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.95,
+    "colours": [
+     "blue grey",
+     "dark grey"
+    ],
+    "dominant_colour": "blue grey",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Several elephants in the foreground with white tusk stitches."
+   },
+   {
+    "animal": "rhino",
+    "animal_confidence": 0.85,
+    "colours": [
+     "light blue",
+     "cream"
+    ],
+    "dominant_colour": "light blue",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Blue rhino at far left with cream horn, partly cropped."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "tan",
+     "brown"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Several giraffes in yellow, cream and tan."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.9,
+    "colours": [
+     "brown"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Two brown rabbits with raised ears in the middle row. One has a small blue thread detail at the mouth."
+   },
+   {
+    "animal": "lion",
+    "animal_confidence": 0.8,
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Lion with brown yarn mane, left background. Looks bear-like from this angle."
+   }
+  ],
+  "item_count": 5,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Open-sided market stall with bamboo roof and green trees",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "good",
+   "cropping": "awkward",
+   "issues": [
+    "Tall portrait crop",
+    "Focus falls in the middle, foreground soft",
+    "Pink and blue cast on the cloth"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "social",
+   "product_gallery"
+  ],
+  "best_use_reason": "Lively range shot, but soft focus in the foreground limits its use as a hero.",
+  "proposed_alt_text": "Stall display of crocheted elephants, a blue rhino, rabbits, a lion and giraffes under a bamboo roof",
+  "possible_duplicate_of": [
+   "img-071.jpg",
+   "img-070.jpg",
+   "img-075.jpg",
+   "img-076.jpg"
+  ],
+  "overall_confidence": 0.8,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-073.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "monkey",
+    "animal_confidence": 0.7,
+    "colours": [
+     "brown",
+     "cream"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "M",
+    "size_reasoning": "Held beside a hand; roughly twice the hand length in height, so about 30 to 40 cm, inferred.",
+    "details": "Long thin arms and legs, large round cream ear or cheek patches, one black eye visible. Could also read as a bear or small ape, so species is uncertain."
+   },
+   {
+    "animal": "monkey",
+    "animal_confidence": 0.7,
+    "colours": [
+     "tan",
+     "light yellow"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "M",
+    "size_reasoning": "Held by the same hand, similar size.",
+    "details": "Tan body with large pale yellow ear patches, one black eye. Same design in a second colourway."
+   }
+  ],
+  "item_count": 2,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": false,
+   "setting": "Only an adult hand is visible, holding one toy, face not shown"
+  },
+  "setting_background": "Grey tufted sofa fabric, indoor",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "tight",
+   "issues": [
+    "Hand partly covers one toy",
+    "Phone photo, slight noise",
+    "Grey busy background"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "social"
+  ],
+  "best_use_reason": "Shows two colourways of the same pattern with a human hand for scale, but the background is busy.",
+  "proposed_alt_text": "Two long-limbed crocheted monkeys, one brown with cream ears and one tan with yellow ears, held by a hand against a grey sofa",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.7,
+  "needs_human_review": true,
+  "review_reason": "Species is ambiguous (monkey, bear or other); a hand is visible so confirm photo permission."
+ },
+ {
+  "id": "img-074.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.97,
+    "colours": [
+     "brown",
+     "pink",
+     "magenta",
+     "white"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference. All four look the same size.",
+    "details": "Vest in pink and white variegated yarn."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.97,
+    "colours": [
+     "brown",
+     "blue",
+     "white",
+     "lilac"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference.",
+    "details": "Vest in blue, lilac and white yarn."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.97,
+    "colours": [
+     "brown",
+     "yellow",
+     "teal",
+     "white"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference.",
+    "details": "Vest in yellow, teal and white variegated yarn."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.97,
+    "colours": [
+     "brown",
+     "lilac",
+     "light blue",
+     "white"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference.",
+    "details": "Vest in lilac, light blue and white yarn. One ear folded."
+   }
+  ],
+  "item_count": 4,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Grey tufted sofa fabric, indoor",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "Phone photo, slight noise"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_hero",
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Clean line-up of four rabbit vest colourways, ideal for showing colour options.",
+  "proposed_alt_text": "Four brown crocheted rabbits in pink, blue, yellow and lilac variegated vests sitting in a row on a grey sofa",
+  "possible_duplicate_of": [
+   "img-067.jpg",
+   "img-069.jpg"
+  ],
+  "overall_confidence": 0.93,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-075.jpg",
+  "shot_type": "retail_display",
+  "items": [
+   {
+    "animal": "lion",
+    "animal_confidence": 0.9,
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Five or six lions with long brown yarn manes in front."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "mustard yellow",
+     "cream",
+     "tan",
+     "brown"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Large group of yellow and cream giraffes at back."
+   },
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.9,
+    "colours": [
+     "grey",
+     "blue grey"
+    ],
+    "dominant_colour": "grey",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Grey elephants in the middle rows."
+   },
+   {
+    "animal": "rhino",
+    "animal_confidence": 0.85,
+    "colours": [
+     "light blue",
+     "brown",
+     "cream"
+    ],
+    "dominant_colour": "light blue",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference.",
+    "details": "Blue and brown rhinos with cream horns."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.9,
+    "colours": [
+     "brown",
+     "red",
+     "green",
+     "yellow",
+     "blue"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "No scale reference.",
+    "details": "Rabbit in a multicolour vest sitting on top of the pile."
+   }
+  ],
+  "item_count": 5,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Outdoor market stall, white cloth with pink print, red check cloth behind, paved ground; a sign is partly visible top right",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "awkward",
+   "issues": [
+    "Tall crop, edges cut",
+    "Busy composition"
+   ]
+  },
+  "visible_text": "Small sign top right, 'Magnet Art' partly legible, unconfirmed",
+  "best_use": [
+   "social",
+   "lifestyle_banner",
+   "project_story"
+  ],
+  "best_use_reason": "Shows the full range at scale at a real market stall, good for a market or event story.",
+  "proposed_alt_text": "Market stall table full of crocheted lions, giraffes, elephants, rhinos and a rabbit on a white cloth",
+  "possible_duplicate_of": [
+   "img-071.jpg",
+   "img-072.jpg",
+   "img-076.jpg"
+  ],
+  "overall_confidence": 0.85,
+  "needs_human_review": true,
+  "review_reason": "Confirm whether the visible sign belongs to another business and the event location."
+ },
+ {
+  "id": "img-076.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.97,
+    "colours": [
+     "slate blue",
+     "dark grey"
+    ],
+    "dominant_colour": "slate blue",
+    "size_guess": "M",
+    "size_reasoning": "No scale reference; chunky thick limbs, but not measurable.",
+    "details": "Two elephants with big ears, white tusk stitches and trunks hanging down. Larger one in front."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "cream",
+     "mustard yellow",
+     "tan"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "Background, blurred.",
+    "details": "Giraffes behind, out of focus."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.7,
+    "colours": [
+     "brown"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "Background, blurred.",
+    "details": "Brown rabbit ears at far right, mostly hidden."
+   }
+  ],
+  "item_count": 3,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Market stall with blurred giraffes and trees behind, white and blue cloth",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "Rear plush out of focus",
+    "Blue colour cast on the cloth"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Strong close-up of the elephants with clear stitch texture, useful for the elephant category.",
+  "proposed_alt_text": "Close-up of two slate blue crocheted elephants with white tusks standing on a stall table",
+  "possible_duplicate_of": [
+   "img-071.jpg",
+   "img-072.jpg"
+  ],
+  "overall_confidence": 0.9,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-077.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "goose",
+    "animal_confidence": 0.5,
+    "colours": [
+     "cream",
+     "orange"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "unknown",
+    "size_reasoning": "No scale reference. Plain backdrop, nothing to judge scale.",
+    "details": "Long curved neck, orange beak and orange foot, folded wing panel. Could be a duck or a goose, and the pose looks flat like it is lying on its side."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": ""
+  },
+  "setting_background": "Plain pale blue grey backdrop",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "good",
+   "issues": [
+    "Slight colour cast and soft focus",
+    "Plush appears to lie flat on a surface"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_hero",
+   "product_gallery",
+   "category_tile"
+  ],
+  "best_use_reason": "Clean isolated plain background shot, though the species needs confirmation.",
+  "proposed_alt_text": "Cream coloured crocheted bird with an orange beak and foot on a plain pale background",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.65,
+  "needs_human_review": true,
+  "review_reason": "Species unclear (goose or duck); confirm bird type and that this is a new range item."
+ }
+]

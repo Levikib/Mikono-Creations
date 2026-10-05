@@ -1,0 +1,10 @@
+import { createRequire } from 'node:module';
+const require = createRequire('/tmp/claude-1000/-home-shannara-mikono-creations/dc36e544-c58f-4c8b-ab4e-71cdc2ebcd35/scratchpad/node_modules/');
+const { chromium } = require('playwright-core');
+const b = await chromium.launch({ executablePath: process.env.HOME + '/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome', args: ['--no-sandbox'] });
+const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
+await p.goto('http://localhost:8765/strategy/stage2/preview/hero-only.html'); await p.waitForSelector('body[data-ready]');
+await p.addStyleTag({ content: 'main{max-width:none!important;padding:0!important}.fx-hero-stage{border-radius:0!important}.fx-hero-controls,.fx-hero-caption{display:none!important}' });
+await p.evaluate(() => document.documentElement.setAttribute('data-fx', 'off')); await p.waitForTimeout(300);
+await p.locator('.fx-hero-stage').screenshot({ path: '/home/shannara/mikono-creations/public/fx/hero-poster.jpg', type: 'jpeg', quality: 84 });
+await b.close();

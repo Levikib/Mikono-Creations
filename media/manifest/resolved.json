@@ -1,0 +1,800 @@
+{
+ "img-001.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "lifestyle_with_child",
+  "people": true
+ },
+ "img-002.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "lifestyle_with_child",
+  "people": true
+ },
+ "img-003.jpg": {
+  "species": [
+   "secretary bird",
+   "hippo",
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "unicorn",
+   "warthog",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-004.jpg": {
+  "species": [
+   "bear"
+  ],
+  "source": "5-vote",
+  "shot_type": "lifestyle_with_child",
+  "people": true
+ },
+ "img-005.jpg": {
+  "species": [],
+  "source": "first-pass",
+  "shot_type": "group_of_people",
+  "people": true
+ },
+ "img-006.jpg": {
+  "species": [
+   "doll",
+   "octopus",
+   "lion"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": true
+ },
+ "img-007.jpg": {
+  "species": [
+   "octopus",
+   "elephant",
+   "lion",
+   "monkey",
+   "giraffe",
+   "rabbit"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": true
+ },
+ "img-008.jpg": {
+  "species": [
+   "dog"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-009.jpg": {
+  "species": [
+   "octopus",
+   "elephant"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-010.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "event",
+  "people": true
+ },
+ "img-011.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "lifestyle_with_child",
+  "people": true
+ },
+ "img-012.jpg": {
+  "species": [
+   "elephant"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-013.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "5-vote",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-014.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "first-pass",
+  "shot_type": "group_of_people",
+  "people": true
+ },
+ "img-015.jpg": {
+  "species": [
+   "giraffe",
+   "elephant",
+   "lion"
+  ],
+  "source": "5-vote",
+  "shot_type": "event",
+  "people": true
+ },
+ "img-016.jpg": {
+  "species": [
+   "butterfly"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-017.jpg": {
+  "species": [
+   "giraffe",
+   "octopus",
+   "elephant",
+   "turtle"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": true
+ },
+ "img-018.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "lifestyle_with_child",
+  "people": true
+ },
+ "img-019.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "other",
+  "people": false
+ },
+ "img-020.jpg": {
+  "species": [
+   "doll"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-021.jpg": {
+  "species": [
+   "zebra"
+  ],
+  "source": "first-pass",
+  "shot_type": "other",
+  "people": false
+ },
+ "img-022.jpg": {
+  "species": [
+   "butterfly"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-023.jpg": {
+  "species": [
+   "butterfly"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-024.jpg": {
+  "species": [
+   "octopus",
+   "elephant",
+   "rabbit",
+   "turtle"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": true
+ },
+ "img-025.jpg": {
+  "species": [
+   "unicorn"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-026.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "event",
+  "people": true
+ },
+ "img-027.jpg": {
+  "species": [
+   "giraffe",
+   "lion"
+  ],
+  "source": "5-vote",
+  "shot_type": "event",
+  "people": true
+ },
+ "img-028.jpg": {
+  "species": [
+   "shark"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-029.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-030.jpg": {
+  "species": [
+   "bear"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-031.jpg": {
+  "species": [
+   "doll"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-032.jpg": {
+  "species": [
+   "dinosaur"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-033.jpg": {
+  "species": [
+   "butterfly"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-034.jpg": {
+  "species": [
+   "bear"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-035.jpg": {
+  "species": [
+   "elephant",
+   "lion",
+   "zebra"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-036.jpg": {
+  "species": [
+   "chameleon"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-037.jpg": {
+  "species": [
+   "zebra"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-038.jpg": {
+  "species": [
+   "giraffe",
+   "lion"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-039.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-040.jpg": {
+  "species": [
+   "elephant"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-041.jpg": {
+  "species": [
+   "cat"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-042.jpg": {
+  "species": [
+   "giraffe",
+   "elephant",
+   "lion",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-043.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "event",
+  "people": true
+ },
+ "img-044.jpg": {
+  "species": [
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-045.jpg": {
+  "species": [
+   "cat",
+   "giraffe",
+   "elephant",
+   "lion",
+   "rabbit"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-046.jpg": {
+  "species": [
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "cat",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": true
+ },
+ "img-047.jpg": {
+  "species": [],
+  "source": "first-pass",
+  "shot_type": "group_of_people",
+  "people": true
+ },
+ "img-048.jpg": {
+  "species": [
+   "hippo"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": true
+ },
+ "img-049.jpg": {
+  "species": [],
+  "source": "5-vote",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-050.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-051.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-052.jpg": {
+  "species": [
+   "elephant"
+  ],
+  "source": "5-vote",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-053.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-054.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-055.jpg": {
+  "species": [
+   "bear"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-056.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-057.jpg": {
+  "species": [
+   "giraffe",
+   "lion"
+  ],
+  "source": "5-vote",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-058.jpg": {
+  "species": [
+   "giraffe",
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "making_process",
+  "people": true
+ },
+ "img-059.jpg": {
+  "species": [
+   "giraffe",
+   "rabbit"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-060.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-061.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-062.jpg": {
+  "species": [
+   "elephant",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "retail_display",
+  "people": true
+ },
+ "img-063.jpg": {
+  "species": [
+   "lion",
+   "octopus"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-064.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-065.jpg": {
+  "species": [
+   "giraffe",
+   "elephant",
+   "lion"
+  ],
+  "source": "5-vote",
+  "shot_type": "event",
+  "people": true
+ },
+ "img-066.jpg": {
+  "species": [
+   "giraffe",
+   "elephant",
+   "lion",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-067.jpg": {
+  "species": [
+   "rabbit"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-068.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-069.jpg": {
+  "species": [
+   "giraffe",
+   "rabbit",
+   "elephant"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-070.jpg": {
+  "species": [
+   "giraffe"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-071.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-072.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-073.jpg": {
+  "species": [
+   "monkey"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": true
+ },
+ "img-074.jpg": {
+  "species": [
+   "rabbit"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-075.jpg": {
+  "species": [
+   "elephant",
+   "giraffe",
+   "lion",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "first-pass",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "img-076.jpg": {
+  "species": [
+   "elephant",
+   "giraffe"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-077.jpg": {
+  "species": [
+   "goose"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": false
+ },
+ "img-078.jpg": {
+  "species": [
+   "monkey"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-079.jpg": {
+  "species": [
+   "doll"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-080.jpg": {
+  "species": [
+   "giraffe",
+   "elephant",
+   "rabbit",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": true
+ },
+ "img-081.jpg": {
+  "species": [
+   "goose"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-082.jpg": {
+  "species": [
+   "hippo"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_single",
+  "people": true
+ },
+ "img-083.jpg": {
+  "species": [
+   "lion"
+  ],
+  "source": "first-pass",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-084.jpg": {
+  "species": [
+   "turtle"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-085.jpg": {
+  "species": [
+   "giraffe",
+   "elephant",
+   "lion",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-086.jpg": {
+  "species": [
+   "secretary bird",
+   "hippo",
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "unicorn",
+   "warthog",
+   "rhino"
+  ],
+  "source": "5-vote",
+  "shot_type": "product_group",
+  "people": false
+ },
+ "img-087.jpg": {
+  "species": [
+   "rabbit",
+   "elephant",
+   "zebra",
+   "giraffe",
+   "cat"
+  ],
+  "source": "5-vote",
+  "shot_type": "retail_display",
+  "people": false
+ },
+ "vid-001.mp4": {
+  "species": [],
+  "source": "video"
+ }
+}

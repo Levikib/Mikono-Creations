@@ -1,0 +1,862 @@
+{
+ "amber": {
+  "name": "Shop and animals",
+  "hex": {
+   "top": "#E9C57D",
+   "mid": "#AD7B37",
+   "deep": "#754A22",
+   "tint": "#F6ECD5",
+   "tint2": "#EEDCB9",
+   "accInk": "#704416",
+   "btnA": "#925F2E",
+   "btnB": "#6F4420",
+   "halo": "#D9B979",
+   "gem": "#D7B16A",
+   "stat": "#8C5B2C"
+  },
+  "oklch": {
+   "top": "oklch(0.84 0.1 84)",
+   "mid": "oklch(0.62 0.105 72)",
+   "deep": "oklch(0.45 0.08 62)",
+   "tint": "oklch(0.945 0.032 86)",
+   "tint2": "oklch(0.9 0.05 84)",
+   "accInk": "oklch(0.43 0.085 62)",
+   "btnA": "oklch(0.53 0.092 62)",
+   "btnB": "oklch(0.43 0.078 58)",
+   "halo": "oklch(0.8 0.09 84)",
+   "gem": "oklch(0.78 0.1 82)"
+  },
+  "chromas": {
+   "top": 0.099,
+   "mid": 0.105,
+   "deep": 0.08,
+   "tint": 0.032,
+   "tint2": 0.05,
+   "accInk": 0.085,
+   "btnA": 0.093,
+   "btnB": 0.078,
+   "halo": 0.09,
+   "gem": 0.1,
+   "stat": 0.09
+  },
+  "maxC": 0.105,
+  "checks": [
+   {
+    "n": "cream on head deep (numeral/gloss text zone)",
+    "a": "#FFF8EC",
+    "b": "#754A22",
+    "r": 7.21,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on head mid (tag/medallion glyph, 3:1 UI)",
+    "a": "#FFF8EC",
+    "b": "#AD7B37",
+    "r": 3.51,
+    "min": 3,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA top",
+    "a": "#FFF8EC",
+    "b": "#925F2E",
+    "r": 5.1,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA bottom",
+    "a": "#FFF8EC",
+    "b": "#6F4420",
+    "r": 7.88,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tint (footer name)",
+    "a": "#2A2420",
+    "b": "#F6ECD5",
+    "r": 13.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint (meta)",
+    "a": "#5F5348",
+    "b": "#F6ECD5",
+    "r": 6.35,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint2",
+    "a": "#5F5348",
+    "b": "#EEDCB9",
+    "r": 5.53,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tint (link, tag text)",
+    "a": "#704416",
+    "b": "#F6ECD5",
+    "r": 7.07,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on paper (link)",
+    "a": "#704416",
+    "b": "#FBF8F2",
+    "r": 7.84,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on paper (title)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on paper (body)",
+    "a": "#5F5348",
+    "b": "#FBF8F2",
+    "r": 7.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tag pill (paper)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tag pill (paper)",
+    "a": "#704416",
+    "b": "#FBF8F2",
+    "r": 7.84,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on stat top (stat card text zone)",
+    "a": "#FFF8EC",
+    "b": "#8C5B2C",
+    "r": 5.45,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream .9 alpha approx on stat top",
+    "a": "#F4E8D9",
+    "b": "#8C5B2C",
+    "r": 4.77,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "head mid vs paper (outline/medallion edge, 3:1)",
+    "a": "#AD7B37",
+    "b": "#FBF8F2",
+    "r": 3.5,
+    "min": 3,
+    "pass": true
+   }
+  ]
+ },
+ "terracotta": {
+  "name": "Custom and make it yours",
+  "hex": {
+   "top": "#DD9872",
+   "mid": "#AF5D40",
+   "deep": "#692E21",
+   "tint": "#FDE6DA",
+   "tint2": "#FAD5C3",
+   "accInk": "#793624",
+   "btnA": "#9D5038",
+   "btnB": "#77382A",
+   "halo": "#E7A783",
+   "gem": "#DD996F",
+   "stat": "#833F2F"
+  },
+  "oklch": {
+   "top": "oklch(0.74 0.098 50)",
+   "mid": "oklch(0.57 0.115 40)",
+   "deep": "oklch(0.38 0.088 34)",
+   "tint": "oklch(0.94 0.03 50)",
+   "tint2": "oklch(0.9 0.048 48)",
+   "accInk": "oklch(0.42 0.098 36)",
+   "btnA": "oklch(0.52 0.108 38)",
+   "btnB": "oklch(0.42 0.092 34)",
+   "halo": "oklch(0.78 0.09 50)",
+   "gem": "oklch(0.74 0.1 52)"
+  },
+  "chromas": {
+   "top": 0.098,
+   "mid": 0.115,
+   "deep": 0.088,
+   "tint": 0.03,
+   "tint2": 0.048,
+   "accInk": 0.099,
+   "btnA": 0.109,
+   "btnB": 0.092,
+   "halo": 0.09,
+   "gem": 0.1,
+   "stat": 0.098
+  },
+  "maxC": 0.115,
+  "checks": [
+   {
+    "n": "cream on head deep (numeral/gloss text zone)",
+    "a": "#FFF8EC",
+    "b": "#692E21",
+    "r": 9.88,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on head mid (tag/medallion glyph, 3:1 UI)",
+    "a": "#FFF8EC",
+    "b": "#AF5D40",
+    "r": 4.46,
+    "min": 3,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA top",
+    "a": "#FFF8EC",
+    "b": "#9D5038",
+    "r": 5.47,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA bottom",
+    "a": "#FFF8EC",
+    "b": "#77382A",
+    "r": 8.34,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tint (footer name)",
+    "a": "#2A2420",
+    "b": "#FDE6DA",
+    "r": 12.76,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint (meta)",
+    "a": "#5F5348",
+    "b": "#FDE6DA",
+    "r": 6.21,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint2",
+    "a": "#5F5348",
+    "b": "#FAD5C3",
+    "r": 5.46,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tint (link, tag text)",
+    "a": "#793624",
+    "b": "#FDE6DA",
+    "r": 7.4,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on paper (link)",
+    "a": "#793624",
+    "b": "#FBF8F2",
+    "r": 8.37,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on paper (title)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on paper (body)",
+    "a": "#5F5348",
+    "b": "#FBF8F2",
+    "r": 7.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tag pill (paper)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tag pill (paper)",
+    "a": "#793624",
+    "b": "#FBF8F2",
+    "r": 8.37,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on stat top (stat card text zone)",
+    "a": "#FFF8EC",
+    "b": "#833F2F",
+    "r": 7.32,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream .9 alpha approx on stat top",
+    "a": "#F3E5D9",
+    "b": "#833F2F",
+    "r": 6.26,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "head mid vs paper (outline/medallion edge, 3:1)",
+    "a": "#AF5D40",
+    "b": "#FBF8F2",
+    "r": 4.44,
+    "min": 3,
+    "pass": true
+   }
+  ]
+ },
+ "olive": {
+  "name": "Wholesale and trade",
+  "hex": {
+   "top": "#A6B279",
+   "mid": "#757D4D",
+   "deep": "#404321",
+   "tint": "#EDEFD9",
+   "tint2": "#DDE2C0",
+   "accInk": "#484B21",
+   "btnA": "#60653A",
+   "btnB": "#464825",
+   "halo": "#B9C491",
+   "gem": "#AEB87D",
+   "stat": "#555831"
+  },
+  "oklch": {
+   "top": "oklch(0.74 0.078 118)",
+   "mid": "oklch(0.57 0.068 116)",
+   "deep": "oklch(0.37 0.052 112)",
+   "tint": "oklch(0.945 0.03 112)",
+   "tint2": "oklch(0.9 0.045 114)",
+   "accInk": "oklch(0.4 0.062 113)",
+   "btnA": "oklch(0.49 0.062 114)",
+   "btnB": "oklch(0.39 0.054 112)",
+   "halo": "oklch(0.8 0.07 118)",
+   "gem": "oklch(0.76 0.08 116)"
+  },
+  "chromas": {
+   "top": 0.078,
+   "mid": 0.069,
+   "deep": 0.053,
+   "tint": 0.029,
+   "tint2": 0.045,
+   "accInk": 0.062,
+   "btnA": 0.063,
+   "btnB": 0.053,
+   "halo": 0.07,
+   "gem": 0.08,
+   "stat": 0.058
+  },
+  "maxC": 0.08,
+  "checks": [
+   {
+    "n": "cream on head deep (numeral/gloss text zone)",
+    "a": "#FFF8EC",
+    "b": "#404321",
+    "r": 9.74,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on head mid (tag/medallion glyph, 3:1 UI)",
+    "a": "#FFF8EC",
+    "b": "#757D4D",
+    "r": 4.15,
+    "min": 3,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA top",
+    "a": "#FFF8EC",
+    "b": "#60653A",
+    "r": 5.82,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA bottom",
+    "a": "#FFF8EC",
+    "b": "#464825",
+    "r": 8.98,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tint (footer name)",
+    "a": "#2A2420",
+    "b": "#EDEFD9",
+    "r": 13.09,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint (meta)",
+    "a": "#5F5348",
+    "b": "#EDEFD9",
+    "r": 6.37,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint2",
+    "a": "#5F5348",
+    "b": "#DDE2C0",
+    "r": 5.58,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tint (link, tag text)",
+    "a": "#484B21",
+    "b": "#EDEFD9",
+    "r": 7.79,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on paper (link)",
+    "a": "#484B21",
+    "b": "#FBF8F2",
+    "r": 8.6,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on paper (title)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on paper (body)",
+    "a": "#5F5348",
+    "b": "#FBF8F2",
+    "r": 7.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tag pill (paper)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tag pill (paper)",
+    "a": "#484B21",
+    "b": "#FBF8F2",
+    "r": 8.6,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on stat top (stat card text zone)",
+    "a": "#FFF8EC",
+    "b": "#555831",
+    "r": 7.04,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream .9 alpha approx on stat top",
+    "a": "#EEE8D9",
+    "b": "#555831",
+    "r": 6.08,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "head mid vs paper (outline/medallion edge, 3:1)",
+    "a": "#757D4D",
+    "b": "#FBF8F2",
+    "r": 4.13,
+    "min": 3,
+    "pass": true
+   }
+  ]
+ },
+ "baobab": {
+  "name": "Story, makers and impact",
+  "hex": {
+   "top": "#846855",
+   "mid": "#4E3B30",
+   "deep": "#1C1410",
+   "tint": "#F1E6DA",
+   "tint2": "#E5D5C3",
+   "accInk": "#553C2B",
+   "btnA": "#4E3729",
+   "btnB": "#2C1E17",
+   "halo": "#BD9F7C",
+   "gem": "#E0B76C",
+   "stat": "#2E221C"
+  },
+  "oklch": {
+   "top": "oklch(0.54 0.046 56)",
+   "mid": "oklch(0.37 0.032 52)",
+   "deep": "oklch(0.2 0.016 50)",
+   "tint": "oklch(0.93 0.02 70)",
+   "tint2": "oklch(0.88 0.03 70)",
+   "accInk": "oklch(0.38 0.045 54)",
+   "btnA": "oklch(0.36 0.04 52)",
+   "btnB": "oklch(0.25 0.025 50)",
+   "halo": "oklch(0.72 0.06 70)",
+   "gem": "oklch(0.8 0.105 82)"
+  },
+  "chromas": {
+   "top": 0.046,
+   "mid": 0.033,
+   "deep": 0.015,
+   "tint": 0.02,
+   "tint2": 0.03,
+   "accInk": 0.045,
+   "btnA": 0.04,
+   "btnB": 0.026,
+   "halo": 0.06,
+   "gem": 0.105,
+   "stat": 0.022
+  },
+  "maxC": 0.105,
+  "checks": [
+   {
+    "n": "cream on head deep (numeral/gloss text zone)",
+    "a": "#FFF8EC",
+    "b": "#1C1410",
+    "r": 17.19,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on head mid (tag/medallion glyph, 3:1 UI)",
+    "a": "#FFF8EC",
+    "b": "#4E3B30",
+    "r": 9.98,
+    "min": 3,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA top",
+    "a": "#FFF8EC",
+    "b": "#4E3729",
+    "r": 10.46,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA bottom",
+    "a": "#FFF8EC",
+    "b": "#2C1E17",
+    "r": 15.24,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tint (footer name)",
+    "a": "#2A2420",
+    "b": "#F1E6DA",
+    "r": 12.45,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint (meta)",
+    "a": "#5F5348",
+    "b": "#F1E6DA",
+    "r": 6.06,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint2",
+    "a": "#5F5348",
+    "b": "#E5D5C3",
+    "r": 5.2,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tint (link, tag text)",
+    "a": "#553C2B",
+    "b": "#F1E6DA",
+    "r": 8.26,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on paper (link)",
+    "a": "#553C2B",
+    "b": "#FBF8F2",
+    "r": 9.58,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on paper (title)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on paper (body)",
+    "a": "#5F5348",
+    "b": "#FBF8F2",
+    "r": 7.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tag pill (paper)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tag pill (paper)",
+    "a": "#553C2B",
+    "b": "#FBF8F2",
+    "r": 9.58,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on stat top (stat card text zone)",
+    "a": "#FFF8EC",
+    "b": "#2E221C",
+    "r": 14.61,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream .9 alpha approx on stat top",
+    "a": "#EAE3D7",
+    "b": "#2E221C",
+    "r": 12.09,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "head mid vs paper (outline/medallion edge, 3:1)",
+    "a": "#4E3B30",
+    "b": "#FBF8F2",
+    "r": 9.94,
+    "min": 3,
+    "pass": true
+   }
+  ]
+ },
+ "slate": {
+  "name": "Journal and learning",
+  "hex": {
+   "top": "#92B0C0",
+   "mid": "#5C7C90",
+   "deep": "#253B4A",
+   "tint": "#E3EFF6",
+   "tint2": "#CEE2ED",
+   "accInk": "#2B4C61",
+   "btnA": "#3D5C71",
+   "btnB": "#284051",
+   "halo": "#ABC9DA",
+   "gem": "#98BED2",
+   "stat": "#3A5264"
+  },
+  "oklch": {
+   "top": "oklch(0.74 0.04 232)",
+   "mid": "oklch(0.57 0.048 236)",
+   "deep": "oklch(0.34 0.038 240)",
+   "tint": "oklch(0.945 0.016 230)",
+   "tint2": "oklch(0.9 0.026 232)",
+   "accInk": "oklch(0.4 0.052 238)",
+   "btnA": "oklch(0.46 0.05 238)",
+   "btnB": "oklch(0.36 0.042 240)",
+   "halo": "oklch(0.82 0.04 232)",
+   "gem": "oklch(0.78 0.05 232)"
+  },
+  "chromas": {
+   "top": 0.04,
+   "mid": 0.048,
+   "deep": 0.038,
+   "tint": 0.016,
+   "tint2": 0.026,
+   "accInk": 0.053,
+   "btnA": 0.05,
+   "btnB": 0.042,
+   "halo": 0.04,
+   "gem": 0.05,
+   "stat": 0.042
+  },
+  "maxC": 0.053,
+  "checks": [
+   {
+    "n": "cream on head deep (numeral/gloss text zone)",
+    "a": "#FFF8EC",
+    "b": "#253B4A",
+    "r": 11.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on head mid (tag/medallion glyph, 3:1 UI)",
+    "a": "#FFF8EC",
+    "b": "#5C7C90",
+    "r": 4.2,
+    "min": 3,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA top",
+    "a": "#FFF8EC",
+    "b": "#3D5C71",
+    "r": 6.7,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on CTA bottom",
+    "a": "#FFF8EC",
+    "b": "#284051",
+    "r": 10.24,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tint (footer name)",
+    "a": "#2A2420",
+    "b": "#E3EFF6",
+    "r": 13.08,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint (meta)",
+    "a": "#5F5348",
+    "b": "#E3EFF6",
+    "r": 6.37,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on tint2",
+    "a": "#5F5348",
+    "b": "#CEE2ED",
+    "r": 5.58,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tint (link, tag text)",
+    "a": "#2B4C61",
+    "b": "#E3EFF6",
+    "r": 7.77,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on paper (link)",
+    "a": "#2B4C61",
+    "b": "#FBF8F2",
+    "r": 8.58,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on paper (title)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink-soft on paper (body)",
+    "a": "#5F5348",
+    "b": "#FBF8F2",
+    "r": 7.03,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "ink on tag pill (paper)",
+    "a": "#2A2420",
+    "b": "#FBF8F2",
+    "r": 14.44,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "accent-ink on tag pill (paper)",
+    "a": "#2B4C61",
+    "b": "#FBF8F2",
+    "r": 8.58,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream on stat top (stat card text zone)",
+    "a": "#FFF8EC",
+    "b": "#3A5264",
+    "r": 7.74,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "cream .9 alpha approx on stat top",
+    "a": "#EBE7DE",
+    "b": "#3A5264",
+    "r": 6.62,
+    "min": 4.5,
+    "pass": true
+   },
+   {
+    "n": "head mid vs paper (outline/medallion edge, 3:1)",
+    "a": "#5C7C90",
+    "b": "#FBF8F2",
+    "r": 4.18,
+    "min": 3,
+    "pass": true
+   }
+  ]
+ }
+}

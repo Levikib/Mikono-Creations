@@ -1,0 +1,22 @@
+/                  cold ttfb 252 fcp 1796 lcp 2504 tbt 1098 cls 0.000 hyd 3988 js 191 css 34 tot 1280 req 93 IMG:lion.webp
+/                  warm ttfb 80 fcp 692 lcp 2336 tbt 1068 cls 0.000 hyd 2258 js 0 css 0 tot 2 req 93 IMG:lion.webp
+/shop              cold ttfb 276 fcp 2176 lcp 2244 tbt 1522 cls 0.001 hyd 3979 js 190 css 32 tot 1037 req 83 P:mt-1 text-base text-stone
+/shop              warm ttfb 82 fcp 800 lcp 2208 tbt 1455 cls 0.001 hyd 2352 js 0 css 0 tot 2 req 90 P:mt-1 text-base text-stone
+/shop/giraffe      cold ttfb 252 fcp 1692 lcp 2708 tbt 1548 cls 0.003 hyd 2952 js 191 css 33 tot 821 req 69 IMG:giraffe-yellow-brown-spots-01-400.webp
+/shop/giraffe      warm ttfb 81 fcp 784 lcp 2496 tbt 1079 cls 0.000 hyd 2305 js 0 css 0 tot 2 req 69 IMG:giraffe-yellow-brown-spots-01-400.webp
+/journal           cold ttfb 267 fcp 1696 lcp 2048 tbt 1051 cls 0.010 hyd 2840 js 185 css 33 tot 769 req 66 IMG:hero-960.webp
+/journal           warm ttfb 86 fcp 816 lcp 2124 tbt 1223 cls 0.008 hyd 2089 js 0 css 0 tot 23 req 66 IMG:hero-960.webp
+/journal/a-bedtime-safari-story-with-one-animal cold ttfb 259 fcp 1712 lcp 2124 tbt 954 cls 0.009 hyd 2360 js 184 css 33 tot 593 req 42 IMG:hero-960.webp
+/journal/a-bedtime-safari-story-with-one-animal warm ttfb 82 fcp 612 lcp 1644 tbt 510 cls 0.007 hyd 1305 js 0 css 0 tot 1 req 49 IMG:hero-960.webp
+/story             cold ttfb 278 fcp 1996 lcp 2976 tbt 928 cls 0.008 hyd 2966 js 177 css 33 tot 777 req 55 IMG:hero-lion-hug-480.webp
+/story             warm ttfb 89 fcp 876 lcp 2548 tbt 1337 cls 0.007 hyd 2544 js 0 css 0 tot 2 req 55 IMG:hero-lion-hug-480.webp
+/custom            cold ttfb 328 fcp 1616 lcp 2924 tbt 1566 cls 0.009 hyd 2624 js 186 css 34 tot 518 req 49 P:mt-1.5 max-w-[58ch] text-base leading-[1
+/custom            warm ttfb 99 fcp 912 lcp 2368 tbt 1008 cls 0.007 hyd 1906 js 0 css 0 tot 2 req 49 P:mt-1.5 max-w-[58ch] text-base leading-[1
+/custom/studio     cold ttfb 243 fcp 1312 lcp 1652 tbt 1469 cls 0.003 hyd 2348 js 238 css 38 tot 565 req 43 P:mt-2 text-[.9375rem] text-ink-soft
+/custom/studio     warm ttfb 84 fcp 632 lcp 1004 tbt 1425 cls 0.003 hyd 1044 js 0 css 0 tot 1 req 43 P:mt-2 text-[.9375rem] text-ink-soft
+/cart              cold ttfb 256 fcp 1216 lcp 4584 tbt 1232 cls 0.093 hyd 2371 js 211 css 34 tot 985 req 60 P:max-w-[44ch] text-[.875rem] text-stone
+/cart              warm ttfb 89 fcp 736 lcp 2620 tbt 1051 cls 0.093 hyd 1071 js 0 css 0 tot 1 req 60 P:max-w-[44ch] text-[.875rem] text-stone
+/order             cold ttfb 254 fcp 1252 lcp 4024 tbt 695 cls 0.092 hyd 2253 js 241 css 34 tot 649 req 46 P:text-stone
+/order             warm ttfb 80 fcp 612 lcp 2820 tbt 1032 cls 0.230 hyd 1091 js 0 css 0 tot 24 req 46 P:text-stone
+/gallery           cold ttfb 292 fcp 2256 lcp 3276 tbt 1448 cls 0.009 hyd 4573 js 175 css 32 tot 968 req 55 IMG:moment-01-market-stall-320.webp
+/gallery           warm ttfb 81 fcp 880 lcp 2136 tbt 889 cls 0.006 hyd 1627 js 0 css 0 tot 1 req 55 IMG:moment-01-market-stall-320.webp

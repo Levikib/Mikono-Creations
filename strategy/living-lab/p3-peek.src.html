@@ -1,0 +1,86 @@
+<!doctype html><html lang="en-KE" data-fx="full"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Living lab 3: card peek-a-boo and basket hop</title>
+<style><!--@css--></style>
+<style>
+.top{padding:26px 0 8px}.top h1{font-size:clamp(30px,8vw,46px);margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:56px 12px;margin-top:34px;padding-bottom:40px}
+@media(min-width:900px){.grid{grid-template-columns:repeat(4,1fr);gap:70px 20px}}
+.cw{position:relative;isolation:isolate}
+.pcard{position:relative;z-index:2;padding:8px 8px 12px;display:grid;gap:8px;transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s}
+.pcard .ph{aspect-ratio:1/1;border-radius:16px;overflow:hidden;background:#e7dcc7}
+.pcard img{width:100%;height:100%;object-fit:cover;display:block}
+.pcard img.cut{object-fit:contain;background:radial-gradient(circle at 50% 40%,#f6ecd8,#dccaa6)}
+.pcard b{font-size:15px;padding:0 4px}.pcard .row{display:flex;justify-content:space-between;align-items:center;padding:0 4px;font-size:12px;color:var(--muted)}
+.pcard .add{min-height:44px;width:100%;border-radius:14px;border:1.5px solid var(--terra);background:transparent;color:var(--terra-d);font:700 13px/1 ui-sans-serif,system-ui,sans-serif;cursor:pointer}
+.pcard .add:active{transform:scale(.97)}
+.cw:hover .pcard,.cw[data-peek] .pcard{transform:translateY(3px);box-shadow:0 14px 26px -16px rgb(42 36 32/.5)}
+/* the peeker lives BEHIND the card, in the row gap above it */
+.pk{position:absolute;left:0;right:0;top:0;height:0;z-index:0;pointer-events:none}
+.pk .am{position:absolute;pointer-events:auto;cursor:pointer;width:var(--s);height:var(--s);left:calc(var(--x)*1% - var(--hx)*var(--s));top:calc(-1*(var(--v) + var(--t)*var(--s)));transform:translateY(calc(var(--v) + 16px));transition:transform .55s cubic-bezier(.34,1.4,.64,1);will-change:transform;-webkit-tap-highlight-color:transparent}
+.cw:hover .pk .am,.cw[data-peek] .pk .am{transform:translateY(0)}
+.pk .am .fx-char{transform:rotate(calc(var(--look,0)*5deg));transform-origin:50% 100%;transition:transform .25s}
+.pk .am.tickle{animation:tickle .8s ease}
+@keyframes tickle{0%{transform:translateY(0)}20%{transform:translateY(-14px) rotate(-5deg)}40%{transform:translateY(0)}60%{transform:translateY(-8px) rotate(4deg)}100%{transform:translateY(0)}}
+.pk .am:after{content:"";position:absolute;left:10%;right:10%;top:calc(var(--t)*100%);bottom:30%}
+:root{--v:38px}@media(min-width:900px){:root{--v:48px}}
+.fly{position:fixed;left:0;top:0;z-index:80;pointer-events:none;will-change:transform}
+.basket.wob{animation:wob .6s ease}
+@keyframes wob{0%,100%{transform:rotate(0)}25%{transform:rotate(-9deg) scale(1.05)}55%{transform:rotate(6deg)}}
+.basket .n.pop{animation:npop .45s cubic-bezier(.34,1.56,.64,1)}
+@keyframes npop{0%{transform:scale(1)}50%{transform:scale(1.5)}100%{transform:scale(1)}}
+.bits{position:fixed;z-index:81;pointer-events:none}
+.bits i{position:absolute;width:4px;height:14px;border-radius:3px;background:var(--c);opacity:0;animation:bit 1.2s cubic-bezier(.15,.8,.3,1) forwards}
+@keyframes bit{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(var(--r))}}
+.foot{padding:30px 0 90px}.live{font-size:12px;color:var(--muted);margin-top:6px}
+</style></head><body>
+<header class="hdr"><svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#B0654A"/><path d="M6 17c10 6 20 6 30-2M7 27c9-5 19-5 28 2" stroke="#f3d3bd" fill="none" stroke-width="1.6"/></svg><b>Mikono</b><nav><span>Shop</span><span>Gifts</span><span>Our story</span></nav><span class="sp"></span><span class="basket" id="basket"><svg viewBox="0 0 24 24" fill="none" stroke="#2A2420" stroke-width="1.8"><path d="M5 9h14l-1.4 9.5a2 2 0 0 1-2 1.5H8.4a2 2 0 0 1-2-1.5zM9 9a3 3 0 0 1 6 0"/></svg><span class="n" id="n">0</span></span></header>
+<main class="page wrap">
+<div class="top"><div class="eyebrow">Shop</div><h1>Safari animals</h1><p class="muted" style="margin-top:6px;font-size:14px">Hover a card, or on a phone just let one sit in the middle of the screen.</p></div>
+<div class="grid" id="grid"></div>
+<div class="foot"><span id="toggle"></span><p class="live" id="live" aria-live="polite"></p></div>
+</main>
+<script><!--@js--></script>
+<script>
+(() => {
+  const m = innerWidth < 600;
+  // t = top of the drawn animal as a fraction of the sprite box, hx = head centre x, per species
+  const items = [
+    { n: 'Elephant', img: 'elephant.webp', sp: 'elephant', t: .40, hx: .74, x: 62, s: m ? 120 : 150 },
+    { n: 'Giraffe', img: 'giraffe.webp', sp: 'giraffe', t: .09, hx: .72, x: 58, s: m ? 130 : 165 },
+    { n: 'Lion', img: 'lion.webp', sp: 'lion', t: .34, hx: .72, x: 55, s: m ? 120 : 150 },
+    { n: 'Rabbit', img: 'rabbit.webp', sp: 'rabbit', t: -.01, hx: .5, x: 50, s: m ? 110 : 140, cut: true } ];
+  const grid = document.getElementById('grid');
+  items.forEach(it => {
+    const cw = document.createElement('div'); cw.className = 'cw';
+    cw.innerHTML = `<div class="pk"><div class="am" style="--s:${it.s}px;--t:${it.t};--hx:${it.hx};--x:${it.x}"></div></div><article class="card pcard"><div class="ph"><img class="${it.cut ? 'cut' : ''}" src="img/${it.img}" alt="${it.n}"></div><b>${it.n}</b><div class="row"><span>Ask for price</span><span>S to XL</span></div><button class="add" type="button">Add to order list</button></article>`;
+    const am = cw.querySelector('.am'); am.appendChild(sprite(it.sp, { size: it.s, anim: 'idle' })); am.querySelector('.fx-char').style.setProperty('--fx-s', '100%');
+    am.addEventListener('pointerdown', () => { am.classList.remove('tickle'); void am.offsetWidth; am.classList.add('tickle'); bits(am.getBoundingClientRect()); });
+    cw.addEventListener('pointermove', e => { if (e.pointerType !== 'mouse') return; const r = cw.getBoundingClientRect(); am.style.setProperty('--look', Math.max(-1, Math.min(1, (e.clientX - r.left - r.width * it.x / 100) / (r.width / 2)))); });
+    cw.querySelector('.add').addEventListener('click', e => hop(e.currentTarget, it));
+    grid.appendChild(cw); cw._it = it;
+  });
+  // mobile / touch: the card that sits in the middle band for 600 ms gets the peek, one at a time
+  const cws = [...document.querySelectorAll('.cw')]; let cur = null, tm = 0;
+  if (matchMedia('(hover: none)').matches || params.get('touch')) {
+    const tick = () => { const mid = innerHeight * .56; let best = null, bd = 1e9; cws.forEach(c => { const r = c.querySelector('.pcard').getBoundingClientRect(); const d = Math.abs((r.top + r.height / 2) - mid); if (r.top > 70 && r.bottom < innerHeight - 70 && d < bd) { bd = d; best = c; } }); if (best !== cur) { clearTimeout(tm); if (cur) delete cur.dataset.peek; cur = best; if (best) tm = setTimeout(() => { best.dataset.peek = '1'; }, 600); } };
+    addEventListener('scroll', () => requestAnimationFrame(tick), { passive: true }); setTimeout(tick, 400);
+  }
+  if (params.get('hover')) { cws[+params.get('hover')].dataset.peek = '1'; }
+  function bits(r) { const b = document.createElement('div'); b.className = 'bits'; b.style.left = r.left + r.width * .5 + 'px'; b.style.top = r.top + 'px'; const cols = ['#B0654A', '#C9A05A', '#6A7049', '#587783']; for (let i = 0; i < 12; i++) { const e = document.createElement('i'); e.style.cssText = `--c:${cols[i % 4]};--dx:${(Math.random() - .5) * 120}px;--dy:${-30 - Math.random() * 70}px;--r:${(Math.random() - .5) * 400}deg;animation-delay:${i * 18}ms`; b.appendChild(e); } document.body.appendChild(b); setTimeout(() => b.remove(), 1500); }
+  let count = 0; const n = document.getElementById('n'), live = document.getElementById('live');
+  function hop(btn, it) {
+    count++; const basket = document.getElementById('basket'); live.textContent = `Added ${it.n} to your order list`;
+    const land = () => { n.textContent = count; n.classList.remove('pop'); void n.offsetWidth; n.classList.add('pop'); basket.classList.remove('wob'); void basket.offsetWidth; basket.classList.add('wob'); };
+    if (reduced || document.documentElement.dataset.fx === 'off') return land();
+    const a = btn.getBoundingClientRect(), b = basket.getBoundingClientRect(); const sz = 56;
+    const sx = a.left + a.width / 2 - sz / 2, sy = a.top - sz * .4, ex = b.left + b.width / 2 - sz / 2, ey = b.top + b.height / 2 - sz / 2;
+    const f = document.createElement('div'); f.className = 'fly'; f.style.width = f.style.height = sz + 'px';
+    const sp = sprite(it.sp, { size: sz, anim: 'none' }); f.appendChild(sp); document.body.appendChild(f);
+    const h = Math.min(160, Math.abs(ey - sy) * .45 + 70), T = 850;
+    f.animate([{ transform: `translate(${sx}px,${sy}px) scale(1.12,.85)` }, { transform: `translate(${sx + (ex - sx) * .5}px,${sy + (ey - sy) * .5 - h}px) scale(.95,1.1) rotate(-8deg)`, offset: .5 }, { transform: `translate(${ex}px,${ey}px) scale(.35) rotate(10deg)`, opacity: .9 }], { duration: T, easing: 'cubic-bezier(.3,.6,.4,1)', fill: 'forwards' }).onfinish = () => { f.remove(); land(); };
+    // the companion cheers and ducks
+    btn.closest('.cw').querySelector('.am').animate([{ transform: 'translateY(0)' }, { transform: 'translateY(-12px)', offset: .3 }, { transform: 'translateY(0)' }], { duration: 600 });
+  }
+  mountToggle(document.getElementById('toggle'));
+})();
+</script></body></html>

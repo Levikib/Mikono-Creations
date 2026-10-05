@@ -1,0 +1,354 @@
+{
+ "base": "https://mikono-creations.vercel.app",
+ "cpu": 4,
+ "res": {
+  "menu": {
+   "label": "Open mobile menu",
+   "inp": 160,
+   "all": [
+    160,
+    144,
+    184
+   ],
+   "inDelay": 115,
+   "proc": 15.400000005960464,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 269,
+    "b": 212,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "O",
+      "d": 246,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "mega": {
+   "label": "Open a mega panel (desktop click)",
+   "inp": 224,
+   "all": [
+    272,
+    224,
+    200
+   ],
+   "inDelay": 55.900000005960464,
+   "proc": 51.599999994039536,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 232,
+    "b": 151,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 53,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fD",
+      "d": 5,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "density": {
+   "label": "Density toggle 2-up",
+   "inp": 504,
+   "all": [
+    504,
+    352,
+    816
+   ],
+   "inDelay": 148.19999998807907,
+   "proc": 24.19999998807907,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 373,
+    "b": 263,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 44,
+      "t": "event-listener"
+     },
+     {
+      "u": "inline",
+      "f": "",
+      "d": 12,
+      "t": "event-listener"
+     },
+     {
+      "u": "414919nhvjec1.js",
+      "f": "l",
+      "d": 10,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "density3": {
+   "label": "3-up / 2-up toggle back to 3-up",
+   "inp": 264,
+   "all": [
+    280,
+    240,
+    264
+   ],
+   "inDelay": 67.90000000596046,
+   "proc": 8.800000011920929,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 108,
+    "b": 46,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 14,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "addorder": {
+   "label": "Add to order list",
+   "skipped": "pre step target missing"
+  },
+  "cartopen": {
+   "label": "Open the cart drawer",
+   "inp": 240,
+   "all": [
+    240,
+    208,
+    256
+   ],
+   "inDelay": 125.59999999403954,
+   "proc": 28.19999998807907,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 270,
+    "b": 217,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "O",
+      "d": 254,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "cartclose": {
+   "label": "Close the cart drawer",
+   "inp": 192,
+   "all": [
+    264,
+    192,
+    160
+   ],
+   "inDelay": 58.099999994039536,
+   "proc": 70.2999999821186,
+   "ev": "keydown+keyup",
+   "loaf": {
+    "d": 144,
+    "b": 81,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 13,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "qty": {
+   "label": "Change quantity (One more)",
+   "inp": 264,
+   "all": [
+    216,
+    264,
+    344
+   ],
+   "inDelay": 152.7999999821186,
+   "proc": 25.700000017881393,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 132,
+    "b": 47,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 35,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "chip": {
+   "label": "Shop filter chip / option",
+   "inp": 176,
+   "all": [
+    152,
+    264,
+    176
+   ],
+   "inDelay": 119.89999997615814,
+   "proc": 29.30000001192093,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 146,
+    "b": 0,
+    "sc": []
+   }
+  },
+  "footer": {
+   "label": "Expand a footer accordion",
+   "inp": 288,
+   "all": [
+    280,
+    288,
+    304
+   ],
+   "inDelay": 120.5,
+   "proc": 10.5,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 289,
+    "b": 0,
+    "sc": []
+   }
+  },
+  "type": {
+   "label": "Type in a form field (6 keys)",
+   "inp": 264,
+   "all": [
+    200,
+    264,
+    416
+   ],
+   "inDelay": 185,
+   "proc": 7.300000011920929,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 158,
+    "b": 67,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 20,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 13,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 12,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "wizard": {
+   "label": "Order wizard step Next",
+   "skipped": "target missing"
+  },
+  "studio": {
+   "label": "Studio step Next",
+   "inp": 1024,
+   "all": [
+    1168,
+    1024,
+    624
+   ],
+   "inDelay": 172.90000000596046,
+   "proc": 529.5,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 683,
+    "b": 633,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 534,
+      "t": "event-listener"
+     },
+     {
+      "u": "414919nhvjec1.js",
+      "f": "l",
+      "d": 17,
+      "t": "event-listener"
+     },
+     {
+      "u": "0t3l5qqaz60eh.js",
+      "f": "n",
+      "d": 16,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "Link tap /shop (click to next FCP)",
+   "inp": 232,
+   "all": [
+    192,
+    328,
+    232
+   ],
+   "inDelay": 190.60000002384186,
+   "proc": 16.900000005960464,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 356,
+    "b": 306,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "O",
+      "d": 316,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "navcard": {
+   "label": "Product card tap (click to next FCP)",
+   "inp": 328,
+   "all": [
+    272,
+    328,
+    424
+   ],
+   "inDelay": 192.10000002384186,
+   "proc": 33.900000005960464,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 550,
+    "b": 460,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "O",
+      "d": 335,
+      "t": "event-listener"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "group": "lion",
+ "products": [
+  {
+   "slug": "lion",
+   "species": "lion",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "tan-brown-mane",
+     "label": "Tan with brown mane",
+     "images": [
+      {
+       "file": "media/raw/img-060.jpg",
+       "source_id": "img-060.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 630,
+       "height": 964,
+       "quality": "good",
+       "alt": "Crocheted lion animal with a tan body, tan face and ears, dark brown nose and a long shaggy brown yarn mane, standing on a wooden table outdoors.",
+       "verified": true
+      },
+      {
+       "file": "media/raw/img-068.jpg",
+       "source_id": "img-068.jpg",
+       "crop": null,
+       "role": "gallery",
+       "bg": "coloured",
+       "focal": [
+        0.4,
+        0.35
+       ],
+       "shownSize": null,
+       "width": 1059,
+       "height": 1600,
+       "quality": "ok",
+       "alt": "Close view of a crocheted tan lion with a brown yarn mane and black nose, framed by green plant leaves, some leaves crossing in front.",
+       "verified": true,
+       "note": "Mane looks greyer brown than in other photos, probably lighting. Black nose here, dark brown nose elsewhere."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-01.jpg",
+       "source_id": "img-063.jpg",
+       "crop": [
+        0,
+        0,
+        433,
+        649
+       ],
+       "role": "size_ladder",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 649,
+       "quality": "ok",
+       "alt": "Row of crocheted tan lions with brown manes on a black table, decreasing in size from left to right; the largest lion is cut off by the left edge of the photo.",
+       "verified": true,
+       "note": "Ordering large to small only. No labels in this panel."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-02.jpg",
+       "source_id": "img-063.jpg",
+       "crop": [
+        433,
+        0,
+        433,
+        649
+       ],
+       "role": "size_ladder",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 649,
+       "quality": "ok",
+       "alt": "Close view along a line of crocheted tan lions with brown manes on a black table, the nearest one large and the others shrinking into the distance.",
+       "verified": true,
+       "note": "Ordering large to small only. No labels in this panel."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-04.jpg",
+       "source_id": "img-063.jpg",
+       "crop": [
+        0,
+        650,
+        433,
+        400
+       ],
+       "role": "size_ladder",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 400,
+       "quality": "ok",
+       "alt": "Four crocheted tan lions with brown manes in a row on a black table, from largest at left to smallest at right, against a cream wall.",
+       "verified": true,
+       "note": "Ordering large to small only. Same lions as img-083, which carries the labels."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-05.jpg",
+       "source_id": "img-006.jpg",
+       "crop": [
+        690,
+        300,
+        510,
+        480
+       ],
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.55,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 510,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Two large crocheted tan lions with brown yarn manes on a market stall table beside a patterned bag, with a third lion behind them.",
+       "verified": true,
+       "note": "Lions cut by the right edge of the source photo."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-06.jpg",
+       "source_id": "img-039.jpg",
+       "crop": [
+        220,
+        720,
+        980,
+        880
+       ],
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.55
+       ],
+       "shownSize": null,
+       "width": 980,
+       "height": 880,
+       "quality": "ok",
+       "alt": "Group of crocheted tan lions with brown yarn manes lined up on a white market table, with grey elephant animals behind.",
+       "verified": true,
+       "note": "Lion at right cut by source frame edge. Grey elephants visible in the top rows."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-07.jpg",
+       "source_id": "img-027.jpg",
+       "crop": [
+        0,
+        240,
+        746,
+        1058
+       ],
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.7,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 746,
+       "height": 1058,
+       "quality": "ok",
+       "alt": "A young man in a cream cap and brown leather jacket holds a large crocheted tan lion at a market stall, with smaller lions and yellow giraffes on a light blue table.",
+       "verified": true,
+       "note": "Phone screenshot bars cropped out. Person face partly turned."
+      },
+      {
+       "file": "media/work/lion/lion-tan-brown-mane-08.jpg",
+       "source_id": "img-056.jpg",
+       "crop": [
+        100,
+        30,
+        445,
+        430
+       ],
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 445,
+       "height": 430,
+       "quality": "ok",
+       "alt": "A woman sitting on a blue sofa attaches yarn to a crocheted lion body, with another lion lying beside her.",
+       "verified": true,
+       "note": "Making process shot. Grey animals in the lower left corner."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-035.jpg",
+     "source_id": "img-035.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.82,
+      0.4
+     ],
+     "shownSize": null,
+     "width": 878,
+     "height": 432,
+     "quality": "ok",
+     "alt": "A lion with a long brown yarn mane standing beside a lavender elephant and a zebra on a wooden table in a garden",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-043.jpg",
+     "source_id": "img-043.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.1,
+      0.7
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "ok",
+     "alt": "Market stall under white tents with a large lion at the left of a table with a white heart print cloth, beside rabbits, giraffes and elephants",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-001.jpg",
+   "reason": "Cream wall mounted lion head held by a woman. Wall heads belong to Agent W7."
+  },
+  {
+   "source_id": "img-002.jpg",
+   "reason": "Cream wall mounted lion head. Handled by Agent W7."
+  },
+  {
+   "source_id": "img-003.jpg",
+   "reason": "Nine panel collage of wall heads. Handled by Agent W7."
+  },
+  {
+   "source_id": "img-086.jpg",
+   "reason": "Byte identical duplicate of img-003 (wall head collage). Agent W7."
+  },
+  {
+   "source_id": "img-019.jpg",
+   "reason": "Book page photo with Copyrighted Material watermarks and a page caption. Not a Mikono product photo. Wall head anyway (W7)."
+  },
+  {
+   "source_id": "img-075.jpg",
+   "reason": "Byte identical duplicate of img-039; the crop from img-039 is used."
+  },
+  {
+   "source_id": "img-085.jpg",
+   "reason": "Byte identical duplicate of img-042."
+  },
+  {
+   "source_id": "img-015.jpg",
+   "reason": "Lions tiny and cut by the frame edge; same scene as img-010."
+  },
+  {
+   "source_id": "img-038.jpg",
+   "reason": "Macro of giraffe heads; only a few mane strands visible at edges, no lion identifiable."
+  },
+  {
+   "source_id": "img-043.jpg",
+   "reason": "Lions too small to crop (single lion crop about 300 px short side) and a third party Live Caricatures sign fills the frame."
+  },
+  {
+   "source_id": "img-057.jpg",
+   "reason": "Making scene, but a fertiliser sack with printed third party text sits in frame and a clean crop would be under 400 px; img-058 gives the same scene."
+  },
+  {
+   "source_id": "img-065.jpg",
+   "reason": "Lion is partly hidden behind people and cut by the frame."
+  },
+  {
+   "source_id": "img-066.jpg",
+   "reason": "Lions only blurred at the top rear of the frame."
+  },
+  {
+   "source_id": "img-071.jpg",
+   "reason": "Lion small and blurred at the back; crop would be under 400 px."
+  },
+  {
+   "source_id": "img-072.jpg",
+   "reason": "Lion head blurred in the left background; crop would be under 400 px."
+  }
+ ],
+ "client_review": [
+  "Only one lion colourway appears in all supplied photos (tan body, brown mane). Please confirm there are no other lion colours.",
+  "The lion in img-068 has a greyer brown mane and black nose; the others have a warmer brown mane and a dark brown (maroon) nose on some. Likely lighting and yarn lots, please confirm it is the same design.",
+  "Size ladder: img-083 carries overlay labels XL, Large, Medium, Small, left to right. The img-063 panels show the same lions in the same order but without labels. No centimetre values are recorded.",
+  "First pass notes size guesses (S, M, L) on single photos; these are not used as fact. Only img-083 supports a size label.",
+  "img-011 and img-018 show a small crocheted lion head set on a white shoulder bag. This could be an accessory product (lion head bag) or a customer's own bag. Please confirm before using them on a product page.",
+  "img-001, img-002, img-003 and img-086 show cream coloured wall lion heads (different design). Handled by Agent W7 as wall heads.",
+  "img-019 is a page from a published craft book (Copyrighted Material, Lion page 92) and not a Mikono product. Please confirm it is not meant for the shop.",
+  "Lifestyle photos include recognisable people (img-027, img-056, img-010, img-011); R1 treats them as cleared.",
+  "Several lion photos are stall shots where the lion is cut by the frame edge; the clean hero options are img-060 and the single lion crop from img-063."
+ ]
+}

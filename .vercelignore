@@ -1,0 +1,6 @@
+/media/
+/strategy/
+.env*
+/.next/
+/node_modules/
+/public/media-opt/

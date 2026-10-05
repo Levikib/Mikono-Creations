@@ -1,0 +1,526 @@
+{
+ "group": "wall-dolls-other",
+ "products": [
+  {
+   "slug": "unicorn-wall-head",
+   "species": "unicorn",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "white-pink",
+     "label": "White with pink mane",
+     "images": [
+      {
+       "file": "media/raw/img-025.jpg",
+       "source_id": "img-025.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.45,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 992,
+       "quality": "good",
+       "alt": "Crocheted white unicorn head mounted on a cream wall, with a twisted brown horn, pink yarn mane, three small crocheted flowers and a closed sleepy eye.",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Same unicorn appears as tile 1 of the img-003 and img-086 collage; the collage tile was not used because img-025 is larger."
+  },
+  {
+   "slug": "zebra-wall-head",
+   "species": "zebra",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "black-white",
+     "label": "Black and white",
+     "images": [
+      {
+       "file": "media/raw/img-021.jpg",
+       "source_id": "img-021.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 426,
+       "height": 640,
+       "quality": "ok",
+       "alt": "Crocheted black and white striped zebra head standing on a spotted tablecloth with a shelving unit behind, showing a spiky mane, round dark eye and black muzzle.",
+       "verified": true,
+       "rotate": "cw90"
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Same photo as collage tile 2, img-021 is the wider original at 640 by 426. Client said pattern-book looking images are theirs; this one has no overlay text."
+  },
+  {
+   "slug": "warthog-wall-head",
+   "species": "warthog",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "brown",
+     "label": "Brown",
+     "images": [
+      {
+       "file": "media/work/wall-heads/warthog-wall-head-brown-01.jpg",
+       "source_id": "img-003.jpg",
+       "crop": [
+        579,
+        0,
+        287,
+        430
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 287,
+       "height": 430,
+       "quality": "low",
+       "alt": "Crocheted brown warthog head on a cream wall with small ears, two white curved tusks and dark eyes and nostrils.",
+       "verified": true,
+       "below_min_side": true,
+       "client_review": "Only a small tile cut from a collage exists (287 px wide). It is shown at its own size. Please send the original full size photo."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "giraffe-wall-head",
+   "species": "giraffe",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow with brown spots",
+     "images": [
+      {
+       "file": "media/work/wall-heads/giraffe-wall-head-yellow-01.jpg",
+       "source_id": "img-003.jpg",
+       "crop": [
+        0,
+        432,
+        286,
+        431
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.55,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 286,
+       "height": 431,
+       "quality": "low",
+       "alt": "Crocheted yellow giraffe neck and head mounted on a wall rail, covered in round brown spots with two small horns and a brown muzzle.",
+       "verified": true,
+       "below_min_side": true,
+       "client_review": "Only a small tile cut from a collage exists (286 px wide). It is shown at its own size. Please send the original full size photo."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "lion-wall-head",
+   "species": "lion",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "tan",
+     "label": "Tan with golden mane",
+     "images": [
+      {
+       "file": "media/work/wall-heads/lion-wall-head-tan-01.jpg",
+       "source_id": "img-019.jpg",
+       "crop": [
+        0,
+        40,
+        600,
+        640
+       ],
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 600,
+       "height": 640,
+       "quality": "good",
+       "alt": "Crocheted tan lion head mounted on a patterned grey wall, with a long fringed golden mane edged in dark brown, yellow eyes, cream muzzle and black nose.",
+       "verified": true,
+       "note": "Cropped inside the frame to remove 'Copyrighted Material' text and the page caption of the pattern-book style scan."
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "A different lion head is shown as tile 5 of the collage (tan with shorter fringed mane); not used because below 400 px."
+  },
+  {
+   "slug": "elephant-wall-head",
+   "species": "elephant",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "purple",
+     "label": "Purple",
+     "images": [
+      {
+       "file": "media/work/wall-heads/elephant-wall-head-purple-01.jpg",
+       "source_id": "img-003.jpg",
+       "crop": [
+        579,
+        432,
+        287,
+        431
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 287,
+       "height": 431,
+       "quality": "low",
+       "alt": "Crocheted purple elephant head and long trunk on a cream wall, with large ears, lilac eyes with lashes and white tusks.",
+       "verified": true,
+       "below_min_side": true,
+       "note": "Faint 'Believe Discover' overlay text remains bottom left; cannot be cropped out without cutting the trunk.",
+       "client_review": "Only a small tile cut from a collage exists (287 px wide). It is shown at its own size. Please send the original full size photo."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "hippo-wall-head",
+   "species": "hippo",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey with blue eyes",
+     "images": [
+      {
+       "file": "media/work/wall-heads/hippo-wall-head-grey-01.jpg",
+       "source_id": "img-003.jpg",
+       "crop": [
+        0,
+        865,
+        286,
+        433
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 286,
+       "height": 433,
+       "quality": "low",
+       "alt": "Crocheted dark grey hippo head facing front on a cream wall, with small round ears, blue ringed eyes and two blue nostril circles.",
+       "verified": true,
+       "below_min_side": true,
+       "client_review": "Only a small tile cut from a collage exists (286 px wide). It is shown at its own size. Please send the original full size photo."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "rhino-wall-head",
+   "species": "rhino",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey",
+     "images": [
+      {
+       "file": "media/work/wall-heads/rhino-wall-head-grey-01.jpg",
+       "source_id": "img-003.jpg",
+       "crop": [
+        288,
+        865,
+        289,
+        433
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 289,
+       "height": 433,
+       "quality": "low",
+       "alt": "Crocheted grey rhino head seen from the side on a cream wall, with a lilac eye, a cream front horn and a smaller cream horn.",
+       "verified": true,
+       "below_min_side": true,
+       "client_review": "Only a small tile cut from a collage exists (289 px wide). It is shown at its own size. Please send the original full size photo."
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Front horn is cut off at the right edge of the original collage tile."
+  },
+  {
+   "slug": "secretary-bird-wall-head",
+   "species": "secretary bird",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey with orange face",
+     "images": [
+      {
+       "file": "media/work/wall-heads/secretary-bird-wall-head-grey-01.jpg",
+       "source_id": "img-003.jpg",
+       "crop": [
+        579,
+        865,
+        287,
+        433
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 287,
+       "height": 433,
+       "quality": "low",
+       "alt": "Crocheted grey secretary bird neck and head mounted on a round black plaque on a wall rail, with an orange face patch and black crest feathers.",
+       "verified": true,
+       "below_min_side": true,
+       "client_review": "Only a small tile cut from a collage exists (287 px wide). It is shown at its own size. Please send the original full size photo."
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Species decided by vote (3 of 5 for secretary bird, others ostrich or peacock); client confirms."
+  },
+  {
+   "slug": "doll",
+   "species": "doll",
+   "category": "dolls",
+   "colourways": [
+    {
+     "key": "peach",
+     "label": "Peach dress",
+     "images": [
+      {
+       "file": "media/raw/img-020.jpg",
+       "source_id": "img-020.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 736,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Small crocheted doll with yellow yarn hair, beige face, black eyes and a red stitched smile, wearing a peach flecked crocheted dress.",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "assorted",
+     "label": "Assorted dress colours",
+     "images": [
+      {
+       "file": "media/raw/img-079.jpg",
+       "source_id": "img-079.jpg",
+       "crop": null,
+       "role": "gallery",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 698,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Five small crocheted dolls laid on a white surface, wearing a rainbow, a brown and rust, a hot pink, a crimson and a blue and green speckled dress, with black or tan hair buns.",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Group photo img-079 shows five dolls; individual crops would be under 400 px so the whole photo is used."
+  },
+  {
+   "slug": "dress-doll",
+   "species": "doll",
+   "category": "dolls",
+   "colourways": [
+    {
+     "key": "pink-lilac-turquoise",
+     "label": "Pink, lilac and turquoise dresses",
+     "images": [
+      {
+       "file": "media/work/dolls/doll-assorted-01.jpg",
+       "source_id": "img-031.jpg",
+       "crop": [
+        0,
+        346,
+        720,
+        908
+       ],
+       "role": "hero",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 720,
+       "height": 908,
+       "quality": "ok",
+       "alt": "Three tall crocheted dolls standing side by side on a wooden shelf in pink, lilac and turquoise dresses with matching shoes, one with yellow hair, one brown and one black.",
+       "verified": true,
+       "note": "Phone status bar and black bars cropped off."
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Different style from the bun hair dolls (taller, no mouth, long legs). Client to confirm whether it is a separate product or one doll range."
+  },
+  {
+   "slug": "lion-head-handbag",
+   "species": "lion",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "cream",
+     "label": "Cream bag, tan lion",
+     "images": [
+      {
+       "file": "media/work/other/lion-head-handbag-cream-01.jpg",
+       "source_id": "img-018.jpg",
+       "crop": [
+        0,
+        190,
+        610,
+        419
+       ],
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.35
+       ],
+       "shownSize": null,
+       "width": 610,
+       "height": 419,
+       "quality": "ok",
+       "alt": "A cream shoulder bag worn over a black sweatshirt, with a crocheted tan lion head with a brown fringe mane peeking out of the bag opening.",
+       "verified": true
+      },
+      {
+       "file": "media/raw/img-011.jpg",
+       "source_id": "img-011.jpg",
+       "crop": null,
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 568,
+       "height": 544,
+       "quality": "ok",
+       "alt": "A white shoulder bag worn across the body, with a crocheted lion head with a brown yarn mane looking out of the opening",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": [],
+   "notes": "Worn by a person whose face is not visible. Original bag may be a bought bag with a crochet lion; client confirms it is a product."
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-086.jpg",
+   "reason": "Exact byte-for-byte duplicate of img-003.jpg (cmp identical); img-003 used as the collage source."
+  },
+  {
+   "source_id": "img-003.jpg#tile-unicorn",
+   "reason": "Collage tile 286x430, below 400 px short side; better original img-025 used instead."
+  },
+  {
+   "source_id": "img-003.jpg#tile-zebra",
+   "reason": "Collage tile 289x430, below 400 px short side; wider original img-021 used instead."
+  },
+  {
+   "source_id": "img-003.jpg#tile-lion",
+   "reason": "Collage tile 289x431, below 400 px short side; img-019 used as lion hero."
+  },
+  {
+   "source_id": "img-079.jpg#single-dolls",
+   "reason": "Individual doll crops would be about 220 px wide, below 400 px; group photo used whole."
+  },
+  {
+   "source_id": "img-031.jpg#single-dolls",
+   "reason": "Individual doll crops would be about 245 px wide, below 400 px; three-doll photo used whole."
+  }
+ ],
+ "client_review": [
+  "Wall heads: only 2 of 9 species have a source of 400 px or more on the short side (zebra from img-021 at 426, lion from img-019 at 600) plus unicorn from img-025 (744). The other six (warthog, giraffe, elephant, hippo, rhino, secretary bird) exist only as 286 to 289 px wide collage tiles flagged below_min_side, quality low. Please send originals of these six before they go on a hero or large card.",
+  "Are the wall heads for sale, and in which sizes? No size is shown in any photo, so shownSize is null everywhere. Are they one product per species or made to order only?",
+  "The elephant tile carries a faint 'Believe Discover' overlay text; it could not be cropped out. Please send a clean original.",
+  "Secretary bird was decided by 3 of 5 votes; please confirm the bird species.",
+  "Rhino tile is cut off at the right edge, the front horn is incomplete. Hippo and rhino are grey, so they are treated as one colour key 'grey' each.",
+  "img-019 (lion) looks like a pattern-book page with 'Copyrighted Material' and 'Lion, page 92'. Client confirmed it is Mikono's own work; overlay text was cropped off. Please confirm the head is a Mikono product and not a pattern illustration.",
+  "img-021 (zebra) is the same photo as the collage zebra tile, in a small 640 by 426 version.",
+  "Dolls: two different styles appear (bun hair dolls in img-020 and img-079, taller ballet dress dolls in img-031). Confirm one product or two, and which dress colours are real colourways.",
+  "Only the peach doll is a single clear product shot; the other dress colours appear only in group photos, so no single-colourway image exists for them.",
+  "Lion head handbag (img-018): confirm it is a product, whether the bag is supplied by Mikono, and whether it should be listed as an accessory under More. The photo is of a person with the face hidden, shown as a lifestyle image.",
+  "Unicorn and wall heads are categorised wall-art. 'More animals' is used only for the handbag.",
+  "Dolls are listed as 'dolls' category and the only place the word 'doll' may be used per R10."
+ ]
+}

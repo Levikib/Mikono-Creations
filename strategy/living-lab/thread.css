@@ -1,0 +1,22 @@
+/* The Thread: page spine. Unscrolled = dashed, scrolled = filled with habitat colour. */
+body{position:relative}
+.thread{position:absolute;left:0;top:0;width:100%;z-index:0;pointer-events:none;overflow:hidden}
+main,.page{position:relative;z-index:1}
+.thread svg{position:absolute;left:0;top:0;overflow:visible}
+.t-base{fill:none;stroke:var(--thread-b);stroke-opacity:.42;stroke-width:2;stroke-linecap:round;stroke-dasharray:6 5}
+.t-fill{fill:none;stroke:url(#tg);stroke-width:3.4;stroke-linecap:round}
+.t-ply{fill:none;stroke:#fff;stroke-opacity:.5;stroke-width:3.4;stroke-linecap:butt;stroke-dasharray:1.2 5.6}
+.t-branch{fill:none;stroke:var(--thread-b);stroke-opacity:.32;stroke-width:2;stroke-linecap:round;stroke-dasharray:6 5}
+.t-branch-fill{fill:none;stroke-width:2.6;stroke-linecap:round;transition:stroke-dashoffset 1.1s cubic-bezier(.22,1,.36,1)}
+.t-knot{fill:var(--paper);stroke:var(--thread-b);stroke-opacity:.6;stroke-width:2;stroke-dasharray:3 2.4;transform-box:fill-box;transform-origin:center;transition:fill .3s}
+.t-knot.on{stroke-dasharray:none;stroke-opacity:1;animation:knotpop .7s cubic-bezier(.34,1.56,.64,1)}
+@keyframes knotpop{0%{transform:scale(.6)}55%{transform:scale(1.5)}100%{transform:scale(1)}}
+.ball{position:absolute;left:0;top:0;width:var(--bs,34px);height:var(--bs,34px);margin:calc(var(--bs,34px)/-2) 0 0 calc(var(--bs,34px)/-2);will-change:transform;z-index:3}
+.ball svg{width:100%;height:100%;display:block}
+.ball .roll{transform-origin:50% 50%}
+.ball .shadow{position:absolute;left:12%;right:12%;bottom:-3px;height:5px;border-radius:50%;background:rgb(42 36 32/.18);filter:blur(1px)}
+.mk-pop{position:absolute;pointer-events:none;transform-origin:50% 100%;transform:scale(0);opacity:0}
+.mk-pop.in{animation:labpop .8s cubic-bezier(.34,1.56,.64,1) forwards}
+@keyframes labpop{0%{transform:scale(.2,.1) translateY(30%);opacity:0}35%{opacity:1}60%{transform:scale(1.06,.94)}100%{transform:scale(1);opacity:1}}
+html[data-fx=off] .thread .ball,html[data-fx=off] .mk-pop{display:none}
+@media(prefers-reduced-motion:reduce){.mk-pop.in{animation:none;transform:none;opacity:1}.t-knot.on{animation:none}.t-branch-fill{transition:none}}

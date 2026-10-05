@@ -1,0 +1,740 @@
+{
+ "group": "more-animals-a",
+ "products": [
+  {
+   "slug": "octopus",
+   "species": "octopus",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "white",
+     "label": "White",
+     "images": [
+      {
+       "file": "media/work/octopus/octopus-white-01.jpg",
+       "source_id": "img-017.jpg",
+       "crop": [
+        40,
+        80,
+        480,
+        560
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 480,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Hand holding a white crocheted octopus with a ruffled skirt edged in white and shaded red, orange and yellow, with black eyes and a yellow smile",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "file": "media/work/octopus/octopus-yellow-01.jpg",
+       "source_id": "img-024.jpg",
+       "crop": [
+        145,
+        295,
+        400,
+        400
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 400,
+       "height": 400,
+       "quality": "ok",
+       "alt": "Hand holding a yellow crocheted octopus with black eyes, a red smile and a red and orange ruffled skirt with white edging",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "multicolour",
+     "label": "Multicolour",
+     "images": [
+      {
+       "file": "media/work/octopus/octopus-pastel-multicolour-01.jpg",
+       "source_id": "img-006.jpg",
+       "crop": [
+        440,
+        960,
+        700,
+        560
+       ],
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.4,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 700,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Crocheted octopuses in variegated multicolour yarn on a blue table: pastel pink, yellow and mint pair, a bright blue, orange and yellow pair, and a speckled orange and green one",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "red",
+     "label": "Red",
+     "images": [
+      {
+       "file": "media/work/octopus/octopus-red-01.jpg",
+       "source_id": "img-009.jpg",
+       "crop": [
+        125,
+        345,
+        225,
+        250
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 225,
+       "height": 250,
+       "quality": "ok",
+       "alt": "Red crocheted octopus with black eyes and a small smile above a ruffled red skirt with a pink edge",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    },
+    {
+     "key": "green",
+     "label": "Green",
+     "images": [
+      {
+       "file": "media/work/octopus/octopus-green-01.jpg",
+       "source_id": "img-009.jpg",
+       "crop": [
+        335,
+        350,
+        220,
+        250
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 220,
+       "height": 250,
+       "quality": "ok",
+       "alt": "Green crocheted octopus with black eyes and an orange smile above a ruffled green and orange skirt",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-009.jpg",
+     "source_id": "img-009.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.7
+     ],
+     "shownSize": null,
+     "width": 736,
+     "height": 628,
+     "quality": "ok",
+     "alt": "Rows of crocheted octopuses in red, green, white and yellow on a market table with grey elephants behind",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "shark",
+   "species": "shark",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "file": "media/work/shark/shark-yellow-01.jpg",
+       "source_id": "img-028.jpg",
+       "crop": [
+        0,
+        320,
+        465,
+        285
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 465,
+       "height": 285,
+       "quality": "ok",
+       "alt": "Yellow crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    },
+    {
+     "key": "pink",
+     "label": "Pink",
+     "images": [
+      {
+       "file": "media/work/shark/shark-pink-01.jpg",
+       "source_id": "img-028.jpg",
+       "crop": [
+        150,
+        225,
+        420,
+        260
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 420,
+       "height": 260,
+       "quality": "ok",
+       "alt": "Pink crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    },
+    {
+     "key": "green",
+     "label": "Green",
+     "images": [
+      {
+       "file": "media/work/shark/shark-green-01.jpg",
+       "source_id": "img-028.jpg",
+       "crop": [
+        240,
+        145,
+        425,
+        220
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 425,
+       "height": 220,
+       "quality": "ok",
+       "alt": "Green crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    },
+    {
+     "key": "purple-grey",
+     "label": "Purple grey",
+     "images": [
+      {
+       "file": "media/work/shark/shark-purple-grey-01.jpg",
+       "source_id": "img-028.jpg",
+       "crop": [
+        355,
+        50,
+        410,
+        225
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 410,
+       "height": 225,
+       "quality": "ok",
+       "alt": "Purple grey crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    },
+    {
+     "key": "dark-grey",
+     "label": "Dark grey",
+     "images": [
+      {
+       "file": "media/work/shark/shark-dark-grey-01.jpg",
+       "source_id": "img-028.jpg",
+       "crop": [
+        0,
+        470,
+        355,
+        330
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 355,
+       "height": 330,
+       "quality": "ok",
+       "alt": "Dark grey crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "verified": true,
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-028.jpg",
+     "source_id": "img-028.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "white",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 770,
+     "height": 890,
+     "quality": "ok",
+     "alt": "Five crocheted sharks in yellow, pink, green, purple grey and dark grey on a white sheet",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "butterfly",
+   "species": "butterfly",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "blue",
+     "label": "Blue",
+     "images": [
+      {
+       "file": "media/raw/img-016.jpg",
+       "source_id": "img-016.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 705,
+       "height": 678,
+       "quality": "ok",
+       "alt": "Crocheted butterfly with a royal blue head and body, turquoise and aqua wings with pale yellow and blue spots and pale yellow antennae, black eyes and a red smile on a plain light background",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "cream-pink",
+     "label": "Cream and pink",
+     "images": [
+      {
+       "file": "media/raw/img-022.jpg",
+       "source_id": "img-022.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 691,
+       "height": 680,
+       "quality": "ok",
+       "alt": "Crocheted butterfly with a cream head and body, pink, purple and yellow variegated wings with yellow and cream spots and yellow antennae, black eyes and a red smile on a plain light background",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "red",
+     "label": "Red",
+     "images": [
+      {
+       "file": "media/raw/img-023.jpg",
+       "source_id": "img-023.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 736,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Crocheted butterfly with a red head and body, grey antennae and wings in variegated pink, black, white and grey with red and grey spots on a plain light background",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "mint-yellow",
+     "label": "Mint green and yellow",
+     "images": [
+      {
+       "file": "media/raw/img-033.jpg",
+       "source_id": "img-033.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 1280,
+       "height": 1257,
+       "quality": "good",
+       "alt": "Crocheted butterfly with a mint green head and body, blue antennae, pale yellow wings with mint, white and blue spots, black eyes and a black smile on a plain light background",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "goose",
+   "species": "goose",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "cream",
+     "label": "Cream",
+     "images": [
+      {
+       "file": "media/raw/img-077.jpg",
+       "source_id": "img-077.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 886,
+       "height": 1191,
+       "quality": "good",
+       "alt": "Side view of a cream crocheted goose with an orange beak and orange feet, black eye and folded wing, on a plain pale blue grey background",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "white-pale-yellow",
+     "label": "White and pale yellow",
+     "images": [
+      {
+       "file": "media/raw/img-081.jpg",
+       "source_id": "img-081.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "coloured",
+       "focal": [
+        0.5,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 1080,
+       "height": 1080,
+       "quality": "ok",
+       "alt": "Three white crocheted geese with pale yellow wings, orange beaks and black eyes on a wooden table against a beige wall",
+       "verified": true
+      },
+      {
+       "file": "media/work/goose/goose-white-pale-yellow-02.jpg",
+       "source_id": "img-081.jpg",
+       "crop": [
+        80,
+        300,
+        420,
+        430
+       ],
+       "role": "gallery",
+       "bg": "coloured",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 420,
+       "height": 430,
+       "quality": "ok",
+       "alt": "Close view of one white crocheted goose with pale yellow wing, orange beak and black eye against a beige wall",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "turtle",
+   "species": "turtle",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "mint-cream",
+     "label": "Mint green and cream",
+     "images": [
+      {
+       "file": "media/work/turtle/turtle-mint-cream-01.jpg",
+       "source_id": "img-084.jpg",
+       "crop": [
+        0,
+        160,
+        545,
+        560
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 545,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Top view of a crocheted turtle with a mint green and cream striped spiral shell, mint green flippers and a cream head, on red striped cloth; edges of a pink and a purple turtle show",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "coral-pink",
+     "label": "Coral pink and peach",
+     "images": [
+      {
+       "file": "media/work/turtle/turtle-coral-pink-01.jpg",
+       "source_id": "img-084.jpg",
+       "crop": [
+        215,
+        0,
+        485,
+        330
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 485,
+       "height": 330,
+       "quality": "ok",
+       "alt": "Crocheted turtle with a coral pink and peach striped shell and peach flippers, cut off by the top of the frame",
+       "verified": true,
+       "client_review": "The shell is cut off by the frame edge. Please send a photo of this turtle alone."
+      }
+     ]
+    },
+    {
+     "key": "blue-purple",
+     "label": "Royal blue and purple",
+     "images": [
+      {
+       "file": "media/work/turtle/turtle-royal-blue-purple-01.jpg",
+       "source_id": "img-084.jpg",
+       "crop": [
+        445,
+        105,
+        275,
+        615
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 275,
+       "height": 615,
+       "quality": "ok",
+       "alt": "Crocheted turtle with a royal blue and purple striped shell and purple flippers, cut off by the edge of the frame",
+       "verified": true,
+       "client_review": "The turtle is cut off by the right edge of the frame. Please send a photo of this turtle alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-084.jpg",
+     "source_id": "img-084.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 720,
+     "height": 720,
+     "quality": "ok",
+     "alt": "Three crocheted turtles with striped spiral shells in mint and cream, coral pink and royal blue on a striped cloth",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "chameleon",
+   "species": "chameleon",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "lime-multicolour",
+     "label": "Lime green multicolour",
+     "images": [
+      {
+       "file": "media/raw/img-036.jpg",
+       "source_id": "img-036.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 480,
+       "height": 640,
+       "quality": "good",
+       "alt": "Crocheted chameleon in lime green with turquoise crest and feet, a striped body in orange, yellow, purple and blue and an orange eye, clinging to a branch",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "dinosaur",
+   "species": "dinosaur",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "file": "media/raw/img-032.jpg",
+       "source_id": "img-032.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 885,
+       "height": 957,
+       "quality": "good",
+       "alt": "Sitting yellow crocheted dinosaur with orange spikes, large white eyes, cream cheek and belly and mint green feet, on a plain light background",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-009.jpg",
+   "reason": "Individual red and green octopus crops are under 400 px short side; whole image used instead. Chick (top left, yellow) and turtle (bottom, green) are partial and tiny, rejected as separate products"
+  },
+  {
+   "source_id": "img-024.jpg",
+   "reason": "Frog (mint green, left edge) is cut off and small; chick (yellow, behind the hand) is blurred and tiny; green turtle is cut off. No frog or chick product created. Only yellow octopus crop used"
+  },
+  {
+   "source_id": "img-017.jpg",
+   "reason": "Green turtle at bottom and yellow chick at top are partial and out of focus; rejected. White octopus crop used"
+  },
+  {
+   "source_id": "img-063.jpg",
+   "reason": "Yellow and green octopuses are tiny in the corner of a collage (under 150 px); rejected"
+  },
+  {
+   "source_id": "img-084.jpg#pink",
+   "reason": "Pink and blue turtle crops would be under 400 px short side because both are cut off; kept only as low quality whole image references"
+  },
+  {
+   "source_id": "img-028.jpg#single-shark",
+   "reason": "Individual shark crops are diagonal and under 400 px short side; whole group image used for every shark colourway"
+  },
+  {
+   "source_id": "img-081.jpg#front-goose",
+   "reason": "Front goose overlaps the other two so no clean single crop; only the left goose crop made"
+  },
+  {
+   "source_id": "img-007.jpg#octopus-crop",
+   "reason": "Octopuses at bottom right are about 200 px wide; no crop made, whole stall image kept as low quality lifestyle"
+  }
+ ],
+ "client_review": [
+  "Frog and chick: no usable photo (only small partial views in img-009, img-024, img-017). Ask client for clear photos before listing them.",
+  "Octopus: the white octopus (img-017) and yellow octopus (img-024) are hand held crops with busy backgrounds. Red and green octopus only appear in the group image img-009, so ask for single clean photos of red, green, yellow and white octopuses.",
+  "Octopus multicolour: img-006 shows pastel, bright rainbow and speckled variegated octopuses. Ask whether these are separate colourways (pastel, bright, speckled) and for single photos.",
+  "Shark: five colours exist (yellow, pink, green, purple grey, dark grey) but only one group photo (img-028). Every shark colourway reuses it. Request single shots per colour. Confirm the two grey purple tones are separate colourways.",
+  "Butterfly: four colourways found (blue, cream and pink, red, mint green and yellow), not two. Confirm. Red butterfly (img-023) is 'red' with variegated pink grey wings.",
+  "Goose: vote decisions say goose (img-077 cream, img-081 white with pale yellow wings); many people would call these ducks. Client to confirm goose or duck and whether cream and white-pale-yellow are the same design.",
+  "Turtle: img-084 shows three colourways but only mint and cream is fully visible; pink and blue turtles are cut off. Request clean photos. Green turtle also appears in stalls without a usable photo.",
+  "Chameleon (img-036) and dinosaur (img-032): both photos have a studio look and the dinosaur resembles a well known video game character. Confirm Mikono made these and that they are Mikono photos, and rights for character likeness.",
+  "Sizes: shownSize left null everywhere. Octopus and chick appear S in displays but is unconfirmed.",
+  "People images: img-006 (two women at stall, faces visible), img-007 (stall, partial person), hand in img-017 and img-024. Suggested captions: 'Makers at a beach craft market with crocheted lions and octopuses' and 'Octopuses on a market table'."
+ ]
+}

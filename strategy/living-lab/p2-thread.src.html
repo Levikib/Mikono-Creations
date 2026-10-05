@@ -1,0 +1,51 @@
+<!doctype html><html lang="en-KE" data-fx="full"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Living lab 2: the thread with milestones</title>
+<style><!--@css--></style>
+<style>
+.sec{padding-top:84px;padding-bottom:20px}
+.sec h2{font-size:clamp(26px,6.6vw,40px)}
+.sec .lead{color:var(--muted);margin-top:8px;max-width:52ch;font-size:15px}
+.grid{display:grid;gap:12px;margin-top:18px}
+.grid.c3{grid-template-columns:1fr}
+.pc{padding:10px;display:grid;gap:8px}
+.pc img{width:100%;height:190px;object-fit:cover;border-radius:14px}
+.pc b{font-size:15px}.pc small{color:var(--muted)}
+.steps{display:grid;gap:12px;margin-top:18px}
+.st{padding:16px 16px 16px 64px;position:relative}
+.st:before{content:attr(data-n);position:absolute;left:16px;top:10px;font:900 34px/1 "Arial Black",sans-serif;color:var(--ochre);opacity:.55}
+.st b{display:block}.st small{color:var(--muted)}
+.makers{display:grid;gap:12px;margin-top:18px}
+.stat{padding:16px;display:flex;gap:12px;align-items:center}.stat i{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#d8c79a,#a98840)}
+.shops{margin-top:18px;display:grid;gap:8px}
+.shop{display:flex;align-items:center;gap:12px;padding:12px 14px;min-height:56px}.shop i{width:34px;height:34px;border-radius:50%;background:#cfd4b3}
+.foot{margin-top:90px;background:var(--dusk);color:#e8ddcf;padding:40px 0 110px}
+.hint{margin-top:18px;font-size:13px;color:var(--muted)}
+@media(min-width:900px){.grid.c3{grid-template-columns:repeat(3,1fr)}.steps{grid-template-columns:repeat(3,1fr)}.makers{grid-template-columns:repeat(4,1fr)}.shops{grid-template-columns:repeat(2,1fr)}.pc img{height:240px}.sec{padding-top:110px}}
+</style></head><body>
+<header class="hdr"><svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#B0654A"/><path d="M6 17c10 6 20 6 30-2M7 27c9-5 19-5 28 2" stroke="#f3d3bd" fill="none" stroke-width="1.6"/></svg><b>Mikono</b><span class="sp"></span><span class="basket"><svg viewBox="0 0 24 24" fill="none" stroke="#2A2420" stroke-width="1.8"><path d="M5 9h14l-1.4 9.5a2 2 0 0 1-2 1.5H8.4a2 2 0 0 1-2-1.5zM9 9a3 3 0 0 1 6 0"/></svg><span class="n">0</span></span></header>
+<main class="page">
+<section class="wrap" style="padding-top:34px"><div class="eyebrow">Mikono Creations</div><h1 style="font-size:clamp(34px,9vw,58px);margin:10px 0">Scroll, and the thread follows</h1><p class="muted" style="max-width:46ch">This page is a test of the thread. Each heading ties a knot, and a small animal pops up when you reach it.</p></section>
+<section class="sec wrap"><h2 data-knot id="k1">Meet the herd</h2><p class="lead">Safari animals, one at a time. Pick one, then ask for the price on WhatsApp.</p>
+ <div class="grid c3"><div class="card pc"><img src="img/elephant.webp" alt=""><b>Elephant</b><small>Ask for price</small></div><div class="card pc"><img src="img/giraffe.webp" alt=""><b>Giraffe</b><small>Ask for price</small></div><div class="card pc"><img src="img/lion.webp" alt=""><b>Lion</b><small>Ask for price</small></div></div></section>
+<section class="sec wrap"><h2 data-knot id="k2">Three ways to take one home</h2>
+ <div class="steps"><div class="card st" data-n="01"><b>Ready to go</b><small>Pick an animal and a size from the shop.</small></div><div class="card st" data-n="02"><b>Make it yours</b><small>Tell us the colours and size you want.</small></div><div class="card st" data-n="03"><b>For many</b><small>Lodges, shops, schools and groups.</small></div></div></section>
+<section class="sec wrap"><h2 data-knot id="k3">What goes into every animal</h2>
+ <div class="makers"><div class="card stat"><i></i><div><b>Recycled acrylic yarn</b><br><small>Made from yarn that already exists.</small></div></div><div class="card stat"><i></i><div><b>Nothing detachable</b><br><small>On our plain animals.</small></div></div><div class="card stat"><i></i><div><b>Made in Nairobi</b><br><small>Handmade in Kenya.</small></div></div><div class="card stat"><i></i><div><b>25+ women supported</b><br><small>Through this work.</small></div></div></div></section>
+<section class="sec wrap"><h2 data-knot id="k4">Mikono means hands</h2><p class="lead">Mikono is the Swahili word for hands. Mikono Creations was founded in 2019 by Leah Maina.</p><p class="hint">Read our story</p></section>
+<section class="sec wrap"><h2 data-knot id="k5">Where to buy in Nairobi</h2>
+ <div class="shops"><div class="card shop"><i></i><div><b>Blue Rhino Shop</b><br><small>Village Market Mall</small></div></div><div class="card shop"><i></i><div><b>Giraffe Centre</b><br><small>Karen</small></div></div><div class="card shop"><i></i><div><b>Pop-up Shop</b><br><small>Yaya Centre Mall</small></div></div><div class="card shop"><i></i><div><b>Marula Green Market</b><br><small>Karen</small></div></div></div></section>
+<div class="foot" id="foot"><div class="wrap"><b>Mikono Creations</b><p style="margin-top:8px;font-size:13px">Crocheted animals, handmade in Nairobi from recycled acrylic yarn.</p><div style="margin-top:18px" id="togglehost"></div></div></div>
+</main>
+<script><!--@js--></script>
+<script>
+(() => {
+  const m = innerWidth < 600, P = (n, a, b, o = {}) => ({ name: n, size: m ? a : b, ...o });
+  mountToggle(document.getElementById('togglehost'));
+  Thread({ maxW: 1200, startY: 40, colors: ['#C9A05A', '#B0654A', '#6A7049', '#587783'], endEl: document.getElementById('foot'), knots: [
+    { el: k1, color: '#C9A05A', lift: 14, pop: P('giraffe', 76, 104) },
+    { el: k2, color: '#B0654A', lift: 14, pop: P('turtle', 54, 72, { walk: true, at: 'left' }) },
+    { el: k3, color: '#6A7049', lift: 14, pop: P('elephant', 66, 92) },
+    { el: k4, color: '#8A5A3C', lift: 14, pop: P('lion', 66, 92, { flip: true }) },
+    { el: k5, color: '#587783', lift: 14, pop: P('monkey', 66, 92) } ] });
+})();
+</script></body></html>

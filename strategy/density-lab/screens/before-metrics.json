@@ -1,0 +1,314 @@
+{
+ "mobile-home": {
+  "body": 16,
+  "hs": {
+   "h1": 32.07,
+   "h2": 25.03,
+   "h3": 20
+  },
+  "hdr": 76,
+  "cards": 22,
+  "cw": 173,
+  "ch": 114,
+  "onScreen": 5,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": 56,
+  "gap": "12px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 5469,
+  "vh": 844,
+  "navH": "60px"
+ },
+ "mobile-shop": {
+  "body": 16,
+  "hs": {
+   "h1": 25.03,
+   "h2": 16,
+   "h3": 15
+  },
+  "hdr": 76,
+  "cards": 7,
+  "cw": 173,
+  "ch": 307,
+  "onScreen": 4,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": null,
+  "gap": "12px",
+  "cols": 2,
+  "inputMed": null,
+  "pageH": 2506,
+  "vh": 844,
+  "navH": "60px"
+ },
+ "mobile-product": {
+  "body": 16,
+  "hs": {
+   "h1": 25.03,
+   "h2": 20.115,
+   "h3": 15
+  },
+  "hdr": 76,
+  "cards": 15,
+  "cw": 168,
+  "ch": 302,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": 80,
+  "gap": "12px",
+  "cols": 1,
+  "inputMed": 48,
+  "pageH": 3783,
+  "vh": 844,
+  "navH": "60px"
+ },
+ "mobile-journal": {
+  "body": 16,
+  "hs": {
+   "h1": 32.07,
+   "h2": 20.115,
+   "h3": 15
+  },
+  "hdr": 76,
+  "cards": 9,
+  "cw": 173,
+  "ch": 264,
+  "onScreen": 0,
+  "imgs": [
+   1.33,
+   1.33,
+   1.33,
+   1.33,
+   1.33
+  ],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": null,
+  "gap": "12px",
+  "cols": 2,
+  "inputMed": null,
+  "pageH": 3207,
+  "vh": 844,
+  "navH": "60px"
+ },
+ "mobile-studio": {
+  "body": 16,
+  "hs": {
+   "h1": 25.03,
+   "h2": 20.115,
+   "h3": null
+  },
+  "hdr": 76,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": 32,
+  "gap": "0px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 2956,
+  "vh": 844,
+  "navH": "60px"
+ },
+ "mobile-cart": {
+  "body": 16,
+  "hs": {
+   "h1": 25.03,
+   "h2": 24,
+   "h3": null
+  },
+  "hdr": 76,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 48,
+  "btnMin": 44,
+  "secPad": null,
+  "gap": null,
+  "cols": null,
+  "inputMed": null,
+  "pageH": 1336,
+  "vh": 844,
+  "navH": "60px"
+ },
+ "desktop-home": {
+  "body": 17,
+  "hs": {
+   "h1": 66.72,
+   "h2": 42.88,
+   "h3": 20
+  },
+  "hdr": 92,
+  "cards": 28,
+  "cw": 289,
+  "ch": 212,
+  "onScreen": 5,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": 144,
+  "gap": "20px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 6108,
+  "vh": 900,
+  "navH": "60px"
+ },
+ "desktop-shop": {
+  "body": 17,
+  "hs": {
+   "h1": 42.88,
+   "h2": 17,
+   "h3": 17
+  },
+  "hdr": 92,
+  "cards": 7,
+  "cw": 289,
+  "ch": 425,
+  "onScreen": 7,
+  "imgs": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": null,
+  "gap": "20px",
+  "cols": 4,
+  "inputMed": null,
+  "pageH": 1927,
+  "vh": 900,
+  "navH": "60px"
+ },
+ "desktop-product": {
+  "body": 17,
+  "hs": {
+   "h1": 42.88,
+   "h2": 28,
+   "h3": 17
+  },
+  "hdr": 92,
+  "cards": 15,
+  "cw": 250,
+  "ch": 386,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": 160,
+  "gap": "12px",
+  "cols": 3,
+  "inputMed": 48,
+  "pageH": 2971,
+  "vh": 900,
+  "navH": "60px"
+ },
+ "desktop-journal": {
+  "body": 17,
+  "hs": {
+   "h1": 66.72,
+   "h2": 28,
+   "h3": 17
+  },
+  "hdr": 92,
+  "cards": 9,
+  "cw": 289,
+  "ch": 403,
+  "onScreen": 4,
+  "imgs": [
+   1.33,
+   1.33,
+   1.33,
+   1.33,
+   1.33
+  ],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": null,
+  "gap": "20px",
+  "cols": 4,
+  "inputMed": null,
+  "pageH": 2671,
+  "vh": 900,
+  "navH": "60px"
+ },
+ "desktop-studio": {
+  "body": 17,
+  "hs": {
+   "h1": 42.88,
+   "h2": 28,
+   "h3": null
+  },
+  "hdr": 92,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 44,
+  "btnMin": 44,
+  "secPad": 40,
+  "gap": "0px",
+  "cols": 1,
+  "inputMed": null,
+  "pageH": 2149,
+  "vh": 900,
+  "navH": "60px"
+ },
+ "desktop-cart": {
+  "body": 17,
+  "hs": {
+   "h1": 42.88,
+   "h2": 24,
+   "h3": null
+  },
+  "hdr": 92,
+  "cards": 0,
+  "cw": null,
+  "ch": null,
+  "onScreen": 0,
+  "imgs": [],
+  "btnMed": 48,
+  "btnMin": 44,
+  "secPad": null,
+  "gap": null,
+  "cols": null,
+  "inputMed": null,
+  "pageH": 1175,
+  "vh": 900,
+  "navH": "60px"
+ }
+}

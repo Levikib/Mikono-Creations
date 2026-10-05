@@ -1,0 +1,80 @@
+/* density-lab/override.css
+ * MEASUREMENT ONLY. Injected into the live pages with Playwright (page.addStyleTag) to project the numbers
+ * of strategy/13-density-system.md without editing site code. It approximates the real migration; the real
+ * migration changes the components and tokens listed in the strategy file instead of using !important.
+ */
+:root{
+  --nav-h:50px;
+  --text-display-xl:clamp(1.75rem,1.2rem + 1.2vw,3.25rem);--text-display-lg:clamp(1.125rem,1rem + .6vw,1.375rem);--text-display-md:1.125rem;
+  --text-body:.875rem;--text-small:.8125rem;
+}
+body{font-size:.875rem!important;line-height:1.45!important}
+@media (min-width:768px){body{font-size:.9375rem!important}}
+h1{line-height:1.06!important}
+main h1:not(#hero){font-size:1.375rem!important}
+#hero{font-size:1.75rem!important}
+@media (min-width:768px){main h1:not(#hero){font-size:1.75rem!important}#hero{font-size:2.5rem!important}}
+@media (min-width:1024px){#hero{font-size:3.25rem!important}}
+main h2{font-size:1.125rem!important}
+@media (min-width:768px){main h2{font-size:1.375rem!important}}
+main h3{font-size:.8125rem!important}
+@media (min-width:768px){main h3{font-size:.875rem!important}}
+.eyebrow{font-size:.6875rem!important}
+@media (min-width:768px){.eyebrow{font-size:.75rem!important}}
+/* utility sizes the site uses for body copy */
+.text-base,.text-\[1rem\]{font-size:.875rem!important}
+.text-\[1\.0625rem\],.md\:text-\[1\.0625rem\]{font-size:.9375rem!important}
+.text-\[\.9375rem\],.text-\[\.875rem\],.md\:text-base{font-size:.8125rem!important}
+/* header */
+.nav-spacer{height:62px!important}
+.nav-pill{height:50px!important}
+.nav-mark{width:34px!important;height:34px!important}.nav-mark img{height:20px!important}
+.iconbtn{width:36px!important;height:36px!important}
+.nav-word{font-size:1.125rem!important}
+.nav-top,.nav-cta{min-height:36px!important;font-size:.875rem!important}
+@media (min-width:1024px){.nav-spacer{height:68px!important}}
+@container nav (min-width:60rem){.nav-pill{height:56px!important}}
+/* sections */
+main section{padding-block:16px!important}
+@media (min-width:768px){main section{padding-block:24px!important}}
+.mb-5,.md\:mb-9{margin-bottom:12px!important}
+/* controls: 36 visual */
+.min-h-11,.min-h-12{min-height:36px!important}.min-h-14,.min-h-\[52px\]{min-height:40px!important}
+input,select{min-height:36px!important;font-size:1rem!important}
+/* grids */
+[data-card-group]{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+@media (min-width:768px){[data-card-group]{gap:12px!important}}
+@media (min-width:1024px){[data-card-group]{grid-template-columns:repeat(5,minmax(0,1fr))!important}}
+@media (min-width:1280px){[data-card-group]{grid-template-columns:repeat(6,minmax(0,1fr))!important}}
+article[data-card]{padding:4px!important}
+article[data-card] [data-media]{border-radius:8px!important}
+article[data-card] h3{height:2.4em!important;line-height:1.2!important;margin-top:4px!important}
+article[data-card] p{font-size:.6875rem!important;height:auto!important}
+article[data-card=product] [data-cta]{font-size:0!important;width:32px!important;min-height:32px!important;height:32px!important;padding:0!important;margin-left:auto!important;border-radius:50%!important}
+article[data-card=product] span[data-price]{width:auto!important;font-size:.8125rem!important;padding:0 8px!important;border-radius:999px!important}
+article[data-card=product] > div:last-child{display:grid!important;grid-template-columns:minmax(0,1fr) 32px;align-items:center;column-gap:4px;padding:6px 4px 2px!important}
+article[data-card=product] > div:last-child > h3{grid-column:1/-1}
+article[data-card=product] > div:last-child > p{grid-column:1;margin:0!important;white-space:nowrap}
+article[data-card=product] > div:last-child > .mt-auto{grid-column:2;padding:0!important;margin:0!important}
+/* info and journal cards become rows */
+[data-card-group]:has(article[data-card=journal]),[data-card-group]:has(article[data-card=project]),[data-card-group]:has(article[data-card=info]){grid-template-columns:1fr!important}
+@media (min-width:768px){[data-card-group]:has(article[data-card=journal]),[data-card-group]:has(article[data-card=project]),[data-card-group]:has(article[data-card=info]){grid-template-columns:1fr 1fr!important}}
+article[data-card=journal],article[data-card=project],article[data-card=info]{flex-direction:row!important;align-items:center!important;gap:12px!important;padding:6px!important}
+article[data-card=journal] [data-media],article[data-card=project] [data-media],article[data-card=info] [data-media]{width:72px!important;height:72px!important;aspect-ratio:1/1!important;flex:none!important}
+article[data-card=journal] .max-md\:hidden,article[data-card=info] p:not(.eyebrow){display:none!important}
+article[data-card=journal] h3,article[data-card=project] h3,article[data-card=info] h3{height:auto!important}
+article[data-card=journal] [data-cta]{min-height:20px!important;font-size:.75rem!important}
+article[data-card=journal] .eyebrow{height:auto!important}
+article[data-card=journal] h3{margin-top:2px!important}
+article[data-card=journal] > div:last-child{padding:0!important}
+/* studio and helper option cards */
+.st div.grid.grid-cols-2{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+@media (min-width:768px){.st div.grid.grid-cols-2{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+.st-ico{width:32px!important;height:32px!important}
+.st-opt,.mkh-option{padding:8px!important;min-height:0!important}
+.st-opt-media{height:64px!important}
+/* cart lines and wizard */
+main [class*="rounded-[var(--radius-card)]"]{padding:12px!important}
+/* footer: accordions are not simulated, only spacing */
+footer .py-10,footer [class*="pt-10"],footer [class*="md:pt-14"]{padding-top:24px!important}
+footer .gap-8{gap:16px!important}

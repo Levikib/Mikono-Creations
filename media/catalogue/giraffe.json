@@ -1,0 +1,684 @@
+{
+ "group": "giraffe",
+ "products": [
+  {
+   "slug": "giraffe",
+   "species": "giraffe",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "yellow-brown-spots",
+     "label": "Yellow with brown spots",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-mustard-yellow-01.jpg",
+       "source_id": "img-064.jpg",
+       "crop": [
+        433,
+        650,
+        433,
+        648
+       ],
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 640,
+       "quality": "good",
+       "alt": "Crocheted yellow giraffe with brown spots, white muzzle and brown horns, head and neck against a plain cream wall",
+       "verified": true
+      },
+      {
+       "file": "media/work/giraffe/giraffe-mustard-yellow-02.jpg",
+       "source_id": "img-070.jpg",
+       "crop": [
+        300,
+        380,
+        410,
+        1220
+       ],
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.2
+       ],
+       "shownSize": null,
+       "width": 410,
+       "height": 1220,
+       "quality": "good",
+       "alt": "Full length yellow crocheted giraffe with orange brown spots and cream muzzle, standing among other giraffes with a blurred green background",
+       "verified": true
+      },
+      {
+       "file": "media/raw/img-061.jpg",
+       "source_id": "img-061.jpg",
+       "crop": null,
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.7,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 1200,
+       "height": 1600,
+       "quality": "good",
+       "alt": "Row of yellow crocheted giraffes with brown spots on a blue table, one cream giraffe beside them",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "cream-brown-spots",
+     "label": "Cream with brown spots",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-cream-01.jpg",
+       "source_id": "img-087.jpg",
+       "crop": [
+        320,
+        0,
+        460,
+        450
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 460,
+       "height": 450,
+       "quality": "ok",
+       "alt": "Two cream crocheted giraffes with brown spots, brown muzzles and brown horns, from the front",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "caramel-tan",
+     "label": "Caramel tan",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-caramel-tan-01.jpg",
+       "source_id": "img-070.jpg",
+       "crop": [
+        640,
+        380,
+        419,
+        1220
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.2
+       ],
+       "shownSize": null,
+       "width": 419,
+       "height": 1220,
+       "quality": "good",
+       "alt": "Caramel tan crocheted giraffe with brown spots, cream muzzle and brown horns, standing full length",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "orange",
+     "label": "Orange",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-orange-01.jpg",
+       "source_id": "img-080.jpg",
+       "crop": [
+        560,
+        0,
+        540,
+        660
+       ],
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.4,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 540,
+       "height": 660,
+       "quality": "low",
+       "alt": "Three orange crocheted giraffes with cream muzzles and darker orange spots at a market stall",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "slim-red",
+     "label": "Slim red",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-slim-red-01.jpg",
+       "source_id": "img-029.jpg",
+       "crop": [
+        260,
+        85,
+        195,
+        505
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 195,
+       "height": 505,
+       "quality": "ok",
+       "alt": "Red slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "verified": true,
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone."
+      }
+     ]
+    },
+    {
+     "key": "slim-purple",
+     "label": "Slim purple",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-slim-purple-01.jpg",
+       "source_id": "img-029.jpg",
+       "crop": [
+        400,
+        100,
+        170,
+        480
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 170,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Purple slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "verified": true,
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone."
+      }
+     ]
+    },
+    {
+     "key": "slim-sky-blue",
+     "label": "Slim sky blue",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-slim-sky-blue-01.jpg",
+       "source_id": "img-029.jpg",
+       "crop": [
+        535,
+        105,
+        170,
+        480
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 170,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Sky blue slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "verified": true,
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone."
+      }
+     ]
+    },
+    {
+     "key": "slim-pale-yellow",
+     "label": "Slim pale yellow",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-slim-pale-yellow-01.jpg",
+       "source_id": "img-029.jpg",
+       "crop": [
+        655,
+        95,
+        170,
+        475
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 170,
+       "height": 475,
+       "quality": "ok",
+       "alt": "Pale yellow slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "verified": true,
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone."
+      }
+     ]
+    },
+    {
+     "key": "slim-royal-blue",
+     "label": "Slim royal blue",
+     "images": [
+      {
+       "file": "media/work/giraffe/giraffe-slim-royal-blue-01.jpg",
+       "source_id": "img-029.jpg",
+       "crop": [
+        775,
+        125,
+        160,
+        450
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 160,
+       "height": 450,
+       "quality": "ok",
+       "alt": "Royal blue slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "verified": true,
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-029.jpg",
+     "source_id": "img-029.jpg",
+     "crop": null,
+     "role": "group",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1080,
+     "height": 662,
+     "quality": "ok",
+     "alt": "Six slim crocheted giraffes in a row on a shaggy rug: yellow with brown spots, red, purple, sky blue, pale yellow and royal blue",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-038.jpg",
+     "source_id": "img-038.jpg",
+     "crop": null,
+     "role": "group",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1543,
+     "height": 1600,
+     "quality": "low",
+     "alt": "Close view of many crocheted giraffe heads in yellow, cream and tan with brown horns and white muzzles",
+     "verified": true
+    }
+   ],
+   "lifestyle": [
+    {
+     "file": "media/raw/img-014.jpg",
+     "source_id": "img-014.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 643,
+     "height": 687,
+     "quality": "ok",
+     "alt": "A maker seated with a blanket of yellow and cream giraffes",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-050.jpg",
+     "source_id": "img-050.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 673,
+     "height": 927,
+     "quality": "ok",
+     "alt": "A maker with a family of yellow and cream giraffes",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-010.jpg",
+     "source_id": "img-010.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.3,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 961,
+     "height": 1440,
+     "quality": "ok",
+     "alt": "A customer holding a yellow giraffe at the Mikono stall",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-015.jpg",
+     "source_id": "img-015.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 605,
+     "height": 649,
+     "quality": "ok",
+     "alt": "Customer smiling with a yellow giraffe",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-054.jpg",
+     "source_id": "img-054.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 477,
+     "height": 886,
+     "quality": "ok",
+     "alt": "Hand finishing a yellow giraffe at home",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-053.jpg",
+     "source_id": "img-053.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 960,
+     "height": 935,
+     "quality": "ok",
+     "alt": "Giraffe pieces ready for assembly in a basket",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-057.jpg",
+     "source_id": "img-057.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 738,
+     "height": 930,
+     "quality": "ok",
+     "alt": "Piles of yellow giraffes during assembly",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-043.jpg",
+     "source_id": "img-043.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "ok",
+     "alt": "Market stall with yellow, cream and tan giraffes in the row",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-065.jpg",
+     "source_id": "img-065.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1200,
+     "height": 1600,
+     "quality": "ok",
+     "alt": "Giraffes lined up on a stall in a busy garden cafe",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-045.jpg",
+     "source_id": "img-045.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 744,
+     "height": 992,
+     "quality": "ok",
+     "alt": "Giraffes on a stall table",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-046.jpg",
+     "source_id": "img-046.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 744,
+     "height": 992,
+     "quality": "ok",
+     "alt": "Giraffes on a market table",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-026.jpg",
+     "source_id": "img-026.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1047,
+     "quality": "ok",
+     "alt": "Orange and yellow giraffes at a stall with a smiling seller",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-027.jpg",
+     "source_id": "img-027.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 746,
+     "height": 1600,
+     "quality": "ok",
+     "alt": "Customer looking at a lion with giraffes behind",
+     "verified": true
+    }
+   ],
+   "other_designs": [
+    {
+     "key": "slim-dotted-pastels",
+     "label": "Slim giraffe with white stitch dots (red, purple, sky blue, pale yellow, royal blue)",
+     "images": [
+      {
+       "file": "media/raw/img-029.jpg",
+       "source_id": "img-029.jpg",
+       "crop": null,
+       "role": "gallery",
+       "bg": "coloured",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 1080,
+       "height": 662,
+       "quality": "ok",
+       "alt": "Six slim crocheted giraffes in a row on a rug: yellow with brown spots, red, purple, sky blue, pale yellow and royal blue, the last five with white stitch dots and cream muzzles",
+       "verified": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-003.jpg",
+   "reason": "Giraffe is a wall mounted head tile in a 3x3 collage, about 289 px wide; different product, below 400 px"
+  },
+  {
+   "source_id": "img-086.jpg",
+   "reason": "Same collage as img-003; wall head tile too small"
+  },
+  {
+   "source_id": "img-007.jpg",
+   "reason": "Giraffes small in crowded stall, only 736 px wide; tight crop would be under 400 px"
+  },
+  {
+   "source_id": "img-013.jpg",
+   "reason": "Unfinished giraffe parts blurred in foreground; not a clean product image"
+  },
+  {
+   "source_id": "img-017.jpg",
+   "reason": "Giraffe barely visible behind a white octopus"
+  },
+  {
+   "source_id": "img-038.jpg",
+   "reason": "Dense pile of heads from above; no single animal isolated"
+  },
+  {
+   "source_id": "img-039.jpg",
+   "reason": "Same as img-038 style pile, ambiguous colourways"
+  },
+  {
+   "source_id": "img-042.jpg",
+   "reason": "Pile of toys, giraffes tangled and mixed"
+  },
+  {
+   "source_id": "img-051.jpg",
+   "reason": "Out of focus pieces in foreground, person sewing"
+  },
+  {
+   "source_id": "img-056.jpg",
+   "reason": "Giraffes partly cut off at the image edge in a heap"
+  },
+  {
+   "source_id": "img-058.jpg",
+   "reason": "Pile of yellow giraffe parts, duplicate of img-057"
+  },
+  {
+   "source_id": "img-059.jpg",
+   "reason": "Giraffe only a cropped sliver behind a rabbit"
+  },
+  {
+   "source_id": "img-066.jpg",
+   "reason": "Giraffes at distance in crowded table, small and low resolution"
+  },
+  {
+   "source_id": "img-069.jpg",
+   "reason": "Giraffes cropped behind rabbits"
+  },
+  {
+   "source_id": "img-071.jpg",
+   "reason": "Giraffes in blurred background behind elephants"
+  },
+  {
+   "source_id": "img-072.jpg",
+   "reason": "Giraffes mid-ground; cream and tan visible but heads overlap and rabbits in front"
+  },
+  {
+   "source_id": "img-076.jpg",
+   "reason": "Giraffes out of focus behind elephants"
+  },
+  {
+   "source_id": "img-085.jpg",
+   "reason": "Giraffes out of focus behind elephants"
+  },
+  {
+   "source_id": "img-070.jpg",
+   "reason": "Deep brown giraffe behind and second yellow giraffe are partly hidden; not separable"
+  },
+  {
+   "source_id": "img-080.jpg:left-edge",
+   "reason": "Cream giraffe at far left is cut off"
+  }
+ ],
+ "client_review": [
+  "Is the slim giraffe with white stitch dots in img-029 (red, purple, sky blue, pale yellow, royal blue) a real current design, and is the slim yellow one beside them a separate product?",
+  "Confirm that the yellow, cream and caramel tan giraffes are one design in different colours, and that orange (img-080) is a true colourway and not a lighting effect on yellow.",
+  "A deep brown giraffe appears in img-070 and img-038 but is never shown clearly; confirm if it exists and supply a clean photo.",
+  "Cream colourway has some pink toned muzzle versions and some brown muzzle versions; confirm whether these are one colourway or two.",
+  "Wall mounted giraffe head in img-003 is a different product (trophy head); decide if it is listed under wall decor.",
+  "Yellow shades vary between photos (bright yellow and mustard); treated as one colourway.",
+  "No clean white backdrop single shots exist; heroes are tight crops from busy scenes or a wall photo. Ask for new studio shots per colourway.",
+  "Size classes cannot be told from the photos; shownSize is null throughout."
+ ]
+}

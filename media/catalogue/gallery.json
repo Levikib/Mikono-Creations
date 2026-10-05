@@ -1,0 +1,381 @@
+{
+ "tabs": [
+  {
+   "key": "animals",
+   "label": "Our animals",
+   "blurb": "The animals themselves, one colour at a time and together."
+  },
+  {
+   "key": "market",
+   "label": "At the market",
+   "blurb": "Stalls, tables and visitors at markets and fairs."
+  },
+  {
+   "key": "making",
+   "label": "Making them",
+   "blurb": "Crocheting, stitching, sewing faces and trimming manes."
+  },
+  {
+   "key": "outlets",
+   "label": "Stockists and outlets",
+   "blurb": "Shelves and tables where the animals are shown for sale."
+  },
+  {
+   "key": "moments",
+   "label": "Moments",
+   "blurb": "People with their animals, and gatherings."
+  }
+ ],
+ "items": {
+  "img-001.jpg": {
+   "tab": "moments",
+   "caption": "A big lion at the market"
+  },
+  "img-002.jpg": {
+   "tab": "moments",
+   "caption": "Looking at the lion she is holding"
+  },
+  "img-003.jpg": {
+   "tab": "animals",
+   "caption": "Nine wall heads in one picture"
+  },
+  "img-004.jpg": {
+   "tab": "moments",
+   "caption": "A small turquoise bear"
+  },
+  "img-005.jpg": {
+   "tab": "moments",
+   "caption": "A gathering in a courtyard"
+  },
+  "img-006.jpg": {
+   "tab": "outlets",
+   "caption": "A stall by the sand"
+  },
+  "img-007.jpg": {
+   "tab": "outlets",
+   "caption": "A stall under a canopy"
+  },
+  "img-008.jpg": {
+   "tab": "animals",
+   "caption": "A brown dog with a cream muzzle"
+  },
+  "img-009.jpg": {
+   "tab": "animals",
+   "caption": "Octopuses in rows"
+  },
+  "img-010.jpg": {
+   "tab": "market",
+   "caption": "Visitors at the stall"
+  },
+  "img-011.jpg": {
+   "tab": "moments",
+   "caption": "A lion in a white bag"
+  },
+  "img-012.jpg": {
+   "tab": "animals",
+   "caption": "A large and a small grey elephant"
+  },
+  "img-013.jpg": {
+   "tab": "making",
+   "caption": "Hands crocheting a yellow giraffe"
+  },
+  "img-014.jpg": {
+   "tab": "making",
+   "caption": "Giraffes on the sofa"
+  },
+  "img-015.jpg": {
+   "tab": "market",
+   "caption": "A giraffe and an elephant"
+  },
+  "img-016.jpg": {
+   "tab": "animals",
+   "caption": "A blue butterfly"
+  },
+  "img-017.jpg": {
+   "tab": "animals",
+   "caption": "A white octopus in a hand"
+  },
+  "img-018.jpg": {
+   "tab": "moments",
+   "caption": "A lion head on a shoulder bag"
+  },
+  "img-019.jpg": {
+   "tab": "making",
+   "caption": "A lion head with a fringed mane"
+  },
+  "img-020.jpg": {
+   "tab": "animals",
+   "caption": "A doll in a peach dress"
+  },
+  "img-021.jpg": {
+   "tab": "animals",
+   "caption": "A zebra head to hang on a wall"
+  },
+  "img-022.jpg": {
+   "tab": "animals",
+   "caption": "A cream and pink butterfly"
+  },
+  "img-023.jpg": {
+   "tab": "animals",
+   "caption": "A red butterfly"
+  },
+  "img-024.jpg": {
+   "tab": "animals",
+   "caption": "A yellow octopus in a hand"
+  },
+  "img-025.jpg": {
+   "tab": "animals",
+   "caption": "A unicorn head to hang on a wall"
+  },
+  "img-026.jpg": {
+   "tab": "market",
+   "caption": "At the market stall"
+  },
+  "img-027.jpg": {
+   "tab": "market",
+   "caption": "Looking closely at a lion"
+  },
+  "img-028.jpg": {
+   "tab": "animals",
+   "caption": "Five sharks in five colours"
+  },
+  "img-029.jpg": {
+   "tab": "animals",
+   "caption": "Six slim giraffes in a row"
+  },
+  "img-030.jpg": {
+   "tab": "animals",
+   "caption": "A sky blue bear in a striped top"
+  },
+  "img-031.jpg": {
+   "tab": "animals",
+   "caption": "Three dolls in dresses"
+  },
+  "img-032.jpg": {
+   "tab": "animals",
+   "caption": "A yellow dinosaur"
+  },
+  "img-033.jpg": {
+   "tab": "animals",
+   "caption": "A mint green butterfly"
+  },
+  "img-034.jpg": {
+   "tab": "animals",
+   "caption": "A cream bear in a rainbow top"
+  },
+  "img-035.jpg": {
+   "tab": "animals",
+   "caption": "A zebra, an elephant and a lion"
+  },
+  "img-036.jpg": {
+   "tab": "animals",
+   "caption": "A lime green chameleon"
+  },
+  "img-037.jpg": {
+   "tab": "animals",
+   "caption": "Two zebras"
+  },
+  "img-038.jpg": {
+   "tab": "animals",
+   "caption": "A close look at giraffe heads"
+  },
+  "img-039.jpg": {
+   "tab": "market",
+   "caption": "Lions, giraffes and elephants"
+  },
+  "img-040.jpg": {
+   "tab": "animals",
+   "caption": "Lavender and caramel elephants"
+  },
+  "img-041.jpg": {
+   "tab": "animals",
+   "caption": "Two cats with linked arms"
+  },
+  "img-042.jpg": {
+   "tab": "animals",
+   "caption": "A heap of animals"
+  },
+  "img-043.jpg": {
+   "tab": "market",
+   "caption": "A stall at a busy craft fair"
+  },
+  "img-044.jpg": {
+   "tab": "outlets",
+   "caption": "Ready to go home"
+  },
+  "img-045.jpg": {
+   "tab": "market",
+   "caption": "A table of animals"
+  },
+  "img-046.jpg": {
+   "tab": "market",
+   "caption": "The whole range on a long table"
+  },
+  "img-047.jpg": {
+   "tab": "moments",
+   "caption": "The courtyard, another frame"
+  },
+  "img-048.jpg": {
+   "tab": "moments",
+   "caption": "A hippo in a magenta dress"
+  },
+  "img-049.jpg": {
+   "tab": "making",
+   "caption": "Crocheting with orange yarn"
+  },
+  "img-050.jpg": {
+   "tab": "making",
+   "caption": "A family of giraffes"
+  },
+  "img-051.jpg": {
+   "tab": "making",
+   "caption": "Stitching giraffe parts"
+  },
+  "img-052.jpg": {
+   "tab": "making",
+   "caption": "Crocheting on a chair"
+  },
+  "img-053.jpg": {
+   "tab": "making",
+   "caption": "A break in the workroom"
+  },
+  "img-054.jpg": {
+   "tab": "making",
+   "caption": "Finishing a giraffe"
+  },
+  "img-055.jpg": {
+   "tab": "making",
+   "caption": "Sewing a bear face"
+  },
+  "img-056.jpg": {
+   "tab": "making",
+   "caption": "Many hands, many animals"
+  },
+  "img-057.jpg": {
+   "tab": "making",
+   "caption": "Giving a lion its mane"
+  },
+  "img-058.jpg": {
+   "tab": "making",
+   "caption": "Trimming a lion mane"
+  },
+  "img-059.jpg": {
+   "tab": "animals",
+   "caption": "A rabbit with a colourful collar"
+  },
+  "img-060.jpg": {
+   "tab": "animals",
+   "caption": "A lion on a wooden table"
+  },
+  "img-061.jpg": {
+   "tab": "market",
+   "caption": "Giraffes in the shade"
+  },
+  "img-062.jpg": {
+   "tab": "market",
+   "caption": "Rhinos and elephants"
+  },
+  "img-063.jpg": {
+   "tab": "animals",
+   "caption": "Lions from large to small, four photos in one"
+  },
+  "img-064.jpg": {
+   "tab": "animals",
+   "caption": "Giraffes in different shades, four photos in one"
+  },
+  "img-065.jpg": {
+   "tab": "moments",
+   "caption": "On show in a garden"
+  },
+  "img-066.jpg": {
+   "tab": "outlets",
+   "caption": "Elephants, rhinos and giraffes in rows"
+  },
+  "img-067.jpg": {
+   "tab": "animals",
+   "caption": "A rabbit in a striped vest"
+  },
+  "img-068.jpg": {
+   "tab": "animals",
+   "caption": "A lion among green leaves"
+  },
+  "img-069.jpg": {
+   "tab": "animals",
+   "caption": "Two rabbits in waistcoats"
+  },
+  "img-070.jpg": {
+   "tab": "animals",
+   "caption": "Three giraffes in a row"
+  },
+  "img-071.jpg": {
+   "tab": "market",
+   "caption": "In the shade of a bamboo roof"
+  },
+  "img-072.jpg": {
+   "tab": "market",
+   "caption": "Giraffes, rabbits and elephants"
+  },
+  "img-073.jpg": {
+   "tab": "animals",
+   "caption": "Two long limbed monkeys"
+  },
+  "img-074.jpg": {
+   "tab": "animals",
+   "caption": "Four rabbits in four vests"
+  },
+  "img-076.jpg": {
+   "tab": "animals",
+   "caption": "Two slate blue elephants"
+  },
+  "img-077.jpg": {
+   "tab": "animals",
+   "caption": "A cream goose"
+  },
+  "img-078.jpg": {
+   "tab": "animals",
+   "caption": "Four monkeys side by side"
+  },
+  "img-079.jpg": {
+   "tab": "animals",
+   "caption": "Five dolls in crocheted dresses"
+  },
+  "img-080.jpg": {
+   "tab": "market",
+   "caption": "Orange giraffes and rabbits"
+  },
+  "img-081.jpg": {
+   "tab": "animals",
+   "caption": "Three white geese"
+  },
+  "img-083.jpg": {
+   "tab": "animals",
+   "caption": "Four lions, large to small"
+  },
+  "img-084.jpg": {
+   "tab": "animals",
+   "caption": "Three turtles from above"
+  },
+  "img-087.jpg": {
+   "tab": "outlets",
+   "caption": "Giraffes, zebras and rabbits on a teal cloth"
+  }
+ },
+ "altOverrides": {
+  "img-021.jpg": "A crocheted zebra head with black and white stripes, mounted on a table in a craft room",
+  "img-019.jpg": "A crocheted lion head with a golden fringed mane and a dark nose, mounted on a patterned wall",
+  "img-083.jpg": "Four crocheted tan lions with brown manes in a row on a black table, from largest at the left to smallest at the right, against a cream wall"
+ },
+ "file": {
+  "img-019.jpg": "media/work/pattern/lion-book-page-clean-01.jpg",
+  "img-083.jpg": "public/media/story/lion-size-ladder-unlabelled.jpg"
+ },
+ "rotate": {
+  "img-021.jpg": "cw90"
+ },
+ "video": {
+  "id": "vid-001.mp4",
+  "tab": "market",
+  "caption": "A market stall, in motion",
+  "alt": "A market stall with crocheted giraffes, elephants and lions, filmed up close"
+ }
+}

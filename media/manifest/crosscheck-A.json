@@ -1,0 +1,1005 @@
+[
+ {
+  "id": "img-003.jpg",
+  "items": [
+   {
+    "species": "unicorn head wall mount",
+    "colours": [
+     "white",
+     "pink",
+     "brown horn"
+    ],
+    "count": 1
+   },
+   {
+    "species": "zebra head wall mount",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": 1
+   },
+   {
+    "species": "warthog head wall mount (uncertain: warthog or boar)",
+    "colours": [
+     "brown",
+     "white tusks"
+    ],
+    "count": 1
+   },
+   {
+    "species": "giraffe neck and head wall mount",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "count": 1
+   },
+   {
+    "species": "lion head wall mount",
+    "colours": [
+     "tan",
+     "brown mane",
+     "white muzzle"
+    ],
+    "count": 1
+   },
+   {
+    "species": "elephant head wall mount",
+    "colours": [
+     "purple",
+     "white tusks"
+    ],
+    "count": 1
+   },
+   {
+    "species": "hippo head wall mount",
+    "colours": [
+     "dark grey",
+     "blue"
+    ],
+    "count": 1
+   },
+   {
+    "species": "rhino head wall mount",
+    "colours": [
+     "grey blue",
+     "cream horn"
+    ],
+    "count": 1
+   },
+   {
+    "species": "secretary bird or similar bird head wall mount (uncertain: secretary bird or crane)",
+    "colours": [
+     "grey",
+     "orange",
+     "black"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": true,
+  "overlay_details": "3x3 collage; partial watermark text near elephant reading something like 'Believe Discover' (non-Mikono branding possible)",
+  "confidence": 0.8,
+  "notes": "hippo vs rhino distinguishable by horns"
+ },
+ {
+  "id": "img-006.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 3
+   },
+   {
+    "species": "octopus",
+    "colours": [
+     "rainbow pastel",
+     "multicolour"
+    ],
+    "count": 6
+   },
+   {
+    "species": "doll",
+    "colours": [
+     "blue dress",
+     "white sleeves",
+     "black hair",
+     "tan skin"
+    ],
+    "count": 1
+   },
+   {
+    "species": "other crocheted pieces (blanket or bag like items)",
+    "colours": [
+     "hot pink",
+     "green",
+     "light blue"
+    ],
+    "count": 3
+   }
+  ],
+  "person_visible": true,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.8,
+  "notes": "Two adult women seated at craft market stall, sewn bags on table, beach sand setting. Other stall items not Mikono animals (bags, clothing)."
+ },
+ {
+  "id": "img-007.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 8
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey blue",
+     "grey"
+    ],
+    "count": 10
+   },
+   {
+    "species": "rabbit with clothes",
+    "colours": [
+     "brown",
+     "red",
+     "orange",
+     "pink"
+    ],
+    "count": 4
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "brown spots"
+    ],
+    "count": 7
+   },
+   {
+    "species": "octopus",
+    "colours": [
+     "white",
+     "red",
+     "green",
+     "yellow"
+    ],
+    "count": 8
+   },
+   {
+    "species": "monkey or long limbed animal (uncertain: monkey or sloth)",
+    "colours": [
+     "brown",
+     "green hat"
+    ],
+    "count": 3
+   },
+   {
+    "species": "turtle or other small items",
+    "colours": [
+     "green"
+    ],
+    "count": 2
+   }
+  ],
+  "person_visible": true,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.6,
+  "notes": "Market stall under tent with woven bags above; a person is partly visible seated at the back behind toys; not a child."
+ },
+ {
+  "id": "img-008.jpg",
+  "items": [
+   {
+    "species": "dog",
+    "colours": [
+     "tan brown",
+     "cream muzzle",
+     "black nose"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.9,
+  "notes": "Standing dog, floppy ear. Red and white fake flowers in glass vase beside it."
+ },
+ {
+  "id": "img-009.jpg",
+  "items": [
+   {
+    "species": "octopus",
+    "colours": [
+     "red",
+     "green",
+     "white",
+     "yellow"
+    ],
+    "count": 12
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": 6
+   },
+   {
+    "species": "giraffe or chick head (uncertain)",
+    "colours": [
+     "yellow",
+     "orange"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.85,
+  "notes": "Market display close up."
+ },
+ {
+  "id": "img-012.jpg",
+  "items": [
+   {
+    "species": "elephant",
+    "colours": [
+     "grey",
+     "light grey"
+    ],
+    "count": 2,
+    "notes": "large and baby, white tusk on large one"
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": "Outdoors on striped cloth, buildings and trees behind."
+ },
+ {
+  "id": "img-016.jpg",
+  "items": [
+   {
+    "species": "butterfly",
+    "colours": [
+     "blue",
+     "light blue",
+     "pale yellow"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-017.jpg",
+  "items": [
+   {
+    "species": "octopus",
+    "colours": [
+     "white",
+     "orange",
+     "red"
+    ],
+    "count": 1
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "purple grey"
+    ],
+    "count": 4
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "count": 3
+   },
+   {
+    "species": "octopus (others)",
+    "colours": [
+     "yellow",
+     "green"
+    ],
+    "count": 3
+   },
+   {
+    "species": "rabbit or chick",
+    "colours": [
+     "yellow",
+     "pink"
+    ],
+    "count": 4
+   }
+  ],
+  "person_visible": true,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.8,
+  "notes": "Only a hand holding the white octopus is visible."
+ },
+ {
+  "id": "img-020.jpg",
+  "items": [
+   {
+    "species": "doll",
+    "colours": [
+     "peach orange dress",
+     "yellow hair",
+     "beige skin"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-022.jpg",
+  "items": [
+   {
+    "species": "butterfly",
+    "colours": [
+     "cream white",
+     "pink multicolour",
+     "yellow",
+     "purple"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-023.jpg",
+  "items": [
+   {
+    "species": "butterfly",
+    "colours": [
+     "red",
+     "grey",
+     "pink",
+     "black white speckle"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-024.jpg",
+  "items": [
+   {
+    "species": "octopus",
+    "colours": [
+     "yellow",
+     "red",
+     "orange"
+    ],
+    "count": 1
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "purple"
+    ],
+    "count": 6
+   },
+   {
+    "species": "rabbit",
+    "colours": [
+     "brown",
+     "pink",
+     "red"
+    ],
+    "count": 3
+   },
+   {
+    "species": "rabbit or chick with skirt",
+    "colours": [
+     "pale yellow",
+     "mint green",
+     "pink",
+     "purple"
+    ],
+    "count": 4
+   },
+   {
+    "species": "frog or turtle",
+    "colours": [
+     "mint green",
+     "brown"
+    ],
+    "count": 1
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "brown"
+    ],
+    "count": 2
+   }
+  ],
+  "person_visible": true,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.75,
+  "notes": "A hand with gold bracelet holds the octopus."
+ },
+ {
+  "id": "img-025.jpg",
+  "items": [
+   {
+    "species": "unicorn head wall mount",
+    "colours": [
+     "cream white",
+     "pink",
+     "brown horn",
+     "teal and coral flowers"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-028.jpg",
+  "items": [
+   {
+    "species": "shark",
+    "colours": [
+     "purple grey",
+     "green",
+     "pink",
+     "yellow orange",
+     "dark grey"
+    ],
+    "count": 5
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.9,
+  "notes": "Cream bellies, black stitched gills."
+ },
+ {
+  "id": "img-029.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "pink red",
+     "purple",
+     "light blue",
+     "pale yellow",
+     "royal blue"
+    ],
+    "count": 6
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.9,
+  "notes": "Photo has black bars top and bottom (letterbox)."
+ },
+ {
+  "id": "img-030.jpg",
+  "items": [
+   {
+    "species": "koala like bear (uncertain: bear or koala)",
+    "colours": [
+     "light blue",
+     "grey",
+     "yellow"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.7,
+  "notes": "Wears grey and yellow striped top, yellow feet."
+ },
+ {
+  "id": "img-031.jpg",
+  "items": [
+   {
+    "species": "doll",
+    "colours": [
+     "pink dress",
+     "yellow hair"
+    ],
+    "count": 1
+   },
+   {
+    "species": "doll",
+    "colours": [
+     "purple dress",
+     "brown hair"
+    ],
+    "count": 1
+   },
+   {
+    "species": "doll",
+    "colours": [
+     "turquoise dress",
+     "black hair",
+     "darker skin tone"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": true,
+  "overlay_details": "Phone screenshot with status bar (12:27 PM), chat header 'You April 27', black bars and nav buttons; image likely a reference from elsewhere, not necessarily Mikono",
+  "confidence": 0.9,
+  "notes": ""
+ },
+ {
+  "id": "img-032.jpg",
+  "items": [
+   {
+    "species": "dinosaur or dragon (Yoshi like character) (uncertain: dinosaur or dragon)",
+    "colours": [
+     "yellow",
+     "orange spikes",
+     "white",
+     "mint green"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.85,
+  "notes": "Resembles a copyrighted character (Yoshi style); flag for IP."
+ },
+ {
+  "id": "img-033.jpg",
+  "items": [
+   {
+    "species": "butterfly",
+    "colours": [
+     "mint green",
+     "pale yellow",
+     "blue",
+     "white"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": ""
+ },
+ {
+  "id": "img-034.jpg",
+  "items": [
+   {
+    "species": "bear (uncertain: bear or koala)",
+    "colours": [
+     "cream white",
+     "rainbow stripes",
+     "red",
+     "yellow"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.75,
+  "notes": "Rainbow striped top, yellow feet."
+ },
+ {
+  "id": "img-035.jpg",
+  "items": [
+   {
+    "species": "zebra",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": 1
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "purple blue"
+    ],
+    "count": 1
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": "Outdoors on wooden pallet."
+ },
+ {
+  "id": "img-036.jpg",
+  "items": [
+   {
+    "species": "chameleon",
+    "colours": [
+     "lime green",
+     "turquoise",
+     "orange",
+     "yellow",
+     "purple"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.9,
+  "notes": "Looks like a pattern designer photo (online pattern style); not clearly Mikono."
+ },
+ {
+  "id": "img-037.jpg",
+  "items": [
+   {
+    "species": "zebra",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": 2
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": "Outdoors on wooden pallet."
+ },
+ {
+  "id": "img-038.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "orange brown",
+     "tan",
+     "cream white"
+    ],
+    "count": 14
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.8,
+  "notes": "Close up blurry pile of giraffe heads; lion mane and elephant at edges."
+ },
+ {
+  "id": "img-039.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "cream white",
+     "brown spots"
+    ],
+    "count": 22
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 6
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey",
+     "grey blue"
+    ],
+    "count": 8
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "blue",
+     "brown",
+     "grey"
+    ],
+    "count": 6
+   },
+   {
+    "species": "rabbit with clothes",
+    "colours": [
+     "brown",
+     "rainbow multicolour vest"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "Small sign visible at right edge reading something like 'Magnet Art'",
+  "confidence": 0.7,
+  "notes": "Market table, counts approximate; rhino vs hippo vs warthog among small lying animals uncertain."
+ },
+ {
+  "id": "img-040.jpg",
+  "items": [
+   {
+    "species": "elephant",
+    "colours": [
+     "purple blue",
+     "tan brown"
+    ],
+    "count": 10
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.95,
+  "notes": "8 purple and 2 tan, outdoors on pallet."
+ },
+ {
+  "id": "img-041.jpg",
+  "items": [
+   {
+    "species": "cat",
+    "colours": [
+     "pale yellow",
+     "black ears",
+     "brown ears",
+     "blue",
+     "red pink"
+    ],
+    "count": 2
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.75,
+  "notes": "uncertain: cat or bear; ears pointed so likely cat. Blue and multicolour bags."
+ },
+ {
+  "id": "img-042.jpg",
+  "items": [
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 6
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey",
+     "blue",
+     "grey blue"
+    ],
+    "count": 14
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "white",
+     "brown spots"
+    ],
+    "count": 6
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "white horn"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.6,
+  "notes": "Dense pile, counts approximate."
+ },
+ {
+  "id": "img-044.jpg",
+  "items": [
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "brown spots"
+    ],
+    "count": 7
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 9
+   },
+   {
+    "species": "elephant",
+    "colours": [
+     "grey",
+     "blue grey"
+    ],
+    "count": 6
+   },
+   {
+    "species": "rhino",
+    "colours": [
+     "light blue",
+     "white horn"
+    ],
+    "count": 4
+   },
+   {
+    "species": "zebra",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "count": 2
+   },
+   {
+    "species": "fox or cat lying",
+    "colours": [
+     "orange",
+     "white"
+    ],
+    "count": 1
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.7,
+  "notes": "Shop shelves; other non-Mikono items (bags, necklaces) on right."
+ },
+ {
+  "id": "img-045.jpg",
+  "items": [
+   {
+    "species": "elephant",
+    "colours": [
+     "grey"
+    ],
+    "count": 10
+   },
+   {
+    "species": "lion",
+    "colours": [
+     "tan",
+     "brown mane"
+    ],
+    "count": 13
+   },
+   {
+    "species": "giraffe",
+    "colours": [
+     "yellow",
+     "brown spots"
+    ],
+    "count": 10
+   },
+   {
+    "species": "cat or bear lying (uncertain: cat or bear)",
+    "colours": [
+     "orange",
+     "mint green",
+     "blue",
+     "hot pink"
+    ],
+    "count": 4
+   },
+   {
+    "species": "rabbit or chick",
+    "colours": [
+     "pale yellow",
+     "pink"
+    ],
+    "count": 6
+   }
+  ],
+  "person_visible": false,
+  "child_visible": false,
+  "collage_screenshot_overlay_or_branding": false,
+  "overlay_details": "",
+  "confidence": 0.7,
+  "notes": "Market table; bag item at back; the pink one has pointed ears so likely cat or pig (uncertain)."
+ }
+]

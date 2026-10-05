@@ -1,0 +1,160 @@
+{
+ "base": "https://mikono-creations.vercel.app",
+ "cpu": 4,
+ "res": {
+  "addorder": {
+   "label": "Add to order list",
+   "inp": 448,
+   "all": [
+    880,
+    448,
+    336
+   ],
+   "inDelay": 258.59999999403954,
+   "proc": 14.900000005960464,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 348,
+    "b": 297,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fD",
+      "d": 73,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 38,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 15,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "cartopen": {
+   "label": "Open the cart drawer",
+   "inp": 336,
+   "all": [
+    312,
+    408,
+    336
+   ],
+   "inDelay": 204.19999998807907,
+   "proc": 34.69999998807907,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 653,
+    "b": 582,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "O",
+      "d": 606,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "O",
+      "d": 20,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "cartclose": {
+   "label": "Close the cart drawer",
+   "inp": 280,
+   "all": [
+    280,
+    224,
+    280
+   ],
+   "inDelay": 56.19999998807907,
+   "proc": 94.5,
+   "ev": "keydown+keyup",
+   "loaf": {
+    "d": 164,
+    "b": 114,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 7,
+      "t": "event-listener"
+     },
+     {
+      "u": "splash-gate.js",
+      "f": "",
+      "d": 6,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "qty": {
+   "label": "Change quantity in the cart (One more)",
+   "skipped": "target missing"
+  },
+  "qtypdp": {
+   "label": "Product page quantity stepper",
+   "inp": 560,
+   "all": [
+    680,
+    560,
+    384
+   ],
+   "inDelay": 328,
+   "proc": 63.69999998807907,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 228,
+    "b": 141,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 63,
+      "t": "event-listener"
+     },
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fD",
+      "d": 14,
+      "t": "event-listener"
+     }
+    ]
+   }
+  },
+  "wizard": {
+   "label": "Order wizard step Next",
+   "inp": 328,
+   "all": [
+    368,
+    328,
+    296
+   ],
+   "inDelay": 173.69999998807907,
+   "proc": 73.30000001192093,
+   "ev": "pointerdown+pointerup+click",
+   "loaf": {
+    "d": 108,
+    "b": 57,
+    "sc": [
+     {
+      "u": "2jh63bk7dapyq.js",
+      "f": "fI",
+      "d": 83,
+      "t": "event-listener"
+     }
+    ]
+   }
+  }
+ }
+}

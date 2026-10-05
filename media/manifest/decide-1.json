@@ -1,0 +1,1824 @@
+[
+ {
+  "id": "img-003.jpg",
+  "items": [
+   {
+    "where": "top left",
+    "species": "unicorn",
+    "alt_species": "horse",
+    "colours": [
+     "white",
+     "pink",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Single spiral horn and pink yarn mane on a horse head."
+   },
+   {
+    "where": "top middle",
+    "species": "zebra",
+    "alt_species": "horse",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "confidence": 0.95,
+    "reason": "Black and white stripes with upright ears and a mane."
+   },
+   {
+    "where": "top right",
+    "species": "warthog",
+    "alt_species": "pig",
+    "colours": [
+     "brown",
+     "white"
+    ],
+    "confidence": 0.85,
+    "reason": "Brown flat snout with white curved tusks and small side ears."
+   },
+   {
+    "where": "middle left",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Long spotted neck with ossicones."
+   },
+   {
+    "where": "centre",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn fringe mane with white muzzle and black nose."
+   },
+   {
+    "where": "middle right",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Large ears, long trunk and white tusks."
+   },
+   {
+    "where": "bottom left",
+    "species": "hippo",
+    "alt_species": "",
+    "colours": [
+     "grey",
+     "blue"
+    ],
+    "confidence": 0.9,
+    "reason": "Wide flat muzzle with two blue nostril discs and small round ears."
+   },
+   {
+    "where": "bottom middle",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light grey",
+     "cream"
+    ],
+    "confidence": 0.95,
+    "reason": "Large cream horn on the snout."
+   },
+   {
+    "where": "bottom right",
+    "species": "secretary bird",
+    "alt_species": "ostrich",
+    "colours": [
+     "grey",
+     "orange",
+     "black"
+    ],
+    "confidence": 0.6,
+    "reason": "Long neck, orange face patch and black quill crest."
+   }
+  ],
+  "crop_advice": "split 3x3 collage into 9 separate crops"
+ },
+ {
+  "id": "img-086.jpg",
+  "items": [
+   {
+    "where": "top left",
+    "species": "unicorn",
+    "alt_species": "horse",
+    "colours": [
+     "white",
+     "pink",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Single spiral horn and pink yarn mane on a horse head."
+   },
+   {
+    "where": "top middle",
+    "species": "zebra",
+    "alt_species": "horse",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "confidence": 0.95,
+    "reason": "Black and white stripes with upright ears and a mane."
+   },
+   {
+    "where": "top right",
+    "species": "warthog",
+    "alt_species": "pig",
+    "colours": [
+     "brown",
+     "white"
+    ],
+    "confidence": 0.85,
+    "reason": "Brown flat snout with white curved tusks and small side ears."
+   },
+   {
+    "where": "middle left",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Long spotted neck with ossicones."
+   },
+   {
+    "where": "centre",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn fringe mane with white muzzle and black nose."
+   },
+   {
+    "where": "middle right",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Large ears, long trunk and white tusks."
+   },
+   {
+    "where": "bottom left",
+    "species": "hippo",
+    "alt_species": "",
+    "colours": [
+     "grey",
+     "blue"
+    ],
+    "confidence": 0.9,
+    "reason": "Wide flat muzzle with two blue nostril discs and small round ears."
+   },
+   {
+    "where": "bottom middle",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light grey",
+     "cream"
+    ],
+    "confidence": 0.95,
+    "reason": "Large cream horn on the snout."
+   },
+   {
+    "where": "bottom right",
+    "species": "secretary bird",
+    "alt_species": "ostrich",
+    "colours": [
+     "grey",
+     "orange",
+     "black"
+    ],
+    "confidence": 0.6,
+    "reason": "Long neck, orange face patch and black quill crest."
+   }
+  ],
+  "crop_advice": "split 3x3 collage into 9 separate crops"
+ },
+ {
+  "id": "img-004.jpg",
+  "items": [
+   {
+    "where": "held against girl's chest",
+    "species": "bear",
+    "alt_species": "koala",
+    "colours": [
+     "turquoise",
+     "white",
+     "brown"
+    ],
+    "confidence": 0.85,
+    "reason": "Round ears, white muzzle and brown nose on a long-limbed body."
+   }
+  ],
+  "crop_advice": "crop tightly to the toy; a child is in the frame"
+ },
+ {
+  "id": "img-006.jpg",
+  "items": [
+   {
+    "where": "right upper, two or three",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Brown yarn mane and round ears."
+   },
+   {
+    "where": "front right, beside lions",
+    "species": "not an animal: doll",
+    "alt_species": "",
+    "colours": [
+     "blue",
+     "white",
+     "black",
+     "tan"
+    ],
+    "confidence": 0.9,
+    "reason": "Human face with black hair and a dress."
+   },
+   {
+    "where": "front table, rainbow",
+    "species": "octopus",
+    "alt_species": "jellyfish",
+    "colours": [
+     "multicolour"
+    ],
+    "confidence": 0.9,
+    "reason": "Round head with trailing curly tentacles."
+   },
+   {
+    "where": "centre, pink, green and light blue flat pieces",
+    "species": "octopus",
+    "alt_species": "turtle",
+    "colours": [
+     "pink",
+     "green",
+     "light blue"
+    ],
+    "confidence": 0.4,
+    "reason": "Flat knitted pieces with dangling tentacle strands."
+   }
+  ],
+  "crop_advice": "crop out the two sellers and the bags at left"
+ },
+ {
+  "id": "img-007.jpg",
+  "items": [
+   {
+    "where": "front left",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Spotted yellow body with ossicones."
+   },
+   {
+    "where": "back left",
+    "species": "bear",
+    "alt_species": "lion",
+    "colours": [
+     "brown",
+     "tan"
+    ],
+    "confidence": 0.6,
+    "reason": "Round-eared brown plush heads."
+   },
+   {
+    "where": "centre",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Long upright ears and bibs."
+   },
+   {
+    "where": "back right",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "middle",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Floppy ears and trunk."
+   },
+   {
+    "where": "front centre",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "pink",
+     "green"
+    ],
+    "confidence": 0.7,
+    "reason": "Long thin limbs and round ears with face disc."
+   },
+   {
+    "where": "front right",
+    "species": "octopus",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "red",
+     "green"
+    ],
+    "confidence": 0.95,
+    "reason": "Round head with ruffled skirt of tentacles."
+   }
+  ],
+  "crop_advice": "crop out hanging bags and background"
+ },
+ {
+  "id": "img-009.jpg",
+  "items": [
+   {
+    "where": "front and middle rows",
+    "species": "octopus",
+    "alt_species": "",
+    "colours": [
+     "red",
+     "green",
+     "white",
+     "yellow"
+    ],
+    "confidence": 0.97,
+    "reason": "Round head over a ruffled tentacle skirt."
+   },
+   {
+    "where": "back row",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Floppy ears and tusk marks."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-013.jpg",
+  "items": [
+   {
+    "where": "foreground",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown",
+     "white"
+    ],
+    "confidence": 0.95,
+    "reason": "Yellow ring-shaped neck with brown ossicone knob."
+   },
+   {
+    "where": "beside the maker's hand, foreground background",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow"
+    ],
+    "confidence": 0.8,
+    "reason": "Long yellow limbs and neck forming loops."
+   }
+  ],
+  "crop_advice": "crop out the person if you only want the product"
+ },
+ {
+  "id": "img-015.jpg",
+  "items": [
+   {
+    "where": "held in left hand",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and long neck."
+   },
+   {
+    "where": "held in right hand",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and ears."
+   },
+   {
+    "where": "bottom right",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "bottom right",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "dark grey"
+    ],
+    "confidence": 0.9,
+    "reason": "Trunk and tusks."
+   }
+  ],
+  "crop_advice": "crop out the person's face"
+ },
+ {
+  "id": "img-017.jpg",
+  "items": [
+   {
+    "where": "held in hand",
+    "species": "octopus",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "orange",
+     "red"
+    ],
+    "confidence": 0.97,
+    "reason": "Round head and ruffled orange and red tentacle skirt."
+   },
+   {
+    "where": "back",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.95,
+    "reason": "Floppy ears."
+   },
+   {
+    "where": "lower",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.95,
+    "reason": "Spotted legs."
+   },
+   {
+    "where": "lower left",
+    "species": "turtle",
+    "alt_species": "",
+    "colours": [
+     "green"
+    ],
+    "confidence": 0.85,
+    "reason": "Round green shell."
+   },
+   {
+    "where": "lower right",
+    "species": "octopus",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "red"
+    ],
+    "confidence": 0.95,
+    "reason": "Round head and frilled skirt."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-024.jpg",
+  "items": [
+   {
+    "where": "held in hand",
+    "species": "octopus",
+    "alt_species": "chick",
+    "colours": [
+     "yellow",
+     "red",
+     "orange"
+    ],
+    "confidence": 0.8,
+    "reason": "Round head with a ruffled skirt and tentacle strand."
+   },
+   {
+    "where": "back middle",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Ears and trunk."
+   },
+   {
+    "where": "top left",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Brown body with bib."
+   },
+   {
+    "where": "left",
+    "species": "frog",
+    "alt_species": "turtle",
+    "colours": [
+     "mint green",
+     "brown"
+    ],
+    "confidence": 0.5,
+    "reason": "Mint eye bumps on a brown body."
+   },
+   {
+    "where": "left",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "pink",
+     "green"
+    ],
+    "confidence": 0.7,
+    "reason": "Long yellow limbs and cloth skirts."
+   },
+   {
+    "where": "right",
+    "species": "octopus",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "red"
+    ],
+    "confidence": 0.95,
+    "reason": "Round head and skirt."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-027.jpg",
+  "items": [
+   {
+    "where": "held in hands",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "lower left",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "right",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and spotted body."
+   }
+  ],
+  "crop_advice": "remove status bar at top and share bar at bottom, crop out the man"
+ },
+ {
+  "id": "img-030.jpg",
+  "items": [
+   {
+    "where": "centre",
+    "species": "bear",
+    "alt_species": "koala",
+    "colours": [
+     "blue",
+     "grey",
+     "yellow"
+    ],
+    "confidence": 0.85,
+    "reason": "Large round ears and big triangle nose on a stripy top."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-034.jpg",
+  "items": [
+   {
+    "where": "centre",
+    "species": "bear",
+    "alt_species": "koala",
+    "colours": [
+     "cream",
+     "rainbow",
+     "yellow"
+    ],
+    "confidence": 0.88,
+    "reason": "Round ears and brown triangle nose."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-031.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "not an animal: doll",
+    "alt_species": "",
+    "colours": [
+     "pink",
+     "yellow"
+    ],
+    "confidence": 0.98,
+    "reason": "Human doll with a dress and hair."
+   },
+   {
+    "where": "centre",
+    "species": "not an animal: doll",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "brown"
+    ],
+    "confidence": 0.98,
+    "reason": "Human doll with a dress and hair."
+   },
+   {
+    "where": "right",
+    "species": "not an animal: doll",
+    "alt_species": "",
+    "colours": [
+     "turquoise",
+     "black",
+     "tan"
+    ],
+    "confidence": 0.98,
+    "reason": "Human doll with a dress and hair."
+   }
+  ],
+  "crop_advice": "remove status bar and black bands top and bottom"
+ },
+ {
+  "id": "img-032.jpg",
+  "items": [
+   {
+    "where": "centre",
+    "species": "dinosaur",
+    "alt_species": "dragon",
+    "colours": [
+     "yellow",
+     "orange",
+     "white",
+     "mint"
+    ],
+    "confidence": 0.8,
+    "reason": "Round snout and orange spikes on the head and back."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-036.jpg",
+  "items": [
+   {
+    "where": "centre",
+    "species": "chameleon",
+    "alt_species": "lizard",
+    "colours": [
+     "green",
+     "blue",
+     "orange"
+    ],
+    "confidence": 0.95,
+    "reason": "Curled tail, ridged crest and large turret eye."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-038.jpg",
+  "items": [
+   {
+    "where": "all rows",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "tan"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and cream muzzle on a long neck."
+   },
+   {
+    "where": "upper middle",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Brown giraffe pattern."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-041.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "cat",
+    "alt_species": "",
+    "colours": [
+     "cream",
+     "black",
+     "blue"
+    ],
+    "confidence": 0.9,
+    "reason": "Pointed ears and X mouth."
+   },
+   {
+    "where": "right",
+    "species": "cat",
+    "alt_species": "",
+    "colours": [
+     "cream",
+     "brown",
+     "red"
+    ],
+    "confidence": 0.9,
+    "reason": "Pointed ears and X mouth."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-042.jpg",
+  "items": [
+   {
+    "where": "top left",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "middle",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey",
+     "navy"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "centre",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and spotted body."
+   },
+   {
+    "where": "lower centre",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "confidence": 0.85,
+    "reason": "White horn on a blue snout."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-085.jpg",
+  "items": [
+   {
+    "where": "top left",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "middle",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey",
+     "navy"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "centre",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and spotted body."
+   },
+   {
+    "where": "lower centre",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "confidence": 0.85,
+    "reason": "White horn on a blue snout."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-044.jpg",
+  "items": [
+   {
+    "where": "top left",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Spotted with ossicones."
+   },
+   {
+    "where": "top middle",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "top middle right",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "top right",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "confidence": 0.9,
+    "reason": "White horn on the snout."
+   },
+   {
+    "where": "bottom",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "dark grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "bottom right",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "top far right",
+    "species": "zebra",
+    "alt_species": "",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "confidence": 0.6,
+    "reason": "Striped body."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-045.jpg",
+  "items": [
+   {
+    "where": "top left",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "top right",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones."
+   },
+   {
+    "where": "right",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "centre bottom",
+    "species": "cat",
+    "alt_species": "",
+    "colours": [
+     "orange",
+     "mint green",
+     "blue",
+     "pink"
+    ],
+    "confidence": 0.8,
+    "reason": "Pointed ears and X mouth on a slim body."
+   },
+   {
+    "where": "left bottom",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.9,
+    "reason": "Ears and trunk."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-046.jpg",
+  "items": [
+   {
+    "where": "front left",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "confidence": 0.95,
+    "reason": "White horn on the snout."
+   },
+   {
+    "where": "left",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "centre",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "back",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "yellow",
+     "brown"
+    ],
+    "confidence": 0.95,
+    "reason": "Ossicones."
+   },
+   {
+    "where": "back",
+    "species": "zebra",
+    "alt_species": "",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "confidence": 0.9,
+    "reason": "Stripes."
+   },
+   {
+    "where": "middle",
+    "species": "cat",
+    "alt_species": "",
+    "colours": [
+     "pink",
+     "yellow",
+     "cream"
+    ],
+    "confidence": 0.6,
+    "reason": "Pastel slim bodies."
+   },
+   {
+    "where": "right floor",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "dark grey"
+    ],
+    "confidence": 0.9,
+    "reason": "Trunks."
+   },
+   {
+    "where": "front floor",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "tan"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-048.jpg",
+  "items": [
+   {
+    "where": "held in hand",
+    "species": "hippo",
+    "alt_species": "mouse",
+    "colours": [
+     "dark blue",
+     "magenta"
+    ],
+    "confidence": 0.7,
+    "reason": "Round head with small round ears and a dress."
+   }
+  ],
+  "crop_advice": "crop out the woman in the background"
+ },
+ {
+  "id": "img-082.jpg",
+  "items": [
+   {
+    "where": "held in hand",
+    "species": "hippo",
+    "alt_species": "mouse",
+    "colours": [
+     "dark blue",
+     "magenta"
+    ],
+    "confidence": 0.7,
+    "reason": "Round head with small round ears and a dress."
+   }
+  ],
+  "crop_advice": "crop out the woman in the background"
+ },
+ {
+  "id": "img-049.jpg",
+  "items": [],
+  "crop_advice": "no toy visible, person crocheting; likely discard"
+ },
+ {
+  "id": "img-052.jpg",
+  "items": [
+   {
+    "where": "bottom right",
+    "species": "rabbit",
+    "alt_species": "doll",
+    "colours": [
+     "cream",
+     "pink",
+     "grey"
+    ],
+    "confidence": 0.4,
+    "reason": "Cream and pastel toy at edge, partly out of frame."
+   }
+  ],
+  "crop_advice": "crop out the maker and furniture"
+ },
+ {
+  "id": "img-057.jpg",
+  "items": [
+   {
+    "where": "top left, held",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Yarn mane."
+   },
+   {
+    "where": "right",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan"
+    ],
+    "confidence": 0.9,
+    "reason": "Lion bodies without manes."
+   },
+   {
+    "where": "bottom",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Spotted with ossicones."
+   }
+  ],
+  "crop_advice": "crop out the maker"
+ },
+ {
+  "id": "img-059.jpg",
+  "items": [
+   {
+    "where": "foreground",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "green",
+     "yellow"
+    ],
+    "confidence": 0.97,
+    "reason": "Long ears and bib."
+   },
+   {
+    "where": "left",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Spotted cream body."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-061.jpg",
+  "items": [
+   {
+    "where": "all",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "tan"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and spotted long necks."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-064.jpg",
+  "items": [
+   {
+    "where": "all panels",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.98,
+    "reason": "Ossicones and spots."
+   }
+  ],
+  "crop_advice": "split 2x2 collage into 4 crops"
+ },
+ {
+  "id": "img-065.jpg",
+  "items": [
+   {
+    "where": "middle",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "tan"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones."
+   },
+   {
+    "where": "front",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "back right",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Yarn mane."
+   }
+  ],
+  "crop_advice": "crop out the crowd at back"
+ },
+ {
+  "id": "img-066.jpg",
+  "items": [
+   {
+    "where": "back",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "brown"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones."
+   },
+   {
+    "where": "back",
+    "species": "lion",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "brown"
+    ],
+    "confidence": 0.9,
+    "reason": "Mane."
+   },
+   {
+    "where": "middle",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "confidence": 0.95,
+    "reason": "White horn."
+   },
+   {
+    "where": "front",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-069.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "blue"
+    ],
+    "confidence": 0.98,
+    "reason": "Long ears and bib."
+   },
+   {
+    "where": "right",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "red",
+     "green"
+    ],
+    "confidence": 0.98,
+    "reason": "Long ears and bib."
+   },
+   {
+    "where": "back",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "yellow"
+    ],
+    "confidence": 0.9,
+    "reason": "Spotted."
+   },
+   {
+    "where": "right",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "navy"
+    ],
+    "confidence": 0.9,
+    "reason": "Tusk marks."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-070.jpg",
+  "items": [
+   {
+    "where": "front row",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "white",
+     "yellow",
+     "brown",
+     "tan"
+    ],
+    "confidence": 0.98,
+    "reason": "Ossicones and spotted long neck."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-073.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "cream"
+    ],
+    "confidence": 0.85,
+    "reason": "Very long limbs and large round ears."
+   },
+   {
+    "where": "right",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "tan",
+     "yellow"
+    ],
+    "confidence": 0.85,
+    "reason": "Very long limbs and round ears."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-078.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "yellow"
+    ],
+    "confidence": 0.9,
+    "reason": "Long limbs, large ears, round face disc."
+   },
+   {
+    "where": "middle left",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "blue"
+    ],
+    "confidence": 0.9,
+    "reason": "Long limbs, round ears."
+   },
+   {
+    "where": "middle right",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "yellow"
+    ],
+    "confidence": 0.9,
+    "reason": "Long limbs, round ears."
+   },
+   {
+    "where": "right",
+    "species": "monkey",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "pink"
+    ],
+    "confidence": 0.9,
+    "reason": "Long limbs, round ears."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-076.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "dark grey"
+    ],
+    "confidence": 0.98,
+    "reason": "Trunk, tusks and large ears."
+   },
+   {
+    "where": "right",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey",
+     "blue"
+    ],
+    "confidence": 0.98,
+    "reason": "Trunk, tusks and large ears."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-077.jpg",
+  "items": [
+   {
+    "where": "centre",
+    "species": "duck",
+    "alt_species": "goose",
+    "colours": [
+     "cream",
+     "orange"
+    ],
+    "confidence": 0.8,
+    "reason": "Orange flat bill, wings and orange feet."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-081.jpg",
+  "items": [
+   {
+    "where": "front",
+    "species": "goose",
+    "alt_species": "duck",
+    "colours": [
+     "white",
+     "yellow",
+     "orange"
+    ],
+    "confidence": 0.55,
+    "reason": "Long neck and orange bill."
+   },
+   {
+    "where": "left",
+    "species": "goose",
+    "alt_species": "duck",
+    "colours": [
+     "white",
+     "yellow",
+     "orange"
+    ],
+    "confidence": 0.55,
+    "reason": "Long neck and orange bill."
+   },
+   {
+    "where": "right",
+    "species": "goose",
+    "alt_species": "duck",
+    "colours": [
+     "white",
+     "yellow",
+     "orange"
+    ],
+    "confidence": 0.55,
+    "reason": "Long neck and orange bill."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-079.jpg",
+  "items": [
+   {
+    "where": "five dolls",
+    "species": "not an animal: doll",
+    "alt_species": "",
+    "colours": [
+     "multicolour",
+     "tan",
+     "cream",
+     "black"
+    ],
+    "confidence": 0.98,
+    "reason": "Human faces with buns and dresses."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-080.jpg",
+  "items": [
+   {
+    "where": "back",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "orange",
+     "yellow",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Ossicones and spots."
+   },
+   {
+    "where": "front",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "purple",
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and tusks."
+   },
+   {
+    "where": "front",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "pink"
+    ],
+    "confidence": 0.97,
+    "reason": "Long ears and bib."
+   },
+   {
+    "where": "front left",
+    "species": "rhino",
+    "alt_species": "",
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "confidence": 0.7,
+    "reason": "Horn."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-084.jpg",
+  "items": [
+   {
+    "where": "left",
+    "species": "turtle",
+    "alt_species": "",
+    "colours": [
+     "mint",
+     "cream"
+    ],
+    "confidence": 0.97,
+    "reason": "Round striped shell with four limbs."
+   },
+   {
+    "where": "top",
+    "species": "turtle",
+    "alt_species": "",
+    "colours": [
+     "pink",
+     "peach"
+    ],
+    "confidence": 0.97,
+    "reason": "Round shell with limbs."
+   },
+   {
+    "where": "right",
+    "species": "turtle",
+    "alt_species": "",
+    "colours": [
+     "blue",
+     "purple"
+    ],
+    "confidence": 0.97,
+    "reason": "Round shell with limbs."
+   }
+  ],
+  "crop_advice": ""
+ },
+ {
+  "id": "img-087.jpg",
+  "items": [
+   {
+    "where": "top",
+    "species": "giraffe",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white",
+     "brown"
+    ],
+    "confidence": 0.98,
+    "reason": "Ossicones and spots."
+   },
+   {
+    "where": "upper right",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "brown",
+     "orange"
+    ],
+    "confidence": 0.97,
+    "reason": "Long ears and bib."
+   },
+   {
+    "where": "middle",
+    "species": "zebra",
+    "alt_species": "",
+    "colours": [
+     "black",
+     "white"
+    ],
+    "confidence": 0.97,
+    "reason": "Stripes and round ears."
+   },
+   {
+    "where": "front",
+    "species": "cat",
+    "alt_species": "",
+    "colours": [
+     "cream",
+     "yellow",
+     "pink"
+    ],
+    "confidence": 0.6,
+    "reason": "Pointed ears and X mouth."
+   },
+   {
+    "where": "lower right",
+    "species": "rabbit",
+    "alt_species": "",
+    "colours": [
+     "yellow",
+     "white"
+    ],
+    "confidence": 0.8,
+    "reason": "Long floppy ears and dresses."
+   },
+   {
+    "where": "left",
+    "species": "elephant",
+    "alt_species": "",
+    "colours": [
+     "grey"
+    ],
+    "confidence": 0.97,
+    "reason": "Trunk and ears."
+   }
+  ],
+  "crop_advice": ""
+ }
+]

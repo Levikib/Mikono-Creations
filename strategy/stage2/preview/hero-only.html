@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>hero only</title>
+<link rel="stylesheet" href="../../../components/fx/fx.css"><style>body{margin:0;background:#F3EEE5;font-family:system-ui}main{max-width:1200px;margin:0 auto;padding:16px}</style></head>
+<body><main id="hero"></main><script>
+fetch('hero-fragment.html').then(r=>r.text()).then(h=>{document.getElementById('hero').innerHTML=h;document.body.dataset.ready=1;
+const hero=document.querySelector('.fx-hero'),st=hero.querySelector('.fx-hero-stage');
+st.addEventListener('pointermove',e=>{const r=st.getBoundingClientRect();hero.style.setProperty('--px',(((e.clientX-r.left)/r.width-.5)*2).toFixed(3))});});
+</script></body></html>

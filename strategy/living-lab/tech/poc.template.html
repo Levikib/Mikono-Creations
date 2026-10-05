@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Living site PoC</title>
+<style>
+/* Query: ?variant=css|js|none  &tier=full|lite|off  &thread=dash|clip  &n=12  */
+:root{--thread:#b0654a;--bg:#f3eee5;--ink:#2a2420}
+*{box-sizing:border-box}
+html{background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+body{margin:0;position:relative}
+main{max-width:640px;margin:0 auto;padding:0 28px 0 36px}
+section{min-height:820px;padding-top:56px;content-visibility:auto;contain-intrinsic-size:auto 820px}
+section h2{margin:0 0 12px;font-size:28px}
+section p{margin:0 0 14px}
+.fx{pointer-events:none}
+.fx[hidden]{display:none}
+/* characters */
+.ch{position:absolute;width:var(--s,72px);height:var(--s,72px);pointer-events:none;line-height:0;z-index:-1}
+.ch>svg{width:100%;height:100%;overflow:visible;display:block}
+/* spine */
+#spine{position:absolute;left:6px;top:0;width:28px;pointer-events:none;z-index:-1}
+#spine svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.base{fill:none;stroke:var(--thread);stroke-opacity:.18;stroke-width:2;stroke-dasharray:6 5;stroke-linecap:round}
+.rev{stroke-dasharray:1;stroke-dashoffset:0}
+.live{fill:none;stroke:var(--thread);stroke-width:2.5;stroke-dasharray:6 5;stroke-linecap:round}
+.knot{position:absolute;left:0;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;background:var(--thread);box-shadow:0 0 0 4px rgb(176 101 74/.2);z-index:-1;pointer-events:none}
+#clip{position:absolute;left:0;top:0;width:100%;overflow:hidden;will-change:transform}
+#clipin{position:absolute;left:0;top:0;width:100%;will-change:transform}
+/* stats panel */
+#hud{position:fixed;right:6px;bottom:6px;font:11px/1.2 ui-monospace,monospace;background:#fff9;padding:4px 6px;border-radius:6px;z-index:9;pointer-events:none}
+
+/* ===== VARIANT CSS: pure CSS keyframes + scroll-timeline + WAAPI taps ===== */
+body[data-variant=css] .ch>svg{animation:sway 6.5s ease-in-out infinite alternate;animation-delay:var(--d,0s)}
+body[data-variant=css] .fx-eyes{animation:blink var(--b,5s) ease-in-out infinite;animation-delay:var(--d,0s)}
+body[data-variant=css] .fx-tail{animation:wag 3.4s ease-in-out infinite alternate}
+body[data-variant=css] .fx-head{animation:nod 8s ease-in-out infinite}
+body[data-variant=css] .fx-wing{animation:flap .9s ease-in-out infinite}
+body[data-variant=css][data-tier=lite] .fx-tail,body[data-variant=css][data-tier=lite] .fx-head,body[data-variant=css][data-tier=lite] .fx-wing{animation:none}
+body[data-variant=css][data-tier=off] .ch *,body[data-variant=css][data-tier=off] .ch{animation:none!important}
+body[data-variant=css] .ch[data-off=true] *{animation-play-state:paused!important}
+@keyframes sway{from{transform:rotate(-1.4deg)}to{transform:rotate(1.4deg) translateY(-1.5px)}}
+@keyframes blink{0%,91%,100%{transform:scaleY(1)}94%{transform:scaleY(.08)}97%{transform:scaleY(1)}}
+@keyframes wag{from{transform:rotate(-7deg)}to{transform:rotate(9deg)}}
+@keyframes nod{0%,60%,100%{transform:rotate(0)}72%{transform:rotate(3deg)}84%{transform:rotate(-2deg)}}
+@keyframes flap{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.45)}}
+@supports (animation-timeline:scroll()){
+  body[data-variant=css][data-thread=dash] .rev{stroke-dashoffset:1;animation:draw linear both;animation-timeline:scroll(root)}
+  body[data-variant=css] .knotpop{animation:pop linear both;animation-timeline:view();animation-range:entry 10% entry 70%}
+  body[data-variant=css] .par{animation:par linear both;animation-timeline:view()}
+  body[data-variant=css][data-tier=off] .knotpop,body[data-variant=css][data-tier=off] .par{animation:none}
+}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pop{from{transform:scale(.2) translateY(16px);opacity:0}to{transform:none;opacity:1}}
+@keyframes par{from{transform:translateX(0)}to{transform:translateX(-14px)}}
+.ch.knotpop{transform-origin:50% 100%}
+@media (prefers-reduced-motion:reduce){body .ch,body .ch *{animation:none!important}}
+</style>
+</head>
+<body data-variant="css" data-tier="full" data-thread="dash">
+<div id="hud" class="fx" aria-hidden="true"></div>
+<div id="spine" class="fx" aria-hidden="true"><svg id="sv-base"><path class="base" id="p-base"/></svg><div id="clip"><div id="clipin"><svg id="sv-live"><defs><mask id="m" maskUnits="userSpaceOnUse" x="-50" y="0" width="200" height="1000"><path id="p-rev" class="rev" fill="none" stroke="#fff" stroke-width="40"/></mask></defs><path class="live" id="p-live" mask="url(#m)"/></svg></div></div></div>
+<main>
+<section data-knot><h2>Welcome to the pride</h2><p>This is placeholder content that stands in for the real home page sections. The thread on the left grows as you scroll, and each knot pops a small yarn animal.</p><p>Hand-crocheted in Nairobi, shipped across Kenya. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section>
+<section data-knot><h2>Meet the makers</h2><p>Every animal starts as a ball of cotton yarn. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></section>
+<section data-knot><h2>Pick a friend</h2><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></section>
+<section data-knot><h2>Made to order</h2><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+<section data-knot><h2>Take one home</h2><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p></section>
+</main>
+<script>
+/*CAST*/
+const q = new URLSearchParams(location.search);
+const VARIANT = q.get("variant") || "css", TIER = q.get("tier") || "full", THREAD = q.get("thread") || (VARIANT === "js" ? "clip" : "dash");
+const N = Math.min(12, +(q.get("n") || 12));
+document.body.dataset.variant = VARIANT; document.body.dataset.tier = TIER; document.body.dataset.thread = THREAD;
+const NAMES = Object.keys(CAST);
+const $ = (s, r = document) => r.querySelector(s);
+const hud = $("#hud");
+if (VARIANT === "none") { $("#spine").hidden = true; hud.textContent = "baseline"; }
+else boot();
+
+function boot() {
+  const secs = [...document.querySelectorAll("section[data-knot]")];
+  const spine = $("#spine"), body = document.body, doc = document.documentElement;
+  // ---- characters: 5 knot animals (pop) + 7 ambient (gutter), all server-style static markup
+  const chars = [];
+  for (let i = 0; i < N; i++) {
+    const el = document.createElement("span");
+    el.className = "ch fx" + (i < 5 ? " knotpop" : " par");
+    el.style.setProperty("--s", (i < 5 ? 64 : 56) + "px");
+    el.style.setProperty("--d", (-(i * 0.9)).toFixed(1) + "s");
+    el.style.setProperty("--b", (4 + (i % 3) * 0.7).toFixed(1) + "s");
+    el.setAttribute("aria-hidden", "true");
+    el.innerHTML = CAST[NAMES[i % NAMES.length]];
+    body.appendChild(el);
+    chars.push({ el, i, knot: i < 5 ? i : -1, x: 0, y: 0, live: false, vis: false, ph: i * 1.7, svg: el.firstElementChild, eyes: el.querySelector(".fx-eyes"), blinkAt: 800 + i * 640, blink: 0, base: "" });
+  }
+  // ---- geometry: knots measured from headings (ResizeObserver), single path through them
+  let H = 0, knots = [], pathLen = 1;
+  const knotEls = secs.map(() => { const k = document.createElement("i"); k.className = "knot fx"; k.setAttribute("aria-hidden", "true"); body.appendChild(k); return k; });
+  function measure() {
+    H = Math.max(doc.scrollHeight, innerHeight);
+    const sy = scrollY;
+    knots = secs.map((s) => { const h = s.querySelector("h2").getBoundingClientRect(); return { y: h.top + sy + h.height / 2, x: 14 + ((secs.indexOf(s) % 2) ? 8 : -2) }; });
+    spine.style.height = H + "px";
+    $("#sv-base").setAttribute("viewBox", `0 0 28 ${H}`); $("#sv-live").setAttribute("viewBox", `0 0 28 ${H}`);
+    $("#clipin").style.height = H + "px"; $("#clip").style.height = H + "px";
+    let d = `M14 0`; let px = 14, py = 0;
+    for (const k of [...knots, { x: 14, y: H }]) { const my = (py + k.y) / 2; d += `C${px} ${my} ${k.x} ${my} ${k.x} ${k.y}`; px = k.x; py = k.y; }
+    $("#p-base").setAttribute("d", d); $("#p-live").setAttribute("d", d);
+    $("#p-live").setAttribute("pathLength", "1"); $("#p-rev").setAttribute("d", d); $("#p-rev").setAttribute("pathLength", "1"); $("#m").setAttribute("height", H);
+    knots.forEach((k, i) => { knotEls[i].style.left = k.x + 6 + "px"; knotEls[i].style.top = k.y + "px"; });
+    chars.forEach((c) => {
+      if (c.knot >= 0) { c.x = 36; c.y = knots[c.knot].y - 54; c.el.style.left = (c.knot % 2 ? 84 : 44) + "px"; c.el.style.top = c.y + "px"; }
+      else { const side = c.i % 2; c.x = side ? innerWidth - 40 : -20; c.y = (0.12 + (c.i - 5) * 0.13) * H; c.el.style.left = c.x + "px"; c.el.style.top = c.y + "px"; }
+    });
+  }
+  const ro = new ResizeObserver(() => { cancelAnimationFrame(ro.t); ro.t = requestAnimationFrame(measure); });
+  ro.observe(doc); secs.forEach((s) => ro.observe(s));
+  measure();
+  addEventListener("orientationchange", () => setTimeout(measure, 200));
+  // ---- offscreen: one IO for all characters
+  const vis = new Set();
+  const io = new IntersectionObserver((es) => { for (const e of es) { const c = chars.find((x) => x.el === e.target); c.vis = e.isIntersecting; c.el.dataset.off = String(!e.isIntersecting); } dirty = true; if (VARIANT === "js") wake(); }, { rootMargin: "120px" });
+  chars.forEach((c) => io.observe(c.el));
+  let dirty = true;
+
+  if (VARIANT === "css") {
+    // WAAPI tap reaction only; everything else is CSS
+    addEventListener("pointerdown", (e) => { if (TIER === "off") return; const c = chars.filter((x) => x.vis).sort((a, b) => dist(a, e) - dist(b, e))[0]; if (c) c.el.animate([{ transform: "translateY(0)" }, { transform: "translateY(-14px) scale(1.08)" }, { transform: "translateY(0)" }], { duration: 420, easing: "ease-out" }); }, { passive: true });
+    function dist(c, e) { const r = c.el.getBoundingClientRect(); return Math.hypot(r.x + r.width / 2 - e.clientX, r.y + r.height / 2 - e.clientY); }
+    if (!CSS.supports("animation-timeline: scroll()")) { /* fallback: static drawn */ }
+    hud.textContent = "css | " + TIER;
+    return;
+  }
+  // =========================== VARIANT JS: shared rAF engine ===========================
+  const coarse = matchMedia("(pointer:coarse)").matches || innerWidth < 700;
+  const BUDGET = TIER === "off" ? 0 : TIER === "lite" ? 2 : coarse ? 4 : 8;
+  const FRAME_MIN = TIER === "lite" ? 33 : 0; // lite caps at 30 fps
+  let sy = scrollY, vel = 0, lastSy = sy, progress = 0, raf = 0, idleUntil = 0, lastT = 0, lastSched = 0, tick = 0, ptr = null;
+  const clip = $("#clip"), clipin = $("#clipin"), liveP = $("#p-live");
+  const revP = $("#p-rev");
+  if (THREAD === "dash") { clip.style.display = "none"; $("#sv-live").style.position = "absolute"; clip.after($("#sv-live")); revP.setAttribute("stroke-dashoffset", "1"); }
+  const popped = new Array(5).fill(false);
+  function schedule(t) {
+    // priority: nearest to viewport centre among visible; top BUDGET get live, rest static (eviction = just stop writing)
+    const mid = sy + innerHeight / 2;
+    const vs = chars.filter((c) => c.vis).sort((a, b) => Math.abs(a.y - mid) - Math.abs(b.y - mid));
+    chars.forEach((c) => (c.live = false));
+    vs.slice(0, BUDGET).forEach((c) => (c.live = true));
+    lastSched = t;
+  }
+  function frame(t) {
+    raf = 0;
+    if (FRAME_MIN && t - lastT < FRAME_MIN - 2) { raf = requestAnimationFrame(frame); return; }
+    const dt = Math.min(64, t - lastT || 16); lastT = t;
+    sy = scrollY; const raw = (sy - lastSy) / dt; lastSy = sy;
+    vel += (raw - vel) * 0.18; // smoothed px/ms
+    if (BUDGET && (dirty || t - lastSched > 250)) { schedule(t); dirty = false; }
+    // thread
+    const max = Math.max(1, doc.scrollHeight - innerHeight); const p = Math.min(1, sy / max);
+    if (Math.abs(p - progress) > 0.0004 || tick === 0) {
+      progress = p;
+      if (THREAD === "dash") revP.setAttribute("stroke-dashoffset", String(1 - p));
+      else { const off = (1 - p) * H; clip.style.transform = `translate3d(0,${-off}px,0)`; clipin.style.transform = `translate3d(0,${off}px,0)`; }
+      for (let i = 0; i < 5; i++) { const should = sy + innerHeight * 0.75 > knots[i].y; if (should && !popped[i]) { popped[i] = true; const c = chars[i]; if (c) c.pop = t; } else if (!should && popped[i]) { popped[i] = false; if (chars[i]) chars[i].pop = -t; } }
+    }
+    let active = Math.abs(vel) > 0.01;
+    for (const c of chars) {
+      let sc = 1, ty = 0, rot = 0, op = 1;
+      if (c.knot >= 0) { // pop in/out
+        const k = c.pop === undefined ? 0 : c.pop > 0 ? Math.min(1, (t - c.pop) / 420) : Math.max(0, 1 + (t + c.pop) / 420 * -1);
+        const e = 1 - Math.pow(1 - k, 3) * (1 + 0.9 * Math.sin(k * 3.14)); sc = 0.2 + 0.8 * Math.min(1.12, 1 - Math.pow(1 - k, 3) + 0.12 * Math.sin(k * 3.14)); ty = (1 - k) * 16; op = k; if (k > 0 && k < 1) active = true;
+      }
+      if (c.live && TIER !== "off") {
+        const w = Math.sin(t / 1000 + c.ph);
+        rot = w * 1.4 + Math.max(-6, Math.min(6, vel * 6)) * (c.knot < 0 ? 1 : 0.4); ty += w * -1.2; active = true;
+        if (t > c.blinkAt) { c.blink = t; c.blinkAt = t + 4000 + (c.i % 3) * 700; }
+        if (c.eyes) { const bt = t - c.blink; const s = bt < 160 ? 1 - 0.92 * Math.sin((bt / 160) * 3.14) : 1; if (s !== c.es) { c.eyes.style.transform = `scaleY(${s.toFixed(2)})`; c.es = s; } }
+        if (ptr) { const dx = ptr.x - (c.x - 0), dy = ptr.y - (c.y - sy); if (Math.abs(dx) < 140 && Math.abs(dy) < 140 && c.svg) rot += Math.max(-8, Math.min(8, dx * -0.05)); }
+      }
+      if (c.tap && t - c.tap < 420) { const k = (t - c.tap) / 420; ty -= Math.sin(k * 3.14) * 14; sc *= 1 + 0.08 * Math.sin(k * 3.14); active = true; }
+      const tf = `translate3d(0,${ty.toFixed(2)}px,0) rotate(${rot.toFixed(2)}deg) scale(${sc.toFixed(3)})`;
+      if (tf !== c.last && (c.vis || c.knot >= 0)) { c.el.style.transform = tf; c.el.style.opacity = op; c.last = tf; }
+    }
+    tick++;
+    if (active || c_anyLive()) { raf = requestAnimationFrame(frame); idleUntil = t + 600; } else if (t < idleUntil) raf = requestAnimationFrame(frame);
+    if ((tick & 15) === 0) hud.textContent = `js | ${TIER} | live ${chars.filter((c) => c.live).length}/${BUDGET}`;
+  }
+  const c_anyLive = () => chars.some((c) => c.live) && !document.hidden;
+  function wake() { if (!raf) raf = requestAnimationFrame(frame); }
+  addEventListener("scroll", wake, { passive: true });
+  addEventListener("pointermove", (e) => { ptr = { x: e.clientX, y: e.clientY }; wake(); }, { passive: true });
+  addEventListener("pointerdown", (e) => { const c = chars.filter((x) => x.vis).sort((a, b) => Math.hypot(a.x - e.clientX, a.y - sy - e.clientY) - Math.hypot(b.x - e.clientX, b.y - sy - e.clientY))[0]; if (c) { c.tap = performance.now(); wake(); } }, { passive: true });
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) wake(); });
+  if (TIER === "off") { /* static decorations only: pose everything at rest */ chars.forEach((c) => { c.el.style.opacity = 1; }); popped.fill(true); chars.slice(0, 5).forEach((c) => (c.pop = 1)); }
+  wake();
+  // adaptive degradation: Long Animation Frames drop budget by one step (min 1), recover never within a page
+  let slow = 0;
+  try { new PerformanceObserver((l) => { for (const e of l.getEntries()) if (e.duration > 100) slow++; if (slow >= 3 && window.__budget === undefined) window.__budget = "degraded"; }).observe({ type: "long-animation-frame", buffered: true }); } catch {}
+  window.__poc = { chars, get live() { return chars.filter((c) => c.live).length; }, BUDGET };
+}
+</script>
+</body>
+</html>

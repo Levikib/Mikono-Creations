@@ -1,0 +1,842 @@
+{
+ "group": "rabbit-monkey-cat-dog-bear",
+ "products": [
+  {
+   "slug": "rabbit",
+   "species": "rabbit",
+   "category": "domestic",
+   "colourway_rule": "All rabbits share one brown body. The colourway is the vest or collar colour, written as brown-<vest colours>-vest.",
+   "colourways": [
+    {
+     "key": "brown-red-teal-vest",
+     "label": "Brown with red and teal vest",
+     "images": [
+      {
+       "file": "media/raw/img-067.jpg",
+       "source_id": "img-067.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.55
+       ],
+       "shownSize": null,
+       "width": 1059,
+       "height": 1600,
+       "quality": "good",
+       "alt": "Brown crocheted rabbit with long ears wearing a small variegated vest in red, teal green and white, sitting on a log among green leaves.",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "brown-blue-vest",
+     "label": "Brown with blue vest",
+     "images": [
+      {
+       "file": "media/work/rabbit/rabbit-brown-blue-vest-02.jpg",
+       "source_id": "img-074.jpg",
+       "crop": [
+        380,
+        210,
+        840,
+        1010
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 460,
+       "height": 800,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with long ears wearing a bright blue vest with white and lilac trim, sitting on a grey sofa.",
+       "verified": true,
+       "note": "Edges show small parts of neighbouring rabbits."
+      }
+     ]
+    },
+    {
+     "key": "brown-pink-vest",
+     "label": "Brown with pink vest",
+     "images": [
+      {
+       "file": "media/work/rabbit/rabbit-brown-pink-vest-01.jpg",
+       "source_id": "img-074.jpg",
+       "crop": [
+        20,
+        200,
+        450,
+        1000
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 430,
+       "height": 800,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with long ears wearing a pink, magenta and white vest, sitting on a grey sofa.",
+       "verified": true,
+       "note": "Edge shows a hand and foot of a neighbouring rabbit."
+      }
+     ]
+    },
+    {
+     "key": "brown-yellow-turquoise-vest",
+     "label": "Brown with yellow and turquoise vest",
+     "images": [
+      {
+       "file": "media/work/rabbit/rabbit-brown-yellow-turquoise-vest-01.jpg",
+       "source_id": "img-074.jpg",
+       "crop": [
+        720,
+        240,
+        1190,
+        1010
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 470,
+       "height": 770,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with long ears wearing a vest in yellow, turquoise and white, sitting on a grey sofa.",
+       "verified": true,
+       "note": "Edges show small parts of neighbouring rabbits."
+      }
+     ]
+    },
+    {
+     "key": "brown-pale-blue-lilac-vest",
+     "label": "Brown with pale blue and lilac vest",
+     "images": [
+      {
+       "file": "media/work/rabbit/rabbit-brown-pale-blue-lilac-vest-01.jpg",
+       "source_id": "img-074.jpg",
+       "crop": [
+        1080,
+        190,
+        1580,
+        1000
+       ],
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 500,
+       "height": 810,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with one folded ear wearing a vest in pale blue, lilac and white, sitting on a grey sofa.",
+       "verified": true,
+       "note": "Left edge shows parts of the neighbouring rabbit."
+      }
+     ]
+    },
+    {
+     "key": "brown-green-yellow-purple-vest",
+     "label": "Brown with green, yellow and purple vest",
+     "images": [
+      {
+       "file": "media/raw/img-059.jpg",
+       "source_id": "img-059.jpg",
+       "crop": null,
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 481,
+       "height": 661,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit wearing a collar-style vest in green, yellow, purple and white, on a table in front of wooden carved animals and part of a cream giraffe.",
+       "verified": true,
+       "note": "Low resolution. Wooden carvings and a giraffe are in the background and could not be cropped out above 400 px."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-074.jpg",
+     "source_id": "img-074.jpg",
+     "crop": null,
+     "role": "hero",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "good",
+     "alt": "Four brown crocheted rabbits in a row on a grey sofa, each wearing a differently coloured vest: pink, blue, yellow and turquoise, and pale blue with lilac.",
+     "verified": true
+    },
+    {
+     "file": "media/work/rabbit/rabbit-brown-blue-red-teal-vest-pair-01.jpg",
+     "source_id": "rabbit-brown-blue-red-teal-vest-pair-01.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1230,
+     "height": 910,
+     "quality": "ok",
+     "alt": "Two brown crocheted rabbits side by side, one in a blue vest and one in a red and teal vest",
+     "verified": true
+    },
+    {
+     "file": "media/raw/img-043.jpg",
+     "source_id": "img-043.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.45,
+      0.7
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "ok",
+     "alt": "Market stall under white tents with brown rabbits in vests, lions, giraffes and elephants on a table with a white heart print cloth",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "monkey",
+   "species": "monkey",
+   "category": "safari",
+   "colourway_rule": "Colourway is body colour plus face and ear colour.",
+   "colourways": [
+    {
+     "key": "brown-yellow-face",
+     "label": "Brown with yellow face and ears",
+     "images": [
+      {
+       "file": "media/work/monkey/monkey-brown-yellow-face-01.jpg",
+       "source_id": "img-078.jpg",
+       "crop": [
+        0,
+        55,
+        215,
+        380
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 215,
+       "height": 377,
+       "quality": "ok",
+       "alt": "Long limbed brown crocheted monkey with a yellow face and ears, black eyes and a yellow muzzle, with the arm of the next monkey at the edge",
+       "verified": true,
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone."
+      }
+     ]
+    },
+    {
+     "key": "purple-blue-face",
+     "label": "Purple with blue face and ears",
+     "images": [
+      {
+       "file": "media/work/monkey/monkey-purple-blue-face-01.jpg",
+       "source_id": "img-078.jpg",
+       "crop": [
+        150,
+        50,
+        165,
+        375
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 165,
+       "height": 375,
+       "quality": "ok",
+       "alt": "Long limbed purple crocheted monkey with a blue face and ears, with the arms of its neighbours at the edges",
+       "verified": true,
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone."
+      }
+     ]
+    },
+    {
+     "key": "purple-pink-face",
+     "label": "Purple with pink face and ears",
+     "images": [
+      {
+       "file": "media/work/monkey/monkey-purple-pink-face-01.jpg",
+       "source_id": "img-078.jpg",
+       "crop": [
+        415,
+        50,
+        205,
+        345
+       ],
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 205,
+       "height": 345,
+       "quality": "ok",
+       "alt": "Long limbed purple crocheted monkey with a pink face and ears and black eyes, with a brown arm at the left edge",
+       "verified": true,
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone."
+      }
+     ]
+    },
+    {
+     "key": "brown-cream-face",
+     "label": "Brown with cream face and ears",
+     "images": [
+      {
+       "file": "media/work/monkey/monkey-brown-cream-face-01.jpg",
+       "source_id": "img-073.jpg",
+       "crop": [
+        30,
+        470,
+        520,
+        910
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.35,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 520,
+       "height": 910,
+       "quality": "ok",
+       "alt": "Brown crocheted monkey with a cream face and ears held beside a tan monkey on a grey sofa",
+       "verified": true,
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone."
+      }
+     ]
+    },
+    {
+     "key": "tan-yellow-face",
+     "label": "Tan with pale yellow face and ears",
+     "images": [
+      {
+       "file": "media/work/monkey/monkey-tan-yellow-face-01.jpg",
+       "source_id": "img-073.jpg",
+       "crop": [
+        310,
+        420,
+        720,
+        1050
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 720,
+       "height": 1050,
+       "quality": "ok",
+       "alt": "Tan crocheted monkey with a pale yellow face and ears held up beside a brown monkey, a hand holding it from below",
+       "verified": true,
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-078.jpg",
+     "source_id": "img-078.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 623,
+     "height": 432,
+     "quality": "ok",
+     "alt": "Four long-limbed crocheted monkeys in a row: brown with a yellow face, purple with a blue face, brown with a yellow face and purple with a pink face",
+     "verified": true
+    },
+    {
+     "file": "media/work/monkey/monkey-brown-cream-face-tan-yellow-face-pair-01.jpg",
+     "source_id": "monkey-brown-cream-face-tan-yellow-face-pair-01.jpg",
+     "crop": null,
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1010,
+     "height": 1070,
+     "quality": "ok",
+     "alt": "Two crocheted monkeys held side by side, one brown with a cream face and ears and one tan with a pale yellow face and ears",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "cat",
+   "species": "cat",
+   "category": "domestic",
+   "colourway_rule": "Colourway is body colour; the cream pair differ only in ear tip and bag trim, so they are listed as two trim variants.",
+   "colourways": [
+    {
+     "key": "cream-blue-bag",
+     "label": "Cream with blue bag and ear tip",
+     "images": [
+      {
+       "file": "media/work/cat/cat-cream-blue-bag-01.jpg",
+       "source_id": "img-041.jpg",
+       "crop": [
+        55,
+        115,
+        320,
+        590
+       ],
+       "role": "group",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 320,
+       "height": 590,
+       "quality": "ok",
+       "alt": "Cream crocheted cat with a blue striped ear tip, black ear and a small blue shoulder bag, with its friend close beside it",
+       "verified": true,
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone."
+      }
+     ]
+    },
+    {
+     "key": "cream-red-bag",
+     "label": "Cream with red and grey bag and ear tip",
+     "images": [
+      {
+       "file": "media/work/cat/cat-cream-red-bag-01.jpg",
+       "source_id": "img-041.jpg",
+       "crop": [
+        345,
+        105,
+        325,
+        600
+       ],
+       "role": "group",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 325,
+       "height": 600,
+       "quality": "ok",
+       "alt": "Cream crocheted cat with a red and grey speckled ear tip, brown ear and a small red and grey shoulder bag, with its friend close beside it",
+       "verified": true,
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone."
+      }
+     ]
+    },
+    {
+     "key": "orange",
+     "label": "Orange",
+     "images": [
+      {
+       "file": "media/work/cat/cat-orange-01.jpg",
+       "source_id": "img-045.jpg",
+       "crop": [
+        130,
+        480,
+        370,
+        125
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 370,
+       "height": 125,
+       "quality": "ok",
+       "alt": "Long orange crocheted cat lying down, with a white paw and a crossed stitch nose, with a mint cat resting against it",
+       "verified": true,
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone."
+      }
+     ]
+    },
+    {
+     "key": "mint-green",
+     "label": "Mint green",
+     "images": [
+      {
+       "file": "media/work/cat/cat-mint-green-01.jpg",
+       "source_id": "img-045.jpg",
+       "crop": [
+        130,
+        560,
+        435,
+        165
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 435,
+       "height": 165,
+       "quality": "ok",
+       "alt": "Long mint green crocheted cat lying down, with a white paw and a crossed stitch nose, between an orange and a blue cat",
+       "verified": true,
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone."
+      }
+     ]
+    },
+    {
+     "key": "blue",
+     "label": "Blue",
+     "images": [
+      {
+       "file": "media/work/cat/cat-blue-01.jpg",
+       "source_id": "img-045.jpg",
+       "crop": [
+        120,
+        690,
+        405,
+        170
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 405,
+       "height": 170,
+       "quality": "ok",
+       "alt": "Long blue crocheted cat lying down, with a white paw and a crossed stitch nose, beside a mint and a pink cat",
+       "verified": true,
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone."
+      }
+     ]
+    },
+    {
+     "key": "pink",
+     "label": "Pink",
+     "images": [
+      {
+       "file": "media/work/cat/cat-pink-01.jpg",
+       "source_id": "img-045.jpg",
+       "crop": [
+        110,
+        755,
+        455,
+        235
+       ],
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 455,
+       "height": 235,
+       "quality": "ok",
+       "alt": "Long pink crocheted cat lying down, with a white paw and a crossed stitch nose, with a blue cat above it",
+       "verified": true,
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone."
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-041.jpg",
+     "source_id": "img-041.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 736,
+     "height": 736,
+     "quality": "ok",
+     "alt": "Two cream crocheted cats hugging, one with a blue bag and blue ear tip and one with a red and grey bag and ear tip",
+     "verified": true
+    },
+    {
+     "file": "media/work/cat/cat-range-four-colours-01.jpg",
+     "source_id": "cat-range-four-colours-01.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 470,
+     "height": 522,
+     "quality": "ok",
+     "alt": "Four long crocheted cats in orange, mint green, blue and pink lying in a stack",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "dog",
+   "species": "dog",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "brown",
+     "label": "Brown with cream muzzle",
+     "images": [
+      {
+       "file": "media/raw/img-008.jpg",
+       "source_id": "img-008.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "coloured",
+       "focal": [
+        0.55,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 992,
+       "quality": "good",
+       "alt": "Brown crocheted dog with floppy ears, a cream muzzle and black nose, standing on a dark table in front of a pale green wall, with red and white flowers in a glass vase at the left.",
+       "verified": true,
+       "note": "Flowers and vase at left could not be cropped out without cutting the back leg."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "bear",
+   "species": "bear",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "turquoise",
+     "label": "Turquoise",
+     "images": [
+      {
+       "file": "media/raw/img-004.jpg",
+       "source_id": "img-004.jpg",
+       "crop": null,
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.55,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 672,
+       "height": 736,
+       "quality": "ok",
+       "alt": "A girl in a pink jumper holding a small turquoise crocheted bear with a cream muzzle at an outdoor craft market.",
+       "verified": true,
+       "note": "Caption: A turquoise bear fits in one hand. Bear is small in frame, tight crop would be under 400 px."
+      }
+     ]
+    },
+    {
+     "key": "blue-striped-top",
+     "label": "Blue with grey and yellow striped top",
+     "images": [
+      {
+       "file": "media/work/bear/bear-blue-striped-top-01.jpg",
+       "source_id": "img-030.jpg",
+       "crop": [
+        150,
+        150,
+        830,
+        1140
+       ],
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 680,
+       "height": 990,
+       "quality": "good",
+       "alt": "Sky blue crocheted bear with a black nose, a grey top with two yellow stripes and yellow feet, on a plain pale background.",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "cream-rainbow-top",
+     "label": "Cream with rainbow top",
+     "images": [
+      {
+       "file": "media/work/bear/bear-cream-rainbow-top-01.jpg",
+       "source_id": "img-034.jpg",
+       "crop": [
+        210,
+        160,
+        890,
+        1200
+       ],
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 680,
+       "height": 1040,
+       "quality": "good",
+       "alt": "Cream crocheted bear with a brown nose, a red-shouldered rainbow striped top and yellow feet, on a plain pale background.",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "tan",
+     "label": "Tan",
+     "images": [
+      {
+       "file": "media/raw/img-055.jpg",
+       "source_id": "img-055.jpg",
+       "crop": null,
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.22,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 678,
+       "height": 867,
+       "quality": "ok",
+       "alt": "A woman crocheting on a grey sofa while a tan crocheted bear sits on her lap, with yellow crocheted animals behind.",
+       "verified": true,
+       "note": "Caption: Each bear is finished by hand. Bear is partly hidden by her hand, so use as lifestyle only."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-039.jpg",
+   "reason": "Exact duplicate of img-075.jpg. Rainbow-vest rabbit at top right is only about 170 px wide, crop under 400 px short side."
+  },
+  {
+   "source_id": "img-075.jpg",
+   "reason": "Duplicate of img-039.jpg, same reason."
+  },
+  {
+   "source_id": "img-007.jpg",
+   "reason": "Crowded stall photo, 736 px wide, rabbits and monkey tiny and overlapping; no crop reaches 400 px."
+  },
+  {
+   "source_id": "img-024.jpg",
+   "reason": "Hand holding an octopus; rabbits are small and cut off at the top edge, crop under 400 px."
+  },
+  {
+   "source_id": "img-026.jpg",
+   "reason": "Rabbit with multicolour bandana is about 270 px wide in a pile of elephants, crop under 400 px."
+  },
+  {
+   "source_id": "img-045.jpg:single-cats",
+   "reason": "Individual orange, green, blue and pink cats overlap and each crop would be under 400 px short side; only a group crop kept."
+  },
+  {
+   "source_id": "img-046.jpg",
+   "reason": "Cats are a small cluster behind zebras at 744 px wide, not isolable."
+  },
+  {
+   "source_id": "img-062.jpg",
+   "reason": "Rabbit is cut off at the left frame edge, lilac vest only partly visible."
+  },
+  {
+   "source_id": "img-071.jpg",
+   "reason": "Rabbit mostly hidden behind giraffes and elephants, no vest visible."
+  },
+  {
+   "source_id": "img-072.jpg",
+   "reason": "Two rabbit heads among giraffes, bodies and vests hidden."
+  },
+  {
+   "source_id": "img-080.jpg",
+   "reason": "Rabbits only partly visible at the lower edge among elephants, crops under 400 px."
+  },
+  {
+   "source_id": "img-043.jpg:single-rabbits",
+   "reason": "Individual rabbits about 350 px wide or less; only the stall crop kept as range image."
+  }
+ ],
+ "client_review": [
+  "Rabbit colourway was decided as the vest colour because every rabbit has the same brown body. Confirm this and approve the six vest names.",
+  "Rabbit vests seen only in piles and too small to use: rainbow, orange and yellow, lilac with rainbow trim, green, purple, red and pink. Please send single photos if these are sold.",
+  "Cat: pink, orange, mint green, blue and yellow cats appear only in market piles. They are listed as colourways without images. Please send single photos. Cream cats with blue or red bags may be one colourway with two trims.",
+  "Soft yellow floppy-eared figures in dresses (in img-024 and img-087) look like a separate rabbit or doll style. They were not used. Confirm what they are.",
+  "Monkey: five colourways seen. Tan with pale yellow face (img-073) may be the same design as brown with yellow face (img-078). Confirm.",
+  "Monkey photos show two or four monkeys together, so listings share photos. Single-monkey photos are needed for a clean product page.",
+  "Bear goes to More animals. Turquoise and tan bears have lifestyle photos only. Votes: bears were decided with koala as the main alternative (img-030 had 5 koala alternative votes). Confirm bear versus koala.",
+  "Dog has one photo with flowers in frame. Confirm whether other dog colours exist.",
+  "All shownSize values are null. Sizes S, M, L, XL need client input.",
+  "Rabbit img-074 single-rabbit crops include small parts of neighbouring rabbits at the edges; the uncropped group photo is clean."
+ ]
+}

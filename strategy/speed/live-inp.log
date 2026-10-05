@@ -1,0 +1,15 @@
+menu       INP 160 ms (runs 160,144,184) delay 115 proc 15 pointerdown+pointerup+click loaf 269ms ["2jh63bk7dapyq.js:246"]
+mega       INP 224 ms (runs 272,224,200) delay 56 proc 52 pointerdown+pointerup+click loaf 232ms ["2jh63bk7dapyq.js:53","2jh63bk7dapyq.js:5"]
+density    INP 504 ms (runs 504,352,816) delay 148 proc 24 pointerdown+pointerup+click loaf 373ms ["2jh63bk7dapyq.js:44","inline:12","414919nhvjec1.js:10"]
+density3   INP 264 ms (runs 280,240,264) delay 68 proc 9 pointerdown+pointerup+click loaf 108ms ["2jh63bk7dapyq.js:14"]
+addorder   SKIP pre step target missing
+cartopen   INP 240 ms (runs 240,208,256) delay 126 proc 28 pointerdown+pointerup+click loaf 270ms ["2jh63bk7dapyq.js:254"]
+cartclose  INP 192 ms (runs 264,192,160) delay 58 proc 70 keydown+keyup loaf 144ms ["2jh63bk7dapyq.js:13"]
+qty        INP 264 ms (runs 216,264,344) delay 153 proc 26 pointerdown+pointerup+click loaf 132ms ["2jh63bk7dapyq.js:35"]
+chip       INP 176 ms (runs 152,264,176) delay 120 proc 29 pointerdown+pointerup+click loaf 146ms []
+footer     INP 288 ms (runs 280,288,304) delay 121 proc 11 pointerdown+pointerup+click loaf 289ms []
+type       INP 264 ms (runs 200,264,416) delay 185 proc 7 pointerdown+pointerup+click loaf 158ms ["2jh63bk7dapyq.js:20","2jh63bk7dapyq.js:13","2jh63bk7dapyq.js:12"]
+wizard     SKIP target missing
+studio     INP 1024 ms (runs 1168,1024,624) delay 173 proc 530 pointerdown+pointerup+click loaf 683ms ["2jh63bk7dapyq.js:534","414919nhvjec1.js:17","0t3l5qqaz60eh.js:16"]
+nav        INP 232 ms (runs 192,328,232) delay 191 proc 17 pointerdown+pointerup+click loaf 356ms ["2jh63bk7dapyq.js:316"]
+navcard    INP 328 ms (runs 272,328,424) delay 192 proc 34 pointerdown+pointerup+click loaf 550ms ["2jh63bk7dapyq.js:335"]

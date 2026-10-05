@@ -1,0 +1,13 @@
+import { createRequire } from 'node:module';
+const require = createRequire('/tmp/claude-1000/-home-shannara-mikono-creations/dc36e544-c58f-4c8b-ab4e-71cdc2ebcd35/scratchpad/node_modules/');
+const { chromium } = require('playwright-core');
+const b = await chromium.launch({ executablePath: process.env.HOME + '/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome', args: ['--no-sandbox'] });
+const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('http://localhost:8765/strategy/stage2/preview/index.html'); await p.waitForSelector('body[data-ready]');
+await p.evaluate(() => document.getElementById('hopbtn').scrollIntoView({ block: 'center' })); await p.waitForTimeout(700);
+await p.click('#hopbtn'); await p.waitForTimeout(380);
+await p.screenshot({ path: 'strategy/stage2/preview/hop-mid.png', clip: { x: 100, y: 250, width: 700, height: 400 } });
+await p.evaluate(() => document.querySelector('[data-anim=celebrate]').scrollIntoView({ block: 'center' })); await p.waitForTimeout(450);
+const c = await p.locator('[data-anim=celebrate]').boundingBox();
+await p.screenshot({ path: 'strategy/stage2/preview/celebrate.png', clip: { x: c.x - 120, y: c.y - 100, width: 360, height: 300 } });
+await b.close();

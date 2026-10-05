@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+import { readFileSync, readdirSync } from 'node:fs';
+const require = createRequire('/tmp/claude-1000/-home-shannara-mikono-creations/dc36e544-c58f-4c8b-ab4e-71cdc2ebcd35/scratchpad/node_modules/');
+const { chromium } = require('playwright-core');
+const dir = '/home/shannara/mikono-creations/public/fx/cast/';
+const names = ['giraffe','elephant','lion','rhino','zebra','rabbit','hippo','monkey','octopus','turtle','butterfly','yarn'];
+const cells = names.map(n => `<figure><div>${readFileSync(dir+n+'.svg','utf8')}</div><figcaption>${n}</figcaption></figure>`).join('');
+const html = `<body style="margin:0;background:#F3EEE5;font:14px sans-serif"><div style="display:grid;grid-template-columns:repeat(4,300px);gap:10px;padding:20px">${cells}</div><style>figure{margin:0;background:#FBF8F2;border-radius:24px;padding:10px;text-align:center}svg{width:260px;height:260px}</style>`;
+const b = await chromium.launch({ executablePath: process.env.HOME+'/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome', args:['--no-sandbox'] });
+const p = await b.newPage({ viewport:{width:1300,height:1000} });
+await p.setContent(html); await p.screenshot({ path:'/home/shannara/mikono-creations/strategy/stage2/preview/cast-sheet.png', fullPage:true });
+await b.close();

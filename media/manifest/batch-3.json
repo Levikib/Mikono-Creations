@@ -1,0 +1,817 @@
+[
+ {
+  "id": "img-023.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "butterfly",
+    "animal_confidence": 0.9,
+    "colours": [
+     "red",
+     "grey",
+     "hot pink",
+     "white",
+     "black"
+    ],
+    "dominant_colour": "red",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference; wings span about the head width times three, probably a baby rattle size",
+    "details": "Red head and body with grey antennae, variegated pink, black, white and grey wings with red and grey circle patches, black eyes and orange-red stitched smile. Wing yarn is multicolour speckled."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "plain pale grey surface",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "colours are bright and saturated, outside charter palette for UI chrome"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Clean flat lay on plain background, good for a butterfly listing.",
+  "proposed_alt_text": "Red crocheted butterfly toy with grey antennae and pink, black and white speckled wings, laid flat on a plain light background.",
+  "possible_duplicate_of": [
+   "img-033.jpg"
+  ],
+  "overall_confidence": 0.85,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-024.jpg",
+  "shot_type": "retail_display",
+  "items": [
+   {
+    "animal": "octopus",
+    "animal_confidence": 0.45,
+    "colours": [
+     "yellow",
+     "red",
+     "orange",
+     "white",
+     "coral pink"
+    ],
+    "dominant_colour": "yellow",
+    "size_guess": "S",
+    "size_reasoning": "held in one palm and fills most of it, roughly palm sized",
+    "details": "Held item has a round yellow head with black eyes and red stitched smile and a ruffled red, orange and white skirt with a pink braided cord. Could be an octopus or a chick in a skirt; ambiguous."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.7,
+    "colours": [
+     "brown",
+     "red",
+     "pink",
+     "yellow"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Brown rabbits in colourful vests, background, blurred."
+   },
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.85,
+    "colours": [
+     "grey purple"
+    ],
+    "dominant_colour": "grey purple",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Many small grey elephants in background."
+   },
+   {
+    "animal": "lion",
+    "animal_confidence": 0.5,
+    "colours": [
+     "brown"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Partial brown mane top right, background."
+   },
+   {
+    "animal": "frog",
+    "animal_confidence": 0.5,
+    "colours": [
+     "mint green",
+     "brown"
+    ],
+    "dominant_colour": "mint green",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Left edge, mint green and brown, may be a frog."
+   },
+   {
+    "animal": "octopus",
+    "animal_confidence": 0.6,
+    "colours": [
+     "white",
+     "red"
+    ],
+    "dominant_colour": "white",
+    "size_guess": "S",
+    "size_reasoning": "small",
+    "details": "White and red octopus at right edge, background."
+   },
+   {
+    "animal": "turtle",
+    "animal_confidence": 0.5,
+    "colours": [
+     "green"
+    ],
+    "dominant_colour": "green",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference",
+    "details": "Green turtle-like items bottom right."
+   }
+  ],
+  "item_count": 7,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": false,
+   "setting": "only a hand and gold bangle visible"
+  },
+  "setting_background": "table crowded with many soft toys, foreground sharp, background blurred",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "tight",
+   "issues": [
+    "background out of focus",
+    "foreground subject species unclear"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "social",
+   "project_story"
+  ],
+  "best_use_reason": "Shows range and scale in a hand, but the focal toy is ambiguous and background is busy.",
+  "proposed_alt_text": "A hand holding a small yellow crocheted toy with a red and orange ruffled skirt, in front of rows of grey elephants, brown rabbits and other crocheted animals.",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.5,
+  "needs_human_review": true,
+  "review_reason": "Held toy species unclear (octopus or chick); hand of an adult is visible, confirm permission. Several background species uncertain."
+ },
+ {
+  "id": "img-025.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "unicorn",
+    "animal_confidence": 0.9,
+    "colours": [
+     "cream",
+     "pink",
+     "mustard brown",
+     "teal",
+     "coral"
+    ],
+    "dominant_colour": "cream",
+    "size_guess": "L",
+    "size_reasoning": "head sized like a wall trophy, mane about as long as the head, no direct scale reference",
+    "details": "Wall mounted crocheted unicorn head with cream face, closed eyes with stitched lashes, mustard brown spiral horn, bright pink yarn mane, small teal, coral and red crochet flowers at the horn base."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "yellow painted wall with wooden rail, photographed at an angle",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "awkward",
+   "issues": [
+    "tilted angle",
+    "wall clutter and dark rail",
+    "some JPEG softness"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Distinct decor item but the photo is tilted on a plain wall.",
+  "proposed_alt_text": "Crocheted unicorn head mounted on a yellow wall, with a cream face, brown horn, small flowers and a long bright pink yarn mane.",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.8,
+  "needs_human_review": true,
+  "review_reason": "New product type (wall decor, not a stuffed animal). Confirm whether it is for sale and its size. Hot pink mane is outside muted palette."
+ },
+ {
+  "id": "img-026.jpg",
+  "shot_type": "event",
+  "items": [
+   {
+    "animal": "elephant",
+    "animal_confidence": 0.95,
+    "colours": [
+     "grey",
+     "blue grey",
+     "white"
+    ],
+    "dominant_colour": "grey",
+    "size_guess": "M",
+    "size_reasoning": "dozens in rows, each roughly the size of the maker's head",
+    "details": "Many grey elephants with white tusks, curled trunks and large ears, in two shades of grey blue."
+   },
+   {
+    "animal": "rhino",
+    "animal_confidence": 0.8,
+    "colours": [
+     "light blue",
+     "white"
+    ],
+    "dominant_colour": "light blue",
+    "size_guess": "S",
+    "size_reasoning": "smaller than the elephants beside them",
+    "details": "Light blue with white horns and pink-lilac inner ears; could be confused with a hippo, but two horns visible on several."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.95,
+    "colours": [
+     "orange",
+     "mustard yellow",
+     "cream",
+     "brown"
+    ],
+    "dominant_colour": "orange yellow",
+    "size_guess": "L",
+    "size_reasoning": "tall, taller than elephants, at left",
+    "details": "Orange and yellow bodies, cream muzzles, brown spots and ossicones."
+   },
+   {
+    "animal": "rabbit",
+    "animal_confidence": 0.9,
+    "colours": [
+     "tan",
+     "brown",
+     "pink",
+     "multicolour"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "L",
+    "size_reasoning": "about twice an elephant height seated",
+    "details": "Tan rabbits with long ears and colourful patchwork bandanas."
+   }
+  ],
+  "item_count": 4,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "woman at market stall, other people in background"
+  },
+  "setting_background": "outdoor market or fair stall with blue table cloth, wooden pallets and drinks table",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "colours over-saturated by editing"
+   ]
+  },
+  "visible_text": "ENGLISH on hoodie",
+  "best_use": [
+   "homepage_hero",
+   "lifestyle_banner",
+   "project_story",
+   "social"
+  ],
+  "best_use_reason": "Strong display of range and maker at a market, high resolution.",
+  "proposed_alt_text": "A smiling woman in glasses sits behind a market table covered in rows of grey elephants, light blue rhinos, orange giraffes and tan rabbits, holding one small grey animal.",
+  "possible_duplicate_of": [
+   "img-027.jpg"
+  ],
+  "overall_confidence": 0.8,
+  "needs_human_review": true,
+  "review_reason": "Identifiable adult plus background people; photo permission needed. Held grey toy species unclear (elephant or armadillo-like)."
+ },
+ {
+  "id": "img-027.jpg",
+  "shot_type": "event",
+  "items": [
+   {
+    "animal": "lion",
+    "animal_confidence": 0.9,
+    "colours": [
+     "tan",
+     "brown",
+     "cream"
+    ],
+    "dominant_colour": "tan",
+    "size_guess": "L",
+    "size_reasoning": "held in one hand against chest, about forearm length",
+    "details": "Brown yarn fringe mane, tan face with small black nose and round ears."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "yellow",
+     "orange",
+     "cream",
+     "brown"
+    ],
+    "dominant_colour": "yellow",
+    "size_guess": "M",
+    "size_reasoning": "at table, smaller than lion held",
+    "details": "Several giraffes in yellow, orange and a cream one with brown spots."
+   },
+   {
+    "animal": "lion",
+    "animal_confidence": 0.7,
+    "colours": [
+     "brown",
+     "tan"
+    ],
+    "dominant_colour": "brown",
+    "size_guess": "S",
+    "size_reasoning": "two small lions on table",
+    "details": "Smaller lions with fringed manes on the table."
+   }
+  ],
+  "item_count": 3,
+  "people": {
+   "present": true,
+   "count": 1,
+   "children": false,
+   "faces_visible": true,
+   "setting": "man in cap and leather jacket at market stall, others behind"
+  },
+  "setting_background": "market stall under red umbrella, teal pallet shelves",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "good",
+   "cropping": "awkward",
+   "issues": [
+    "phone screenshot with status bar, white bars and share icons",
+    "subject cropped sideways"
+   ]
+  },
+  "visible_text": "phone UI: 2:03, battery, share icon",
+  "best_use": [
+   "social",
+   "project_story"
+  ],
+  "best_use_reason": "Warm customer moment, but a phone screenshot needing cropping.",
+  "proposed_alt_text": "A man in a cream cap and brown leather jacket holds a crocheted lion with a fringe mane at a market stall, with giraffes and smaller lions on a blue table.",
+  "possible_duplicate_of": [
+   "img-026.jpg"
+  ],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Identifiable adult customer, photo permission required. Screenshot UI must be cropped out."
+ },
+ {
+  "id": "img-028.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "shark",
+    "animal_confidence": 0.9,
+    "colours": [
+     "yellow",
+     "orange"
+    ],
+    "dominant_colour": "mustard yellow",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference; each about long cushion size",
+    "details": "Yellow with cream belly, black eyes, stitched gill lines."
+   },
+   {
+    "animal": "shark",
+    "animal_confidence": 0.9,
+    "colours": [
+     "pink",
+     "cream"
+    ],
+    "dominant_colour": "pink",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference",
+    "details": "Pink with cream belly."
+   },
+   {
+    "animal": "shark",
+    "animal_confidence": 0.9,
+    "colours": [
+     "green",
+     "cream"
+    ],
+    "dominant_colour": "green",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference",
+    "details": "Dark green with cream belly."
+   },
+   {
+    "animal": "shark",
+    "animal_confidence": 0.9,
+    "colours": [
+     "grey purple",
+     "cream"
+    ],
+    "dominant_colour": "slate purple",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference",
+    "details": "Slate purple with cream belly, top of frame."
+   },
+   {
+    "animal": "shark",
+    "animal_confidence": 0.9,
+    "colours": [
+     "dark grey",
+     "cream"
+    ],
+    "dominant_colour": "charcoal grey",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference",
+    "details": "Charcoal grey, bottom left, partly cropped"
+   }
+  ],
+  "item_count": 5,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "white crumpled bedsheet",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "ok",
+   "issues": [
+    "bottom shark slightly cropped"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Clear colourway lineup of one design on plain white.",
+  "proposed_alt_text": "Five crocheted sharks in yellow, pink, green, slate purple and charcoal grey with cream bellies laid in a row on a white sheet.",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.85,
+  "needs_human_review": false,
+  "review_reason": ""
+ },
+ {
+  "id": "img-029.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.9,
+    "colours": [
+     "yellow",
+     "brown",
+     "cream"
+    ],
+    "dominant_colour": "yellow",
+    "size_guess": "M",
+    "size_reasoning": "slender, no scale reference",
+    "details": "Yellow with brown spots, hooves, ossicones and nose patch."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "coral red",
+     "cream"
+    ],
+    "dominant_colour": "coral red",
+    "size_guess": "M",
+    "size_reasoning": "same pattern",
+    "details": "Red with white stitch dots."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "purple",
+     "cream"
+    ],
+    "dominant_colour": "purple",
+    "size_guess": "M",
+    "size_reasoning": "same",
+    "details": "Purple."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "sky blue",
+     "cream"
+    ],
+    "dominant_colour": "sky blue",
+    "size_guess": "M",
+    "size_reasoning": "same",
+    "details": "Light blue."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "lemon yellow",
+     "cream"
+    ],
+    "dominant_colour": "lemon yellow",
+    "size_guess": "M",
+    "size_reasoning": "same",
+    "details": "Pale yellow."
+   },
+   {
+    "animal": "giraffe",
+    "animal_confidence": 0.85,
+    "colours": [
+     "royal blue",
+     "cream"
+    ],
+    "dominant_colour": "royal blue",
+    "size_guess": "M",
+    "size_reasoning": "same",
+    "details": "Blue."
+   }
+  ],
+  "item_count": 6,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "brown and beige shaggy rug",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "ok",
+   "cropping": "ok",
+   "issues": [
+    "black bars at edges",
+    "rug is busy",
+    "slight blur"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Shows six colourways of the slim giraffe, though not in natural giraffe colours.",
+  "proposed_alt_text": "Six slim crocheted giraffes in yellow with brown spots, red, purple, light blue, pale yellow and royal blue lined up on a shaggy rug.",
+  "possible_duplicate_of": [
+   "img-026.jpg"
+  ],
+  "overall_confidence": 0.75,
+  "needs_human_review": true,
+  "review_reason": "Only first giraffe has natural colours; five fantasy colourways are bold, confirm they are sold. Letterbox bars."
+ },
+ {
+  "id": "img-030.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "bear",
+    "animal_confidence": 0.55,
+    "colours": [
+     "sky blue",
+     "grey",
+     "yellow",
+     "black"
+    ],
+    "dominant_colour": "sky blue",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference",
+    "details": "Blue bear with striped grey and yellow jumper, yellow feet. Round ears and black triangle nose, could be a koala or mouse; bear most likely."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "plain white surface with soft shadow",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": []
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_hero",
+   "product_gallery",
+   "category_tile"
+  ],
+  "best_use_reason": "Clean product shot on plain background.",
+  "proposed_alt_text": "Sky blue crocheted bear with round ears, black nose, grey and yellow striped top and yellow feet, lying flat on a white background.",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.7,
+  "needs_human_review": true,
+  "review_reason": "Species ambiguous (bear, koala or mouse); confirm name."
+ },
+ {
+  "id": "img-031.jpg",
+  "shot_type": "product_group",
+  "items": [
+   {
+    "animal": "doll",
+    "animal_confidence": 0.95,
+    "colours": [
+     "blonde",
+     "pink",
+     "cream"
+    ],
+    "dominant_colour": "pink",
+    "size_guess": "L",
+    "size_reasoning": "no scale reference; wood shelf, doll roughly 30cm guess",
+    "details": "Doll with yellow hair and pink dress."
+   },
+   {
+    "animal": "doll",
+    "animal_confidence": 0.95,
+    "colours": [
+     "brown",
+     "purple"
+    ],
+    "dominant_colour": "purple",
+    "size_guess": "L",
+    "size_reasoning": "same",
+    "details": "Brown hair, purple dress."
+   },
+   {
+    "animal": "doll",
+    "animal_confidence": 0.95,
+    "colours": [
+     "black",
+     "aqua",
+     "tan"
+    ],
+    "dominant_colour": "aqua",
+    "size_guess": "L",
+    "size_reasoning": "same",
+    "details": "Dark hair, aqua dress, deeper skin tone."
+   }
+  ],
+  "item_count": 3,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "white wall, wooden shelf",
+  "quality": {
+   "sharpness": "ok",
+   "lighting": "good",
+   "cropping": "awkward",
+   "issues": [
+    "phone screenshot with large black bars and UI",
+    "low resolution"
+   ]
+  },
+  "visible_text": "phone UI: 12:27 PM, You, April 27",
+  "best_use": [
+   "avoid"
+  ],
+  "best_use_reason": "Screenshot of a possibly non-original photo, not an animal.",
+  "proposed_alt_text": "Three crocheted dolls in pink, purple and aqua dresses standing side by side on a wooden shelf.",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.6,
+  "needs_human_review": true,
+  "review_reason": "Dolls not animals; screenshot looks like a forwarded or stock image, may not be Mikono work. Confirm origin and ownership."
+ },
+ {
+  "id": "img-032.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "dinosaur",
+    "animal_confidence": 0.7,
+    "colours": [
+     "yellow",
+     "orange",
+     "cream",
+     "mint green",
+     "red"
+    ],
+    "dominant_colour": "yellow",
+    "size_guess": "M",
+    "size_reasoning": "no scale reference",
+    "details": "Yellow dino with orange spikes, large white eyes, cream cheek, mint green shoes, red shell on back. Closely resembles a licensed video game character."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "white fabric",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": []
+  },
+  "visible_text": "",
+  "best_use": [
+   "avoid"
+  ],
+  "best_use_reason": "Looks like a copy of a trademarked character, risky for a shop.",
+  "proposed_alt_text": "Yellow crocheted dinosaur with orange spikes and large eyes sitting on a white cloth, seen from the side.",
+  "possible_duplicate_of": [],
+  "overall_confidence": 0.7,
+  "needs_human_review": true,
+  "review_reason": "Possible third-party IP (Yoshi style character); confirm before any use."
+ },
+ {
+  "id": "img-033.jpg",
+  "shot_type": "product_single",
+  "items": [
+   {
+    "animal": "butterfly",
+    "animal_confidence": 0.9,
+    "colours": [
+     "mint green",
+     "pale yellow",
+     "royal blue",
+     "white"
+    ],
+    "dominant_colour": "mint green",
+    "size_guess": "unknown",
+    "size_reasoning": "no scale reference; same design as img-023",
+    "details": "Mint body with blue antennae, pale yellow wings with mint, white and blue dots, black stitched smile."
+   }
+  ],
+  "item_count": 1,
+  "people": {
+   "present": false,
+   "count": 0,
+   "children": false,
+   "faces_visible": false,
+   "setting": "none"
+  },
+  "setting_background": "plain pale grey surface",
+  "quality": {
+   "sharpness": "good",
+   "lighting": "good",
+   "cropping": "good",
+   "issues": [
+    "colours bright"
+   ]
+  },
+  "visible_text": "",
+  "best_use": [
+   "product_gallery",
+   "category_tile",
+   "social"
+  ],
+  "best_use_reason": "Clean flat lay and a second colourway of the butterfly.",
+  "proposed_alt_text": "Crocheted butterfly with a mint green body, blue antennae and pale yellow wings with green, white and blue spots on a plain background.",
+  "possible_duplicate_of": [
+   "img-023.jpg"
+  ],
+  "overall_confidence": 0.85,
+  "needs_human_review": false,
+  "review_reason": ""
+ }
+]

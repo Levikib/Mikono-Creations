@@ -1,0 +1,804 @@
+{
+ "img-003.jpg": {
+  "votes": {
+   "secretary bird": 3,
+   "hippo": 4,
+   "elephant": 4,
+   "lion": 4,
+   "zebra": 4,
+   "giraffe": 4,
+   "unicorn": 4,
+   "warthog": 4,
+   "rhino": 4,
+   "bear": 1,
+   "ostrich": 1
+  },
+  "majority": [
+   "secretary bird",
+   "hippo",
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "unicorn",
+   "warthog",
+   "rhino"
+  ],
+  "alts": {
+   "horse": 6,
+   "pig": 2,
+   "ostrich": 1,
+   "koala": 1,
+   "boar": 2,
+   "secretary bird": 1,
+   "peacock": 1
+  },
+  "crop_advice": [
+   "split 3x3 collage into 9 separate crops",
+   "crop tighter on girl and toy",
+   "Crop into 9 separate heads."
+  ]
+ },
+ "img-004.jpg": {
+  "votes": {
+   "bear": 4,
+   "doll": 1,
+   "hippo": 1,
+   "elephant": 1,
+   "lion": 1,
+   "zebra": 1,
+   "giraffe": 1,
+   "unicorn": 1,
+   "warthog": 1,
+   "rhino": 1
+  },
+  "majority": [
+   "bear"
+  ],
+  "alts": {
+   "koala": 4
+  },
+  "crop_advice": [
+   "crop tightly to the toy; a child is in the frame",
+   "split 3x3 collage into nine wall-mounted head images",
+   "Crop tight on the bear; people are present."
+  ]
+ },
+ "img-006.jpg": {
+  "votes": {
+   "doll": 5,
+   "octopus": 5,
+   "lion": 5,
+   "turtle": 1
+  },
+  "majority": [
+   "doll",
+   "octopus",
+   "lion"
+  ],
+  "alts": {
+   "jellyfish": 2,
+   "turtle": 3,
+   "octopus": 1
+  },
+  "crop_advice": [
+   "crop out the two sellers and the bags at left",
+   "crop to table with toys, exclude people",
+   "Crop to the toys on the table; two people seated."
+  ]
+ },
+ "img-007.jpg": {
+  "votes": {
+   "octopus": 5,
+   "bear": 1,
+   "elephant": 5,
+   "lion": 5,
+   "monkey": 5,
+   "giraffe": 5,
+   "rabbit": 5,
+   "doll": 1,
+   "cat": 1,
+   "rhino": 1
+  },
+  "majority": [
+   "octopus",
+   "elephant",
+   "lion",
+   "monkey",
+   "giraffe",
+   "rabbit"
+  ],
+  "alts": {
+   "lion": 1,
+   "giraffe": 1,
+   "hippo": 1,
+   "pig": 1,
+   "rabbit": 1
+  },
+  "crop_advice": [
+   "crop out hanging bags and background",
+   "crop to toys, remove bags above",
+   "Crop to the lower toy display."
+  ]
+ },
+ "img-009.jpg": {
+  "votes": {
+   "octopus": 5,
+   "elephant": 5,
+   "giraffe": 1
+  },
+  "majority": [
+   "octopus",
+   "elephant"
+  ],
+  "alts": {},
+  "crop_advice": []
+ },
+ "img-013.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "doll": 1,
+   "turtle": 1,
+   "octopus": 1
+  },
+  "majority": [
+   "giraffe"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "crop out the person if you only want the product",
+   "crop out person or use as behind-the-scenes only",
+   "Mostly a person; crop to the giraffe only if needed."
+  ]
+ },
+ "img-015.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 5,
+   "lion": 5
+  },
+  "majority": [
+   "giraffe",
+   "elephant",
+   "lion"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "crop out the person's face",
+   "crop out person if product shot is needed",
+   "Crop to the held toys; person present."
+  ]
+ },
+ "img-017.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "octopus": 5,
+   "elephant": 5,
+   "turtle": 4,
+   "monkey": 1,
+   "rabbit": 1
+  },
+  "majority": [
+   "giraffe",
+   "octopus",
+   "elephant",
+   "turtle"
+  ],
+  "alts": {
+   "ghost": 1
+  },
+  "crop_advice": []
+ },
+ "img-024.jpg": {
+  "votes": {
+   "frog": 2,
+   "octopus": 5,
+   "elephant": 5,
+   "giraffe": 2,
+   "rabbit": 5,
+   "doll": 1,
+   "turtle": 3,
+   "lion": 1,
+   "monkey": 1
+  },
+  "majority": [
+   "octopus",
+   "elephant",
+   "rabbit",
+   "turtle"
+  ],
+  "alts": {
+   "chick": 4,
+   "turtle": 2,
+   "frog": 2,
+   "rabbit": 1
+  },
+  "crop_advice": []
+ },
+ "img-027.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "lion": 5
+  },
+  "majority": [
+   "giraffe",
+   "lion"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "remove status bar at top and share bar at bottom, crop out the man",
+   "remove status bar at top and share bar at bottom, crop out person",
+   "Crop to the lion; person in frame."
+  ]
+ },
+ "img-030.jpg": {
+  "votes": {
+   "bear": 5
+  },
+  "majority": [
+   "bear"
+  ],
+  "alts": {
+   "koala": 5
+  },
+  "crop_advice": [
+   "Crop away the white margin."
+  ]
+ },
+ "img-031.jpg": {
+  "votes": {
+   "doll": 5
+  },
+  "majority": [
+   "doll"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "remove status bar and black bands top and bottom",
+   "remove phone status bar and black bands, crop to photo",
+   "Crop off the phone UI and black bars."
+  ]
+ },
+ "img-032.jpg": {
+  "votes": {
+   "dinosaur": 5
+  },
+  "majority": [
+   "dinosaur"
+  ],
+  "alts": {
+   "dragon": 5
+  },
+  "crop_advice": []
+ },
+ "img-034.jpg": {
+  "votes": {
+   "bear": 5
+  },
+  "majority": [
+   "bear"
+  ],
+  "alts": {
+   "koala": 3,
+   "polar bear": 2
+  },
+  "crop_advice": []
+ },
+ "img-036.jpg": {
+  "votes": {
+   "chameleon": 5
+  },
+  "majority": [
+   "chameleon"
+  ],
+  "alts": {
+   "lizard": 4
+  },
+  "crop_advice": []
+ },
+ "img-038.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "lion": 3
+  },
+  "majority": [
+   "giraffe",
+   "lion"
+  ],
+  "alts": {
+   "elephant": 1
+  },
+  "crop_advice": [
+   "Crop one cluster at a time."
+  ]
+ },
+ "img-041.jpg": {
+  "votes": {
+   "cat": 5
+  },
+  "majority": [
+   "cat"
+  ],
+  "alts": {
+   "rabbit": 4,
+   "mouse": 2
+  },
+  "crop_advice": []
+ },
+ "img-042.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 5,
+   "lion": 5,
+   "rhino": 5,
+   "zebra": 1
+  },
+  "majority": [
+   "giraffe",
+   "elephant",
+   "lion",
+   "rhino"
+  ],
+  "alts": {
+   "elephant": 4
+  },
+  "crop_advice": [
+   "Crop top half (lions) and bottom half (elephants, rhino) separately."
+  ]
+ },
+ "img-044.jpg": {
+  "votes": {
+   "elephant": 5,
+   "lion": 5,
+   "zebra": 5,
+   "giraffe": 5,
+   "rhino": 5,
+   "doll": 1,
+   "cat": 1
+  },
+  "majority": [
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "rhino"
+  ],
+  "alts": {
+   "elephant": 1,
+   "hippo": 1,
+   "lion": 1
+  },
+  "crop_advice": []
+ },
+ "img-045.jpg": {
+  "votes": {
+   "cat": 5,
+   "giraffe": 5,
+   "elephant": 5,
+   "lion": 5,
+   "rabbit": 3,
+   "pig": 2,
+   "rhino": 1
+  },
+  "majority": [
+   "cat",
+   "giraffe",
+   "elephant",
+   "lion",
+   "rabbit"
+  ],
+  "alts": {
+   "rabbit": 2,
+   "cat": 3,
+   "fox": 1,
+   "bear": 2
+  },
+  "crop_advice": [
+   "Crop the foreground row."
+  ]
+ },
+ "img-046.jpg": {
+  "votes": {
+   "elephant": 5,
+   "lion": 5,
+   "zebra": 5,
+   "giraffe": 5,
+   "cat": 3,
+   "rhino": 5,
+   "doll": 1,
+   "rabbit": 2
+  },
+  "majority": [
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "cat",
+   "rhino"
+  ],
+  "alts": {
+   "rabbit": 1
+  },
+  "crop_advice": [
+   "Crop to the table.",
+   "Crop the tabletop zone."
+  ]
+ },
+ "img-048.jpg": {
+  "votes": {
+   "hippo": 5
+  },
+  "majority": [
+   "hippo"
+  ],
+  "alts": {
+   "mouse": 5
+  },
+  "crop_advice": [
+   "crop out the woman in the background",
+   "crop out seated person if possible",
+   "Crop off the person behind."
+  ]
+ },
+ "img-049.jpg": {
+  "votes": {
+   "doll": 1
+  },
+  "majority": [],
+  "alts": {},
+  "crop_advice": [
+   "no toy visible, person crocheting; likely discard",
+   "behind-the-scenes only, no product visible",
+   "No toy visible; person crocheting."
+  ]
+ },
+ "img-052.jpg": {
+  "votes": {
+   "rabbit": 2,
+   "hippo": 1,
+   "elephant": 3,
+   "giraffe": 1
+  },
+  "majority": [
+   "elephant"
+  ],
+  "alts": {
+   "doll": 2,
+   "mouse": 1
+  },
+  "crop_advice": [
+   "crop out the maker and furniture",
+   "Mostly a person; no clear toy.",
+   "Mostly a person; crop to the lower right corner."
+  ]
+ },
+ "img-057.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "lion": 5
+  },
+  "majority": [
+   "giraffe",
+   "lion"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "crop out the maker",
+   "behind-the-scenes, crop out woman"
+  ]
+ },
+ "img-059.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "rabbit": 5
+  },
+  "majority": [
+   "giraffe",
+   "rabbit"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "crop out wooden animals behind",
+   "Wood carvings behind are not toys."
+  ]
+ },
+ "img-061.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "lion": 2,
+   "monkey": 1
+  },
+  "majority": [
+   "giraffe"
+  ],
+  "alts": {
+   "elephant": 1
+  },
+  "crop_advice": []
+ },
+ "img-064.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 1
+  },
+  "majority": [
+   "giraffe"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "split 2x2 collage into 4 crops",
+   "split 2x2 collage",
+   "Collage; crop per panel."
+  ]
+ },
+ "img-065.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 5,
+   "lion": 5
+  },
+  "majority": [
+   "giraffe",
+   "elephant",
+   "lion"
+  ],
+  "alts": {},
+  "crop_advice": [
+   "crop out the crowd at back",
+   "crop out diners at back"
+  ]
+ },
+ "img-066.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 5,
+   "lion": 4,
+   "rhino": 5,
+   "rabbit": 2,
+   "cat": 1
+  },
+  "majority": [
+   "giraffe",
+   "elephant",
+   "lion",
+   "rhino"
+  ],
+  "alts": {
+   "elephant": 1
+  },
+  "crop_advice": [
+   "Crop in thirds from back to front."
+  ]
+ },
+ "img-069.jpg": {
+  "votes": {
+   "giraffe": 4,
+   "rabbit": 5,
+   "elephant": 4,
+   "rhino": 1
+  },
+  "majority": [
+   "giraffe",
+   "rabbit",
+   "elephant"
+  ],
+  "alts": {
+   "hippo": 1
+  },
+  "crop_advice": []
+ },
+ "img-070.jpg": {
+  "votes": {
+   "giraffe": 5
+  },
+  "majority": [
+   "giraffe"
+  ],
+  "alts": {},
+  "crop_advice": []
+ },
+ "img-073.jpg": {
+  "votes": {
+   "monkey": 5
+  },
+  "majority": [
+   "monkey"
+  ],
+  "alts": {
+   "sloth": 2
+  },
+  "crop_advice": [
+   "remove hand at bottom if possible"
+  ]
+ },
+ "img-076.jpg": {
+  "votes": {
+   "elephant": 5,
+   "giraffe": 4,
+   "rabbit": 2
+  },
+  "majority": [
+   "elephant",
+   "giraffe"
+  ],
+  "alts": {},
+  "crop_advice": []
+ },
+ "img-077.jpg": {
+  "votes": {
+   "duck": 1,
+   "goose": 4
+  },
+  "majority": [
+   "goose"
+  ],
+  "alts": {
+   "goose": 1,
+   "duck": 4
+  },
+  "crop_advice": []
+ },
+ "img-078.jpg": {
+  "votes": {
+   "monkey": 5
+  },
+  "majority": [
+   "monkey"
+  ],
+  "alts": {
+   "sloth": 1
+  },
+  "crop_advice": []
+ },
+ "img-079.jpg": {
+  "votes": {
+   "doll": 5
+  },
+  "majority": [
+   "doll"
+  ],
+  "alts": {},
+  "crop_advice": []
+ },
+ "img-080.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 5,
+   "rabbit": 5,
+   "rhino": 5,
+   "lion": 1
+  },
+  "majority": [
+   "giraffe",
+   "elephant",
+   "rabbit",
+   "rhino"
+  ],
+  "alts": {
+   "elephant": 3,
+   "hippo": 1
+  },
+  "crop_advice": [
+   "photo is orange tinted, fix colour",
+   "Crop the bottom half for rhinos vs elephants."
+  ]
+ },
+ "img-081.jpg": {
+  "votes": {
+   "goose": 5
+  },
+  "majority": [
+   "goose"
+  ],
+  "alts": {
+   "duck": 9
+  },
+  "crop_advice": []
+ },
+ "img-082.jpg": {
+  "votes": {
+   "hippo": 5
+  },
+  "majority": [
+   "hippo"
+  ],
+  "alts": {
+   "mouse": 5
+  },
+  "crop_advice": [
+   "crop out the woman in the background",
+   "Crop off person behind.",
+   "Crop to the toy."
+  ]
+ },
+ "img-084.jpg": {
+  "votes": {
+   "turtle": 5
+  },
+  "majority": [
+   "turtle"
+  ],
+  "alts": {},
+  "crop_advice": []
+ },
+ "img-085.jpg": {
+  "votes": {
+   "giraffe": 5,
+   "elephant": 5,
+   "lion": 5,
+   "rhino": 5
+  },
+  "majority": [
+   "giraffe",
+   "elephant",
+   "lion",
+   "rhino"
+  ],
+  "alts": {
+   "elephant": 3
+  },
+  "crop_advice": [
+   "Duplicate of img-042; crop top and bottom halves."
+  ]
+ },
+ "img-086.jpg": {
+  "votes": {
+   "secretary bird": 3,
+   "hippo": 5,
+   "elephant": 5,
+   "lion": 5,
+   "zebra": 5,
+   "giraffe": 5,
+   "unicorn": 5,
+   "warthog": 5,
+   "rhino": 5,
+   "doll": 1,
+   "ostrich": 1
+  },
+  "majority": [
+   "secretary bird",
+   "hippo",
+   "elephant",
+   "lion",
+   "zebra",
+   "giraffe",
+   "unicorn",
+   "warthog",
+   "rhino"
+  ],
+  "alts": {
+   "horse": 6,
+   "pig": 2,
+   "ostrich": 1,
+   "boar": 2,
+   "secretary bird": 1,
+   "peacock": 1
+  },
+  "crop_advice": [
+   "split 3x3 collage into 9 separate crops",
+   "split 3x3 collage into nine wall-mounted head images",
+   "Crop into 9 separate heads."
+  ]
+ },
+ "img-087.jpg": {
+  "votes": {
+   "rabbit": 5,
+   "elephant": 5,
+   "zebra": 5,
+   "giraffe": 5,
+   "cat": 4
+  },
+  "majority": [
+   "rabbit",
+   "elephant",
+   "zebra",
+   "giraffe",
+   "cat"
+  ],
+  "alts": {
+   "rabbit": 2,
+   "cat": 1
+  },
+  "crop_advice": []
+ }
+}

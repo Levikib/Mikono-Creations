@@ -1,0 +1,37 @@
+== 1440
+  [gift intro] overflow=0 broken=none cards=- small=none
+  [gift q1] overflow=0 broken=none cards=- small=none
+  [gift q2] overflow=0 broken=none cards=- small=none
+  [gift q3] overflow=0 broken=none cards=- small=none
+  [gift q4] overflow=0 broken=none cards=- small=none
+  [gift q5] overflow=0 broken=none cards=- small=none
+  focus after result: Three animals to consider
+  [gift result] overflow=0 broken=none cards=uniform small=none
+  picks: ["Elephant","Rhino","Giraffe"] [["Slate blue","Size L","","In your colour mood, cool blues and purples: Slate blue and Lavender","","Matches your pick: safari animals","","Comes in size L, one of four sizes from S to XL",": Elephant, Slate blue, size L",": Elephant","",": Elephant"],["Light blue with cream horns","Size L","","In your colour mood, cool blues and purples: Light blue with cream horns","","Matches your pick: safari animals","","Comes in size L, one of four sizes from S to XL",": Rhino, Light blue with cream horns, size L",": Rhino","",": Rhino"],["Cream with brown spots","Size L","","Matches your pick: safari animals","","Comes in size L, one of four sizes from S to XL",": Giraffe, Cream with brown spots, size L",": Giraffe","",": Giraffe"]]
+  cart: {"v":1,"updatedAt":1790953206665,"lines":[{"sku":"elephant-slate-blue-l","slug":"elephant","name":"Elephant","colourKey":"slate-blue","colourLabel":"Slate blue","size":"L","image":"/media/products/elephant/elephant-slate
+  custom links: ["/custom/studio?base=elephant","/custom/studio?base=rhino","/custom/studio?base=giraffe"]
+  after reload has result: 3
+  store: {"v":1,"tools":{"gift":{"t":1790953199986,"d":{"step":6,"answers":{"who":"friend","occasion":"birthday","kind":"safari","size":"L","mood":"blue"}}}}}
+  share href: https://wa.me/254724592115?text=Hello Mikono Creations, I used the gift finder and these are my picks.
+Occasion: birthday. For: a friend.
+
+1. Elephant, Slate blue, size L
+2. Rhino, Light blue with cream horns, size L
+3. Giraffe, Cream with brown spots, size L
+
+Can you tell me the price and availability?
+  errors: ["Failed to load resource: the server responded with a status of 404 (Not Found)","Failed to load resource: the server responded with a status of 404 (Not Found)","Failed to load resource: the server responded with a status of 404 (Not Found)","Failed to load resource: the server responded with a status of 404 (Not Found)","Failed to load resource: the server responded with a status of 404 (Not Found)","Failed to load resource: the server responded with a status of 404 (Not Found)","Failed to load resource: the server responded with a status of 404 (Not Found)"]
+  [size initial] overflow=0 broken=none cards=uniform small=none
+  [size cuddle] overflow=0 broken=none cards=uniform small=none
+  size suggestion: We suggest size L. Or XL. | L | WE SUGGEST | Size L, or XL | A larger animal gives you more to hold, so L is a good place to start. XL is the biggest we make, for a real armful. | See L animals in the
+  shop link: /shop?size=L
+  errors: ["Failed to load resource: the server responded with a status of 404 (Not Found)"]
+  [family empty] overflow=0 broken=none cards=uniform small=none
+  [family added] overflow=0 broken=none cards=uniform small=none
+  hash: #family=elephant-caramel-brown-xl,giraffe-cream-brown-spots-m.2,lion-tan-brown-mane-m.2,zebra-black-and-white-m
+  summary: 6 animals, 2 sizes
+  [family tray] overflow=0 broken=none cards=uniform small=none
+  wa url: https://api.whatsapp.com/send/?phone=254724592115&text=Hello+Mikono+Creations,+I+would+like+to+order. / Order+ref:+MK-261002-DJJ3 /  / ITEMS / 1.+1+x+Elephant,+Caramel+brown,+size+XL,+SKU+elephant-caramel-brown-xl / 2.+2+x+Giraffe,+Cream+with+brown+spots,+size+M,+SKU+giraffe-cream-brown-spots-m / 3.+2+x+Lion,+Tan+with+brown+mane,+size+M,+SKU+lion-tan-brown-mane-m / 4.+1+x+Zebra,+Black+and+white,+size+M,+SKU+zebra-black-and-white-m / Prices+are+confirmed+on+WhatsApp. /  / FAMILY / Built+with+the+Safari+Family+builder:+6+animals,+2+sizes. / My+family:+http://localhost:3947/build-a-family#family=elephant-caramel-brown-xl,giraffe-cream-brown-spots-m.2,lion-tan-brown-mane-m.2,zebra-black-and-whit
+  cart lines: 4 elephant-caramel-brown-xlx1 giraffe-cream-brown-spots-mx2 lion-tan-brown-mane-mx2 zebra-black-and-white-mx1
+  shared tray lines: 4 banner: 1
+  errors: []

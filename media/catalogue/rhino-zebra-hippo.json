@@ -1,0 +1,248 @@
+{
+ "group": "rhino-zebra-hippo",
+ "products": [
+  {
+   "slug": "rhino",
+   "species": "rhino",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "light-blue",
+     "label": "Light blue with cream horns",
+     "images": [
+      {
+       "file": "media/work/rhino/rhino-light-blue-03.jpg",
+       "source_id": "rhino-light-blue-03.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 620,
+       "height": 900,
+       "quality": "good",
+       "alt": "Light blue crocheted rhinos with cream horns in a row on a light blue table",
+       "verified": true
+      },
+      {
+       "file": "media/work/rhino/rhino-light-blue-02.jpg",
+       "source_id": "img-026.jpg",
+       "crop": [
+        570,
+        400,
+        440,
+        600
+       ],
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.7
+       ],
+       "shownSize": null,
+       "width": 440,
+       "height": 600,
+       "quality": "low",
+       "alt": "Two light blue crocheted rhinos with cream horns in front, more rhinos and grey elephants behind, warm market light",
+       "verified": true
+      }
+     ]
+    },
+    {
+     "key": "brown",
+     "label": "Brown with cream horns",
+     "images": [
+      {
+       "file": "media/work/rhino/rhino-brown-01.jpg",
+       "source_id": "img-071.jpg",
+       "crop": [
+        540,
+        520,
+        640,
+        480
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 640,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Brown crocheted rhino with cream horns standing beside a light blue rhino, grey elephants on the right",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "zebra",
+   "species": "zebra",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "black-and-white",
+     "label": "Black and white",
+     "images": [
+      {
+       "file": "media/work/zebra/zebra-black-and-white-01.jpg",
+       "source_id": "img-037.jpg",
+       "crop": [
+        0,
+        500,
+        770,
+        800
+       ],
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 770,
+       "height": 800,
+       "quality": "good",
+       "alt": "Two black and white striped crocheted zebras standing on a wooden table outdoors",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": [
+    {
+     "file": "media/raw/img-035.jpg",
+     "source_id": "img-035.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.3,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 878,
+     "height": 432,
+     "quality": "ok",
+     "alt": "A black and white striped zebra beside a lavender elephant and a lion on a wooden table in a garden",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "slug": "hippo",
+   "species": "hippo",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "blue-grey",
+     "label": "Navy with magenta dress",
+     "images": [
+      {
+       "file": "media/raw/img-048.jpg",
+       "source_id": "img-048.jpg",
+       "crop": null,
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 665,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Navy crocheted hippo in a magenta crocheted dress with a multicoloured hem, held up in a hand, with a woman seated on a sofa behind",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  }
+ ],
+ "rejected": [
+  {
+   "source_id": "img-003.jpg",
+   "reason": "3x3 collage: hippo, rhino and zebra wall heads each panel only about 288x430 px, short side under 400. Panels rejected (hippo wall head blue-grey with blue eyes and nose, rhino wall head light blue-grey with cream horns, zebra wall head black and white)"
+  },
+  {
+   "source_id": "img-086.jpg",
+   "reason": "Byte identical duplicate of img-003; same collage panels too small"
+  },
+  {
+   "source_id": "img-082.jpg",
+   "reason": "Byte identical duplicate of img-048 (dressed hippo); img-048 used"
+  },
+  {
+   "source_id": "img-075.jpg",
+   "reason": "Byte identical duplicate of img-039; img-039 used"
+  },
+  {
+   "source_id": "img-085.jpg",
+   "reason": "Duplicate of img-042: pile of toys, one light blue rhino among dozens; no clean crop of 400 px or more"
+  },
+  {
+   "source_id": "img-042.jpg",
+   "reason": "Pile of toys, one light blue rhino among dozens, no isolatable crop of 400 px or more"
+  },
+  {
+   "source_id": "img-044.jpg",
+   "reason": "Retail shelf with several species; rhinos and the zebra edge are tiny, crop under 400 px"
+  },
+  {
+   "source_id": "img-046.jpg",
+   "reason": "Stall table with people; zebras and rhino far away and small, crop under 400 px"
+  },
+  {
+   "source_id": "img-056.jpg",
+   "reason": "Maker on sofa; light blue rhinos tiny in the pile at left, crop under 400 px"
+  },
+  {
+   "source_id": "img-072.jpg",
+   "reason": "Light blue rhino cut off at the left edge, mostly blurred bokeh, not usable"
+  },
+  {
+   "source_id": "img-080.jpg",
+   "reason": "Strong orange colour cast on whole photo; rhinos cut off at the bottom left, colour unreliable"
+  },
+  {
+   "source_id": "img-062.jpg#single-crop",
+   "reason": "Tight single-rhino crops impossible: neighbouring toys and a rabbit arm overlap every rhino; a group crop was used instead"
+  },
+  {
+   "source_id": "img-035.jpg#zebra-crop",
+   "reason": "Single zebra crop is about 250 px wide, under 400; whole image used instead"
+  },
+  {
+   "source_id": "img-087.jpg#zebra-crop",
+   "reason": "Three-zebra crop is about 310 px high, under 400; whole image used instead"
+  },
+  {
+   "source_id": "img-021.jpg#zebra-crop",
+   "reason": "Zebra head crop is about 360 px, under 400; whole image used instead"
+  },
+  {
+   "source_id": "img-026.jpg#single-rhino-crop",
+   "reason": "Single rhino crop under 400 px short side; a group crop of 440x600 used instead"
+  }
+ ],
+ "client_review": [
+  "Hippo in img-048 (and duplicate img-082) is the dressed blue-grey toy decided as hippo by 5 of 5 votes. It is the only usable hippo photo; please confirm it is a hippo and not another animal, and supply a clean shot of a plain hippo if one exists.",
+  "Hippo, rhino and zebra wall-mounted heads appear only in a collage whose panels are about 288 px wide. Please send the original full-size photos of these heads, they would be the best hero images.",
+  "Standing plush versus wall-mounted head: the client should say whether wall heads are a separate product or an option, since they are different forms. Wall heads are not in the catalogue yet (zebra head img-021 is kept only as a range image).",
+  "Rhino light blue shade varies with lighting across photos (light blue, grey-blue, slightly lavender in img-026). Please confirm all are one yarn colour or whether there is a separate grey-blue rhino.",
+  "Brown rhino with cream horns is seen only in market table photos (img-039, img-071, img-043). Please confirm it is a rhino and a regular colour, and send a clean photo.",
+  "Zebra has one colourway (black and white); yarn looks dark brown-black in img-037. Confirm label.",
+  "No size information is supported by any photo, shownSize is null everywhere. Please confirm sizes S to XL per animal.",
+  "Hippo image has a person behind the toy; confirm the dressed hippo is a standard product and whether the dress is included or optional.",
+  "img-043 shows signs and bystanders in the background; cropped but background people remain at the top edge."
+ ]
+}

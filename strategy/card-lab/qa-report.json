@@ -1,0 +1,140 @@
+{
+ "rep": [
+  {
+   "pg": "cards",
+   "w": 390,
+   "rows": 21,
+   "heightSpreadFail": 0,
+   "ctaAlignFail": 0,
+   "overflowX": false,
+   "minFill": 0.869,
+   "fillByKind": {
+    "tier": 1,
+    "photo": 0.98,
+    "feature": 0.96,
+    "stat": 0.87,
+    "story": 1,
+    "link": 1
+   },
+   "smallTargets": []
+  },
+  {
+   "pg": "cards",
+   "w": 768,
+   "rows": 14,
+   "heightSpreadFail": 0,
+   "ctaAlignFail": 0,
+   "overflowX": false,
+   "minFill": 0.869,
+   "fillByKind": {
+    "tier": 0.96,
+    "photo": 0.99,
+    "feature": 0.96,
+    "stat": 0.87,
+    "story": 0.97,
+    "link": 1
+   },
+   "smallTargets": []
+  },
+  {
+   "pg": "cards",
+   "w": 1440,
+   "rows": 8,
+   "heightSpreadFail": 0,
+   "ctaAlignFail": 0,
+   "overflowX": false,
+   "minFill": 0.882,
+   "fillByKind": {
+    "tier": 0.88,
+    "photo": 0.99,
+    "feature": 0.96,
+    "stat": 0.96,
+    "story": 0.97,
+    "link": 1
+   },
+   "smallTargets": []
+  },
+  {
+   "pg": "contexts",
+   "w": 390,
+   "rows": 27,
+   "heightSpreadFail": 0,
+   "ctaAlignFail": 0,
+   "overflowX": false,
+   "minFill": 0.869,
+   "fillByKind": {
+    "tier": 1,
+    "feature": 0.96,
+    "photo": 0.98,
+    "story": 0.96,
+    "link": 1,
+    "stat": 0.87
+   },
+   "smallTargets": []
+  },
+  {
+   "pg": "contexts",
+   "w": 768,
+   "rows": 19,
+   "heightSpreadFail": 0,
+   "ctaAlignFail": 0,
+   "overflowX": false,
+   "minFill": 0.858,
+   "fillByKind": {
+    "tier": 0.96,
+    "feature": 0.86,
+    "photo": 0.99,
+    "story": 0.9,
+    "link": 1,
+    "stat": 0.96
+   },
+   "smallTargets": []
+  },
+  {
+   "pg": "contexts",
+   "w": 1440,
+   "rows": 12,
+   "heightSpreadFail": 0,
+   "ctaAlignFail": 0,
+   "overflowX": false,
+   "minFill": 0.858,
+   "fillByKind": {
+    "tier": 0.88,
+    "feature": 0.86,
+    "photo": 0.99,
+    "story": 0.91,
+    "link": 1,
+    "stat": 0.96
+   },
+   "smallTargets": []
+  }
+ ],
+ "over": [],
+ "extra": [
+  {
+   "n": "amber cream on stat top",
+   "r": 5.45,
+   "m": 4.5
+  },
+  {
+   "n": "terracotta cream on stat top",
+   "r": 7.32,
+   "m": 4.5
+  },
+  {
+   "n": "olive cream on stat top",
+   "r": 7.04,
+   "m": 4.5
+  },
+  {
+   "n": "baobab cream on stat top",
+   "r": 14.61,
+   "m": 4.5
+  },
+  {
+   "n": "slate cream on stat top",
+   "r": 7.74,
+   "m": 4.5
+  }
+ ]
+}

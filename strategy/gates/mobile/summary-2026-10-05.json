@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-05",
+ "base": "http://localhost:3501",
+ "overall": "FAIL",
+ "solo": false,
+ "rows": [
+  {
+   "name": "layout",
+   "overall": "FAIL",
+   "counts": {
+    "critical": 9,
+    "high": 34,
+    "medium": 12,
+    "low": 27
+   },
+   "report": "strategy/gates/mobile/layout-2026-10-05.md",
+   "fresh": true,
+   "exit": {
+    "name": "layout",
+    "code": 0,
+    "sig": null,
+    "seconds": 2208
+   }
+  },
+  {
+   "name": "interactions",
+   "overall": "ERROR",
+   "counts": {},
+   "note": "no report strategy/gates/mobile/interactions-2026-10-05.json",
+   "exit": {
+    "name": "interactions",
+    "code": null,
+    "sig": "SIGKILL",
+    "seconds": 2851
+   }
+  },
+  {
+   "name": "width",
+   "overall": "PASS",
+   "counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+   },
+   "report": "strategy/gates/mobile/width-2026-10-05.md",
+   "fresh": true,
+   "exit": {
+    "name": "width",
+    "code": 0,
+    "sig": null,
+    "seconds": 1841
+   }
+  },
+  {
+   "name": "perf",
+   "overall": "ERROR",
+   "counts": {},
+   "note": "no report strategy/gates/mobile/perf-2026-10-05.json",
+   "exit": {
+    "name": "perf",
+    "code": null,
+    "sig": "SIGKILL",
+    "seconds": 2852
+   }
+  }
+ ]
+}

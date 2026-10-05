@@ -1,0 +1,997 @@
+{
+ "images": [
+  {
+   "id": "img-001.jpg",
+   "primary_use": "homepage_hero",
+   "secondary_uses": [
+    "story_page",
+    "makers_page"
+   ],
+   "caption": "A woman smiling down at a big crocheted lion at an outdoor craft market in Nairobi.",
+   "alt": "Smiling woman with purple braids and an orange top holding a large crocheted lion at an outdoor market with kitenge cloths behind her",
+   "crop_files": [
+    "story-14-001-lion-hug-16x9.jpg"
+   ],
+   "resolution_note": "1472x1472: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-002.jpg",
+   "primary_use": "story_page",
+   "secondary_uses": [
+    "journal_post"
+   ],
+   "caption": "Looking at the lion she is holding, market day under the trees.",
+   "alt": "Woman with purple braids looking down at a large crocheted lion at an outdoor craft market",
+   "crop_files": [],
+   "resolution_note": "1472x1472: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-003.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Nine crocheted wall mounted animal heads in a grid",
+   "crop_files": [],
+   "resolution_note": "866x1298: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "collage of nine photos, duplicate of img-086; product agents handle"
+  },
+  {
+   "id": "img-004.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "A girl in a pink jumper holding a small turquoise crocheted bear at a market.",
+   "alt": "Girl in a pale pink jumper holding a small turquoise crocheted bear at an outdoor market",
+   "crop_files": [],
+   "resolution_note": "672x736: short side 672 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "journal_post_title": "Pretend Play Ideas with Crocheted Animals"
+  },
+  {
+   "id": "img-005.jpg",
+   "primary_use": "impact_page",
+   "secondary_uses": [
+    "partners_page"
+   ],
+   "caption": "A group of adults and children seated and standing in a homestead courtyard.",
+   "alt": "Group of adults, a toddler and a baby gathered in a courtyard beside a blue painted wall; several people have crutches",
+   "crop_files": [],
+   "resolution_note": "708x308: short side 308 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "note": "Context unknown (the client has not said who they are or what the occasion was). Client should confirm before use. Duplicate of img-047."
+  },
+  {
+   "id": "img-006.jpg",
+   "primary_use": "stockists_page",
+   "secondary_uses": [
+    "gallery_page",
+    "journal_post"
+   ],
+   "caption": "Two women at a beach side stall with crocheted lions and dolls on a blue table.",
+   "alt": "Two women seated behind a market table on white sand with crocheted lions, dolls and small crocheted toys",
+   "crop_files": [],
+   "resolution_note": "1200x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-007.jpg",
+   "primary_use": "stockists_page",
+   "secondary_uses": [
+    "wholesale_page"
+   ],
+   "caption": "A stall under a white canopy with bags above and rows of crocheted animals below.",
+   "alt": "Beach market stall with hanging woven bags and rows of crocheted lions, elephants, giraffes and octopuses on the table",
+   "crop_files": [],
+   "resolution_note": "736x578: short side 578 px, small use only, never above 280 px wide.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-009.jpg",
+   "primary_use": "social_only",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "Rows of crocheted octopuses in red, green, yellow and white.",
+   "alt": "Rows of crocheted octopuses in red, green, yellow and white with grey elephants behind",
+   "crop_files": [],
+   "resolution_note": "736x628: short side 628 px, small use only, never above 280 px wide.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-010.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "homepage_gallery",
+    "social_only"
+   ],
+   "caption": "Two visitors with crocheted toys under a blue umbrella at a market stall.",
+   "alt": "Young man holding a crocheted giraffe and elephant beside a smiling woman in a red visor under a blue market umbrella",
+   "crop_files": [],
+   "resolution_note": "961x1440: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "good"
+  },
+  {
+   "id": "img-011.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "A girl carrying a lion in her white bag at an outdoor market.",
+   "alt": "Girl in a black hoodie with a crocheted lion peeking out of a white shoulder bag at an outdoor market",
+   "crop_files": [],
+   "resolution_note": "568x544: short side 544 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "journal_post_title": "Quiet Play for Long Matatu Rides"
+  },
+  {
+   "id": "img-013.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "journal_post",
+    "story_page"
+   ],
+   "caption": "Hands crocheting a yellow giraffe.",
+   "alt": "Woman in a black t shirt crocheting a small piece beside a large yellow crocheted giraffe",
+   "crop_files": [],
+   "resolution_note": "890x1024: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok",
+   "journal_post_title": "What Mikono Means"
+  },
+  {
+   "id": "img-014.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "story_page",
+    "homepage_gallery"
+   ],
+   "caption": "A maker on a sofa with a big group of yellow and cream giraffes.",
+   "alt": "Woman in a blue patterned dress seated on a sofa beside many crocheted giraffes on a teal blanket",
+   "crop_files": [],
+   "resolution_note": "643x687: short side 643 px, small use only, never above 280 px wide.",
+   "quality": "good"
+  },
+  {
+   "id": "img-015.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "A smiling man at the stall holding a giraffe and an elephant.",
+   "alt": "Smiling young man in an orange jacket holding a crocheted giraffe and elephant under a blue umbrella",
+   "crop_files": [],
+   "resolution_note": "605x649: short side 605 px, small use only, never above 280 px wide.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-017.jpg",
+   "primary_use": "social_only",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "A hand holding a white octopus among yellow giraffes and grey elephants.",
+   "alt": "Hand holding a white crocheted octopus with red and orange frill over a table of crocheted animals",
+   "crop_files": [],
+   "resolution_note": "736x736: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-018.jpg",
+   "primary_use": "social_only",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "The bag, the market and the lion.",
+   "alt": "Young person wearing a white shoulder bag with a crocheted lion inside at an outdoor market",
+   "crop_files": [],
+   "resolution_note": "610x609: short side 609 px, small use only, never above 280 px wide.",
+   "quality": "good"
+  },
+  {
+   "id": "img-019.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Wall mounted crocheted lion head on patterned wallpaper",
+   "crop_files": [],
+   "resolution_note": "600x751: short side 600 px, small use only, never above 280 px wide.",
+   "quality": "contains a \"Copyrighted Material\" page overlay and book page text; cannot be cropped cleanly; product agent W1 may decide"
+  },
+  {
+   "id": "img-021.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Crafting room shelf with a crocheted zebra head on the wall",
+   "crop_files": [],
+   "resolution_note": "640x426: short side 426 px, small use only, never above 280 px wide.",
+   "quality": "very low resolution, cluttered"
+  },
+  {
+   "id": "img-024.jpg",
+   "primary_use": "social_only",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "A yellow octopus in a hand, surrounded by bunnies and elephants.",
+   "alt": "Hand holding a yellow crocheted octopus with an orange frill above a table of crocheted bunnies and elephants",
+   "crop_files": [],
+   "resolution_note": "736x736: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-026.jpg",
+   "primary_use": "homepage_hero",
+   "secondary_uses": [
+    "homepage_gallery",
+    "stockists_page"
+   ],
+   "caption": "A maker behind her stall full of crocheted elephants, rhinos, giraffes and a rabbit.",
+   "alt": "Woman with locs and glasses smiling behind a market table full of grey and blue crocheted elephants, rhinos and orange giraffes",
+   "crop_files": [
+    "story-13-026-stall-woman-16x9.jpg"
+   ],
+   "resolution_note": "1600x1047: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "good"
+  },
+  {
+   "id": "img-027.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "A shopper looking closely at a crocheted lion at the stall.",
+   "alt": "Man in a cap and leather jacket holding a crocheted lion at a market stall with giraffes beside it",
+   "crop_files": [
+    "story-11-027-man-with-lion-stall.jpg"
+   ],
+   "resolution_note": "746x1600: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok after crop (phone status bar and bars removed)"
+  },
+  {
+   "id": "img-029.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Row of six crocheted giraffes on a rug",
+   "crop_files": [],
+   "resolution_note": "1080x662: short side 662 px, small use only, never above 280 px wide.",
+   "quality": "product shot, rotated with black wedge corners; left to species agent (crop x 25 to 1055, y 40 to 620 would clean it)"
+  },
+  {
+   "id": "img-031.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Three crocheted dolls",
+   "crop_files": [
+    "story-12-031-three-dolls.jpg"
+   ],
+   "resolution_note": "720x1600: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "phone screenshot; crop made for the dolls agent",
+   "reason": "Product shot, not story; status bar and black bars removed so the doll agent can use the clean crop."
+  },
+  {
+   "id": "img-038.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Close crowd of crocheted giraffes",
+   "crop_files": [],
+   "resolution_note": "1543x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "poor, very shallow focus, duplicate of the story of img-064"
+  },
+  {
+   "id": "img-039.jpg",
+   "primary_use": "homepage_gallery",
+   "secondary_uses": [
+    "stockists_page",
+    "wholesale_page"
+   ],
+   "caption": "A full market table of crocheted lions, giraffes, elephants and rabbits.",
+   "alt": "Market table with a white heart print cloth covered in crocheted lions, rabbits, giraffes, rhinos and elephants",
+   "crop_files": [],
+   "resolution_note": "1200x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "good"
+  },
+  {
+   "id": "img-042.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Pile of crocheted animals",
+   "crop_files": [],
+   "resolution_note": "744x977: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "duplicate of img-085, no surface or context"
+  },
+  {
+   "id": "img-043.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "stockists_page",
+    "journal_post"
+   ],
+   "caption": "Our stall at a busy art and craft market under white tents.",
+   "alt": "Crocheted lions, rabbits, giraffes and elephants on a heart print table at a crowded art market under white tents",
+   "crop_files": [],
+   "resolution_note": "1600x1200: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok",
+   "journal_post_title": "Pop-up at a Nairobi market (project concept 10)",
+   "note": "Live caricature banner with a third party name sits behind the stall; cannot be cropped out cleanly. Use only as a wide event shot, or ask the client."
+  },
+  {
+   "id": "img-044.jpg",
+   "primary_use": "stockists_page",
+   "secondary_uses": [
+    "wholesale_page",
+    "homepage_gallery"
+   ],
+   "caption": "Our animals on a shop shelf, tagged and ready to go home.",
+   "alt": "Gift shop shelf with yellow giraffes, lions, grey elephants and light blue rhinos with hang tags",
+   "crop_files": [],
+   "resolution_note": "744x562: short side 562 px, small use only, never above 280 px wide.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-045.jpg",
+   "primary_use": "wholesale_page",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "A table of lions, giraffes and elephants with pink, green and blue bears at the front.",
+   "alt": "Market table with rows of crocheted giraffes, elephants and lions and bright pink, green and blue animals in front",
+   "crop_files": [],
+   "resolution_note": "744x992: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-046.jpg",
+   "primary_use": "wholesale_page",
+   "secondary_uses": [
+    "stockists_page"
+   ],
+   "caption": "A long table with the whole range laid out.",
+   "alt": "Long turquoise draped table with rows of crocheted giraffes, lions and elephants in a craft fair",
+   "crop_files": [],
+   "resolution_note": "744x992: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-047.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Group of adults and a toddler outside a blue painted wall",
+   "crop_files": [],
+   "resolution_note": "708x308: short side 308 px, small use only, never above 280 px wide.",
+   "quality": "near duplicate of img-005, kept as a variant only"
+  },
+  {
+   "id": "img-048.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "A hippo in a pink dress held up by a maker.",
+   "alt": "Crocheted dark blue animal in a pink dress held up in front of a woman seated on a sofa",
+   "crop_files": [],
+   "resolution_note": "665x736: short side 665 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "note": "Maker partly in background; also a product shot of a hippo in a dress, species agent decides."
+  },
+  {
+   "id": "img-049.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Woman crocheting",
+   "crop_files": [],
+   "resolution_note": "539x810: short side 539 px, small use only, never above 280 px wide.",
+   "quality": "poor, blurred, glass table glare; img-013 and img-054 do the same job"
+  },
+  {
+   "id": "img-050.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "story_page",
+    "homepage_gallery"
+   ],
+   "caption": "A maker with a family of finished giraffes on a teal blanket.",
+   "alt": "Woman in a striped yellow dress seated behind about fifteen crocheted yellow and cream giraffes on a teal blanket",
+   "crop_files": [],
+   "resolution_note": "673x927: short side 673 px, small use only, never above 280 px wide.",
+   "quality": "good"
+  },
+  {
+   "id": "img-051.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "journal_post"
+   ],
+   "caption": "Hands stitching a yellow giraffe, ready to assemble.",
+   "alt": "Woman in a black t shirt stitching a small crocheted piece with a large yellow giraffe in the foreground",
+   "crop_files": [],
+   "resolution_note": "744x992: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok",
+   "journal_post_title": "How a Crocheted Elephant Is Made, Step by Step"
+  },
+  {
+   "id": "img-052.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "journal_post"
+   ],
+   "caption": "A maker crocheting, with a toy waiting on the chair.",
+   "alt": "Woman in a striped dress and head wrap crocheting while seated on a white plastic chair in a home",
+   "crop_files": [],
+   "resolution_note": "622x992: short side 622 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "journal_post_title": "The Tools on a Maker's Table"
+  },
+  {
+   "id": "img-053.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "makers_page"
+   ],
+   "caption": "A break at the workroom, with a table of giraffe pieces and scissors.",
+   "alt": "Woman in a red hat and navy hoodie looking at her phone beside a table piled with unfinished giraffes and scissors",
+   "crop_files": [],
+   "resolution_note": "960x935: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok",
+   "journal_post_title": "A Day in the Workshop"
+  },
+  {
+   "id": "img-054.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "makers_page"
+   ],
+   "caption": "Finishing a giraffe, with a box of orange yarn next to her.",
+   "alt": "Woman in a red head wrap and striped top seated on a sofa finishing a crocheted giraffe, with a box of yarn on the floor",
+   "crop_files": [],
+   "resolution_note": "477x886: short side 477 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "journal_post_title": "How Long Does One Toy Take? (TODO: timing)",
+   "note": "A cardboard box with a third party brand name is visible bottom right; low value to crop (face and giraffe stay), crop to y 0 to 640 if the client prefers."
+  },
+  {
+   "id": "img-055.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "story_page",
+    "journal_post"
+   ],
+   "caption": "Sewing the face on a tan bear.",
+   "alt": "Smiling woman with locs in a grey t shirt sewing a crocheted bear on her lap",
+   "crop_files": [],
+   "resolution_note": "678x867: short side 678 px, small use only, never above 280 px wide.",
+   "quality": "good",
+   "journal_post_title": "Meet the Women Behind Mikono"
+  },
+  {
+   "id": "img-056.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "makers_page"
+   ],
+   "caption": "Many hands, many animals: a pile of grey elephants and a lion in the making.",
+   "alt": "Young woman seated on a blue tufted sofa sewing a lion with a large pile of grey crocheted elephants beside her",
+   "crop_files": [],
+   "resolution_note": "545x909: short side 545 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "journal_post_title": "A Day in the Workshop"
+  },
+  {
+   "id": "img-057.jpg",
+   "primary_use": "homepage_gallery",
+   "secondary_uses": [
+    "makers_page",
+    "story_page"
+   ],
+   "caption": "Giving a lion its mane.",
+   "alt": "Older woman in a yellow hoodie hand finishing a lion mane surrounded by piles of crocheted giraffes and lion bodies",
+   "crop_files": [],
+   "resolution_note": "738x930: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok",
+   "note": "Fertilizer sack with partial third party text in the background; acceptable at small size, note for client."
+  },
+  {
+   "id": "img-058.jpg",
+   "primary_use": "makers_page",
+   "secondary_uses": [
+    "journal_post"
+   ],
+   "caption": "Trimming a lion mane with scissors.",
+   "alt": "Older woman in a yellow hoodie trimming a crocheted lion mane with scissors, with yellow giraffes piled in front",
+   "crop_files": [],
+   "resolution_note": "609x907: short side 609 px, small use only, never above 280 px wide.",
+   "quality": "ok",
+   "journal_post_title": "How a Crocheted Elephant Is Made, Step by Step",
+   "note": "Same sack as img-057."
+  },
+  {
+   "id": "img-061.jpg",
+   "primary_use": "homepage_gallery",
+   "secondary_uses": [
+    "gallery_page",
+    "social_only"
+   ],
+   "caption": "Giraffes lined up in the garden shade.",
+   "alt": "Rows of yellow and cream crocheted giraffes on a pale blue cloth under a canopy with green trees behind",
+   "crop_files": [],
+   "resolution_note": "1200x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "good"
+  },
+  {
+   "id": "img-062.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "Rhinos and elephants at a garden stall.",
+   "alt": "Grey and blue crocheted rhinos and elephants on a blue table on grass at a garden market",
+   "crop_files": [],
+   "resolution_note": "960x1280: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-063.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "size_guide"
+   ],
+   "caption": "",
+   "alt": "Four photo collage of crocheted lions",
+   "crop_files": [
+    "story-03-063-lions-row-wall.jpg",
+    "story-04-063-lion-closeup-row.jpg",
+    "story-05-063-lions-shelf-octopus.jpg",
+    "story-06-063-lion-on-pallet.jpg"
+   ],
+   "resolution_note": "866x1298: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "collage",
+   "reason": "Collage split into four crops; the four crops go to the lion agent and the journal (lion family size order is useful for the Choosing a Size for a Gift post).",
+   "journal_post_title": "Choosing a Size for a Gift"
+  },
+  {
+   "id": "img-064.jpg",
+   "primary_use": "journal_post",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "Giraffes of different shades and sizes.",
+   "alt": "Four photo collage of yellow and cream crocheted giraffes",
+   "crop_files": [
+    "story-07-064-giraffes-on-blanket.jpg",
+    "story-08-064-giraffes-trio-workshop.jpg",
+    "story-09-064-giraffes-herd-blanket.jpg",
+    "story-10-064-giraffe-portrait.jpg"
+   ],
+   "resolution_note": "866x1298: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "collage",
+   "journal_post_title": "Why Colours Differ Slightly Between Toys"
+  },
+  {
+   "id": "img-065.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "homepage_gallery",
+    "partners_page"
+   ],
+   "caption": "Our giraffes and elephants on show at a busy garden restaurant.",
+   "alt": "Crocheted giraffes and elephants on a white table at a busy open air thatched restaurant with seated diners",
+   "crop_files": [],
+   "resolution_note": "1200x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok",
+   "note": "Diners are faces in the background; client has cleared people. Unclear which venue; do not name it."
+  },
+  {
+   "id": "img-066.jpg",
+   "primary_use": "wholesale_page",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "Elephants and rhinos in neat rows.",
+   "alt": "Rows of grey and blue crocheted elephants and rhinos on a white cloth on sandy ground",
+   "crop_files": [],
+   "resolution_note": "645x952: short side 645 px, small use only, never above 280 px wide.",
+   "quality": "ok"
+  },
+  {
+   "id": "img-069.jpg",
+   "primary_use": "social_only",
+   "secondary_uses": [
+    "journal_post"
+   ],
+   "caption": "Two rabbits in their little knitted waistcoats.",
+   "alt": "Two brown crocheted rabbits in colourful crocheted waistcoats among giraffes and elephants",
+   "crop_files": [],
+   "resolution_note": "1600x1059: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-070.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "Three giraffes in cream, yellow and tan.",
+   "alt": "Three crocheted giraffes in cream, yellow and tan standing in a row with green trees behind",
+   "crop_files": [],
+   "resolution_note": "1059x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "good"
+  },
+  {
+   "id": "img-071.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "journal_post"
+   ],
+   "caption": "Elephants and rhinos in the shade of a bamboo roof.",
+   "alt": "Blue and grey crocheted elephants and rhinos on a white cloth under a bamboo roofed stall",
+   "crop_files": [],
+   "resolution_note": "1600x1059: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-072.jpg",
+   "primary_use": "gallery_page",
+   "secondary_uses": [
+    "social_only"
+   ],
+   "caption": "Giraffes, rabbits and elephants under the bamboo roof.",
+   "alt": "Crocheted giraffes and rabbits behind blue elephants under a bamboo roofed stall",
+   "crop_files": [],
+   "resolution_note": "1059x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-073.jpg",
+   "primary_use": "social_only",
+   "secondary_uses": [],
+   "caption": "A hand holding two long armed monkeys.",
+   "alt": "Hand holding two crocheted monkeys against a grey tufted sofa",
+   "crop_files": [],
+   "resolution_note": "1200x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-075.jpg",
+   "primary_use": "wholesale_page",
+   "secondary_uses": [
+    "stockists_page"
+   ],
+   "caption": "Lions at the front, giraffes at the back.",
+   "alt": "Market table with white cloth with pink print showing crocheted lions, elephants, giraffes and a rabbit",
+   "crop_files": [],
+   "resolution_note": "1200x1600: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "good"
+  },
+  {
+   "id": "img-080.jpg",
+   "primary_use": "homepage_gallery",
+   "secondary_uses": [
+    "gallery_page",
+    "wholesale_page"
+   ],
+   "caption": "A stall packed with orange giraffes, elephants and rabbits.",
+   "alt": "Market stall packed with orange giraffes, grey and purple elephants and brown rabbits with shoppers behind",
+   "crop_files": [],
+   "resolution_note": "1600x1236: can be used large (up to about 1000 px wide or full-bleed hero).",
+   "quality": "ok"
+  },
+  {
+   "id": "img-085.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Pile of crocheted animals",
+   "crop_files": [],
+   "resolution_note": "744x977: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "duplicate of img-042, no context"
+  },
+  {
+   "id": "img-086.jpg",
+   "primary_use": "not_used",
+   "secondary_uses": [],
+   "caption": "",
+   "alt": "Nine wall mounted heads in a collage",
+   "crop_files": [],
+   "resolution_note": "866x1298: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "collage; duplicate of img-003"
+  },
+  {
+   "id": "img-087.jpg",
+   "primary_use": "wholesale_page",
+   "secondary_uses": [
+    "gallery_page"
+   ],
+   "caption": "Zebras, giraffes, bunnies and pastel animals on one table.",
+   "alt": "Market table with crocheted zebras, giraffes, pink and cream bunnies and grey elephants",
+   "crop_files": [],
+   "resolution_note": "960x1280: medium use, up to about 600 px wide; not full-bleed.",
+   "quality": "good"
+  }
+ ],
+ "hero_candidates": [
+  {
+   "id": "img-001.jpg",
+   "crop": "story-14-001-lion-hug-16x9.jpg",
+   "why": "Warm human moment, Kenyan market setting, sharp enough at 1472 px, works as a 16:9 crop."
+  },
+  {
+   "id": "img-026.jpg",
+   "crop": "story-13-026-stall-woman-16x9.jpg",
+   "why": "Shows the range and a smiling maker; 1600 px wide, good colour."
+  },
+  {
+   "id": "img-043.jpg",
+   "crop": null,
+   "why": "Wide market stall at 1600 px; use only if client accepts the third party banner in the background. Alternative: img-039."
+  }
+ ],
+ "gallery_top12": [
+  {
+   "id": "img-026.jpg",
+   "order": 1
+  },
+  {
+   "id": "img-001.jpg",
+   "order": 2
+  },
+  {
+   "id": "img-050.jpg",
+   "order": 3
+  },
+  {
+   "id": "img-014.jpg",
+   "order": 4
+  },
+  {
+   "id": "img-057.jpg",
+   "order": 5
+  },
+  {
+   "id": "img-039.jpg",
+   "order": 6
+  },
+  {
+   "id": "img-010.jpg",
+   "order": 7
+  },
+  {
+   "id": "img-044.jpg",
+   "order": 8
+  },
+  {
+   "id": "img-080.jpg",
+   "order": 9
+  },
+  {
+   "id": "img-061.jpg",
+   "order": 10
+  },
+  {
+   "id": "img-065.jpg",
+   "order": 11
+  },
+  {
+   "id": "img-043.jpg",
+   "order": 12
+  }
+ ],
+ "page_map": {
+  "/": {
+   "hero": [
+    "img-001.jpg",
+    "img-026.jpg",
+    "img-043.jpg"
+   ],
+   "captured_moments_strip": [
+    "img-026.jpg",
+    "img-001.jpg",
+    "img-050.jpg",
+    "img-014.jpg",
+    "img-057.jpg",
+    "img-039.jpg",
+    "img-010.jpg",
+    "img-044.jpg"
+   ],
+   "wholesale_pointer": [
+    "img-045.jpg"
+   ]
+  },
+  "/story": [
+   "img-001.jpg",
+   "img-002.jpg",
+   "img-050.jpg",
+   "img-014.jpg"
+  ],
+  "/impact": [
+   "img-005.jpg (confirm context first)",
+   "img-057.jpg"
+  ],
+  "/makers": [
+   "img-055.jpg",
+   "img-050.jpg",
+   "img-014.jpg",
+   "img-013.jpg",
+   "img-052.jpg",
+   "img-054.jpg",
+   "img-051.jpg",
+   "img-058.jpg"
+  ],
+  "/gallery": [
+   "img-026.jpg",
+   "img-001.jpg",
+   "img-050.jpg",
+   "img-014.jpg",
+   "img-057.jpg",
+   "img-039.jpg",
+   "img-010.jpg",
+   "img-044.jpg",
+   "img-080.jpg",
+   "img-061.jpg",
+   "img-065.jpg",
+   "img-043.jpg",
+   "img-027.jpg (cropped)",
+   "img-015.jpg",
+   "img-062.jpg",
+   "img-070.jpg",
+   "img-071.jpg"
+  ],
+  "/stockists": [
+   "img-044.jpg",
+   "img-006.jpg",
+   "img-007.jpg",
+   "img-075.jpg"
+  ],
+  "/wholesale": [
+   "img-045.jpg",
+   "img-046.jpg",
+   "img-087.jpg",
+   "img-066.jpg",
+   "img-075.jpg"
+  ],
+  "/partners": [
+   "img-065.jpg",
+   "img-005.jpg"
+  ],
+  "/journal posts": {
+   "Pretend Play Ideas with Crocheted Animals": [
+    "img-004.jpg"
+   ],
+   "Quiet Play for Long Matatu Rides": [
+    "img-011.jpg"
+   ],
+   "What Mikono Means": [
+    "img-013.jpg",
+    "img-051.jpg"
+   ],
+   "How a Crocheted Elephant Is Made, Step by Step": [
+    "img-051.jpg",
+    "img-058.jpg"
+   ],
+   "A Day in the Workshop": [
+    "img-053.jpg",
+    "img-056.jpg"
+   ],
+   "Meet the Women Behind Mikono": [
+    "img-055.jpg",
+    "img-050.jpg",
+    "img-014.jpg"
+   ],
+   "Why Colours Differ Slightly Between Toys": [
+    "story-07 to story-10 crops of img-064"
+   ],
+   "Choosing a Size for a Gift": [
+    "story-03 to story-06 crops of img-063"
+   ]
+  },
+  "/projects": {
+   "Pop-up at a Nairobi market": [
+    "img-043.jpg",
+    "img-026.jpg",
+    "img-039.jpg",
+    "img-010.jpg"
+   ],
+   "Maker skills training": [
+    "img-057.jpg",
+    "img-058.jpg"
+   ],
+   "New animal design diary": [
+    "img-048.jpg"
+   ]
+  },
+  "/size-guide": [
+   "story-03 to story-06 crops of img-063 (lions in descending size; no cm values)"
+  ],
+  "/care": [],
+  "/safety": [],
+  "/faq": [],
+  "/delivery": [],
+  "/contact": [],
+  "/shop": [
+   "product agents W1 to W7"
+  ]
+ },
+ "video": {
+  "file": "vid-001.mp4",
+  "poster": "media/work/story/vid-001-poster.jpg",
+  "poster_frame": 500,
+  "duration_s": 70.8,
+  "size": "848x478",
+  "recommendation": "Use as a click to play embed on a journal post about the Saturday market stall, and as a social clip. Do not autoplay, no sound by default, give a poster, lazy load, add captions. Not for the homepage hero (low resolution, ends with an end card).",
+  "caution": "The end card says Every Saturday. That is a claim the client must confirm (which Saturday, which place) before it goes live. The video also shows the vendor at a market; client rights are cleared per R1. Some frames are pillarboxed with black side bars (frames 200 and 800), so use a poster from a full width frame."
+ },
+ "unused": [
+  {
+   "id": "img-003.jpg",
+   "reason": "Collage of nine, duplicate of img-086"
+  },
+  {
+   "id": "img-086.jpg",
+   "reason": "Collage duplicate of img-003"
+  },
+  {
+   "id": "img-019.jpg",
+   "reason": "Copyrighted Material overlay and book page text"
+  },
+  {
+   "id": "img-021.jpg",
+   "reason": "Low resolution and cluttered"
+  },
+  {
+   "id": "img-038.jpg",
+   "reason": "Poor focus, crowded pile"
+  },
+  {
+   "id": "img-042.jpg",
+   "reason": "Duplicate of img-085, no context"
+  },
+  {
+   "id": "img-085.jpg",
+   "reason": "Duplicate of img-042"
+  },
+  {
+   "id": "img-047.jpg",
+   "reason": "Near duplicate of img-005"
+  },
+  {
+   "id": "img-049.jpg",
+   "reason": "Blurred with glare, 539 px wide"
+  },
+  {
+   "id": "img-029.jpg",
+   "reason": "Rotated with black wedges, product agents decide"
+  },
+  {
+   "id": "img-031.jpg",
+   "reason": "Phone screenshot; cleaned crop story-12 handed to dolls agent"
+  }
+ ],
+ "client_review": [
+  "img-005.jpg and img-047.jpg: who are these people and what was the occasion? Needed before any impact or partner use; do not caption beyond what is visible.",
+  "img-043.jpg: banner of another business is visible; confirm or choose img-039 instead.",
+  "img-057.jpg, img-058.jpg, img-054.jpg: third party packaging text in the background of the workroom.",
+  "vid-001.mp4: confirm the \"Every Saturday\" end card, and which market it is.",
+  "Maker names: none used. Ask the client for first names and consent to caption before publishing /makers captions.",
+  "Venue names are not stated for any market, beach or restaurant photo; confirm before naming.",
+  "Several photos show customers and children; rights are cleared under R1, but confirm the client is happy with img-004, img-011, img-018 on the homepage."
+ ],
+ "notes": {
+  "crops_made": [
+   "story-03 to story-06 (img-063 split)",
+   "story-07 to story-10 (img-064 split)",
+   "story-11 img-027 clean",
+   "story-12 img-031 clean",
+   "story-13 img-026 16:9",
+   "story-14 img-001 16:9",
+   "vid-001-poster.jpg"
+  ],
+  "note": "No scaling, filters or colour changes. 4:5 variants not made: compositions with two subjects (people plus products) lose the subject when cropped."
+ }
+}
