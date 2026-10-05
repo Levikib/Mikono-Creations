@@ -1,0 +1,40 @@
+/* Full width layout (strategy/12 container). The site container is 1280px max, centred, with 12/16/24px gutters (components/Container.tsx).
+   Rule: content fills the container. A reading column (65 to 75 characters) is always paired with a purposeful second column, or centred. Never one narrow left column. */
+
+/* ---- Journal post: header, full width hero, reading column plus sticky sidebar ---- */
+.post-head { display: grid; gap: 8px; }
+@media (min-width: 1024px) { .post-head { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: end; } }
+.post-hero { aspect-ratio: 16 / 9; }
+@media (min-width: 768px) { .post-hero { aspect-ratio: 2.2 / 1; } }
+@media (min-width: 1280px) { .post-hero { aspect-ratio: 2.6 / 1; } }
+.post-grid { display: grid; gap: 24px; grid-template-columns: minmax(0, 1fr); }
+.post-main { min-width: 0; }
+.post-aside { min-width: 0; display: grid; gap: 12px; align-content: start; }
+.post-toc { display: none; }
+@media (min-width: 1024px) {
+  .post-grid { grid-template-columns: minmax(0, 780px) minmax(0, 340px); justify-content: space-between; gap: 40px; align-items: start; }
+  .post-aside { position: sticky; top: 76px; max-height: calc(100dvh - 92px); overflow-y: auto; overscroll-behavior: contain; padding-bottom: 4px; }
+  .post-toc { display: block; }
+}
+@media (min-width: 1024px) and (max-height: 700px) { .post-aside { position: static; max-height: none; } }
+
+/* ---- Text pages: reading column plus sidebar (components/ReadSplit.tsx) ---- */
+.read-split { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+.read-main, .read-aside { min-width: 0; }
+.read-aside { display: grid; gap: 12px; align-content: start; }
+.read-card { border-radius: var(--radius-panel); background: var(--color-oat); padding: 12px 14px; font-size: .875rem; line-height: 1.45; }
+.read-card ul { list-style: none; margin: 4px 0 0; padding: 0; display: grid; }
+.read-card li a { display: flex; align-items: center; min-height: 36px; color: var(--color-charcoal); font-weight: 600; }
+.read-card li a:hover { color: var(--color-terracotta-deep); text-decoration: underline; text-underline-offset: 3px; }
+@media (min-width: 1024px) {
+  .read-split { grid-template-columns: minmax(0, 1fr) 340px; gap: 40px; align-items: start; }
+  .read-aside { position: sticky; top: 76px; }
+}
+/* In a split, the reading column may use its whole track (it is already the reading measure). */
+.read-main > .prose-fill, .read-main .prose-fill { max-width: none; }
+
+/* ---- Sticky sidebars beside forms and long text (desktop only; stacks on phones and tablets) ---- */
+@media (min-width: 1024px) and (min-height: 640px) { .side-sticky { position: sticky; top: 76px; align-self: start; } }
+
+/* Short lists fill the container: 2 or 3 story cards use 2 or 3 columns, not a 4 column grid with empty tracks. */
+@media (min-width: 640px) { .mk-grid.mk-fill-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .mk-grid.mk-fill-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

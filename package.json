@@ -1,0 +1,42 @@
+{
+  "name": "mikono-creations",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "qa:copy": "node scripts/qa-copy.mjs",
+    "build:images": "node scripts/build-images.mjs",
+    "build:cast": "node scripts/build-cast.mjs && node scripts/build-engine.mjs",
+    "build:icons": "node scripts/build-icons.mjs",
+    "qa:living": "node scripts/check-living.mjs",
+    "predev": "npm run build:images && node scripts/build-engine.mjs",
+    "prebuild": "npm run build:images && npm run build:cast && npm run qa:copy && npm run qa:living",
+    "qa:tokens": "node scripts/tokens-check.mjs",
+    "qa:media": "node scripts/check-duplicate-media.mjs",
+    "qa:whatsapp": "node --no-warnings scripts/test-whatsapp.mjs",
+    "qa:checkout": "node --no-warnings scripts/test-checkout.mjs",
+    "qa:enquiry": "node --no-warnings scripts/test-enquiry.mjs",
+    "qa:content": "node --no-warnings --import ./scripts/register-alias.mjs scripts/check-content.mjs",
+    "build:og": "node --no-warnings --import ./scripts/register-alias.mjs scripts/build-og.mjs"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
