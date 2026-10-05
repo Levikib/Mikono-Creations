@@ -1,0 +1,121 @@
+/*
+ * Shopping helpers: gift finder, size finder, family builder.
+ * Every colour reads a site token first and falls back to the Daylight Clay Tech value, so these screens pick up the
+ * new look automatically if tokens are renamed or retuned. Sizes of touch targets are 44px or more.
+ */
+.mkh {
+  --h-bone: var(--color-bone, #F3EEE5);
+  --h-paper: var(--color-paper, #FBF8F2);
+  --h-oat: var(--color-oat, #EBE2D3);
+  --h-sand: var(--color-sand, #E1D4BF);
+  --h-ink: var(--color-baobab, var(--color-charcoal, #2A2420));
+  --h-soft: var(--color-stone, #5F5348);
+  --h-accent: var(--color-terracotta-deep, #8A4630);
+  --h-accent-top: var(--color-terracotta, #A4583D);
+  --h-accent-bot: var(--color-terracotta-bot, #7C3F2B);
+  --h-tint: var(--color-terracotta-tint, #EEDFD2);
+  --h-ochre: var(--color-ochre, #C9A05A);
+  --h-olive: var(--color-olive-deep, #464B2D);
+  --h-line: var(--hairline, rgb(90 63 50 / .14));
+  --h-radius: var(--radius-card, 16px);
+  --h-shadow:
+    inset 0 1.5px 2px rgb(255 255 255 / .85), inset 0 -4px 6px rgb(110 75 50 / .07),
+    0 1px 2px rgb(59 42 34 / .10), 0 6px 10px -5px rgb(59 42 34 / .16);
+  --h-shadow-press: inset 0 4px 8px rgb(110 75 50 / .2), inset 0 -2px 3px rgb(255 255 255 / .55);
+  --h-ease: var(--ease-soft, cubic-bezier(.22, 1, .36, 1));
+  --h-bar-gap: calc(var(--dock-h, 0px) + env(safe-area-inset-bottom, 0px) + 8px);
+  color: var(--h-ink);
+}
+
+.mkh-card {
+  background: linear-gradient(175deg, var(--h-paper), var(--h-oat));
+  border-radius: var(--h-radius);
+  box-shadow: var(--h-shadow);
+}
+.mkh-well {
+  background: var(--h-oat);
+  border-radius: 12px;
+  box-shadow: inset 0 2px 4px rgb(110 75 50 / .14), inset 0 -1px 2px rgb(255 255 255 / .6);
+}
+.mkh-eyebrow {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: .75rem; line-height: 1.2; letter-spacing: .1em; text-transform: uppercase; color: var(--h-accent);
+}
+.mkh-muted { color: var(--h-soft); }
+.mkh-media { background: var(--h-sand); border-radius: 8px; overflow: hidden; position: relative; }
+
+/* Option card: a label around a visually hidden radio. Selection is drawn with :has so keyboard arrows keep working. */
+.mkh-option {
+  position: relative; display: flex; align-items: center; gap: .5rem; min-height: 2.75rem; height: 100%;
+  padding: .5rem .625rem; cursor: pointer; overflow: hidden;
+  background: var(--h-paper); border-radius: 14px; border: 1.5px solid var(--h-line);
+  box-shadow: 0 1px 2px rgb(59 42 34 / .06);
+  transition: transform .2s var(--h-ease), box-shadow .2s var(--h-ease), border-color .2s var(--h-ease), background-color .2s;
+}
+@media (hover: hover) { .mkh-option:hover { border-color: var(--h-accent); box-shadow: var(--h-shadow); } }
+.mkh-option::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; pointer-events: none; background: linear-gradient(180deg, #E9C57D, #AD7B37 55%, #754A22); }
+.mkh-option:active { transform: scale(.98); }
+.mkh-option:has(input:checked) { border-color: var(--h-accent); background: var(--h-tint); box-shadow: 0 0 0 1.5px var(--h-accent), var(--h-shadow); }
+.mkh-option:has(input:focus-visible) { outline: 3px solid var(--h-accent); outline-offset: 3px; }
+.mkh-option .mkh-tick {
+  margin-left: auto; flex: none; width: 1.25rem; height: 1.25rem; border-radius: 999px; display: grid; place-items: center;
+  border: 1.5px solid var(--h-line); background: var(--h-paper); color: transparent;
+}
+.mkh-option:has(input:checked) .mkh-tick { background: var(--h-accent); border-color: var(--h-accent); color: #FFF8EE; }
+
+/* Segmented size buttons */
+.mkh-seg { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .25rem; padding: .25rem; max-width: 100%; }
+@media (max-width: 479px) { .mkh-seg { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.mkh-seg button {
+  min-height: 2.75rem; border-radius: 12px; font-weight: 600; font-size: .8125rem; line-height: 1.1; color: var(--h-ink); padding-inline: .25rem;
+  transition: background-color .15s, color .15s, transform .15s var(--h-ease);
+}
+.mkh-seg button[aria-pressed="true"] { background: var(--h-ink); color: var(--h-bone); }
+.mkh-seg button:active { transform: scale(.95); }
+
+.mkh-pill {
+  display: inline-flex; align-items: center; min-height: 1.75rem; padding: 0 .625rem; border-radius: 999px;
+  background: var(--h-sand); color: var(--h-ink); font-size: .8125rem; font-weight: 600; line-height: 1;
+}
+.mkh-pill-line { background: transparent; box-shadow: inset 0 0 0 1.5px var(--h-line); }
+
+.mkh-btn-text {
+  display: inline-flex; align-items: center; justify-content: center; gap: .3rem; min-height: 2.75rem; padding: 0 .75rem;
+  border-radius: 999px; font-weight: 600; font-size: .8125rem; color: var(--h-accent);
+  background: var(--h-paper); box-shadow: inset 0 0 0 1.5px var(--h-line); text-align: center; line-height: 1.15;
+}
+@media (hover: hover) { .mkh-btn-text:hover { box-shadow: inset 0 0 0 1.5px var(--h-accent); } }
+.mkh-btn-text:active { transform: scale(.97); }
+
+/* Sticky bars sit in the document flow at the end of their section, so they never cover fields above them. */
+.mkh-bar {
+  position: sticky; bottom: var(--h-bar-gap); z-index: 20; margin-top: 1rem;
+  display: flex; align-items: center; gap: .5rem; padding: .5rem;
+  background: color-mix(in srgb, var(--h-paper) 94%, transparent); border-radius: 999px; box-shadow: var(--h-shadow), 0 0 0 1px var(--h-line);
+}
+
+.mkh :focus-visible { outline: 3px solid var(--h-accent); outline-offset: 3px; }
+.mkh-input {
+  min-height: 2.75rem; width: 100%; border-radius: 12px; padding: 0 .75rem; font-size: 1rem; color: var(--h-ink);
+  background-color: var(--h-paper); border: 1.5px solid var(--h-line);
+}
+.mkh select {
+  min-height: 2.75rem; width: 100%; border-radius: 12px; padding: 0 2rem 0 .75rem; font-size: 1rem; color: var(--h-ink);
+  background-color: var(--h-paper); border: 1.5px solid var(--h-line); appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%232A2420' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 6l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right .75rem center;
+}
+.mkh .mkh-scroll-pad { scroll-margin-bottom: 7rem; scroll-margin-top: 6rem; }
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes mkh-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  @keyframes mkh-pop { 0% { transform: scale(.6); opacity: 0; } 70% { transform: scale(1.06); } 100% { transform: scale(1); opacity: 1; } }
+  .mkh-rise { animation: mkh-rise .4s var(--h-ease) both; }
+  .mkh-pop { animation: mkh-pop .35s var(--h-ease) both; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mkh * { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+@media (max-width: 767px) { .mkh-bar { padding-right: 4.5rem; } }
+.mkh-seg button, .mkh-btn-text { position: relative; }
+.mkh-seg button::after, .mkh-btn-text::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 44px; translate: 0 -50%; }

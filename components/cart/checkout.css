@@ -1,0 +1,54 @@
+/* Cart and order form chrome: the sticky action bar, the edit sheet and a few shared bits. Tokens come from app/globals.css. */
+
+/* Sticky action bar. It never covers the last line or field: it sticks to the screen bottom (above the consent control)
+   and rests in the page flow at the end. While the on-screen keyboard is open it sits in the flow instead of floating. */
+.ck-bar {
+  position: sticky; bottom: var(--dock-h, 0px); z-index: 30;
+  margin-inline: -12px; margin-top: 12px;
+  padding: 8px max(12px, env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+  background: var(--color-paper);
+  box-shadow: 0 -1px 0 var(--hairline), 0 -14px 28px -16px rgb(59 42 34 / .3);
+}
+[data-kb="1"] .ck-bar { position: static; box-shadow: none; background: transparent; }
+@media (min-width: 768px) { .ck-bar { margin-inline: -16px; } }
+@media (min-width: 1024px) {
+  .ck-bar--cart { display: none; }
+  .ck-bar--wiz { position: static; margin-inline: 0; padding: 0; background: transparent; box-shadow: none; }
+}
+
+/* Native dialog sheets: bottom sheet on phones, centred card from 768. */
+.ck-sheet { position: fixed; inset: auto 0 0 0; margin: 0; width: 100%; max-width: none; max-height: 88dvh; padding: 0; border: 0;
+  background: var(--color-bone); color: var(--color-charcoal); border-radius: 22px 22px 0 0; box-shadow: 0 -12px 30px -10px rgb(59 42 34 / .45); overflow: hidden; }
+.ck-sheet::backdrop { background: rgb(42 36 32 / .5); }
+.ck-sheet[open] { display: flex; flex-direction: column; animation: ck-up .28s var(--ease-soft); }
+@keyframes ck-up { from { transform: translateY(32px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (min-width: 768px) {
+  .ck-sheet { inset: 0; margin: auto; max-width: 480px; max-height: 86dvh; border-radius: 22px; }
+}
+@media (prefers-reduced-motion: reduce) { .ck-sheet[open] { animation: none; } }
+
+/* Line thumbnail: a rounded blob frame with the real photo. */
+.ck-thumb { position: relative; display: block; flex: none; overflow: hidden; background: var(--color-sand); border-radius: 14px; }
+
+/* Text style button: 36px tall, 44px tall hit area, never narrower than 44px. */
+.ck-tbtn {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 44px; min-height: 36px; padding: 0 8px;
+  font: 600 .8125rem/1.1 var(--font-sans); color: var(--color-terracotta-deep); text-decoration: underline; text-underline-offset: 3px;
+  background: transparent; border: 0; cursor: pointer; border-radius: 10px;
+}
+.ck-tbtn::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 44px; translate: 0 -50%; }
+
+/* Segmented chips (radio): 36px visual, 44px hit area. */
+.ck-seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.ck-seg label { position: relative; cursor: pointer; }
+.ck-seg input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.ck-seg span {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 36px; min-width: 44px; padding: 0 12px; border-radius: 999px;
+  font: 600 .8125rem/1 var(--font-sans); background: var(--color-paper); color: var(--color-baobab); box-shadow: inset 0 0 0 1.5px var(--color-line);
+}
+.ck-seg label::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 44px; translate: 0 -50%; pointer-events: none; }
+.ck-seg input:checked + span { background: var(--color-baobab); color: var(--color-bone); box-shadow: none; }
+.ck-seg input:focus-visible + span { outline: 3px solid var(--color-terracotta-deep); outline-offset: 2px; }
+
+/* Keyboard focus and scrolling never leave a field under the sticky bar. */
+[data-kb] :is(input, select, textarea, button, a) { scroll-margin-bottom: calc(var(--dock-h, 0px) + 6rem); }

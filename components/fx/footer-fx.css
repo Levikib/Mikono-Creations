@@ -1,0 +1,103 @@
+/*
+  Small styles every page carries: the Animals switch, the found counter and the footer water hole wrapper.
+  The water hole and counter show only on pages that have animals (a .fx-host on the page); legal, cart and order pages stay calm.
+*/
+.fx-pond { display: none; }
+body:has(.fx-host) .fx-pond { display: block; }
+.fx-pond .fx-band { margin-bottom: -1px; }
+
+.an-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+  padding: 6px 0 4px;
+}
+.an-row { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.an-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 4px;
+  background: none;
+  border: 0;
+  color: var(--color-dusk-ink, #f3eee5);
+  font: 600 0.8125rem/1 var(--font-sans, system-ui);
+  cursor: pointer;
+}
+.an-track {
+  position: relative;
+  width: 38px;
+  height: 22px;
+  border-radius: 999px;
+  background: rgb(243 238 229 / 0.28);
+  transition: background 0.2s;
+  flex: none;
+}
+.an-track::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fbf8f2;
+  transition: transform 0.2s;
+}
+.an-switch[aria-checked='true'] .an-track { background: #8c9560; }
+.an-switch[aria-checked='true'] .an-track::after { transform: translateX(16px); }
+.an-switch:focus-visible, .an-reset:focus-visible { outline: 3px solid #e3b98a; outline-offset: 2px; border-radius: 10px; }
+.an-state-off { display: none; }
+html[data-fx='off'] .an-state-on { display: none; }
+html[data-fx='off'] .an-state-off { display: inline; }
+.an-count { font: 600 0.8125rem/1.2 var(--font-sans, system-ui); color: var(--color-dusk-ink, #f3eee5); }
+.an-dots { display: inline-flex; gap: 3px; margin-left: 6px; vertical-align: middle; }
+.an-dots i { width: 7px; height: 7px; border-radius: 50%; border: 1px solid rgb(243 238 229 / 0.55); box-sizing: border-box; }
+.an-dots i[data-on] { background: #d9b062; border-color: #d9b062; }
+.an-reset {
+  min-height: 44px;
+  padding: 0 6px;
+  background: none;
+  border: 0;
+  color: var(--color-dusk-ink, #f3eee5);
+  font: 600 0.8125rem/1 var(--font-sans, system-ui);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.an-note { flex-basis: 100%; margin: 0; font-size: 0.75rem; line-height: 1.4; color: var(--color-dusk-soft, #cfc5b6); }
+.an-msg { flex-basis: 100%; margin: 0; min-height: 0; font-size: 0.8125rem; line-height: 1.4; color: #e8cf94; }
+.an-msg:empty { display: none; }
+.an-pages { display: none; }
+body:has(.fx-host) .an-pages { display: inline-flex; }
+.an-calm { display: none; }
+@media (prefers-reduced-motion: reduce) { .an-calm { display: block; } }
+html[data-fx='off'] .an-pages, html[data-fx='off'] .an-msg { display: none; }
+
+/* the transient find message */
+.fx-toast {
+  position: fixed;
+  top: 76px;
+  left: 50%;
+  z-index: 70;
+  max-width: min(92vw, 420px);
+  transform: translateX(-50%);
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #2b211b;
+  color: #fbf8f2;
+  font: 600 0.8125rem/1.35 var(--font-sans, system-ui);
+  text-align: center;
+  pointer-events: none;
+  animation: an-toast 3.6s ease both;
+}
+@keyframes an-toast { 0% { opacity: 0; translate: 0 -8px; } 8%, 88% { opacity: 1; translate: 0 0; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .fx-toast { animation: none; } }
+
+/* the basket gives a small wobble when an animal lands in it */
+[data-cart-target][data-wobble] { animation: an-wob 0.6s var(--ease-squish, cubic-bezier(0.34, 1.56, 0.64, 1)); }
+@keyframes an-wob { 0% { transform: scale(1); } 35% { transform: scale(1.18) rotate(-6deg); } 70% { transform: scale(0.96) rotate(3deg); } 100% { transform: scale(1); } }
+[data-cart-target][data-wobble] [data-cart-count] { animation: an-pop 0.6s var(--ease-squish, cubic-bezier(0.34, 1.56, 0.64, 1)); }
+@keyframes an-pop { 0% { transform: scale(1); } 40% { transform: scale(1.5); } 100% { transform: scale(1); } }

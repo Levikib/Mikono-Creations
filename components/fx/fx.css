@@ -1,0 +1,663 @@
+/*
+  Mikono living site: the animal layer. Imported by components/fx/FxPage.tsx, so it only loads on pages that use animals.
+  The footer and the Animals switch have their own small file (footer-fx.css) because every page carries them.
+
+  Rules of this file
+  - Server markup is complete and still. Nothing moves until the engine (components/fx/engine) sets a data attribute.
+  - Only transform and opacity move (the thread uses transforms too). No layout properties, no filters.
+  - Animals run only while data-live="1". The engine gives that to at most 4 animals on a phone and 6 on a desktop.
+  - html[data-fx] is set before first paint by public/splash-gate.js:
+      full   everything
+      lite   weak device: engine runs with a budget of 2, no peek-a-boo, no welcome
+      still  prefers-reduced-motion: static decorations, thread fully drawn, no motion at all
+      off    Animals switched off, or Save-Data: no animals drawn, the thread is a dashed line
+  - Colours stay inside the muted palette (OKLCH chroma 0.13 or less).
+*/
+
+:root {
+  --fx-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fx-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --thread-a: #c9a05a;
+  --thread-b: #b0654a;
+  --thread-c: #6a7049;
+  --thread-d: #587783;
+  --thread-e: #c98f83;
+  --thread-f: #b98f63;
+  --thread-g: #a3955b;
+}
+
+/* ------------------------------------------------------------------ the page host */
+.fx-host {
+  position: relative;
+  isolation: isolate;
+}
+/* Phones: a little more room on the left, so the thread and its ball in the edge gutter never touch a letter. */
+@media (max-width: 767px) {
+  .fx-host [data-c] { padding-left: 18px; }
+  .fx-band-in { left: 18px; }
+  .fx-band--nested .fx-band-in { left: 0; }
+}
+
+/* ------------------------------------------------------------------ habitat colours */
+[data-habitat='savanna'] { --hc: var(--thread-a); }
+[data-habitat='grove'] { --hc: var(--thread-b); }
+[data-habitat='nursery'] { --hc: var(--thread-e); }
+[data-habitat='pet'] { --hc: var(--thread-f); }
+[data-habitat='workshop'] { --hc: var(--thread-c); }
+[data-habitat='market'] { --hc: var(--thread-g); }
+[data-habitat='skyline'] { --hc: var(--thread-d); }
+[data-habitat='pond'] { --hc: var(--thread-d); }
+[data-habitat='cart'] { --hc: var(--thread-b); }
+
+/* ------------------------------------------------------------------ bands: reserved strips where animals live */
+.fx-band {
+  position: relative;
+  height: var(--bh, 52px);
+  overflow: clip;
+  pointer-events: none;
+  contain: layout paint style;
+  --hc: var(--thread-b);
+}
+@media (min-width: 900px) {
+  .fx-band { height: var(--bhl, 72px); }
+}
+.fx-band-in {
+  position: absolute;
+  inset: 0 var(--fx-pad, 12px);
+  max-width: 1256px;
+  margin-inline: auto;
+}
+@media (min-width: 768px) { .fx-band-in { --fx-pad: 16px; } }
+/* inside a Container that already has side padding */
+.fx-band--nested .fx-band-in { inset: 0; }
+.fx-band--nested .fx-ground { left: 0; right: 0; }
+@media (min-width: 1280px) { .fx-band-in { --fx-pad: 24px; } }
+
+/* the ground line is a stitched dash; when the thread reaches the band it fills in from the left */
+.fx-ground,
+.fx-ground::before {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+}
+.fx-ground {
+  background: repeating-linear-gradient(90deg, var(--hc) 0 6px, transparent 6px 11px);
+  opacity: 0.5;
+}
+.fx-ground::before {
+  content: '';
+  left: 0;
+  right: 0;
+  background: var(--hc);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1.1s var(--fx-ease);
+}
+.fx-band[data-lit] .fx-ground { opacity: 0.85; }
+.fx-band[data-lit] .fx-ground::before { transform: scaleX(1); }
+
+/* ------------------------------------------------------------------ characters */
+.fx-char {
+  --w: var(--s, 64px);
+  position: absolute;
+  bottom: calc(var(--w) * -0.085);
+  left: clamp(calc(var(--w) / 2), calc(var(--at, 50) * 1%), calc(100% - var(--w) / 2));
+  width: var(--w);
+  height: var(--w);
+  margin-left: calc(var(--w) / -2);
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+  line-height: 0;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  transform-origin: 50% 100%;
+}
+@media (min-width: 900px) {
+  .fx-char { --w: var(--sl, var(--s, 64px)); }
+}
+.fx-char > img,
+.fx-char > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  transform-origin: 50% 92%;
+}
+.fx-char[data-flip] > img,
+.fx-char[data-flip] > svg { scale: -1 1; }
+/* a character used on its own, outside a band (404, cart, order sent) */
+.fx-char[data-free] {
+  position: relative;
+  left: auto;
+  bottom: auto;
+  margin: 0;
+  display: inline-block;
+}
+.fx-prop {
+  position: absolute;
+  bottom: -2px;
+  left: calc(var(--at, 50) * 1%);
+  width: var(--w);
+  height: var(--w);
+  margin-left: calc(var(--w) / -2);
+  --w: var(--s, 40px);
+  pointer-events: none;
+}
+@media (min-width: 900px) { .fx-prop { --w: var(--sl, var(--s, 40px)); } }
+.fx-prop > img { display: block; width: 100%; height: 100%; }
+.fx-prop[data-flip] > img { scale: -1 1; }
+
+/* ------------------------------------------------------------------ entry (engine sets data-st) */
+.fx-char[data-st='hid'] { visibility: hidden; }
+.fx-char[data-st='hid'][data-role='rise'] { transform: translateY(104%); }
+.fx-char[data-st='hid'][data-role='perch'] { transform: translateY(12px) scale(0.92); opacity: 0; }
+.fx-char[data-st='in'] { visibility: visible; }
+.fx-char[data-role='rise'][data-st='in'] { transition: transform 0.85s var(--fx-pop); }
+.fx-char[data-role='perch'][data-st='in'] { transition: transform 0.6s var(--fx-pop), opacity 0.4s ease-out; }
+.fx-char[data-nomo] { transition: none !important; }
+
+/* ------------------------------------------------------------------ idle: only while live */
+.fx-char[data-live='1'] > img { animation: fx-breathe 5.6s ease-in-out infinite alternate; animation-delay: var(--fx-d, 0s); }
+.fx-char[data-live='1'][data-kind='svg'] > svg { animation: fx-sway 6.5s ease-in-out infinite alternate; animation-delay: var(--fx-d, 0s); }
+.fx-char[data-live='1'] .fx-eyes { animation: fx-blink var(--fx-b, 5s) ease-in-out infinite; animation-delay: var(--fx-d, 0s); }
+.fx-char[data-live='1'] .fx-ear { animation: fx-ear 7s ease-in-out infinite; animation-delay: calc(var(--fx-d, 0s) * 1.7); }
+.fx-char[data-live='1'] .fx-tail { animation: fx-wag 3.4s ease-in-out infinite alternate; animation-delay: var(--fx-d, 0s); }
+.fx-char[data-live='1'] .fx-neck { animation: fx-neck 7.5s ease-in-out infinite alternate; }
+.fx-char[data-live='1'] .fx-trunk { animation: fx-trunk 6s ease-in-out infinite alternate; }
+.fx-char[data-live='1'] .fx-arm { animation: fx-tentacle 2.6s ease-in-out infinite alternate; }
+.fx-char[data-live='1'] .fx-arm2,
+.fx-char[data-live='1'] .fx-arm4 { animation-direction: alternate-reverse; animation-delay: -0.9s; }
+.fx-char[data-live='1'] .fx-arm3 { animation-delay: -1.7s; }
+.fx-char[data-live='1'] .fx-wing { animation: fx-flap 0.9s ease-in-out infinite; }
+.fx-char[data-live='1'] .fx-head { animation: fx-nod 8s ease-in-out infinite; animation-delay: calc(var(--fx-d, 0s) * 0.6); }
+.fx-char[data-live='1'] .fx-thread { animation: fx-thread 4.2s ease-in-out infinite alternate; }
+
+/* float: butterflies, bees, birds in flight */
+.fx-char[data-role='float'][data-live='1'] { animation: fx-float var(--fx-t, 9s) ease-in-out infinite alternate; animation-delay: var(--fx-d, 0s); }
+.fx-char[data-role='float'][data-live='1'] > img { animation: none; }
+/* walk: a slow pass along the ground, once per cycle */
+.fx-char[data-role='walk'][data-live='1'] { animation: fx-walk var(--fx-t, 24s) linear infinite; animation-delay: var(--fx-d, 0s); }
+.fx-char[data-role='walk'][data-live='1'] > img { animation: fx-bob 0.7s ease-in-out infinite alternate; }
+.fx-char[data-role='walk'][data-live='1'] > svg { animation: fx-bob 0.7s ease-in-out infinite alternate; }
+.fx-char[data-live='1'] .fx-leg-fn, .fx-char[data-live='1'] .fx-leg-bf, .fx-char[data-live='1'] .fx-leg-a { animation: fx-step 0.7s ease-in-out infinite alternate; }
+.fx-char[data-live='1'] .fx-leg-ff, .fx-char[data-live='1'] .fx-leg-bn, .fx-char[data-live='1'] .fx-leg-b { animation: fx-step 0.7s ease-in-out infinite alternate-reverse; }
+/* look: the head follows a fine pointer by a few degrees (the engine sets --look) */
+.fx-char[data-look] > img,
+.fx-char[data-look] > svg { rotate: calc(var(--look, 0) * 1deg); }
+
+/* ------------------------------------------------------------------ one-shot reactions (the engine sets data-act, then removes it) */
+.fx-char[data-act='wave'] > img,
+.fx-char[data-act='wave'] > svg { animation: fx-wave 1.1s ease-in-out 2; }
+.fx-char[data-act='hop'] > img,
+.fx-char[data-act='hop'] > svg { animation: fx-hop 0.62s var(--fx-pop); }
+.fx-char[data-act='tickle'] > img,
+.fx-char[data-act='tickle'] > svg { animation: fx-tickle 0.7s ease-in-out; }
+.fx-char[data-act='nod'] > img,
+.fx-char[data-act='nod'] > svg { animation: fx-nodbig 1.4s ease-in-out; }
+
+/* ------------------------------------------------------------------ free standing characters (404, cart, order sent) */
+.fx-char[data-anim='lost'][data-live='1'] > svg { animation: fx-lost 6s ease-in-out infinite; }
+.fx-char[data-anim='lost'][data-live='1'] .fx-head { animation: fx-look 6s ease-in-out infinite; }
+.fx-char[data-anim='lost'][data-live='1'] .fx-neck { animation: fx-neck 6s ease-in-out infinite; }
+.fx-char[data-anim='celebrate'][data-live='1'] > svg { animation: fx-jump 1.2s var(--fx-ease) infinite; }
+.fx-char[data-anim='celebrate'][data-live='1'] .fx-arm-r,
+.fx-char[data-anim='celebrate'][data-live='1'] .fx-arm-l { animation: fx-arm 0.35s ease-in-out infinite alternate; }
+
+/* ------------------------------------------------------------------ hidden finds (the only focusable animals) */
+.fx-find {
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+/* a 44 px hit area around the sprite that never extends past the band */
+.fx-find::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: max(100%, 44px);
+  height: max(100%, 44px);
+  transform: translate(-50%, -50%);
+}
+.fx-find:focus-visible {
+  outline: 3px solid #8a4630;
+  outline-offset: 2px;
+  border-radius: 12px;
+}
+.fx-find[data-found] > img,
+.fx-find[data-found] > svg { filter: none; }
+.fx-find:not([data-found]) > img,
+.fx-find:not([data-found]) > svg { opacity: 0.92; }
+
+/* ------------------------------------------------------------------ the thread */
+.fx-thread {
+  --tl: 0px;
+  --ya: calc(30svh - 64px);
+  --yb: calc(100% + 420px);
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 1;
+  contain: layout style;
+}
+@media (min-width: 900px) {
+  .fx-thread { --tl: max(6px, calc((100% - 1280px) / 2 - 40px)); }
+}
+.fx-t-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--tl);
+  width: 14px;
+  clip-path: inset(0 -34px 0 -6px);
+}
+.fx-t-fill {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.fx-t-grad {
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(180deg, rgb(255 255 255 / 0.5) 0 1.2px, transparent 1.2px 6.8px),
+    var(--fx-grad, linear-gradient(180deg, var(--thread-a), var(--thread-b) 35%, var(--thread-c) 70%, var(--thread-d)));
+  background-size: 2px 100%, 3.4px 100%;
+  background-position: 5.4px 0, 5.3px 0;
+  background-repeat: repeat-y, no-repeat;
+  border-radius: 2px;
+}
+.fx-t-ahead {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(180deg, rgb(176 101 74 / 0.45) 0 6px, transparent 6px 11px);
+  background-size: 2px 100%;
+  background-position: 6px 0;
+  background-repeat: no-repeat;
+  transform: translateY(0);
+}
+.fx-ball {
+  position: absolute;
+  left: 7px;
+  top: 0;
+  width: var(--bs, 20px);
+  height: var(--bs, 20px);
+  margin: calc(var(--bs, 20px) / -2) 0 0 calc(var(--bs, 20px) / -2);
+  transform: rotate(var(--rot, 0deg)) scale(calc(1 + var(--sq, 0) * 0.5), calc(1 - var(--sq, 0)));
+  transform-origin: 50% 50%;
+}
+.fx-ball > img { display: block; width: 100%; height: 100%; }
+@media (min-width: 900px) { .fx-thread { --bs: 38px; } }
+.fx-knot {
+  position: absolute;
+  left: calc(var(--tl) + 7px);
+  top: var(--ky, -40px);
+  width: 11px;
+  height: 11px;
+  margin: -5.5px 0 0 -5.5px;
+  border-radius: 50%;
+  border: 2px dashed var(--hc, var(--thread-b));
+  background: var(--paper, #fbf8f2);
+  box-sizing: border-box;
+}
+.fx-knot[data-lit] {
+  background: var(--hc, var(--thread-b));
+  border-style: solid;
+  animation: fx-knot 0.7s var(--fx-pop);
+}
+/* the ball sits above the line and, while it rides, the open dashes in front of it are the path ahead */
+.fx-thread[data-mode='static'] .fx-t-fill,
+.fx-thread[data-mode='static'] .fx-ball { display: none; }
+
+/* scroll timeline: pure CSS in browsers that have it. The engine sets --ya and --yb in px once it has measured the page. */
+@supports (animation-timeline: scroll()) {
+  html[data-fx='full'] .fx-thread[data-mode='on'] .fx-t-fill,
+  html[data-fx='lite'] .fx-thread[data-mode='on'] .fx-t-fill {
+    animation: fx-t-c linear both;
+    animation-timeline: scroll(root);
+  }
+  html[data-fx='full'] .fx-thread[data-mode='on'] .fx-t-grad,
+  html[data-fx='lite'] .fx-thread[data-mode='on'] .fx-t-grad {
+    animation: fx-t-g linear both;
+    animation-timeline: scroll(root);
+  }
+  html[data-fx='full'] .fx-thread[data-mode='on'] .fx-t-ahead,
+  html[data-fx='lite'] .fx-thread[data-mode='on'] .fx-t-ahead {
+    animation: fx-t-a linear both;
+    animation-timeline: scroll(root);
+  }
+}
+@keyframes fx-t-c {
+  from { transform: translateY(min(0px, calc(-100% + var(--ya)))); }
+  to { transform: translateY(min(0px, calc(-100% + var(--yb)))); }
+}
+@keyframes fx-t-g {
+  from { transform: translateY(max(0px, calc(100% - var(--ya)))); }
+  to { transform: translateY(max(0px, calc(100% - var(--yb)))); }
+}
+@keyframes fx-t-a {
+  from { transform: translateY(max(0px, var(--ya))); }
+  to { transform: translateY(var(--yb)); }
+}
+/* without the timeline and before the engine runs: the thread is drawn in full and the ball waits at the top */
+html:not([data-fx='full']):not([data-fx='lite']) .fx-t-ahead { display: none; }
+html[data-fx='off'] .fx-t-fill,
+html[data-fx='off'] .fx-ball { display: none; }
+html[data-fx='off'] .fx-thread .fx-t-ahead { display: block; transform: none; animation: none; }
+html[data-fx='still'] .fx-ball { display: none; }
+
+/* ------------------------------------------------------------------ the welcome lane under the hero buttons (home) */
+/* Pure CSS from server markup: no engine, no storage flag. It plays on every full load. While html[data-splash="on"] the animations are paused at
+   their first frame; public/splash-gate.js flips the flag to "done" (or "skip") as the splash leaves and the rabbit starts that frame. Without
+   the gate script the delay is the splash length (1.94 s). The rabbit then loops (hop, wave, ear flick, blink) for as long as the page is open; a tap no longer ends it. */
+.fx-lane {
+  position: relative;
+  height: 72px;
+  margin-top: 2px;
+  overflow: clip;
+  pointer-events: none;
+  contain: layout paint style;
+}
+.fx-lane-grass {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 6px;
+  height: 14px;
+  background:
+    radial-gradient(7px 9px at 7px 100%, var(--thread-c) 98%, transparent 100%) 0 0 / 22px 14px repeat-x,
+    radial-gradient(5px 7px at 15px 100%, #8c9560 98%, transparent 100%) 0 0 / 22px 14px repeat-x;
+  opacity: 0.55;
+  -webkit-mask: linear-gradient(90deg, #000 0, #000 70%, transparent);
+  mask: linear-gradient(90deg, #000 0, #000 70%, transparent);
+}
+.fx-lane .fx-char { --w: 56px; left: 6px; margin-left: 0; bottom: 4px; translate: 0 115%; }
+.fx-lane-arrow,
+.fx-lane-pill {
+  position: absolute;
+  opacity: 0;
+}
+.fx-lane-pill {
+  left: 70px;
+  top: 22px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--thread-b);
+  color: #fff8ee;
+  font: 600 0.75rem/1.5 var(--font-sans, system-ui);
+  white-space: nowrap;
+}
+.fx-lane-arrow {
+  left: 52px;
+  top: 0;
+  width: 54px;
+  height: 36px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* The rabbit rises once, then performs forever: a hop, a wave, an ear flick and a blink, with the pill and arrow pulsing in time (9 s cycle).
+     `translate` carries the rise and `transform` carries the performance, so the two never fight. It never sinks back and a tap does not end it. */
+  html:not([data-fx='still']) .fx-lane .fx-char {
+    animation:
+      fx-lane-rise 0.8s cubic-bezier(0.2, 1.4, 0.4, 1) var(--mk-w, 0s) both,
+      fx-lane-perform 9s ease-in-out calc(var(--mk-w, 0s) + 1s) infinite;
+  }
+  html:not([data-fx='still']) .fx-lane .fx-arm-r { animation: fx-lane-wave 9s ease-in-out calc(var(--mk-w, 0s) + 1s) infinite; transform-origin: 30% 80%; transform-box: fill-box; }
+  html:not([data-fx='still']) .fx-lane .fx-ear { animation: fx-ear 5.5s ease-in-out calc(var(--mk-w, 0s) + 1.4s) infinite; }
+  html:not([data-fx='still']) .fx-lane .fx-eyes { animation: fx-blink 4.5s ease-in-out calc(var(--mk-w, 0s) + 1.2s) infinite; }
+  html:not([data-fx='still']) .fx-lane .fx-lane-pill {
+    animation:
+      fx-lane-fade 0.5s ease-out calc(var(--mk-w, 0s) + 0.7s) both,
+      fx-lane-pill 9s ease-in-out calc(var(--mk-w, 0s) + 1s) infinite;
+  }
+  html:not([data-fx='still']) .fx-lane .fx-lane-arrow {
+    animation:
+      fx-lane-fade 0.5s ease-out calc(var(--mk-w, 0s) + 0.7s) both,
+      fx-lane-point 9s ease-in-out calc(var(--mk-w, 0s) + 1s) infinite;
+  }
+  html:not([data-fx='still']) .fx-lane .fx-lane-arrow path:first-child { stroke-dasharray: 4 3; animation: fx-lane-dash 1.4s linear infinite; }
+  /* held at the start while the splash is on, released in the same frame it is marked done */
+  html[data-splash='on'] .fx-lane *,
+  html[data-splash='on'] .fx-lane { animation-play-state: paused !important; }
+  /* no gate script at all: wait out the 1.94 s splash on the same clock */
+  html:not([data-splash]) .fx-lane { --mk-w: 1.94s; }
+}
+
+/* ------------------------------------------------------------------ peek-a-boo on cards */
+.fx-peeker {
+  position: absolute;
+  left: var(--px, 50%);
+  bottom: calc(100% - 6px);
+  width: var(--pw, 46px);
+  height: var(--ph, 30px);
+  margin-left: calc(var(--pw, 46px) / -2);
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.fx-peeker > img {
+  position: absolute;
+  left: 0;
+  top: var(--pt, 0);
+  width: 100%;
+  height: auto;
+  transform: translateY(105%);
+  transition: transform 0.55s var(--fx-ease);
+}
+.fx-peeker[data-on] > img { transform: translateY(0); }
+li:has(> .fx-peeker) { position: relative; }
+li:has(> .fx-peeker[data-on]) > article { transform: translateY(2px); transition: transform 0.4s var(--fx-ease); }
+li:has(> .fx-peeker) > article { position: relative; z-index: 1; }
+
+/* extra room above rows so a peeking head has somewhere to be (only where peek-a-boo is on) */
+html[data-fx='full'] .fx-host[data-peek] .mk-grid { row-gap: calc(var(--gap-card) + 18px); padding-top: 20px; }
+
+/* ------------------------------------------------------------------ add to order list hop, tap bits, thread burst */
+.fx-hopper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 60;
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
+  pointer-events: none;
+  animation: fx-hop-x var(--fx-hop-t, 0.85s) linear both;
+}
+.fx-hopper > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: fx-hop-y var(--fx-hop-t, 0.85s) linear both;
+}
+.fx-bit {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 59;
+  width: 4px;
+  height: 14px;
+  margin: -7px 0 0 -2px;
+  border-radius: 3px;
+  background: var(--c, var(--thread-b));
+  pointer-events: none;
+  opacity: 0;
+  animation: fx-bit 1.4s cubic-bezier(0.15, 0.8, 0.3, 1) both;
+}
+
+/* ------------------------------------------------------------------ keyframes */
+@keyframes fx-breathe { from { transform: scale(1, 1); } to { transform: scale(1.012, 1.03); } }
+@keyframes fx-bob { from { transform: translateY(0) rotate(-1.5deg); } to { transform: translateY(-2.5px) rotate(1.5deg); } }
+@keyframes fx-blink { 0%, 91%, 100% { transform: scaleY(1); } 94% { transform: scaleY(0.08); } 97% { transform: scaleY(1); } }
+@keyframes fx-sway { from { transform: rotate(-1.4deg) translateY(0); } to { transform: rotate(1.4deg) translateY(-1.5px); } }
+@keyframes fx-ear { 0%, 88%, 100% { transform: rotate(0); } 92% { transform: rotate(-9deg); } 96% { transform: rotate(4deg); } }
+@keyframes fx-wag { from { transform: rotate(-7deg); } to { transform: rotate(9deg); } }
+@keyframes fx-neck { from { transform: rotate(-1.6deg); } to { transform: rotate(2.2deg); } }
+@keyframes fx-nod { 0%, 60%, 100% { transform: rotate(0); } 72% { transform: rotate(3deg); } 84% { transform: rotate(-2deg); } }
+@keyframes fx-trunk { from { transform: rotate(-3deg); } to { transform: rotate(5deg); } }
+@keyframes fx-tentacle { from { transform: rotate(-5deg); } to { transform: rotate(6deg); } }
+@keyframes fx-flap { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(0.45); } }
+@keyframes fx-thread { from { transform: rotate(-4deg); } to { transform: rotate(5deg); } }
+@keyframes fx-step { from { transform: rotate(-10deg); } to { transform: rotate(10deg); } }
+@keyframes fx-float { from { transform: translate(-10px, 3px) rotate(-3deg); } to { transform: translate(14px, -12px) rotate(3deg); } }
+@keyframes fx-walk {
+  0% { transform: translateX(0); opacity: 0; }
+  7% { opacity: 1; }
+  92% { opacity: 1; }
+  100% { transform: translateX(min(46vw, 560px)); opacity: 0; }
+}
+@keyframes fx-wave { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(-7deg); } 70% { transform: rotate(6deg); } }
+@keyframes fx-hop { 0% { transform: translateY(0) scale(1, 1); } 20% { transform: translateY(0) scale(1.1, 0.88); } 52% { transform: translateY(-14px) scale(0.95, 1.08); } 80% { transform: translateY(0) scale(1.08, 0.92); } 100% { transform: translateY(0) scale(1, 1); } }
+@keyframes fx-tickle { 0%, 100% { transform: rotate(0); } 15% { transform: rotate(-8deg) translateY(-3px); } 35% { transform: rotate(8deg); } 55% { transform: rotate(-6deg) translateY(-2px); } 75% { transform: rotate(5deg); } }
+@keyframes fx-nodbig { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(4deg); } 55% { transform: rotate(-3deg); } 80% { transform: rotate(2deg); } }
+@keyframes fx-lost { 0%, 100% { transform: translateX(0) rotate(0); } 25% { transform: translateX(-4px) rotate(-3deg); } 65% { transform: translateX(4px) rotate(3deg); } }
+@keyframes fx-look { 0%, 8%, 100% { transform: rotate(0); } 24%, 34% { transform: rotate(-13deg); } 52% { transform: rotate(0); } 68%, 80% { transform: rotate(13deg); } }
+@keyframes fx-jump { 0%, 100% { transform: translateY(0) scale(1, 1); } 14% { transform: translateY(0) scale(1.1, 0.88); } 42% { transform: translateY(-26px) scale(0.94, 1.08); } 62% { transform: translateY(0) scale(1.1, 0.9); } 78% { transform: translateY(0) scale(0.98, 1.03); } }
+@keyframes fx-arm { from { transform: rotate(-4deg); } to { transform: rotate(-26deg); } }
+@keyframes fx-knot { 0% { transform: scale(0.6); } 55% { transform: scale(1.6); } 100% { transform: scale(1); } }
+@keyframes fx-hop-x { from { transform: translateX(0); } to { transform: translateX(var(--fx-dx, 0px)); } }
+@keyframes fx-hop-y {
+  0% { transform: translateY(0) scale(1, 1); opacity: 1; animation-timing-function: ease-out; }
+  12% { transform: translateY(0) scale(1.12, 0.86); animation-timing-function: ease-out; }
+  50% { transform: translateY(calc(var(--fx-dy, 0px) * 0.5 - var(--fx-h, 80px))) scale(0.92, 1.1); animation-timing-function: ease-in; }
+  88% { transform: translateY(var(--fx-dy, 0px)) scale(0.5); opacity: 1; }
+  100% { transform: translateY(var(--fx-dy, 0px)) scale(0.2); opacity: 0; }
+}
+@keyframes fx-bit {
+  0% { opacity: 0; transform: translate(var(--x0, 0px), var(--y0, 0px)) rotate(0) scale(0.4); }
+  12% { opacity: 1; }
+  100% { opacity: 0; transform: translate(calc(var(--x0, 0px) + var(--x, 0px)), calc(var(--y0, 0px) + var(--y, 0px))) rotate(var(--r, 180deg)) scale(1); }
+}
+@keyframes fx-lane-rise { from { translate: 0 115%; } to { translate: 0 0; } }
+@keyframes fx-lane-fade { from { opacity: 0; } to { opacity: 1; } }
+/* the 9 s performance: a hop and a squash, a rest, a second small hop, a rest */
+@keyframes fx-lane-perform {
+  0%, 8%, 40%, 56%, 100% { transform: translateY(0) scale(1, 1); }
+  11% { transform: translateY(0) scale(1.1, 0.88); }
+  16% { transform: translateY(-9px) scale(0.94, 1.08); }
+  21% { transform: translateY(0) scale(1.1, 0.9); }
+  25% { transform: translateY(0) scale(1, 1); }
+  30% { transform: translateX(1px) rotate(1.5deg); }
+  35% { transform: translateX(-1px) rotate(-1.5deg); }
+  60% { transform: translateY(0) scale(1.06, 0.93); }
+  64% { transform: translateY(-5px) scale(0.97, 1.05); }
+  68% { transform: translateY(0) scale(1.06, 0.94); }
+  72% { transform: translateY(0) scale(1, 1); }
+}
+@keyframes fx-lane-wave {
+  0%, 24%, 52%, 100% { transform: rotate(-4deg); }
+  28% { transform: rotate(-26deg); }
+  32% { transform: rotate(-6deg); }
+  36% { transform: rotate(-26deg); }
+  40% { transform: rotate(-6deg); }
+  44% { transform: rotate(-26deg); }
+  48% { transform: rotate(-4deg); }
+}
+@keyframes fx-lane-pill {
+  0%, 10%, 52%, 100% { transform: translateY(0) scale(1); }
+  16% { transform: translateY(-3px) scale(1.07); }
+  22% { transform: translateY(0) scale(1); }
+  30% { transform: translateY(-2px) scale(1.05); }
+  38% { transform: translateY(0) scale(1); }
+  60% { transform: translateY(-2px) scale(1.04); }
+  66% { transform: translateY(0) scale(1); }
+}
+@keyframes fx-lane-point {
+  0%, 10%, 52%, 100% { transform: translate(0, 0); }
+  16% { transform: translate(3px, -3px); }
+  22% { transform: translate(0, 0); }
+  30% { transform: translate(3px, -3px); }
+  38% { transform: translate(0, 0); }
+}
+@keyframes fx-lane-dash { to { stroke-dashoffset: -14; } }
+
+/* ------------------------------------------------------------------ tiers */
+/* parade extras: fewer animals on a phone and in the lite tier */
+@media (max-width: 899px) { .fx-char[data-min='md'] { display: none; } }
+html[data-fx='lite'] .fx-char[data-min='lite'] { display: none; }
+html[data-fx='off'] .fx-band,
+html[data-fx='off'] .fx-lane .fx-char,
+html[data-fx='off'] .fx-lane-arrow,
+html[data-fx='off'] .fx-lane-pill,
+html[data-fx='off'] .fx-peeker,
+html[data-fx='off'] .fx-hopper,
+html[data-fx='off'] .fx-bit { display: none !important; }
+html[data-fx='off'] .fx-char,
+html[data-fx='off'] .fx-char * { animation: none !important; transition: none !important; }
+html[data-fx='off'] .fx-lane-grass { display: none; }
+html[data-fx='off'] .fx-knot { display: none; }
+html[data-fx='still'] .fx-char,
+html[data-fx='still'] .fx-char *,
+html[data-fx='still'] .fx-knot,
+html[data-fx='still'] .fx-ground::before { animation: none !important; transition: none !important; }
+html[data-fx='still'] .fx-ground::before { transform: scaleX(1); }
+html[data-fx='still'] .fx-hopper,
+html[data-fx='still'] .fx-bit,
+html[data-fx='still'] .fx-peeker { display: none !important; }
+/* reduced motion: the rabbit, arrow and pill stand still and stay */
+html[data-fx='still'] .fx-lane .fx-char { transform: none; translate: none; }
+html[data-fx='still'] .fx-lane-arrow,
+html[data-fx='still'] .fx-lane-pill { opacity: 1; }
+html[data-fx='lite'] .fx-peeker { display: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fx-char,
+  .fx-char *,
+  .fx-knot,
+  .fx-t-fill,
+  .fx-t-grad,
+  .fx-t-ahead,
+  .fx-ground::before { animation: none !important; transition: none !important; }
+  .fx-ground::before { transform: scaleX(1); }
+  .fx-hopper, .fx-bit, .fx-peeker { display: none !important; }
+  .fx-ball { display: none; }
+  .fx-char[data-st='hid'] { visibility: visible; transform: none; opacity: 1; }
+  .fx-lane .fx-char { transform: none; translate: none; animation: none; }
+  .fx-lane-arrow, .fx-lane-pill { opacity: 1; animation: none; }
+  .fx-t-ahead { display: none; }
+}
+
+/* ------------------------------------------------------------------ confetti on the order sent page (plays once) */
+.fx-confetti { position: absolute; left: 50%; top: 40%; width: 0; height: 0; pointer-events: none; }
+.fx-confetti i {
+  position: absolute; left: -2px; top: -7px; width: 4px; height: 14px; border-radius: 3px;
+  background: var(--c, var(--thread-b)); opacity: 0;
+  animation: fx-confetti 1.7s cubic-bezier(0.15, 0.8, 0.3, 1) both; animation-delay: var(--dl, 0s);
+}
+.fx-confetti i:nth-child(3n) { width: 3px; height: 18px; border-radius: 2px; }
+@keyframes fx-confetti {
+  0% { opacity: 0; transform: translate(0, 0) rotate(0) scale(0.4); }
+  12% { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--x, 0px), var(--y, 0px)) rotate(var(--r, 180deg)) scale(1); }
+}
+html[data-fx='off'] .fx-confetti, html[data-fx='still'] .fx-confetti { display: none; }
+@media (prefers-reduced-motion: reduce) { .fx-confetti { display: none; } }
+
+/* ------------------------------------------------------------------ hidden finds stay reachable by keyboard
+   A find is never visibility:hidden (that removes it from the tab order). Its resting state is transparent and it is revealed on focus.
+   Every find is at least 44 x 44 CSS px. */
+.fx-char.fx-find,
+.fx-char.fx-find[data-st='hid'],
+
+.fx-char.fx-find[data-st='hid'] { opacity: 0; }
+.fx-char.fx-find { min-width: 44px; min-height: 44px; }
+.fx-char.fx-find:focus-visible,
+.fx-char.fx-find[data-st='hid']:focus-visible {
+  opacity: 1;
+  transform: none;
+  outline: 3px solid #8a4630;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px #fff8ec;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fx-lane .fx-char.fx-find { visibility: visible !important; }
+}
+.fx-char.fx-find[data-st='hid'][data-role='perch'] { transform: none; }
