@@ -1,0 +1,77 @@
+{
+ "total": 12,
+ "finds": [
+  {
+   "id": "rabbit-footer",
+   "sprite": "rabbit",
+   "name": "rabbit",
+   "where": "in the grass beside the water hole, in the footer"
+  },
+  {
+   "id": "bush-baby-home",
+   "sprite": "bush-baby-sit",
+   "name": "bush baby",
+   "where": "home page, on the branch"
+  },
+  {
+   "id": "chameleon-shop",
+   "sprite": "chameleon-perch",
+   "name": "chameleon",
+   "where": "shop page, on the branch"
+  },
+  {
+   "id": "monkey-journal",
+   "sprite": "monkey",
+   "name": "monkey",
+   "where": "journal page, hanging on the branch"
+  },
+  {
+   "id": "hornbill-story",
+   "sprite": "hornbill-perch",
+   "name": "hornbill",
+   "where": "our story page, on a branch"
+  },
+  {
+   "id": "bee-makers",
+   "sprite": "bee-wave",
+   "name": "bee",
+   "where": "makers page, by the workbench"
+  },
+  {
+   "id": "chick-gifts",
+   "sprite": "chick-hatch",
+   "name": "chick",
+   "where": "gifts page, in its egg"
+  },
+  {
+   "id": "dikdik-stockists",
+   "sprite": "dik-dik-peek",
+   "name": "dik-dik",
+   "where": "stockists page, peeking out"
+  },
+  {
+   "id": "warthog-wholesale",
+   "sprite": "warthog-peek",
+   "name": "warthog",
+   "where": "wholesale page, peeking out"
+  },
+  {
+   "id": "secretary-contact",
+   "sprite": "secretary-bird-stand",
+   "name": "secretary bird",
+   "where": "contact page, on the skyline"
+  },
+  {
+   "id": "ladybird-custom",
+   "sprite": "ladybird-crawl",
+   "name": "ladybird",
+   "where": "custom page, crawling on the bench"
+  },
+  {
+   "id": "tortoise-sizes",
+   "sprite": "tortoise-stand",
+   "name": "tortoise",
+   "where": "size guide page, walking by the ruler"
+  }
+ ]
+}

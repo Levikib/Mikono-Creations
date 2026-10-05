@@ -1,0 +1,239 @@
+{
+ "template": "home",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "grove": {
+   "habitat": "grove",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "giraffe",
+     "role": "rise",
+     "at": 12,
+     "size": [
+      58,
+      80
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "hornbill-perch",
+     "role": "perch",
+     "at": 78,
+     "size": [
+      64,
+      88
+     ],
+     "prio": 3,
+     "inline": true
+    },
+    {
+     "sprite": "bush-baby-sit",
+     "role": "perch",
+     "at": 52,
+     "size": [
+      41,
+      57
+     ],
+     "prio": 2,
+     "find": "bush-baby-home"
+    }
+   ]
+  },
+  "savanna": {
+   "habitat": "savanna",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-grass-tuft",
+     "at": 30,
+     "size": [
+      26,
+      36
+     ]
+    },
+    {
+     "sprite": "prop-grass-tuft",
+     "at": 88,
+     "size": [
+      22,
+      30
+     ],
+     "flip": true
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "cheetah-stand",
+     "role": "walk",
+     "at": 20,
+     "size": [
+      71,
+      98
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "impala-stand",
+     "role": "rise",
+     "at": 70,
+     "size": [
+      59,
+      81
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "zebra",
+     "role": "rise",
+     "at": 48,
+     "size": [
+      80,
+      111
+     ],
+     "prio": 2
+    }
+   ]
+  },
+  "workshop": {
+   "habitat": "workshop",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-thread-loop",
+     "at": 52,
+     "size": [
+      44,
+      58
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "octopus",
+     "role": "rise",
+     "at": 14,
+     "size": [
+      55,
+      77
+     ],
+     "prio": 4,
+     "inline": true
+    },
+    {
+     "sprite": "ladybird-crawl",
+     "role": "walk",
+     "at": 62,
+     "size": [
+      58,
+      81
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "monkey",
+     "role": "rise",
+     "at": 86,
+     "size": [
+      53,
+      73
+     ],
+     "prio": 3
+    }
+   ]
+  },
+  "pets": {
+   "habitat": "pet",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-rock",
+     "at": 82,
+     "size": [
+      48,
+      66
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "dog-sit",
+     "role": "rise",
+     "at": 14,
+     "size": [
+      58,
+      80
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "cat-sleep",
+     "role": "rise",
+     "at": 46,
+     "size": [
+      114,
+      158
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "goat-stand",
+     "role": "perch",
+     "at": 82,
+     "size": [
+      67,
+      93
+     ],
+     "prio": 3
+    }
+   ]
+  },
+  "market": {
+   "habitat": "market",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-basket",
+     "at": 50,
+     "size": [
+      44,
+      60
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "elephant",
+     "role": "rise",
+     "at": 16,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "rhino",
+     "role": "rise",
+     "at": 82,
+     "size": [
+      89,
+      123
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 50,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "template": "custom",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "bench": {
+   "habitat": "workshop",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-thread-loop",
+     "at": 48,
+     "size": [
+      44,
+      58
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "octopus",
+     "role": "rise",
+     "at": 14,
+     "size": [
+      55,
+      77
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "chameleon-zap",
+     "role": "perch",
+     "at": 80,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "ladybird-crawl",
+     "role": "walk",
+     "at": 34,
+     "size": [
+      58,
+      81
+     ],
+     "prio": 2,
+     "find": "ladybird-custom"
+    }
+   ],
+   "calm": true
+  },
+  "end": {
+   "habitat": "workshop",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "yarn",
+     "role": "rise",
+     "at": 24,
+     "size": [
+      47,
+      66
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "monkey",
+     "role": "rise",
+     "at": 70,
+     "size": [
+      53,
+      73
+     ],
+     "prio": 3
+    }
+   ],
+   "calm": true
+  }
+ }
+}

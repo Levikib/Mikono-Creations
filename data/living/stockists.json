@@ -1,0 +1,80 @@
+{
+ "template": "stockists",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "stall": {
+   "habitat": "market",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-basket",
+     "at": 52,
+     "size": [
+      46,
+      62
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "elephant",
+     "role": "rise",
+     "at": 14,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "rhino",
+     "role": "rise",
+     "at": 84,
+     "size": [
+      89,
+      123
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "dik-dik-peek",
+     "role": "rise",
+     "at": 70,
+     "size": [
+      43,
+      61
+     ],
+     "prio": 2,
+     "find": "dikdik-stockists"
+    }
+   ]
+  },
+  "end": {
+   "habitat": "market",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "goat-stand",
+     "role": "rise",
+     "at": 24,
+     "size": [
+      67,
+      93
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "warthog-peek",
+     "role": "rise",
+     "at": 74,
+     "size": [
+      62,
+      86
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,2164 @@
+{
+ "giraffe-questions-children-ask": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/giraffe-questions-children-ask/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Two adult giraffes and a calf in dry yellow grass",
+   "caption": "",
+   "credit": "Photo: Melissa van Niekerk, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1619685127973-1d0f61bf25ed",
+   "key": "s5"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/giraffe-questions-children-ask/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A giraffe head and neck rising above green bushes with hills behind",
+   "caption": "A giraffe head rising above the bushes.",
+   "credit": "Photo: Keeper, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6401371/",
+   "key": "s6"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/giraffe-questions-children-ask/inline-2.jpg",
+   "w": 819,
+   "h": 1024,
+   "alt": "Woman in a black t-shirt crocheting with a hook, with yellow and cream crocheted giraffe pieces in the foreground",
+   "caption": "A hook working through yellow yarn beside giraffe pieces.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkhandsGiraffe"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/giraffe-questions-children-ask/inline-3.jpg",
+   "w": 433,
+   "h": 541,
+   "alt": "A crocheted yellow giraffe with brown spots and a white muzzle",
+   "caption": "One of our yellow giraffes with brown spots.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "prgiraffe/giraffe-yellow-brown-spots-01"
+  }
+ ],
+ "pretend-play-ideas-with-crocheted-animals": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/pretend-play-ideas-with-crocheted-animals/hero.jpg",
+   "w": 1200,
+   "h": 675,
+   "alt": "Table with crocheted lions at the front and rows of yellow and cream giraffes at the back",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionsGiraffes"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/pretend-play-ideas-with-crocheted-animals/inline-1.jpg",
+   "w": 736,
+   "h": 491,
+   "alt": "Stall under a white canopy with bags hanging above and rows of crocheted animals below",
+   "caption": "A stall of crocheted animals, ready to play shop.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkcanopyStall"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/pretend-play-ideas-with-crocheted-animals/inline-2.jpg",
+   "w": 645,
+   "h": 806,
+   "alt": "Neat rows of grey elephants and light blue rhinos below a row of yellow giraffes",
+   "caption": "Elephants and rhinos in rows, like a class.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkelephantsRhinosRows"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/pretend-play-ideas-with-crocheted-animals/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hand holding two crocheted long armed monkeys",
+   "caption": "A hand holding two crocheted monkeys.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkmonkeys"
+  }
+ ],
+ "elephant-facts-for-curious-children": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/elephant-facts-for-curious-children/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A lone African elephant walking across open green grassland under a pale sky",
+   "caption": "",
+   "credit": "Photo: Agastya Ambadi, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/13932855/",
+   "key": "s0"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/elephant-facts-for-curious-children/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Close view of an African elephant lifting grass with its trunk",
+   "caption": "An elephant lifting grass with its trunk.",
+   "credit": "Photo: Hugosykes, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/30705679/",
+   "key": "s3"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/elephant-facts-for-curious-children/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Blue and grey crocheted elephants and rhinos in front of giraffes and a brown bear under a bamboo roof",
+   "caption": "Blue and grey crocheted elephants in a row.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkelephantsBamboo"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/elephant-facts-for-curious-children/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A mother elephant walking beside her calf across dry brown grass",
+   "caption": "A mother elephant and her calf on the move.",
+   "credit": "Photo: Nirav Shah, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6164790/",
+   "key": "s1"
+  }
+ ],
+ "tidy-up-games-for-a-basket-of-animals": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/tidy-up-games-for-a-basket-of-animals/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A pastel playroom shelf with toys, books and a basket",
+   "caption": "",
+   "credit": "Photo: Denissevillar, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/32713291/",
+   "key": "s37"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/tidy-up-games-for-a-basket-of-animals/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Wooden toys and a wicker basket on a white bed",
+   "caption": "A basket and toys on a bedroom floor.",
+   "credit": "Photo: Cottonbro, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/3661240/",
+   "key": "s35"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/tidy-up-games-for-a-basket-of-animals/inline-2.jpg",
+   "w": 432,
+   "h": 540,
+   "alt": "Row of crocheted tan lions with brown manes on a dark table, getting smaller from left to right",
+   "caption": "Lions lined up from largest to smallest.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionsRowTable"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/tidy-up-games-for-a-basket-of-animals/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Two plush toys sitting on a wooden floor beside a basket",
+   "caption": "Plush toys beside a basket on a wooden floor.",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4887087/",
+   "key": "s47"
+  }
+ ],
+ "two-zebras-you-can-meet-in-kenya": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/two-zebras-you-can-meet-in-kenya/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A herd of zebras walking through tall dry grass",
+   "caption": "",
+   "credit": "Photo: Agastya Ambadi, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/13932859/",
+   "key": "s12"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/two-zebras-you-can-meet-in-kenya/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Zebras grazing on yellow grass with the Nairobi skyline behind",
+   "caption": "Zebras grazing with the Nairobi skyline behind.",
+   "credit": "Photo: Grace Nandi, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1635595358293-03620e36be48",
+   "key": "s13"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/two-zebras-you-can-meet-in-kenya/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Two zebras standing close together on a brown plain",
+   "caption": "Two zebras standing close together.",
+   "credit": "Photo: Twilightkenya, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7280784/",
+   "key": "s14"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/two-zebras-you-can-meet-in-kenya/inline-3.jpg",
+   "w": 640,
+   "h": 800,
+   "alt": "Two crocheted black and white zebras standing on a wooden table",
+   "caption": "Our crocheted zebras in black and white.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "przebra/zebra-black-and-white-01"
+  }
+ ],
+ "a-bedtime-safari-story-with-one-animal": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/a-bedtime-safari-story-with-one-animal/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A lone acacia on a wide plain under a dusky pink sky",
+   "caption": "",
+   "credit": "Photo: Hu Chen, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1516026672322-bc52d61a55d5",
+   "key": "s149"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/a-bedtime-safari-story-with-one-animal/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A lone tree on green grass and red earth at sunset",
+   "caption": "A lone tree at sunset on the plain.",
+   "credit": "Photo: Damian Patkowski, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1547471080-7cc2caa01a7e",
+   "key": "s150"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/a-bedtime-safari-story-with-one-animal/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A glowing bedside lamp on a wooden nightstand",
+   "caption": "A bedside lamp glowing at night.",
+   "credit": "Photo: Osmany Mederos 211956483, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/17994856/",
+   "key": "s24"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/a-bedtime-safari-story-with-one-animal/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A small toy giraffe on a sunlit bed in a wooden cabin",
+   "caption": "A small toy giraffe on a sunlit bed.",
+   "credit": "Photo: Nadia Loves Single, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/11605607/",
+   "key": "s25"
+  }
+ ],
+ "a-childs-guide-to-the-big-five": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/a-childs-guide-to-the-big-five/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A lioness resting in dry savanna grass among bushes",
+   "caption": "",
+   "credit": "Photo: Twilightkenya, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/14183347/",
+   "key": "s8"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/a-childs-guide-to-the-big-five/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A broad acacia tree on dry plain with Mount Kilimanjaro and distant zebras",
+   "caption": "An acacia tree on the plain, with Kilimanjaro behind.",
+   "credit": "Photo: Wladimir Kuhne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/19171291/",
+   "key": "s15"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/a-childs-guide-to-the-big-five/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A rhinoceros walking through dry bush on sandy ground",
+   "caption": "A rhino walking through dry bush.",
+   "credit": "Photo: Eelco Bohtlingk, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1596225845368-69fcb8d4ad55",
+   "key": "s10"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/a-childs-guide-to-the-big-five/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Front portrait of a Cape buffalo with heavy curved horns",
+   "caption": "A Cape buffalo with heavy curved horns.",
+   "credit": "Photo: Rinoadamo, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/34632498/",
+   "key": "s9"
+  }
+ ],
+ "a-welcome-gift-for-a-new-brother-or-sister": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/a-welcome-gift-for-a-new-brother-or-sister/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "An elephant toy on blankets with a striped cushion on a chair",
+   "caption": "",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4964342/",
+   "key": "s2"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/a-welcome-gift-for-a-new-brother-or-sister/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A parcel wrapped in brown paper with natural string",
+   "caption": "A parcel in brown paper tied with string.",
+   "credit": "Photo: Freestocks, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/595910/",
+   "key": "s114"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/a-welcome-gift-for-a-new-brother-or-sister/inline-2.jpg",
+   "w": 680,
+   "h": 850,
+   "alt": "A blue crocheted bear in a striped top with a black nose",
+   "caption": "A blue crocheted bear in a striped top.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "prbear/bear-blue-striped-top-01"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/a-welcome-gift-for-a-new-brother-or-sister/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Hands attaching a handwritten tag to a gift with jute string",
+   "caption": "Hands fixing a handwritten tag to a gift.",
+   "credit": "Photo: Mart Production, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/8450114/",
+   "key": "s107"
+  }
+ ],
+ "a-hippos-day-and-night": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/a-hippos-day-and-night/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Golden sunset light over layered Kenyan hills",
+   "caption": "",
+   "credit": "Photo: Beatz, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/39023548/",
+   "key": "s155"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/a-hippos-day-and-night/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A soft evening sky over a dark ridge and grassland in Kenya",
+   "caption": "Evening light over Kenyan grassland.",
+   "credit": "Photo: Beatz, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/38852767/",
+   "key": "s154"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/a-hippos-day-and-night/inline-2.jpg",
+   "w": 589,
+   "h": 736,
+   "alt": "Hand holding up a navy crocheted hippo wearing a magenta dress, with a seated woman behind",
+   "caption": "A crocheted hippo in a magenta dress.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkhippoDress"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/a-hippos-day-and-night/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A wide acacia silhouette with the sun setting behind it",
+   "caption": "An acacia against the setting sun.",
+   "credit": "Photo: Sandro Schuh, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1501164071995-0929702fd3ba",
+   "key": "s148"
+  }
+ ],
+ "taking-an-animal-to-school-a-short-checklist": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/taking-an-animal-to-school-a-short-checklist/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A burgundy backpack hanging on a school desk",
+   "caption": "",
+   "credit": "Photo: Cottonbro, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7395903/",
+   "key": "s38"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/taking-an-animal-to-school-a-short-checklist/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Hands holding a smartphone with a chat conversation, no face",
+   "caption": "A phone with a message open.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/10376167/",
+   "key": "s143"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/taking-an-animal-to-school-a-short-checklist/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A wooden school desk with bags hanging off the chairs",
+   "caption": "School bags hanging off chairs at a desk.",
+   "credit": "Photo: Katerina Holmes, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5905436/",
+   "key": "s39"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/taking-an-animal-to-school-a-short-checklist/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands scrubbing light blue cloth with soap bubbles",
+   "caption": "Hands rubbing a cloth gently with soap.",
+   "credit": "Photo: Ian Panelo, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/38602906/",
+   "key": "s42"
+  }
+ ],
+ "rhinos-in-kenya-what-children-can-learn": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/rhinos-in-kenya-what-children-can-learn/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A rhinoceros walking through dry bush on sandy ground",
+   "caption": "",
+   "credit": "Photo: Eelco Bohtlingk, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1596225845368-69fcb8d4ad55",
+   "key": "s10"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/rhinos-in-kenya-what-children-can-learn/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Light blue rhinos and grey elephants on a garden stall with a brown bear at the left",
+   "caption": "Light blue crocheted rhinos and grey elephants.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkrhinosGarden"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/rhinos-in-kenya-what-children-can-learn/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A broad acacia tree on dry plain with Mount Kilimanjaro and distant zebras",
+   "caption": "Open Kenyan plain with Kilimanjaro in the distance.",
+   "credit": "Photo: Wladimir Kuhne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/19171291/",
+   "key": "s15"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/rhinos-in-kenya-what-children-can-learn/inline-3.jpg",
+   "w": 620,
+   "h": 775,
+   "alt": "Light blue crocheted rhinos with cream horns on a table",
+   "caption": "A light blue crocheted rhino.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "prrhino/rhino-light-blue-01"
+  }
+ ],
+ "gift-ideas-by-occasion-with-crocheted-animals": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/gift-ideas-by-occasion-with-crocheted-animals/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Gift boxes wrapped in green and blue paper with silver ribbon",
+   "caption": "",
+   "credit": "Photo: Laurachouette, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/29873585/",
+   "key": "s111"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/gift-ideas-by-occasion-with-crocheted-animals/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Overhead view of kraft gift boxes with ribbons on a red surface",
+   "caption": "Wrapped gifts with ribbons, seen from above.",
+   "credit": "Photo: Shkrabaanthony, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6057211/",
+   "key": "s112"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/gift-ideas-by-occasion-with-crocheted-animals/inline-2.jpg",
+   "w": 542,
+   "h": 678,
+   "alt": "A blue crocheted butterfly with yellow spots on its wings",
+   "caption": "A blue crocheted butterfly.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "prbutterfly/butterfly-blue-01"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/gift-ideas-by-occasion-with-crocheted-animals/inline-3.jpg",
+   "w": 705,
+   "h": 470,
+   "alt": "Four crocheted tan lions with brown manes in a row on a black table, from largest at the left to smallest at the right, against a cream wall",
+   "caption": "Four lions in a row, large to small.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkladder"
+  }
+ ],
+ "what-a-second-life-means-for-yarn": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/what-a-second-life-means-for-yarn/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Thick cream, orange and olive yarn skeins in a drawer",
+   "caption": "",
+   "credit": "Photo: Shkrabaanthony, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5467462/",
+   "key": "s54"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/what-a-second-life-means-for-yarn/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Rows of coloured thread cones on a wall display",
+   "caption": "Rows of coloured thread cones on a wall.",
+   "credit": "Photo: Matreding, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/12008038/",
+   "key": "s56"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/what-a-second-life-means-for-yarn/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Yarn balls in earthy brown tones in a wooden drawer",
+   "caption": "Balls of yarn in a wooden drawer.",
+   "credit": "Photo: Arina Krasnikova, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5709769/",
+   "key": "s57"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/what-a-second-life-means-for-yarn/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Tall crop of cream crochet stitches",
+   "caption": "Close cream crochet stitches.",
+   "credit": "Photo: Artempodrez, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7232403/",
+   "key": "s69"
+  }
+ ],
+ "acrylic-is-a-plastic-based-fibre": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/acrylic-is-a-plastic-based-fibre/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Close texture of beige knit stitches",
+   "caption": "",
+   "credit": "Photo: Arina Krasnikova, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7002938/",
+   "key": "s31"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/acrylic-is-a-plastic-based-fibre/inline-1.jpg",
+   "w": 886,
+   "h": 1108,
+   "alt": "A cream crocheted goose with an orange beak",
+   "caption": "A plain crocheted goose with nothing attached.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "prgoose/goose-cream-01"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/acrylic-is-a-plastic-based-fibre/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A washing line with white clothes and old laundry tools",
+   "caption": "Washing drying on a line in the open air.",
+   "credit": "Photo: Suju, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/12259016/",
+   "key": "s44"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/acrylic-is-a-plastic-based-fibre/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Brown yarn and a wooden crochet hook beside a thick olive crochet piece",
+   "caption": "Brown yarn and a wooden hook beside a crochet piece.",
+   "credit": "Photo: Palesska, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/10201057/",
+   "key": "s68"
+  }
+ ],
+ "textile-waste-around-nairobi": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/textile-waste-around-nairobi/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A pile of colourful fabric scraps on a wooden floor",
+   "caption": "",
+   "credit": "Photo: Algrey, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/11496275/",
+   "key": "s74"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/textile-waste-around-nairobi/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A large pile of mixed clothes ready for reuse",
+   "caption": "A large pile of mixed clothes.",
+   "credit": "Photo: Neosiam, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/38909989/",
+   "key": "s75"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/textile-waste-around-nairobi/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Two brown crocheted rabbits with long ears, one in a blue waistcoat and one in a red and green one, among other animals",
+   "caption": "Crocheted rabbits and other animals made from yarn.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkrabbits"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/textile-waste-around-nairobi/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A plastic box of folded clothes marked for donation",
+   "caption": "A box of folded clothes marked for donation.",
+   "credit": "Photo: Julia M Cameron, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6995179/",
+   "key": "s76"
+  }
+ ],
+ "wash-less-keep-longer": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/wash-less-keep-longer/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Hands washing a bar of soap in warm light",
+   "caption": "",
+   "credit": "Photo: Cottonbro, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/8284371/",
+   "key": "s43"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/wash-less-keep-longer/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Soft white chunky knit stitches in close up",
+   "caption": "Soft white knit stitches up close.",
+   "credit": "Photo: Kate McLean, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1615705592748-029c989e6d5c",
+   "key": "s158"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/wash-less-keep-longer/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Close view of hands holding a crochet hook and white cotton",
+   "caption": "Hands holding a crochet hook and white cotton.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585267/",
+   "key": "s96"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/wash-less-keep-longer/inline-3.jpg",
+   "w": 744,
+   "h": 496,
+   "alt": "Gift shop shelf with yellow giraffes, lions, grey elephants and light blue rhinos with hang tags",
+   "caption": "Animals sitting upright on an open shelf.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkshelfReady"
+  }
+ ],
+ "amigurumi-what-the-word-means": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/amigurumi-what-the-word-means/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A pile of small crocheted animals on a white background",
+   "caption": "",
+   "credit": "Photo: Valentin Ivantsov, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/38718821/",
+   "key": "s82"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/amigurumi-what-the-word-means/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands holding a small white crochet circle and hook",
+   "caption": "Hands holding a small crochet circle and hook.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585296/",
+   "key": "s83"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/amigurumi-what-the-word-means/inline-2.jpg",
+   "w": 448,
+   "h": 560,
+   "alt": "A crocheted turtle with a mint and cream shell",
+   "caption": "A crocheted turtle in mint and cream.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "prturtle/turtle-mint-cream-01"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/amigurumi-what-the-word-means/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A yellow crochet swatch with a hook and a yarn ball",
+   "caption": "A yellow crochet swatch with a hook and a ball of yarn.",
+   "credit": "Photo: Marymichaelyne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7177578/",
+   "key": "s84"
+  }
+ ],
+ "how-crochet-works-one-loop-at-a-time": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/how-crochet-works-one-loop-at-a-time/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Hands crocheting teal blue yarn with an orange hook",
+   "caption": "",
+   "credit": "Photo: Wal_, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/36238478/",
+   "key": "s79"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/how-crochet-works-one-loop-at-a-time/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Red yarn balls and crochet hooks on a rustic wooden table",
+   "caption": "Red yarn and crochet hooks on a wooden table.",
+   "credit": "Photo: Jahratreza, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/38522982/",
+   "key": "s89"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/how-crochet-works-one-loop-at-a-time/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands working a white crochet piece on a terracotta red cloth",
+   "caption": "Hands working a white crochet circle.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585570/",
+   "key": "s93"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/how-crochet-works-one-loop-at-a-time/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Coloured crochet hooks beside a pink yarn ball on a windowsill",
+   "caption": "Coloured crochet hooks beside a ball of pink yarn.",
+   "credit": "Photo: Anete Lusina, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4792084/",
+   "key": "s91"
+  }
+ ],
+ "from-pattern-to-animal": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/from-pattern-to-animal/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A crochet bunny doll with hooks on an open pattern book",
+   "caption": "",
+   "credit": "Photo: Itschansy, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4102835/",
+   "key": "s80"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/from-pattern-to-animal/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A grey yarn ball and red pencil on an open book",
+   "caption": "A ball of yarn and a pencil on an open book.",
+   "credit": "Photo: Anete Lusina, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4792080/",
+   "key": "s92"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/from-pattern-to-animal/inline-2.jpg",
+   "w": 748,
+   "h": 935,
+   "alt": "Woman in a red hat and navy hoodie looking at her phone on a plastic chair beside a table of crocheted giraffe pieces and scissors",
+   "caption": "Giraffe pieces and scissors on a workroom table.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkworkroomPieces"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/from-pattern-to-animal/inline-3.jpg",
+   "w": 744,
+   "h": 930,
+   "alt": "Young woman in a black t-shirt stitching crocheted yellow giraffe pieces, ready to assemble",
+   "caption": "Stitching giraffe parts together.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkhandsStitching"
+  }
+ ],
+ "why-handmade-differs-from-machine-made": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/why-handmade-differs-from-machine-made/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Many small crocheted animals in bright colours on white",
+   "caption": "",
+   "credit": "Photo: Valentin Ivantsov, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/39342612/",
+   "key": "s73"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/why-handmade-differs-from-machine-made/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Orange yarn cones on an industrial machine",
+   "caption": "Orange yarn cones on a machine.",
+   "credit": "Photo: Little Forest 2150377525, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/31591459/",
+   "key": "s72"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/why-handmade-differs-from-machine-made/inline-2.jpg",
+   "w": 609,
+   "h": 761,
+   "alt": "Woman in a yellow hoodie trimming a lion mane with scissors among piles of crocheted giraffe and lion pieces",
+   "caption": "Trimming a lion mane with scissors.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mktrimmingMane"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/why-handmade-differs-from-machine-made/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands crocheting white yarn in a vertical close up",
+   "caption": "Hands crocheting white yarn.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585566/",
+   "key": "s71"
+  }
+ ],
+ "what-25-plus-women-supported-means": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/what-25-plus-women-supported-means/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Woman with locs and glasses smiling behind a market table full of grey and blue crocheted elephants, rhinos and orange giraffes",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkstallMaker"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/what-25-plus-women-supported-means/inline-1.jpg",
+   "w": 819,
+   "h": 1024,
+   "alt": "Woman in a black t-shirt crocheting with a hook, with yellow and cream crocheted giraffe pieces in the foreground",
+   "caption": "Hands at work on a yellow giraffe.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkhandsGiraffe"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/what-25-plus-women-supported-means/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Table with crocheted lions at the front and rows of yellow and cream giraffes at the back",
+   "caption": "Lions at the front and giraffes behind.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionsGiraffes"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/what-25-plus-women-supported-means/inline-3.jpg",
+   "w": 673,
+   "h": 841,
+   "alt": "Woman in a striped yellow dress seated behind about fifteen crocheted yellow and cream giraffes on a teal blanket",
+   "caption": "A family of giraffes on a teal blanket.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeFamily"
+  }
+ ],
+ "mkono-mikono-the-word-behind-our-name": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/mkono-mikono-the-word-behind-our-name/hero.jpg",
+   "w": 1472,
+   "h": 828,
+   "alt": "Smiling woman with purple braids and an orange top holding a large crocheted lion at an outdoor market with kitenge cloths behind her",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionHug"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/mkono-mikono-the-word-behind-our-name/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands crocheting a small white piece in soft light",
+   "caption": "Hands crocheting a small white piece.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585583/",
+   "key": "s105"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/mkono-mikono-the-word-behind-our-name/inline-2.jpg",
+   "w": 678,
+   "h": 848,
+   "alt": "Woman with locs on a grey sofa sewing the face of a tan crocheted bear on her lap",
+   "caption": "Sewing the face of a tan bear.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mksewingBear"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/mkono-mikono-the-word-behind-our-name/inline-3.jpg",
+   "w": 589,
+   "h": 736,
+   "alt": "Hand holding up a navy crocheted hippo wearing a magenta dress, with a seated woman behind",
+   "caption": "A hand holding up a finished hippo.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkhippoDress"
+  }
+ ],
+ "income-for-families-what-we-can-say": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/income-for-families-what-we-can-say/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Market stall packed with orange giraffes, grey and purple elephants and brown rabbits with shoppers behind",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkorangeGiraffes"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/income-for-families-what-we-can-say/inline-1.jpg",
+   "w": 744,
+   "h": 496,
+   "alt": "Gift shop shelf with yellow giraffes, lions, grey elephants and light blue rhinos with hang tags",
+   "caption": "A gift shop shelf with hang tags.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkshelfReady"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/income-for-families-what-we-can-say/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A grey yarn ball and red pencil on an open book",
+   "caption": "A ball of yarn and a pencil on an open book.",
+   "credit": "Photo: Anete Lusina, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4792080/",
+   "key": "s92"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/income-for-families-what-we-can-say/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Hands attaching a handwritten tag to a gift with jute string",
+   "caption": "Hands fixing a tag to a gift.",
+   "credit": "Photo: Mart Production, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/8450114/",
+   "key": "s107"
+  }
+ ],
+ "questions-to-ask-about-the-women-who-made-it": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/questions-to-ask-about-the-women-who-made-it/hero.jpg",
+   "w": 1200,
+   "h": 675,
+   "alt": "Two women at a stall on sand with crocheted lions and dolls on a blue table",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkbeachStall"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/questions-to-ask-about-the-women-who-made-it/inline-1.jpg",
+   "w": 434,
+   "h": 542,
+   "alt": "Crocheted lion with a tan body and a long brown yarn mane standing on a wooden pallet in the sun",
+   "caption": "A finished lion on a wooden pallet.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionPallet"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/questions-to-ask-about-the-women-who-made-it/inline-2.jpg",
+   "w": 622,
+   "h": 778,
+   "alt": "Woman in a patterned yellow and black top and kitenge skirt crocheting on a chair, with a crocheted animal waiting beside her",
+   "caption": "A maker crocheting with a finished animal beside her.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkmakerCrocheting"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/questions-to-ask-about-the-women-who-made-it/inline-3.jpg",
+   "w": 678,
+   "h": 848,
+   "alt": "Woman with locs on a grey sofa sewing the face of a tan crocheted bear on her lap",
+   "caption": "Sewing a bear face by hand.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mksewingBear"
+  }
+ ],
+ "baby-shower-gifts-from-nairobi": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/baby-shower-gifts-from-nairobi/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A pale knitted elephant toy beside folded blankets on a wicker chair",
+   "caption": "",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4886896/",
+   "key": "s26"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/baby-shower-gifts-from-nairobi/inline-1.jpg",
+   "w": 432,
+   "h": 540,
+   "alt": "Crocheted giraffes in yellow and cream with brown spots and white muzzles, standing together on a teal blanket",
+   "caption": "Giraffes in different shades of yellow and cream.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeShades"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/baby-shower-gifts-from-nairobi/inline-2.jpg",
+   "w": 434,
+   "h": 542,
+   "alt": "Three crocheted giraffes in different sizes and shades of yellow and cream standing together",
+   "caption": "Three giraffes in different sizes.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeTrio"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/baby-shower-gifts-from-nairobi/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Three gift boxes wrapped in brown kraft paper with twine",
+   "caption": "A gift wrapped in kraft paper and twine.",
+   "credit": "Photo: Lulizler, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/3298036/",
+   "key": "s110"
+  }
+ ],
+ "how-custom-orders-work": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/how-custom-orders-work/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A hand sketching on paper beside coloured pencils on a wooden table",
+   "caption": "",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4219217/",
+   "key": "s97"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/how-custom-orders-work/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Coloured pencils over a loose pencil sketch",
+   "caption": "Coloured pencils over a loose sketch.",
+   "credit": "Photo: Javierdiazg, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/89625/",
+   "key": "s99"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/how-custom-orders-work/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A hand holding a phone with a messaging screen in dim light",
+   "caption": "A phone with a chat open.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6415626/",
+   "key": "s145"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/how-custom-orders-work/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands in a blue sleeve working white yarn with a hook",
+   "caption": "Hands working white yarn with a hook.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585268/",
+   "key": "s104"
+  }
+ ],
+ "christmas-animals-choose-early": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/christmas-animals-choose-early/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Two gifts in kraft paper with pine sprigs and twine on dark wood",
+   "caption": "",
+   "credit": "Photo: Nietjuhart, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/1693650/",
+   "key": "s118"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/christmas-animals-choose-early/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A hand holding a phone with a messaging screen in dim light",
+   "caption": "A phone with a message open.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6415626/",
+   "key": "s145"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/christmas-animals-choose-early/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Overhead view of kraft gifts with twine, pine cones and a tag",
+   "caption": "Kraft gifts with twine, pine cones and a tag.",
+   "credit": "Photo: Leeloothefirst, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5802140/",
+   "key": "s119"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/christmas-animals-choose-early/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A brown teddy bear beside gifts under a decorated tree",
+   "caption": "A teddy bear beside gifts under a tree.",
+   "credit": "Photo: Valeriya, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/34983029/",
+   "key": "s116"
+  }
+ ],
+ "corporate-gifts-custom-animals": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/corporate-gifts-custom-animals/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Stacked taped cardboard boxes on a wooden shelf against white brick",
+   "caption": "",
+   "credit": "Photo: Ayrat 244411276, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/12354555/",
+   "key": "s115"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/corporate-gifts-custom-animals/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Fabric samples glued into a cream notebook",
+   "caption": "Fabric samples glued into a notebook.",
+   "credit": "Photo: Eugenia Remark 5767088, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/15764778/",
+   "key": "s138"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/corporate-gifts-custom-animals/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A column of purple and blue fabric swatches",
+   "caption": "A column of purple and blue swatches.",
+   "credit": "Photo: Verolova, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/33830662/",
+   "key": "s137"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/corporate-gifts-custom-animals/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "An open cardboard box with bubble wrap on a white background",
+   "caption": "An open box packed with bubble wrap.",
+   "credit": "Photo: Plantsandgraphics, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/11781094/",
+   "key": "s108"
+  }
+ ],
+ "easter-gifts-crocheted-animals": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/easter-gifts-crocheted-animals/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Two brown crocheted rabbits with long ears, one in a blue waistcoat and one in a red and green one, among other animals",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkrabbits"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/easter-gifts-crocheted-animals/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Close view of a grey rabbit face with soft fur",
+   "caption": "A grey rabbit face up close.",
+   "credit": "Photo: 12Photography 342905, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/13460159/",
+   "key": "s21"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/easter-gifts-crocheted-animals/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A brown paper parcel tied with string and a small label",
+   "caption": "A parcel in brown paper with a label.",
+   "credit": "Photo: Flaneur 3277351, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/19363687/",
+   "key": "s113"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/easter-gifts-crocheted-animals/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A plush bunny in a brown boot beside a small elephant toy",
+   "caption": "A plush bunny in a brown boot beside a small elephant.",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4887078/",
+   "key": "s40"
+  }
+ ],
+ "lodge-and-gift-shop-souvenirs": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/lodge-and-gift-shop-souvenirs/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A safari tent room with twin beds and warm canvas",
+   "caption": "",
+   "credit": "Photo: Entumoto, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/17831034/",
+   "key": "s127"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/lodge-and-gift-shop-souvenirs/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A narrow gift shop with decorated shelves",
+   "caption": "A small shop with decorated shelves.",
+   "credit": "Photo: Magda Ehlers, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/31485533/",
+   "key": "s125"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/lodge-and-gift-shop-souvenirs/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A lodge bedroom with zebra print African quilts",
+   "caption": "A lodge bedroom with patterned quilts.",
+   "credit": "Photo: Enock Ojambo, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/33613748/",
+   "key": "s128"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/lodge-and-gift-shop-souvenirs/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A shop with handmade goods on shelves and a counter",
+   "caption": "A shop counter with handmade goods.",
+   "credit": "Photo: Enesbeydilli, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/26733189/",
+   "key": "s124"
+  }
+ ],
+ "mothers-day-gift-ideas": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/mothers-day-gift-ideas/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Balls of coloured yarn with wooden crochet hooks laid on top",
+   "caption": "",
+   "credit": "Photo: Margarida Afonso, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1584992236310-6edddc08acff",
+   "key": "s146"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/mothers-day-gift-ideas/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Granny square crochet pieces beside a pink yarn ball",
+   "caption": "Granny square crochet pieces beside a pink ball of yarn.",
+   "credit": "Photo: Srozan Nadzmi, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1728393287642-13bee7126ae8",
+   "key": "s147"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/mothers-day-gift-ideas/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A parcel wrapped in brown paper with natural string",
+   "caption": "A parcel in brown paper tied with string.",
+   "credit": "Photo: Freestocks, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/595910/",
+   "key": "s114"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/mothers-day-gift-ideas/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A hand holding a phone with a chat list, face not shown",
+   "caption": "A hand holding a phone with a chat list.",
+   "credit": "Photo: Cottonbro, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7120127/",
+   "key": "s144"
+  }
+ ],
+ "becoming-a-mikono-stockist": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/becoming-a-mikono-stockist/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A warm interior of a souvenir shop with shelves of crafts",
+   "caption": "",
+   "credit": "Photo: Furkanfdemir, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6309756/",
+   "key": "s123"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/becoming-a-mikono-stockist/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Hands holding a smartphone with a chat conversation, no face",
+   "caption": "A phone with a message open.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/10376167/",
+   "key": "s143"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/becoming-a-mikono-stockist/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Cardboard boxes stacked inside a delivery van",
+   "caption": "Boxes stacked in a delivery van.",
+   "credit": "Photo: Tima Miroshnichenko, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6170458/",
+   "key": "s131"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/becoming-a-mikono-stockist/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A brown paper parcel tied with string and a small label",
+   "caption": "A parcel with a label tied on.",
+   "credit": "Photo: Flaneur 3277351, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/19363687/",
+   "key": "s113"
+  }
+ ],
+ "eid-gifts-choosing-with-care": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/eid-gifts-choosing-with-care/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A parcel wrapped in brown paper with natural string",
+   "caption": "",
+   "credit": "Photo: Freestocks, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/595910/",
+   "key": "s114"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/eid-gifts-choosing-with-care/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "A hand holding a phone with a messaging screen in dim light",
+   "caption": "A phone with a message being typed.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6415626/",
+   "key": "s145"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/eid-gifts-choosing-with-care/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Three crocheted giraffes in cream, yellow and tan standing in front of green trees",
+   "caption": "Three giraffes in cream, yellow and tan.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkthreeGiraffes"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/eid-gifts-choosing-with-care/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Three gift boxes wrapped in brown kraft paper with twine",
+   "caption": "A gift wrapped in kraft paper and twine.",
+   "credit": "Photo: Lulizler, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/3298036/",
+   "key": "s110"
+  }
+ ],
+ "gifts-for-family-in-kenya-from-abroad": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/gifts-for-family-in-kenya-from-abroad/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Three cardboard parcels on a hand trolley beside a van",
+   "caption": "",
+   "credit": "Photo: Tima Miroshnichenko, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/6169055/",
+   "key": "s132"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/gifts-for-family-in-kenya-from-abroad/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Hands holding a smartphone with a chat conversation, no face",
+   "caption": "A phone with a message open.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/10376167/",
+   "key": "s143"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/gifts-for-family-in-kenya-from-abroad/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "An open cardboard box on a wooden desk with tape and scissors",
+   "caption": "An open box on a desk with tape and scissors.",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4498152/",
+   "key": "s106"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/gifts-for-family-in-kenya-from-abroad/inline-3.jpg",
+   "w": 744,
+   "h": 930,
+   "alt": "Table of crocheted lions, giraffes and grey elephants with four long cats in orange, mint, blue and pink lying at the front",
+   "caption": "Lions, giraffes and elephants on one table.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mktableLionsGiraffes"
+  }
+ ],
+ "schools-and-ngos-working-with-mikono": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/schools-and-ngos-working-with-mikono/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "A wooden school desk with bags hanging off the chairs",
+   "caption": "",
+   "credit": "Photo: Katerina Holmes, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5905436/",
+   "key": "s39"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/schools-and-ngos-working-with-mikono/inline-1.jpg",
+   "w": 744,
+   "h": 930,
+   "alt": "Long table with a turquoise cloth carrying lions, elephants and giraffes in rows",
+   "caption": "The whole range on a long table.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklongTable"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/schools-and-ngos-working-with-mikono/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A pastel playroom shelf with toys, books and a basket",
+   "caption": "A bright shelf with toys, books and a basket.",
+   "credit": "Photo: Denissevillar, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/32713291/",
+   "key": "s37"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/schools-and-ngos-working-with-mikono/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Coloured pencils over a loose pencil sketch",
+   "caption": "Coloured pencils over a loose sketch.",
+   "credit": "Photo: Javierdiazg, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/89625/",
+   "key": "s99"
+  }
+ ],
+ "choosing-a-size-as-a-gift": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/choosing-a-size-as-a-gift/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "White sewing tape measure coiled on a grey surface",
+   "caption": "",
+   "credit": "Photo: Ron Lach, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7778196/",
+   "key": "s139"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/choosing-a-size-as-a-gift/inline-1.jpg",
+   "w": 519,
+   "h": 649,
+   "alt": "Smiling young man in an orange jacket holding a crocheted giraffe and a grey elephant under a blue umbrella",
+   "caption": "A visitor holding a giraffe and an elephant.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkmanGiraffeElephant"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/choosing-a-size-as-a-gift/inline-2.jpg",
+   "w": 705,
+   "h": 470,
+   "alt": "Four crocheted tan lions with brown manes in a row on a black table, from largest at the left to smallest at the right, against a cream wall",
+   "caption": "Four lions in a row, large to small.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkladder"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/choosing-a-size-as-a-gift/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A grey elephant toy leaning on a striped cloud cushion",
+   "caption": "A grey elephant toy leaning on a striped cushion.",
+   "credit": "Photo: Karola G, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4964279/",
+   "key": "s29"
+  }
+ ],
+ "custom-brief-checklist": [
+  {
+   "slot": "hero",
+   "src": "/media/blog/custom-brief-checklist/hero.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "An open sketchbook with pencils on a wooden desk",
+   "caption": "",
+   "credit": "Photo: Messalaciulla, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/10396320/",
+   "key": "s98"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/custom-brief-checklist/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A grey yarn ball and red pencil on an open book",
+   "caption": "A ball of yarn and a pencil on an open book.",
+   "credit": "Photo: Anete Lusina, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/4792080/",
+   "key": "s92"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/custom-brief-checklist/inline-2.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Blue and teal fabric swatch strip",
+   "caption": "Blue and teal fabric swatches in a strip.",
+   "credit": "Photo: Verolova, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/31778598/",
+   "key": "s87"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/custom-brief-checklist/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A brown yarn ball with a crochet hook and small work in progress",
+   "caption": "A brown ball of yarn with a hook and a small piece of work.",
+   "credit": "Photo: Fatma, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/35603669/",
+   "key": "s94"
+  }
+ ],
+ "what-mikono-means": [
+  {
+   "slot": "hero",
+   "src": "/media/story/maker-crocheting-toy-waiting.jpg",
+   "w": 622,
+   "h": 992,
+   "alt": "Woman in a patterned yellow and black top and kitenge skirt crocheting on a chair, with a crocheted animal waiting beside her",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkmakerCrocheting"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/story/hands-crocheting-yellow-giraffe.jpg",
+   "w": 890,
+   "h": 1024,
+   "alt": "Woman in a black t-shirt crocheting with a hook, with yellow and cream crocheted giraffe pieces in the foreground",
+   "caption": "A hook working through yellow yarn, with giraffe pieces in front.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkhandsGiraffe"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/sewing-bear-face.jpg",
+   "w": 678,
+   "h": 867,
+   "alt": "Woman with locs on a grey sofa sewing the face of a tan crocheted bear on her lap",
+   "caption": "A woman on a grey sofa sewing the face of a tan bear.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mksewingBear"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/what-mikono-means/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands crocheting a small white piece in soft light",
+   "caption": "Hands crocheting a small white piece in soft light.",
+   "credit": "Photo: Miriam Alonso, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7585583/",
+   "key": "s105"
+  }
+ ],
+ "what-is-recycled-acrylic-yarn": [
+  {
+   "slot": "hero",
+   "src": "/media/story/giraffes-trio-large-small.jpg",
+   "w": 434,
+   "h": 648,
+   "alt": "Three crocheted giraffes in different sizes and shades of yellow and cream standing together",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeTrio"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/what-is-recycled-acrylic-yarn/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Thick cream, orange and olive yarn skeins in a drawer",
+   "caption": "Skeins of thick yarn in a drawer.",
+   "credit": "Photo: Shkrabaanthony, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5467462/",
+   "key": "s54"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/moments/moment-10-garden-giraffes.jpg",
+   "w": 1200,
+   "h": 1600,
+   "alt": "Rows of yellow and cream crocheted giraffes on a pale blue cloth under a canopy with green trees behind",
+   "caption": "Yellow and cream giraffes in rows on a pale blue cloth, in the shade of a canopy.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgardenGiraffes"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/what-is-recycled-acrylic-yarn/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Yarn balls in earthy brown tones in a wooden drawer",
+   "caption": "Balls of yarn in earthy tones in a wooden drawer.",
+   "credit": "Photo: Arina Krasnikova, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/5709769/",
+   "key": "s57"
+  }
+ ],
+ "how-to-choose-a-size": [
+  {
+   "slot": "hero",
+   "src": "/media/story/lion-row-closeup.jpg",
+   "w": 434,
+   "h": 648,
+   "alt": "Close view along a line of crocheted tan lions on a dark table, the nearest one large and the others smaller",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionRowCloseup"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/story/lion-size-ladder-unlabelled.jpg",
+   "w": 716,
+   "h": 470,
+   "alt": "Four crocheted tan lions with brown manes in a row on a black table, from largest at the left to smallest at the right, against a cream wall",
+   "caption": "Four lions in a row, largest at the left and smallest at the right.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkladder"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/man-with-giraffe-and-elephant.jpg",
+   "w": 605,
+   "h": 649,
+   "alt": "Smiling young man in an orange jacket holding a crocheted giraffe and a grey elephant under a blue umbrella",
+   "caption": "A visitor at a stall holding a yellow giraffe and a grey elephant.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkmanGiraffeElephant"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/how-to-choose-a-size/inline-3.jpg",
+   "w": 744,
+   "h": 496,
+   "alt": "Gift shop shelf with yellow giraffes, lions, grey elephants and light blue rhinos with hang tags",
+   "caption": "A gift shop shelf with animals of different sizes.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkshelfReady"
+  }
+ ],
+ "how-to-clean-a-crocheted-animal": [
+  {
+   "slot": "hero",
+   "src": "/media/story/three-giraffes-cream-yellow-tan.jpg",
+   "w": 1059,
+   "h": 1600,
+   "alt": "Three crocheted giraffes in cream, yellow and tan standing in front of green trees",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkthreeGiraffes"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/how-to-clean-a-crocheted-animal/inline-1.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "Hands scrubbing light blue cloth with soap bubbles",
+   "caption": "Hands rubbing a cloth gently with soap bubbles.",
+   "credit": "Photo: Ian Panelo, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/38602906/",
+   "key": "s42"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/giraffe-portrait.jpg",
+   "w": 434,
+   "h": 650,
+   "alt": "Crocheted yellow giraffe with brown spots, a white muzzle and two brown horns against a cream wall",
+   "caption": "A yellow giraffe with brown spots and a white muzzle, close up.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffePortrait"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/story/lion-on-wooden-pallet.jpg",
+   "w": 434,
+   "h": 650,
+   "alt": "Crocheted lion with a tan body and a long brown yarn mane standing on a wooden pallet in the sun",
+   "caption": "A lion with a long brown yarn mane on a wooden pallet.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionPallet"
+  }
+ ],
+ "the-safari-animals-we-make": [
+  {
+   "slot": "hero",
+   "src": "/media/story/long-table-whole-range.jpg",
+   "w": 744,
+   "h": 992,
+   "alt": "Long table with a turquoise cloth carrying lions, elephants and giraffes in rows",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklongTable"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/the-safari-animals-we-make/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Side profile of a maned lion against dark green grass",
+   "caption": "A real lion with a thick mane, in profile.",
+   "credit": "Photo: Elize Bezuidenhout, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/20382404/",
+   "key": "s141"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/elephants-rhinos-bamboo-roof.jpg",
+   "w": 1600,
+   "h": 1059,
+   "alt": "Blue and grey crocheted elephants and rhinos in front of giraffes and a brown bear under a bamboo roof",
+   "caption": "Blue and grey elephants and rhinos in front of giraffes and a brown bear, under a bamboo roof.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkelephantsBamboo"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/story/zebras-giraffes-bunnies.jpg",
+   "w": 960,
+   "h": 1280,
+   "alt": "Black and white zebras, giraffes and brown rabbits on one table, with long cats in pink, cream and yellow and small dolls in dresses at the front",
+   "caption": "Black and white zebras with giraffes, brown rabbits and long cats on one table.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkzebrasBunnies"
+  }
+ ],
+ "making-a-lion-mane": [
+  {
+   "slot": "hero",
+   "src": "/media/story/grey-elephants-lion-in-making.jpg",
+   "w": 545,
+   "h": 909,
+   "alt": "Woman in a white jacket on a blue sofa working on a lion beside a pile of grey crocheted elephant pieces",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkelephantsInMaking"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/story/trimming-lion-mane.jpg",
+   "w": 609,
+   "h": 907,
+   "alt": "Woman in a yellow hoodie trimming a lion mane with scissors among piles of crocheted giraffe and lion pieces",
+   "caption": "Trimming a lion mane with scissors among heaps of animal pieces.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mktrimmingMane"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/blog/making-a-lion-mane/inline-2.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Close portrait of a male lion in profile with a thick golden mane",
+   "caption": "A real male lion with a golden mane, for comparison.",
+   "credit": "Photo: Natchalita Kodwong, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/14200416/",
+   "key": "s140"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/story/lion-on-wooden-pallet.jpg",
+   "w": 434,
+   "h": 650,
+   "alt": "Crocheted lion with a tan body and a long brown yarn mane standing on a wooden pallet in the sun",
+   "caption": "A finished lion standing on a wooden pallet in the sun.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mklionPallet"
+  }
+ ],
+ "from-yarn-to-giraffe": [
+  {
+   "slot": "hero",
+   "src": "/media/moments/moment-04-giraffes-sofa.jpg",
+   "w": 643,
+   "h": 687,
+   "alt": "Woman in a blue patterned dress seated on a sofa beside many crocheted giraffes on a teal blanket",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffesSofa"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/story/workroom-giraffe-pieces.jpg",
+   "w": 960,
+   "h": 935,
+   "alt": "Woman in a red hat and navy hoodie looking at her phone on a plastic chair beside a table of crocheted giraffe pieces and scissors",
+   "caption": "A break in the workroom, with giraffe pieces and scissors on the table.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkworkroomPieces"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/finishing-giraffe-orange-yarn.jpg",
+   "w": 477,
+   "h": 886,
+   "alt": "Woman in a striped top and headscarf holding a crocheted yellow giraffe, with a box of orange yarn beside her",
+   "caption": "A maker holding a nearly finished giraffe, with orange yarn in a box beside her.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkfinishingGiraffe"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/moments/moment-03-giraffe-family.jpg",
+   "w": 673,
+   "h": 927,
+   "alt": "Woman in a striped yellow dress seated behind about fifteen crocheted yellow and cream giraffes on a teal blanket",
+   "caption": "A family of giraffes on a teal blanket.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeFamily"
+  }
+ ],
+ "how-ordering-on-whatsapp-works": [
+  {
+   "slot": "hero",
+   "src": "/media/story/canopy-stall-animals.jpg",
+   "w": 736,
+   "h": 578,
+   "alt": "Stall under a white canopy with bags hanging above and rows of crocheted animals below",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkcanopyStall"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/blog/how-ordering-on-whatsapp-works/inline-1.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Hands holding a smartphone with a chat conversation, no face",
+   "caption": "A phone with a chat open.",
+   "credit": "Photo: Rdne, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/10376167/",
+   "key": "s143"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/maker-at-stall.jpg",
+   "w": 1600,
+   "h": 900,
+   "alt": "Woman with locs and glasses smiling behind a market table full of grey and blue crocheted elephants, rhinos and orange giraffes",
+   "caption": "A maker behind a market table of grey and blue elephants, rhinos and orange giraffes.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkstallMaker"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/how-ordering-on-whatsapp-works/inline-3.jpg",
+   "w": 900,
+   "h": 1125,
+   "alt": "A hand holding a phone with a chat list, face not shown",
+   "caption": "A hand holding a phone with a chat list.",
+   "credit": "Photo: Cottonbro, via Pexels (Pexels License)",
+   "creditUrl": "https://www.pexels.com/photo/7120127/",
+   "key": "s144"
+  }
+ ],
+ "why-wholesale": [
+  {
+   "slot": "hero",
+   "src": "/media/story/elephants-rhinos-in-rows.jpg",
+   "w": 645,
+   "h": 952,
+   "alt": "Neat rows of grey elephants and light blue rhinos below a row of yellow giraffes",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkelephantsRhinosRows"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/moments/moment-08-shelf-ready.jpg",
+   "w": 744,
+   "h": 562,
+   "alt": "Gift shop shelf with yellow giraffes, lions, grey elephants and light blue rhinos with hang tags",
+   "caption": "On a gift shop shelf, with hang tags.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkshelfReady"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/moments/moment-11-garden-restaurant.jpg",
+   "w": 1200,
+   "h": 1600,
+   "alt": "Crocheted giraffes and elephants on a white table at a busy open air thatched restaurant with seated diners",
+   "caption": "Crocheted giraffes and elephants on a white table at an open air restaurant.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgardenRestaurant"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/story/table-lions-giraffes-pastel-bears.jpg",
+   "w": 744,
+   "h": 992,
+   "alt": "Table of crocheted lions, giraffes and grey elephants with four long cats in orange, mint, blue and pink lying at the front",
+   "caption": "A market table with lions, giraffes, grey elephants and four long cats at the front.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mktableLionsGiraffes"
+  }
+ ],
+ "why-colours-differ-slightly": [
+  {
+   "slot": "hero",
+   "src": "/media/story/giraffes-shades-blanket.jpg",
+   "w": 432,
+   "h": 648,
+   "alt": "Crocheted giraffes in yellow and cream with brown spots and white muzzles, standing together on a teal blanket",
+   "caption": "",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeShades"
+  },
+  {
+   "slot": "inline-1",
+   "src": "/media/story/giraffes-herd-teal-blanket.jpg",
+   "w": 432,
+   "h": 650,
+   "alt": "Crocheted yellow and white giraffes with brown spots standing close together on a teal blanket",
+   "caption": "Yellow and white giraffes with brown spots on a teal blanket.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeHerd"
+  },
+  {
+   "slot": "inline-2",
+   "src": "/media/story/giraffes-trio-large-small.jpg",
+   "w": 434,
+   "h": 648,
+   "alt": "Three crocheted giraffes in different sizes and shades of yellow and cream standing together",
+   "caption": "Three giraffes in deep yellow, lemon yellow and cream.",
+   "credit": "Photo: Mikono Creations",
+   "creditUrl": "",
+   "key": "mkgiraffeTrio"
+  },
+  {
+   "slot": "inline-3",
+   "src": "/media/blog/why-colours-differ-slightly/inline-3.jpg",
+   "w": 1200,
+   "h": 800,
+   "alt": "Balls of coloured yarn with wooden crochet hooks laid on top",
+   "caption": "Balls of yarn in many colours with wooden hooks.",
+   "credit": "Photo: Margarida Afonso, via Unsplash (Unsplash License)",
+   "creditUrl": "https://unsplash.com/photos/photo-1584992236310-6edddc08acff",
+   "key": "s146"
+  }
+ ]
+}

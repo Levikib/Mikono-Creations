@@ -1,0 +1,54 @@
+{
+ "template": "product",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "end": {
+   "habitat": "grove",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-grass-tuft",
+     "at": 20,
+     "size": [
+      24,
+      34
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "tortoise-stand",
+     "role": "walk",
+     "at": 14,
+     "size": [
+      75,
+      104
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 60,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "ostrich-stand",
+     "role": "rise",
+     "at": 88,
+     "size": [
+      58,
+      79
+     ],
+     "prio": 3
+    }
+   ],
+   "calm": true
+  }
+ }
+}

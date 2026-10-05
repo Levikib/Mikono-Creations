@@ -1,0 +1,45 @@
+{
+ "template": "contact",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "skyline": {
+   "habitat": "skyline",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "giraffe",
+     "role": "rise",
+     "at": 18,
+     "size": [
+      58,
+      80
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 52,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "secretary-bird-stand",
+     "role": "rise",
+     "at": 82,
+     "size": [
+      56,
+      77
+     ],
+     "prio": 3,
+     "find": "secretary-contact"
+    }
+   ],
+   "calm": true
+  }
+ }
+}

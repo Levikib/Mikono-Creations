@@ -1,0 +1,70 @@
+{
+ "template": "shop",
+ "thread": "on",
+ "peek": true,
+ "bands": {
+  "top": {
+   "habitat": "grove",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "giraffe",
+     "role": "rise",
+     "at": 10,
+     "size": [
+      58,
+      80
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "chameleon-perch",
+     "role": "perch",
+     "at": 82,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 3,
+     "find": "chameleon-shop"
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 48,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    }
+   ]
+  },
+  "end": {
+   "habitat": "grove",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "leopard-branch",
+     "role": "perch",
+     "at": 30,
+     "size": [
+      70,
+      97
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "hornbill-fly",
+     "role": "float",
+     "at": 76,
+     "size": [
+      57,
+      79
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

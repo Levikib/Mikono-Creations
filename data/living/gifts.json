@@ -1,0 +1,100 @@
+{
+ "template": "gifts",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "shelf": {
+   "habitat": "nursery",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-flower",
+     "at": 40,
+     "size": [
+      34,
+      46
+     ]
+    },
+    {
+     "sprite": "prop-flower",
+     "at": 90,
+     "size": [
+      28,
+      38
+     ],
+     "flip": true
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "rabbit",
+     "role": "rise",
+     "at": 12,
+     "size": [
+      46,
+      64
+     ],
+     "prio": 4,
+     "inline": true
+    },
+    {
+     "sprite": "chick-hatch",
+     "role": "rise",
+     "at": 64,
+     "size": [
+      51,
+      71
+     ],
+     "prio": 3,
+     "find": "chick-gifts"
+    },
+    {
+     "sprite": "bee-fly",
+     "role": "float",
+     "at": 40,
+     "size": [
+      39,
+      54
+     ],
+     "prio": 2
+    }
+   ]
+  },
+  "end": {
+   "habitat": "nursery",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "chick-stand",
+     "role": "rise",
+     "at": 20,
+     "size": [
+      48,
+      68
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 56,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "cat-sleep",
+     "role": "rise",
+     "at": 82,
+     "size": [
+      114,
+      158
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

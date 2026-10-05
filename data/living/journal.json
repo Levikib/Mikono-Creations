@@ -1,0 +1,70 @@
+{
+ "template": "journal",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "top": {
+   "habitat": "workshop",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "turtle",
+     "role": "walk",
+     "at": 10,
+     "size": [
+      74,
+      102
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "ladybird-crawl",
+     "role": "walk",
+     "at": 66,
+     "size": [
+      58,
+      81
+     ],
+     "prio": 2
+    }
+   ]
+  },
+  "mid": {
+   "habitat": "grove",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-acacia-branch",
+     "at": 24,
+     "size": [
+      90,
+      124
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "monkey",
+     "role": "perch",
+     "at": 24,
+     "size": [
+      53,
+      73
+     ],
+     "prio": 3,
+     "find": "monkey-journal"
+    },
+    {
+     "sprite": "bee-fly",
+     "role": "float",
+     "at": 66,
+     "size": [
+      39,
+      54
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

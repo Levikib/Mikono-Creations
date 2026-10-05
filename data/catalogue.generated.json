@@ -1,0 +1,2462 @@
+{
+ "sizes": [
+  "S",
+  "M",
+  "L",
+  "XL"
+ ],
+ "categories": {
+  "safari": "Safari animals",
+  "domestic": "Domestic animals",
+  "more": "More animals",
+  "wall-art": "Wall art",
+  "dolls": "Dolls"
+ },
+ "products": [
+  {
+   "slug": "elephant",
+   "species": "elephant",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "white",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 645,
+       "height": 472,
+       "quality": "ok",
+       "alt": "Rows of mid grey crocheted elephants with white tusks on a white table",
+       "source_id": "img-066.jpg",
+       "src": "/media/products/elephant/elephant-grey-01.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 736,
+       "height": 736,
+       "quality": "ok",
+       "alt": "A large and a small grey crocheted elephant with white tusks on a striped cloth outdoors",
+       "source_id": "img-012.jpg",
+       "src": "/media/products/elephant/elephant-grey-02.jpg"
+      }
+     ]
+    },
+    {
+     "key": "slate-blue",
+     "label": "Slate blue",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 1600,
+       "height": 1059,
+       "quality": "good",
+       "alt": "Two blue grey crocheted elephants with white tusks in front of giraffes, with a blue cast on the cloth",
+       "source_id": "img-076.jpg",
+       "src": "/media/products/elephant/elephant-slate-blue-01.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.25,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 640,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Two slate blue crocheted elephants with white tusks side by side on a table",
+       "source_id": "img-071.jpg",
+       "src": "/media/products/elephant/elephant-slate-blue-02.jpg"
+      }
+     ]
+    },
+    {
+     "key": "lavender",
+     "label": "Lavender",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 770,
+       "height": 1025,
+       "quality": "good",
+       "alt": "A group of lavender crocheted elephants with white tusks on a wooden table, with a caramel elephant in the foreground",
+       "source_id": "img-040.jpg",
+       "src": "/media/products/elephant/elephant-lavender-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "caramel-brown",
+     "label": "Caramel brown",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 490,
+       "height": 480,
+       "quality": "good",
+       "alt": "Caramel brown crocheted elephant with a white tusk on a wooden table",
+       "source_id": "img-040.jpg",
+       "src": "/media/products/elephant/elephant-caramel-brown-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "dusty-purple",
+     "label": "Dusty purple",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 1200,
+       "height": 500,
+       "quality": "ok",
+       "alt": "Dusty purple crocheted elephants with white tusks lined up on a market table",
+       "source_id": "elephant-dusty-purple-01.jpg",
+       "src": "/media/products/elephant/elephant-dusty-purple-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "charcoal-grey",
+     "label": "Charcoal grey",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 977,
+       "quality": "ok",
+       "alt": "A heap of crocheted lions, giraffes and elephants, with charcoal grey elephants in the middle",
+       "source_id": "img-085.jpg",
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone.",
+       "src": "/media/products/elephant/elephant-charcoal-grey-01.jpg"
+      },
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 265,
+       "height": 180,
+       "quality": "ok",
+       "alt": "Charcoal grey crocheted elephant with a white tusk, lying in a heap of other crocheted animals",
+       "source_id": "img-085.jpg",
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone.",
+       "src": "/media/products/elephant/elephant-charcoal-grey-02.jpg",
+       "cardSrc": "/media/products/elephant/elephant-charcoal-grey-02-frame.jpg"
+      },
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.4,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 420,
+       "height": 160,
+       "quality": "ok",
+       "alt": "Charcoal grey crocheted elephants with white tusks lined up on a market table",
+       "source_id": "img-045.jpg",
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone.",
+       "src": "/media/products/elephant/elephant-charcoal-grey-03.jpg",
+       "cardSrc": "/media/products/elephant/elephant-charcoal-grey-03-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "navy",
+     "label": "Navy",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 240,
+       "height": 240,
+       "quality": "ok",
+       "alt": "Navy blue crocheted elephant with a white tusk among other crocheted animals in a heap",
+       "source_id": "img-085.jpg",
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone.",
+       "src": "/media/products/elephant/elephant-navy-01.jpg",
+       "cardSrc": "/media/products/elephant/elephant-navy-01-frame.jpg"
+      },
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.68,
+        0.55
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 977,
+       "quality": "ok",
+       "alt": "A heap of crocheted lions, giraffes and elephants, with a navy elephant at the right",
+       "source_id": "img-085.jpg",
+       "client_review": "Shown in a group photo or a crop with other animals at the edges. Please send a clear photo of this animal alone.",
+       "src": "/media/products/elephant/elephant-navy-02.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.55,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 878,
+     "height": 432,
+     "quality": "ok",
+     "alt": "A zebra, a lavender elephant and a lion standing in a row on a wooden table in a garden",
+     "source_id": "img-035.jpg",
+     "src": "/media/products/elephant/elephant-range-01.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "giraffe",
+   "species": "giraffe",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "yellow-brown-spots",
+     "label": "Yellow with brown spots",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 640,
+       "quality": "good",
+       "alt": "Crocheted yellow giraffe with brown spots, white muzzle and brown horns, head and neck against a plain cream wall",
+       "source_id": "img-064.jpg",
+       "src": "/media/products/giraffe/giraffe-yellow-brown-spots-01.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.2
+       ],
+       "shownSize": null,
+       "width": 410,
+       "height": 1220,
+       "quality": "good",
+       "alt": "Full length yellow crocheted giraffe with orange brown spots and cream muzzle, standing among other giraffes with a blurred green background",
+       "source_id": "img-070.jpg",
+       "src": "/media/products/giraffe/giraffe-yellow-brown-spots-02.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.7,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 1200,
+       "height": 1600,
+       "quality": "good",
+       "alt": "Row of yellow crocheted giraffes with brown spots on a blue table, one cream giraffe beside them",
+       "source_id": "img-061.jpg",
+       "src": "/media/products/giraffe/giraffe-yellow-brown-spots-03.jpg"
+      }
+     ]
+    },
+    {
+     "key": "cream-brown-spots",
+     "label": "Cream with brown spots",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 460,
+       "height": 450,
+       "quality": "ok",
+       "alt": "Two cream crocheted giraffes with brown spots, brown muzzles and brown horns, from the front",
+       "source_id": "img-087.jpg",
+       "src": "/media/products/giraffe/giraffe-cream-brown-spots-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "caramel-tan",
+     "label": "Caramel tan",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.2
+       ],
+       "shownSize": null,
+       "width": 419,
+       "height": 1220,
+       "quality": "good",
+       "alt": "Caramel tan crocheted giraffe with brown spots, cream muzzle and brown horns, standing full length",
+       "source_id": "img-070.jpg",
+       "src": "/media/products/giraffe/giraffe-caramel-tan-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "orange",
+     "label": "Orange",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.4,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 540,
+       "height": 660,
+       "quality": "low",
+       "alt": "Three orange crocheted giraffes with cream muzzles and darker orange spots at a market stall",
+       "source_id": "img-080.jpg",
+       "src": "/media/products/giraffe/giraffe-orange-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "slim-red",
+     "label": "Slim red",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 195,
+       "height": 505,
+       "quality": "ok",
+       "alt": "Red slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "source_id": "img-029.jpg",
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone.",
+       "src": "/media/products/giraffe/giraffe-slim-red-01.jpg",
+       "cardSrc": "/media/products/giraffe/giraffe-slim-red-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "slim-purple",
+     "label": "Slim purple",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 170,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Purple slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "source_id": "img-029.jpg",
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone.",
+       "src": "/media/products/giraffe/giraffe-slim-purple-01.jpg",
+       "cardSrc": "/media/products/giraffe/giraffe-slim-purple-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "slim-sky-blue",
+     "label": "Slim sky blue",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 170,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Sky blue slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "source_id": "img-029.jpg",
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone.",
+       "src": "/media/products/giraffe/giraffe-slim-sky-blue-01.jpg",
+       "cardSrc": "/media/products/giraffe/giraffe-slim-sky-blue-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "slim-pale-yellow",
+     "label": "Slim pale yellow",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 170,
+       "height": 475,
+       "quality": "ok",
+       "alt": "Pale yellow slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "source_id": "img-029.jpg",
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone.",
+       "src": "/media/products/giraffe/giraffe-slim-pale-yellow-01.jpg",
+       "cardSrc": "/media/products/giraffe/giraffe-slim-pale-yellow-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "slim-royal-blue",
+     "label": "Slim royal blue",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 160,
+       "height": 450,
+       "quality": "ok",
+       "alt": "Royal blue slim crocheted giraffe with white stitched dots, a white muzzle and white feet, with the edge of its neighbour in the frame",
+       "source_id": "img-029.jpg",
+       "client_review": "Cut from a row photo, so the edge of the next giraffe shows. Please confirm this slim design is for sale and send a photo of each colour alone.",
+       "src": "/media/products/giraffe/giraffe-slim-royal-blue-01.jpg",
+       "cardSrc": "/media/products/giraffe/giraffe-slim-royal-blue-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "group",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1080,
+     "height": 662,
+     "quality": "ok",
+     "alt": "Six slim crocheted giraffes in a row on a shaggy rug: yellow with brown spots, red, purple, sky blue, pale yellow and royal blue",
+     "source_id": "img-029.jpg",
+     "src": "/media/products/giraffe/giraffe-range-01.jpg"
+    },
+    {
+     "role": "group",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1543,
+     "height": 1600,
+     "quality": "low",
+     "alt": "Close view of many crocheted giraffe heads in yellow, cream and tan with brown horns and white muzzles",
+     "source_id": "img-038.jpg",
+     "src": "/media/products/giraffe/giraffe-range-02.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "lion",
+   "species": "lion",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "tan-brown-mane",
+     "label": "Tan with brown mane",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 630,
+       "height": 964,
+       "quality": "good",
+       "alt": "Crocheted lion animal with a tan body, tan face and ears, dark brown nose and a long shaggy brown yarn mane, standing on a wooden table outdoors.",
+       "source_id": "img-060.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-01.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "coloured",
+       "focal": [
+        0.4,
+        0.35
+       ],
+       "shownSize": null,
+       "width": 1059,
+       "height": 1600,
+       "quality": "ok",
+       "alt": "Close view of a crocheted tan lion with a brown yarn mane and black nose, framed by green plant leaves, some leaves crossing in front.",
+       "source_id": "img-068.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-02.jpg"
+      },
+      {
+       "role": "size_ladder",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 649,
+       "quality": "ok",
+       "alt": "Row of crocheted tan lions with brown manes on a black table, decreasing in size from left to right; the largest lion is cut off by the left edge of the photo.",
+       "source_id": "img-063.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-03.jpg"
+      },
+      {
+       "role": "size_ladder",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 649,
+       "quality": "ok",
+       "alt": "Close view along a line of crocheted tan lions with brown manes on a black table, the nearest one large and the others shrinking into the distance.",
+       "source_id": "img-063.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-04.jpg"
+      },
+      {
+       "role": "size_ladder",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 433,
+       "height": 400,
+       "quality": "ok",
+       "alt": "Four crocheted tan lions with brown manes in a row on a black table, from largest at left to smallest at right, against a cream wall.",
+       "source_id": "img-063.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-05.jpg"
+      },
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.55,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 510,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Two large crocheted tan lions with brown yarn manes on a market stall table beside a patterned bag, with a third lion behind them.",
+       "source_id": "img-006.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-06.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.55
+       ],
+       "shownSize": null,
+       "width": 980,
+       "height": 880,
+       "quality": "ok",
+       "alt": "Group of crocheted tan lions with brown yarn manes lined up on a white market table, with grey elephant animals behind.",
+       "source_id": "img-039.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-07.jpg"
+      },
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.7,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 746,
+       "height": 1058,
+       "quality": "ok",
+       "alt": "A young man in a cream cap and brown leather jacket holds a large crocheted tan lion at a market stall, with smaller lions and yellow giraffes on a light blue table.",
+       "source_id": "img-027.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-08.jpg"
+      },
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 445,
+       "height": 430,
+       "quality": "ok",
+       "alt": "A woman sitting on a blue sofa attaches yarn to a crocheted lion body, with another lion lying beside her.",
+       "source_id": "img-056.jpg",
+       "src": "/media/products/lion/lion-tan-brown-mane-09.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.82,
+      0.4
+     ],
+     "shownSize": null,
+     "width": 878,
+     "height": 432,
+     "quality": "ok",
+     "alt": "A lion with a long brown yarn mane standing beside a lavender elephant and a zebra on a wooden table in a garden",
+     "source_id": "img-035.jpg",
+     "src": "/media/products/lion/lion-range-01.jpg"
+    },
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.1,
+      0.7
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "ok",
+     "alt": "Market stall under white tents with a large lion at the left of a table with a white heart print cloth, beside rabbits, giraffes and elephants",
+     "source_id": "img-043.jpg",
+     "src": "/media/products/lion/lion-range-02.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "octopus",
+   "species": "octopus",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "white",
+     "label": "White",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 480,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Hand holding a white crocheted octopus with a ruffled skirt edged in white and shaded red, orange and yellow, with black eyes and a yellow smile",
+       "source_id": "img-017.jpg",
+       "src": "/media/products/octopus/octopus-white-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 400,
+       "height": 400,
+       "quality": "ok",
+       "alt": "Hand holding a yellow crocheted octopus with black eyes, a red smile and a red and orange ruffled skirt with white edging",
+       "source_id": "img-024.jpg",
+       "src": "/media/products/octopus/octopus-yellow-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "multicolour",
+     "label": "Multicolour",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.4,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 700,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Crocheted octopuses in variegated multicolour yarn on a blue table: pastel pink, yellow and mint pair, a bright blue, orange and yellow pair, and a speckled orange and green one",
+       "source_id": "img-006.jpg",
+       "src": "/media/products/octopus/octopus-multicolour-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "red",
+     "label": "Red",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 225,
+       "height": 250,
+       "quality": "ok",
+       "alt": "Red crocheted octopus with black eyes and a small smile above a ruffled red skirt with a pink edge",
+       "source_id": "img-009.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/octopus/octopus-red-01.jpg",
+       "cardSrc": "/media/products/octopus/octopus-red-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "green",
+     "label": "Green",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 220,
+       "height": 250,
+       "quality": "ok",
+       "alt": "Green crocheted octopus with black eyes and an orange smile above a ruffled green and orange skirt",
+       "source_id": "img-009.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/octopus/octopus-green-01.jpg",
+       "cardSrc": "/media/products/octopus/octopus-green-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.7
+     ],
+     "shownSize": null,
+     "width": 736,
+     "height": 628,
+     "quality": "ok",
+     "alt": "Rows of crocheted octopuses in red, green, white and yellow on a market table with grey elephants behind",
+     "source_id": "img-009.jpg",
+     "src": "/media/products/octopus/octopus-range-01.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "shark",
+   "species": "shark",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 465,
+       "height": 285,
+       "quality": "ok",
+       "alt": "Yellow crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "source_id": "img-028.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/shark/shark-yellow-01.jpg",
+       "cardSrc": "/media/products/shark/shark-yellow-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "pink",
+     "label": "Pink",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 420,
+       "height": 260,
+       "quality": "ok",
+       "alt": "Pink crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "source_id": "img-028.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/shark/shark-pink-01.jpg",
+       "cardSrc": "/media/products/shark/shark-pink-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "green",
+     "label": "Green",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 425,
+       "height": 220,
+       "quality": "ok",
+       "alt": "Green crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "source_id": "img-028.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/shark/shark-green-01.jpg",
+       "cardSrc": "/media/products/shark/shark-green-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "purple-grey",
+     "label": "Purple grey",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 410,
+       "height": 225,
+       "quality": "ok",
+       "alt": "Purple grey crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "source_id": "img-028.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/shark/shark-purple-grey-01.jpg",
+       "cardSrc": "/media/products/shark/shark-purple-grey-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "dark-grey",
+     "label": "Dark grey",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 355,
+       "height": 330,
+       "quality": "ok",
+       "alt": "Dark grey crocheted shark with a cream underside, a black eye and stitched gill lines on a white sheet, with the edge of the next shark in the frame",
+       "source_id": "img-028.jpg",
+       "client_review": "Shown with other animals. Please send a clear photo of this one alone.",
+       "src": "/media/products/shark/shark-dark-grey-01.jpg",
+       "cardSrc": "/media/products/shark/shark-dark-grey-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "white",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 770,
+     "height": 890,
+     "quality": "ok",
+     "alt": "Five crocheted sharks in yellow, pink, green, purple grey and dark grey on a white sheet",
+     "source_id": "img-028.jpg",
+     "src": "/media/products/shark/shark-range-01.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "butterfly",
+   "species": "butterfly",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "blue",
+     "label": "Blue",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 705,
+       "height": 678,
+       "quality": "ok",
+       "alt": "Crocheted butterfly with a royal blue head and body, turquoise and aqua wings with pale yellow and blue spots and pale yellow antennae, black eyes and a red smile on a plain light background",
+       "source_id": "img-016.jpg",
+       "src": "/media/products/butterfly/butterfly-blue-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "cream-pink",
+     "label": "Cream and pink",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 691,
+       "height": 680,
+       "quality": "ok",
+       "alt": "Crocheted butterfly with a cream head and body, pink, purple and yellow variegated wings with yellow and cream spots and yellow antennae, black eyes and a red smile on a plain light background",
+       "source_id": "img-022.jpg",
+       "src": "/media/products/butterfly/butterfly-cream-pink-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "red",
+     "label": "Red",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 736,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Crocheted butterfly with a red head and body, grey antennae and wings in variegated pink, black, white and grey with red and grey spots on a plain light background",
+       "source_id": "img-023.jpg",
+       "src": "/media/products/butterfly/butterfly-red-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "mint-yellow",
+     "label": "Mint green and yellow",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 1280,
+       "height": 1257,
+       "quality": "good",
+       "alt": "Crocheted butterfly with a mint green head and body, blue antennae, pale yellow wings with mint, white and blue spots, black eyes and a black smile on a plain light background",
+       "source_id": "img-033.jpg",
+       "src": "/media/products/butterfly/butterfly-mint-yellow-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "goose",
+   "species": "goose",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "cream",
+     "label": "Cream",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 886,
+       "height": 1191,
+       "quality": "good",
+       "alt": "Side view of a cream crocheted goose with an orange beak and orange feet, black eye and folded wing, on a plain pale blue grey background",
+       "source_id": "img-077.jpg",
+       "src": "/media/products/goose/goose-cream-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "white-pale-yellow",
+     "label": "White and pale yellow",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "coloured",
+       "focal": [
+        0.5,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 1080,
+       "height": 1080,
+       "quality": "ok",
+       "alt": "Three white crocheted geese with pale yellow wings, orange beaks and black eyes on a wooden table against a beige wall",
+       "source_id": "img-081.jpg",
+       "src": "/media/products/goose/goose-white-pale-yellow-01.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "coloured",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 420,
+       "height": 430,
+       "quality": "ok",
+       "alt": "Close view of one white crocheted goose with pale yellow wing, orange beak and black eye against a beige wall",
+       "source_id": "img-081.jpg",
+       "src": "/media/products/goose/goose-white-pale-yellow-02.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "turtle",
+   "species": "turtle",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "mint-cream",
+     "label": "Mint green and cream",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 545,
+       "height": 560,
+       "quality": "ok",
+       "alt": "Top view of a crocheted turtle with a mint green and cream striped spiral shell, mint green flippers and a cream head, on red striped cloth; edges of a pink and a purple turtle show",
+       "source_id": "img-084.jpg",
+       "src": "/media/products/turtle/turtle-mint-cream-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "coral-pink",
+     "label": "Coral pink and peach",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 485,
+       "height": 330,
+       "quality": "ok",
+       "alt": "Crocheted turtle with a coral pink and peach striped shell and peach flippers, cut off by the top of the frame",
+       "source_id": "img-084.jpg",
+       "client_review": "The shell is cut off by the frame edge. Please send a photo of this turtle alone.",
+       "src": "/media/products/turtle/turtle-coral-pink-01.jpg",
+       "cardSrc": "/media/products/turtle/turtle-coral-pink-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "blue-purple",
+     "label": "Royal blue and purple",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 275,
+       "height": 615,
+       "quality": "ok",
+       "alt": "Crocheted turtle with a royal blue and purple striped shell and purple flippers, cut off by the edge of the frame",
+       "source_id": "img-084.jpg",
+       "client_review": "The turtle is cut off by the right edge of the frame. Please send a photo of this turtle alone.",
+       "src": "/media/products/turtle/turtle-blue-purple-01.jpg",
+       "cardSrc": "/media/products/turtle/turtle-blue-purple-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 720,
+     "height": 720,
+     "quality": "ok",
+     "alt": "Three crocheted turtles with striped spiral shells in mint and cream, coral pink and royal blue on a striped cloth",
+     "source_id": "img-084.jpg",
+     "src": "/media/products/turtle/turtle-range-01.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "chameleon",
+   "species": "chameleon",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "lime-multicolour",
+     "label": "Lime green multicolour",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 480,
+       "height": 640,
+       "quality": "good",
+       "alt": "Crocheted chameleon in lime green with turquoise crest and feet, a striped body in orange, yellow, purple and blue and an orange eye, clinging to a branch",
+       "source_id": "img-036.jpg",
+       "src": "/media/products/chameleon/chameleon-lime-multicolour-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "dinosaur",
+   "species": "dinosaur",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 885,
+       "height": 957,
+       "quality": "good",
+       "alt": "Sitting yellow crocheted dinosaur with orange spikes, large white eyes, cream cheek and belly and mint green feet, on a plain light background",
+       "source_id": "img-032.jpg",
+       "src": "/media/products/dinosaur/dinosaur-yellow-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "rabbit",
+   "species": "rabbit",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "brown-red-teal-vest",
+     "label": "Brown with red and teal vest",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.55
+       ],
+       "shownSize": null,
+       "width": 1059,
+       "height": 1600,
+       "quality": "good",
+       "alt": "Brown crocheted rabbit with long ears wearing a small variegated vest in red, teal green and white, sitting on a log among green leaves.",
+       "source_id": "img-067.jpg",
+       "src": "/media/products/rabbit/rabbit-brown-red-teal-vest-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown-blue-vest",
+     "label": "Brown with blue vest",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 460,
+       "height": 800,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with long ears wearing a bright blue vest with white and lilac trim, sitting on a grey sofa.",
+       "source_id": "img-074.jpg",
+       "src": "/media/products/rabbit/rabbit-brown-blue-vest-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown-pink-vest",
+     "label": "Brown with pink vest",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 430,
+       "height": 800,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with long ears wearing a pink, magenta and white vest, sitting on a grey sofa.",
+       "source_id": "img-074.jpg",
+       "src": "/media/products/rabbit/rabbit-brown-pink-vest-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown-yellow-turquoise-vest",
+     "label": "Brown with yellow and turquoise vest",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 470,
+       "height": 770,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with long ears wearing a vest in yellow, turquoise and white, sitting on a grey sofa.",
+       "source_id": "img-074.jpg",
+       "src": "/media/products/rabbit/rabbit-brown-yellow-turquoise-vest-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown-pale-blue-lilac-vest",
+     "label": "Brown with pale blue and lilac vest",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 500,
+       "height": 810,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit with one folded ear wearing a vest in pale blue, lilac and white, sitting on a grey sofa.",
+       "source_id": "img-074.jpg",
+       "src": "/media/products/rabbit/rabbit-brown-pale-blue-lilac-vest-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown-green-yellow-purple-vest",
+     "label": "Brown with green, yellow and purple vest",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 481,
+       "height": 661,
+       "quality": "ok",
+       "alt": "Brown crocheted rabbit wearing a collar-style vest in green, yellow, purple and white, on a table in front of wooden carved animals and part of a cream giraffe.",
+       "source_id": "img-059.jpg",
+       "src": "/media/products/rabbit/rabbit-brown-green-yellow-purple-vest-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "hero",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "good",
+     "alt": "Four brown crocheted rabbits in a row on a grey sofa, each wearing a differently coloured vest: pink, blue, yellow and turquoise, and pale blue with lilac.",
+     "source_id": "img-074.jpg",
+     "src": "/media/products/rabbit/rabbit-range-01.jpg"
+    },
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1230,
+     "height": 910,
+     "quality": "ok",
+     "alt": "Two brown crocheted rabbits side by side, one in a blue vest and one in a red and teal vest",
+     "source_id": "rabbit-brown-blue-red-teal-vest-pair-01.jpg",
+     "src": "/media/products/rabbit/rabbit-range-02.jpg"
+    },
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.45,
+      0.7
+     ],
+     "shownSize": null,
+     "width": 1600,
+     "height": 1200,
+     "quality": "ok",
+     "alt": "Market stall under white tents with brown rabbits in vests, lions, giraffes and elephants on a table with a white heart print cloth",
+     "source_id": "img-043.jpg",
+     "src": "/media/products/rabbit/rabbit-range-03.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "monkey",
+   "species": "monkey",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "brown-yellow-face",
+     "label": "Brown with yellow face and ears",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 215,
+       "height": 377,
+       "quality": "ok",
+       "alt": "Long limbed brown crocheted monkey with a yellow face and ears, black eyes and a yellow muzzle, with the arm of the next monkey at the edge",
+       "source_id": "img-078.jpg",
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone.",
+       "src": "/media/products/monkey/monkey-brown-yellow-face-01.jpg",
+       "cardSrc": "/media/products/monkey/monkey-brown-yellow-face-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "purple-blue-face",
+     "label": "Purple with blue face and ears",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 165,
+       "height": 375,
+       "quality": "ok",
+       "alt": "Long limbed purple crocheted monkey with a blue face and ears, with the arms of its neighbours at the edges",
+       "source_id": "img-078.jpg",
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone.",
+       "src": "/media/products/monkey/monkey-purple-blue-face-01.jpg",
+       "cardSrc": "/media/products/monkey/monkey-purple-blue-face-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "purple-pink-face",
+     "label": "Purple with pink face and ears",
+     "images": [
+      {
+       "role": "group",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.3
+       ],
+       "shownSize": null,
+       "width": 205,
+       "height": 345,
+       "quality": "ok",
+       "alt": "Long limbed purple crocheted monkey with a pink face and ears and black eyes, with a brown arm at the left edge",
+       "source_id": "img-078.jpg",
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone.",
+       "src": "/media/products/monkey/monkey-purple-pink-face-01.jpg",
+       "cardSrc": "/media/products/monkey/monkey-purple-pink-face-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown-cream-face",
+     "label": "Brown with cream face and ears",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.35,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 520,
+       "height": 910,
+       "quality": "ok",
+       "alt": "Brown crocheted monkey with a cream face and ears held beside a tan monkey on a grey sofa",
+       "source_id": "img-073.jpg",
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone.",
+       "src": "/media/products/monkey/monkey-brown-cream-face-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "tan-yellow-face",
+     "label": "Tan with pale yellow face and ears",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 720,
+       "height": 1050,
+       "quality": "ok",
+       "alt": "Tan crocheted monkey with a pale yellow face and ears held up beside a brown monkey, a hand holding it from below",
+       "source_id": "img-073.jpg",
+       "client_review": "Shown beside another monkey. Please send a clear photo of this monkey alone.",
+       "src": "/media/products/monkey/monkey-tan-yellow-face-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 623,
+     "height": 432,
+     "quality": "ok",
+     "alt": "Four long-limbed crocheted monkeys in a row: brown with a yellow face, purple with a blue face, brown with a yellow face and purple with a pink face",
+     "source_id": "img-078.jpg",
+     "src": "/media/products/monkey/monkey-range-01.jpg"
+    },
+    {
+     "role": "lifestyle",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1010,
+     "height": 1070,
+     "quality": "ok",
+     "alt": "Two crocheted monkeys held side by side, one brown with a cream face and ears and one tan with a pale yellow face and ears",
+     "source_id": "monkey-brown-cream-face-tan-yellow-face-pair-01.jpg",
+     "src": "/media/products/monkey/monkey-range-02.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "cat",
+   "species": "cat",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "cream-blue-bag",
+     "label": "Cream with blue bag and ear tip",
+     "images": [
+      {
+       "role": "group",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 320,
+       "height": 590,
+       "quality": "ok",
+       "alt": "Cream crocheted cat with a blue striped ear tip, black ear and a small blue shoulder bag, with its friend close beside it",
+       "source_id": "img-041.jpg",
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone.",
+       "src": "/media/products/cat/cat-cream-blue-bag-01.jpg",
+       "cardSrc": "/media/products/cat/cat-cream-blue-bag-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "cream-red-bag",
+     "label": "Cream with red and grey bag and ear tip",
+     "images": [
+      {
+       "role": "group",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 325,
+       "height": 600,
+       "quality": "ok",
+       "alt": "Cream crocheted cat with a red and grey speckled ear tip, brown ear and a small red and grey shoulder bag, with its friend close beside it",
+       "source_id": "img-041.jpg",
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone.",
+       "src": "/media/products/cat/cat-cream-red-bag-01.jpg",
+       "cardSrc": "/media/products/cat/cat-cream-red-bag-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "orange",
+     "label": "Orange",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 370,
+       "height": 125,
+       "quality": "ok",
+       "alt": "Long orange crocheted cat lying down, with a white paw and a crossed stitch nose, with a mint cat resting against it",
+       "source_id": "img-045.jpg",
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone.",
+       "src": "/media/products/cat/cat-orange-01.jpg",
+       "cardSrc": "/media/products/cat/cat-orange-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "mint-green",
+     "label": "Mint green",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 435,
+       "height": 165,
+       "quality": "ok",
+       "alt": "Long mint green crocheted cat lying down, with a white paw and a crossed stitch nose, between an orange and a blue cat",
+       "source_id": "img-045.jpg",
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone.",
+       "src": "/media/products/cat/cat-mint-green-01.jpg",
+       "cardSrc": "/media/products/cat/cat-mint-green-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "blue",
+     "label": "Blue",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 405,
+       "height": 170,
+       "quality": "ok",
+       "alt": "Long blue crocheted cat lying down, with a white paw and a crossed stitch nose, beside a mint and a pink cat",
+       "source_id": "img-045.jpg",
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone.",
+       "src": "/media/products/cat/cat-blue-01.jpg",
+       "cardSrc": "/media/products/cat/cat-blue-01-frame.jpg"
+      }
+     ]
+    },
+    {
+     "key": "pink",
+     "label": "Pink",
+     "images": [
+      {
+       "role": "group",
+       "bg": "busy",
+       "focal": [
+        0.6,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 455,
+       "height": 235,
+       "quality": "ok",
+       "alt": "Long pink crocheted cat lying down, with a white paw and a crossed stitch nose, with a blue cat above it",
+       "source_id": "img-045.jpg",
+       "client_review": "Shown beside another cat. Please send a clear photo of this cat alone.",
+       "src": "/media/products/cat/cat-pink-01.jpg",
+       "cardSrc": "/media/products/cat/cat-pink-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 736,
+     "height": 736,
+     "quality": "ok",
+     "alt": "Two cream crocheted cats hugging, one with a blue bag and blue ear tip and one with a red and grey bag and ear tip",
+     "source_id": "img-041.jpg",
+     "src": "/media/products/cat/cat-range-01.jpg"
+    },
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 470,
+     "height": 522,
+     "quality": "ok",
+     "alt": "Four long crocheted cats in orange, mint green, blue and pink lying in a stack",
+     "source_id": "cat-range-four-colours-01.jpg",
+     "src": "/media/products/cat/cat-range-02.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "dog",
+   "species": "dog",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "brown",
+     "label": "Brown with cream muzzle",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "coloured",
+       "focal": [
+        0.55,
+        0.6
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 992,
+       "quality": "good",
+       "alt": "Brown crocheted dog with floppy ears, a cream muzzle and black nose, standing on a dark table in front of a pale green wall, with red and white flowers in a glass vase at the left.",
+       "source_id": "img-008.jpg",
+       "src": "/media/products/dog/dog-brown-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "bear",
+   "species": "bear",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "turquoise",
+     "label": "Turquoise",
+     "images": [
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.55,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 672,
+       "height": 736,
+       "quality": "ok",
+       "alt": "A girl in a pink jumper holding a small turquoise crocheted bear with a cream muzzle at an outdoor craft market.",
+       "source_id": "img-004.jpg",
+       "src": "/media/products/bear/bear-turquoise-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "blue-striped-top",
+     "label": "Blue with grey and yellow striped top",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 680,
+       "height": 990,
+       "quality": "good",
+       "alt": "Sky blue crocheted bear with a black nose, a grey top with two yellow stripes and yellow feet, on a plain pale background.",
+       "source_id": "img-030.jpg",
+       "src": "/media/products/bear/bear-blue-striped-top-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "cream-rainbow-top",
+     "label": "Cream with rainbow top",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 680,
+       "height": 1040,
+       "quality": "good",
+       "alt": "Cream crocheted bear with a brown nose, a red-shouldered rainbow striped top and yellow feet, on a plain pale background.",
+       "source_id": "img-034.jpg",
+       "src": "/media/products/bear/bear-cream-rainbow-top-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "tan",
+     "label": "Tan",
+     "images": [
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.22,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 678,
+       "height": 867,
+       "quality": "ok",
+       "alt": "A woman crocheting on a grey sofa while a tan crocheted bear sits on her lap, with yellow crocheted animals behind.",
+       "source_id": "img-055.jpg",
+       "src": "/media/products/bear/bear-tan-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "rhino",
+   "species": "rhino",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "light-blue",
+     "label": "Light blue with cream horns",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 620,
+       "height": 900,
+       "quality": "good",
+       "alt": "Light blue crocheted rhinos with cream horns in a row on a light blue table",
+       "source_id": "rhino-light-blue-03.jpg",
+       "src": "/media/products/rhino/rhino-light-blue-01.jpg"
+      },
+      {
+       "role": "gallery",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.7
+       ],
+       "shownSize": null,
+       "width": 440,
+       "height": 600,
+       "quality": "low",
+       "alt": "Two light blue crocheted rhinos with cream horns in front, more rhinos and grey elephants behind, warm market light",
+       "source_id": "img-026.jpg",
+       "src": "/media/products/rhino/rhino-light-blue-02.jpg"
+      }
+     ]
+    },
+    {
+     "key": "brown",
+     "label": "Brown with cream horns",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 640,
+       "height": 480,
+       "quality": "ok",
+       "alt": "Brown crocheted rhino with cream horns standing beside a light blue rhino, grey elephants on the right",
+       "source_id": "img-071.jpg",
+       "src": "/media/products/rhino/rhino-brown-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "zebra",
+   "species": "zebra",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "black-and-white",
+     "label": "Black and white",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 770,
+       "height": 800,
+       "quality": "good",
+       "alt": "Two black and white striped crocheted zebras standing on a wooden table outdoors",
+       "source_id": "img-037.jpg",
+       "src": "/media/products/zebra/zebra-black-and-white-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": [
+    {
+     "role": "gallery",
+     "bg": "busy",
+     "focal": [
+      0.3,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 878,
+     "height": 432,
+     "quality": "ok",
+     "alt": "A black and white striped zebra beside a lavender elephant and a lion on a wooden table in a garden",
+     "source_id": "img-035.jpg",
+     "src": "/media/products/zebra/zebra-range-01.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "hippo",
+   "species": "hippo",
+   "category": "safari",
+   "colourways": [
+    {
+     "key": "blue-grey",
+     "label": "Navy with magenta dress",
+     "images": [
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 665,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Navy crocheted hippo in a magenta crocheted dress with a multicoloured hem, held up in a hand, with a woman seated on a sofa behind",
+       "source_id": "img-048.jpg",
+       "src": "/media/products/hippo/hippo-blue-grey-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "unicorn-wall-head",
+   "species": "unicorn",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "white-pink",
+     "label": "White with pink mane",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.45,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 744,
+       "height": 992,
+       "quality": "good",
+       "alt": "Crocheted white unicorn head mounted on a cream wall, with a twisted brown horn, pink yarn mane, three small crocheted flowers and a closed sleepy eye.",
+       "source_id": "img-025.jpg",
+       "src": "/media/products/unicorn-wall-head/unicorn-wall-head-white-pink-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "zebra-wall-head",
+   "species": "zebra",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "black-white",
+     "label": "Black and white",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "busy",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 426,
+       "height": 640,
+       "quality": "ok",
+       "alt": "Crocheted black and white striped zebra head standing on a spotted tablecloth with a shelving unit behind, showing a spiky mane, round dark eye and black muzzle.",
+       "source_id": "img-021.jpg",
+       "src": "/media/products/zebra-wall-head/zebra-wall-head-black-white-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "warthog-wall-head",
+   "species": "warthog",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "brown",
+     "label": "Brown",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 287,
+       "height": 430,
+       "quality": "low",
+       "alt": "Crocheted brown warthog head on a cream wall with small ears, two white curved tusks and dark eyes and nostrils.",
+       "source_id": "img-003.jpg",
+       "client_review": "Only a small tile cut from a collage exists (287 px wide). It is shown at its own size. Please send the original full size photo.",
+       "src": "/media/products/warthog-wall-head/warthog-wall-head-brown-01.jpg",
+       "cardSrc": "/media/products/warthog-wall-head/warthog-wall-head-brown-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "giraffe-wall-head",
+   "species": "giraffe",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow with brown spots",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.55,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 286,
+       "height": 431,
+       "quality": "low",
+       "alt": "Crocheted yellow giraffe neck and head mounted on a wall rail, covered in round brown spots with two small horns and a brown muzzle.",
+       "source_id": "img-003.jpg",
+       "client_review": "Only a small tile cut from a collage exists (286 px wide). It is shown at its own size. Please send the original full size photo.",
+       "src": "/media/products/giraffe-wall-head/giraffe-wall-head-yellow-01.jpg",
+       "cardSrc": "/media/products/giraffe-wall-head/giraffe-wall-head-yellow-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "lion-wall-head",
+   "species": "lion",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "tan",
+     "label": "Tan with golden mane",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 600,
+       "height": 640,
+       "quality": "good",
+       "alt": "Crocheted tan lion head mounted on a patterned grey wall, with a long fringed golden mane edged in dark brown, yellow eyes, cream muzzle and black nose.",
+       "source_id": "img-019.jpg",
+       "src": "/media/products/lion-wall-head/lion-wall-head-tan-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "elephant-wall-head",
+   "species": "elephant",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "purple",
+     "label": "Purple",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.4
+       ],
+       "shownSize": null,
+       "width": 287,
+       "height": 431,
+       "quality": "low",
+       "alt": "Crocheted purple elephant head and long trunk on a cream wall, with large ears, lilac eyes with lashes and white tusks.",
+       "source_id": "img-003.jpg",
+       "client_review": "Only a small tile cut from a collage exists (287 px wide). It is shown at its own size. Please send the original full size photo.",
+       "src": "/media/products/elephant-wall-head/elephant-wall-head-purple-01.jpg",
+       "cardSrc": "/media/products/elephant-wall-head/elephant-wall-head-purple-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "hippo-wall-head",
+   "species": "hippo",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey with blue eyes",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 286,
+       "height": 433,
+       "quality": "low",
+       "alt": "Crocheted dark grey hippo head facing front on a cream wall, with small round ears, blue ringed eyes and two blue nostril circles.",
+       "source_id": "img-003.jpg",
+       "client_review": "Only a small tile cut from a collage exists (286 px wide). It is shown at its own size. Please send the original full size photo.",
+       "src": "/media/products/hippo-wall-head/hippo-wall-head-grey-01.jpg",
+       "cardSrc": "/media/products/hippo-wall-head/hippo-wall-head-grey-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "rhino-wall-head",
+   "species": "rhino",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.45,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 289,
+       "height": 433,
+       "quality": "low",
+       "alt": "Crocheted grey rhino head seen from the side on a cream wall, with a lilac eye, a cream front horn and a smaller cream horn.",
+       "source_id": "img-003.jpg",
+       "client_review": "Only a small tile cut from a collage exists (289 px wide). It is shown at its own size. Please send the original full size photo.",
+       "src": "/media/products/rhino-wall-head/rhino-wall-head-grey-01.jpg",
+       "cardSrc": "/media/products/rhino-wall-head/rhino-wall-head-grey-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "secretary-bird-wall-head",
+   "species": "secretary bird",
+   "category": "wall-art",
+   "colourways": [
+    {
+     "key": "grey",
+     "label": "Grey with orange face",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 287,
+       "height": 433,
+       "quality": "low",
+       "alt": "Crocheted grey secretary bird neck and head mounted on a round black plaque on a wall rail, with an orange face patch and black crest feathers.",
+       "source_id": "img-003.jpg",
+       "client_review": "Only a small tile cut from a collage exists (287 px wide). It is shown at its own size. Please send the original full size photo.",
+       "src": "/media/products/secretary-bird-wall-head/secretary-bird-wall-head-grey-01.jpg",
+       "cardSrc": "/media/products/secretary-bird-wall-head/secretary-bird-wall-head-grey-01-frame.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "doll",
+   "species": "doll",
+   "category": "dolls",
+   "colourways": [
+    {
+     "key": "peach",
+     "label": "Peach dress",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 736,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Small crocheted doll with yellow yarn hair, beige face, black eyes and a red stitched smile, wearing a peach flecked crocheted dress.",
+       "source_id": "img-020.jpg",
+       "src": "/media/products/doll/doll-peach-01.jpg"
+      }
+     ]
+    },
+    {
+     "key": "assorted",
+     "label": "Assorted dress colours",
+     "images": [
+      {
+       "role": "gallery",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 698,
+       "height": 736,
+       "quality": "ok",
+       "alt": "Five small crocheted dolls laid on a white surface, wearing a rainbow, a brown and rust, a hot pink, a crimson and a blue and green speckled dress, with black or tan hair buns.",
+       "source_id": "img-079.jpg",
+       "src": "/media/products/doll/doll-assorted-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "dress-doll",
+   "species": "doll",
+   "category": "dolls",
+   "colourways": [
+    {
+     "key": "pink-lilac-turquoise",
+     "label": "Pink, lilac and turquoise dresses",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 720,
+       "height": 908,
+       "quality": "ok",
+       "alt": "Three tall crocheted dolls standing side by side on a wooden shelf in pink, lilac and turquoise dresses with matching shoes, one with yellow hair, one brown and one black.",
+       "source_id": "img-031.jpg",
+       "src": "/media/products/dress-doll/dress-doll-pink-lilac-turquoise-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "lion-head-handbag",
+   "species": "lion",
+   "category": "more",
+   "colourways": [
+    {
+     "key": "cream",
+     "label": "Cream bag, tan lion",
+     "images": [
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.3,
+        0.35
+       ],
+       "shownSize": null,
+       "width": 610,
+       "height": 419,
+       "quality": "ok",
+       "alt": "A cream shoulder bag worn over a black sweatshirt, with a crocheted tan lion head with a brown fringe mane peeking out of the bag opening.",
+       "source_id": "img-018.jpg",
+       "src": "/media/products/lion-head-handbag/lion-head-handbag-cream-01.jpg"
+      },
+      {
+       "role": "lifestyle",
+       "bg": "busy",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 568,
+       "height": 544,
+       "quality": "ok",
+       "alt": "A white shoulder bag worn across the body, with a crocheted lion head with a brown yarn mane looking out of the opening",
+       "source_id": "img-011.jpg",
+       "src": "/media/products/lion-head-handbag/lion-head-handbag-cream-02.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  }
+ ]
+}

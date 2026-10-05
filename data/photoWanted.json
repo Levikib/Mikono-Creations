@@ -1,0 +1,205 @@
+[
+ {
+  "slug": "elephant",
+  "colourLabel": "Charcoal grey",
+  "reason": "The only photos show charcoal elephants in a large pile or on a shelf among other animals. Please send a clear photo of one charcoal grey elephant.",
+  "shownNow": "crop and group photo",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "elephant",
+  "colourLabel": "Dusty purple",
+  "reason": "Only a table photo of several dusty purple elephants exists. A photo of one dusty purple elephant on a plain background would be better.",
+  "shownNow": "table photo of several elephants",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "elephant",
+  "colourLabel": "Navy",
+  "reason": "The only photo is a pile of mixed animals where the navy elephant is small. Please send a clear photo of one navy elephant.",
+  "shownNow": "crop and group photo",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "octopus",
+  "colourLabel": "Red",
+  "reason": "The only photo is a crowd of octopuses. Please send a photo of one red octopus.",
+  "shownNow": "crop of one octopus",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "octopus",
+  "colourLabel": "Green",
+  "reason": "The only photo is a crowd of octopuses. Please send a photo of one green octopus.",
+  "shownNow": "crop of one octopus",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "shark",
+  "colourLabel": "Yellow",
+  "reason": "The only photo is one group photo of five sharks that overlap, so no single shark can be cropped cleanly. Please send a photo of one shark in this colour.",
+  "shownNow": "crop from the group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "shark",
+  "colourLabel": "Pink",
+  "reason": "The only photo is one group photo of five sharks that overlap, so no single shark can be cropped cleanly. Please send a photo of one shark in this colour.",
+  "shownNow": "crop from the group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "shark",
+  "colourLabel": "Green",
+  "reason": "The only photo is one group photo of five sharks that overlap, so no single shark can be cropped cleanly. Please send a photo of one shark in this colour.",
+  "shownNow": "crop from the group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "shark",
+  "colourLabel": "Purple grey",
+  "reason": "The only photo is one group photo of five sharks that overlap, so no single shark can be cropped cleanly. Please send a photo of one shark in this colour.",
+  "shownNow": "crop from the group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "shark",
+  "colourLabel": "Dark grey",
+  "reason": "The only photo is one group photo of five sharks that overlap, so no single shark can be cropped cleanly. Please send a photo of one shark in this colour.",
+  "shownNow": "crop from the group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "turtle",
+  "colourLabel": "Coral pink and peach",
+  "reason": "In the only photo this turtle is cut off by the frame edge and the mint turtle fills the picture. Please send a photo of this turtle alone.",
+  "shownNow": "crop cut off by the frame, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "turtle",
+  "colourLabel": "Royal blue and purple",
+  "reason": "In the only photo this turtle is cut off by the frame edge and the mint turtle fills the picture. Please send a photo of this turtle alone.",
+  "shownNow": "crop cut off by the frame, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "monkey",
+  "colourLabel": "Brown with yellow face and ears",
+  "reason": "The only photo shows two to four monkeys together, so no single monkey can be cropped cleanly. Please send a photo of one monkey in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "monkey",
+  "colourLabel": "Purple with blue face and ears",
+  "reason": "The only photo shows two to four monkeys together, so no single monkey can be cropped cleanly. Please send a photo of one monkey in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "monkey",
+  "colourLabel": "Purple with pink face and ears",
+  "reason": "The only photo shows two to four monkeys together, so no single monkey can be cropped cleanly. Please send a photo of one monkey in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "monkey",
+  "colourLabel": "Brown with cream face and ears",
+  "reason": "The only photo shows two to four monkeys together, so no single monkey can be cropped cleanly. Please send a photo of one monkey in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "monkey",
+  "colourLabel": "Tan with pale yellow face and ears",
+  "reason": "The only photo shows two to four monkeys together, so no single monkey can be cropped cleanly. Please send a photo of one monkey in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "cat",
+  "colourLabel": "Cream with blue bag and ear tip",
+  "reason": "The only photos show cats together or lying in a stack, so no single cat can be cropped cleanly. Please send a photo of one cat in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "cat",
+  "colourLabel": "Cream with red and grey bag and ear tip",
+  "reason": "The only photos show cats together or lying in a stack, so no single cat can be cropped cleanly. Please send a photo of one cat in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "cat",
+  "colourLabel": "Orange",
+  "reason": "The only photos show cats together or lying in a stack, so no single cat can be cropped cleanly. Please send a photo of one cat in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "cat",
+  "colourLabel": "Mint green",
+  "reason": "The only photos show cats together or lying in a stack, so no single cat can be cropped cleanly. Please send a photo of one cat in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "cat",
+  "colourLabel": "Blue",
+  "reason": "The only photos show cats together or lying in a stack, so no single cat can be cropped cleanly. Please send a photo of one cat in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "cat",
+  "colourLabel": "Pink",
+  "reason": "The only photos show cats together or lying in a stack, so no single cat can be cropped cleanly. Please send a photo of one cat in this colour.",
+  "shownNow": "crop from a group photo, marked as group",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "warthog-wall-head",
+  "colourLabel": "Brown",
+  "reason": "The only photo is a 287 px tile from a collage and is too small and soft for the shop. Please send the original photo of this wall head.",
+  "shownNow": "the collage tile at its own size, on a sand panel",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "giraffe-wall-head",
+  "colourLabel": "Yellow with brown spots",
+  "reason": "The only photo is a 286 px tile from a collage and is too small and soft for the shop. Please send the original photo of this wall head.",
+  "shownNow": "the collage tile at its own size, on a sand panel",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "elephant-wall-head",
+  "colourLabel": "Purple",
+  "reason": "The only photo is a 287 px tile from a collage and is too small and soft for the shop. The only copy also carries third-party watermark text. Please send the original photo of this wall head.",
+  "shownNow": "the collage tile at its own size, on a sand panel",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "hippo-wall-head",
+  "colourLabel": "Grey with blue eyes",
+  "reason": "The only photo is a 286 px tile from a collage and is too small and soft for the shop. Please send the original photo of this wall head.",
+  "shownNow": "the collage tile at its own size, on a sand panel",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "rhino-wall-head",
+  "colourLabel": "Grey",
+  "reason": "The only photo is a 289 px tile from a collage and is too small and soft for the shop. Please send the original photo of this wall head.",
+  "shownNow": "the collage tile at its own size, on a sand panel",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ },
+ {
+  "slug": "secretary-bird-wall-head",
+  "colourLabel": "Grey with orange face",
+  "reason": "The only photo is a 287 px tile from a collage and is too small and soft for the shop. Please send the original photo of this wall head.",
+  "shownNow": "the collage tile at its own size, on a sand panel",
+  "status": "on sale and shown with this photo; a better photo would replace it"
+ }
+]

@@ -1,0 +1,116 @@
+{
+ "template": "story",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "intro": {
+   "habitat": "savanna",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-grass-tuft",
+     "at": 60,
+     "size": [
+      24,
+      34
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "lion",
+     "role": "rise",
+     "at": 12,
+     "size": [
+      73,
+      101
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 44,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "secretary-bird-stand",
+     "role": "rise",
+     "at": 84,
+     "size": [
+      56,
+      77
+     ],
+     "prio": 3
+    }
+   ]
+  },
+  "table": {
+   "habitat": "workshop",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "yarn",
+     "role": "rise",
+     "at": 14,
+     "size": [
+      47,
+      66
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "octopus",
+     "role": "rise",
+     "at": 44,
+     "size": [
+      55,
+      77
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "hornbill-perch",
+     "role": "perch",
+     "at": 78,
+     "size": [
+      64,
+      88
+     ],
+     "prio": 3,
+     "find": "hornbill-story"
+    }
+   ]
+  },
+  "end": {
+   "habitat": "savanna",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "elephant",
+     "role": "rise",
+     "at": 22,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "impala-leap",
+     "role": "float",
+     "at": 70,
+     "size": [
+      53,
+      73
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "template": "size-guide",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "ruler": {
+   "habitat": "workshop",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "tortoise-stand",
+     "role": "walk",
+     "at": 20,
+     "size": [
+      75,
+      104
+     ],
+     "prio": 3,
+     "find": "tortoise-sizes"
+    },
+    {
+     "sprite": "lion",
+     "role": "rise",
+     "at": 74,
+     "size": [
+      73,
+      101
+     ],
+     "prio": 3
+    }
+   ]
+  }
+ }
+}

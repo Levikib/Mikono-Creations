@@ -1,0 +1,881 @@
+{
+ "tabs": [
+  {
+   "key": "animals",
+   "label": "Our animals",
+   "blurb": "The animals themselves, one colour at a time and together."
+  },
+  {
+   "key": "market",
+   "label": "At the market",
+   "blurb": "Stalls, tables and visitors at markets and fairs."
+  },
+  {
+   "key": "making",
+   "label": "Making them",
+   "blurb": "Crocheting, stitching, sewing faces and trimming manes."
+  },
+  {
+   "key": "outlets",
+   "label": "Stockists and outlets",
+   "blurb": "Shelves and tables where the animals are shown for sale."
+  },
+  {
+   "key": "moments",
+   "label": "Moments",
+   "blurb": "People with their animals, and gatherings."
+  }
+ ],
+ "items": [
+  {
+   "id": "img-001.jpg",
+   "src": "/media/moments/moment-02-lion-hug.jpg",
+   "w": 1472,
+   "h": 1472,
+   "tab": "moments",
+   "caption": "A big lion at the market",
+   "alt": "A smiling woman with purple braids and an orange top hugs a crocheted tan lion head with a shaggy yarn mane at an outdoor market stall.",
+   "twins": []
+  },
+  {
+   "id": "img-002.jpg",
+   "src": "/media/story/lion-market-looking-down.jpg",
+   "w": 1472,
+   "h": 1472,
+   "tab": "moments",
+   "caption": "Looking at the lion she is holding",
+   "alt": "A woman with purple braids looks down at a crocheted tan lion head with a fringed yarn mane that she holds against her chest at a market stall.",
+   "twins": []
+  },
+  {
+   "id": "img-003.jpg",
+   "src": "/media/gallery/img-003.jpg",
+   "w": 866,
+   "h": 1298,
+   "tab": "animals",
+   "caption": "Nine wall heads in one picture",
+   "alt": "Collage of nine crocheted wall-mounted animal heads: unicorn, zebra, warthog, giraffe, lion, elephant, hippo, rhino and a long necked grey bird.",
+   "twins": [
+    "img-086.jpg"
+   ]
+  },
+  {
+   "id": "img-004.jpg",
+   "src": "/media/story/girl-with-turquoise-bear.jpg",
+   "w": 672,
+   "h": 736,
+   "tab": "moments",
+   "caption": "A small turquoise bear",
+   "alt": "A young girl in a pale pink sweater holds a small turquoise crocheted bear at an outdoor market.",
+   "twins": []
+  },
+  {
+   "id": "img-005.jpg",
+   "src": "/media/story/courtyard-gathering.jpg",
+   "w": 708,
+   "h": 308,
+   "tab": "moments",
+   "caption": "A gathering in a courtyard",
+   "alt": "A group of about thirteen adults and children, some using crutches, posed outdoors in front of a blue and ochre wall.",
+   "twins": [],
+   "cardSrc": "/media/gallery/img-005-frame.jpg"
+  },
+  {
+   "id": "img-006.jpg",
+   "src": "/media/story/beach-stall-lions-dolls.jpg",
+   "w": 1200,
+   "h": 1600,
+   "tab": "outlets",
+   "caption": "A stall by the sand",
+   "alt": "Two women sit behind a market table displaying large crocheted lions with brown manes, a crocheted doll, rainbow crocheted octopuses and African print bags on white sand.",
+   "twins": []
+  },
+  {
+   "id": "img-007.jpg",
+   "src": "/media/story/canopy-stall-animals.jpg",
+   "w": 736,
+   "h": 578,
+   "tab": "outlets",
+   "caption": "A stall under a canopy",
+   "alt": "A beach market stall with rows of small crocheted lions, grey elephants, yellow giraffes, rabbits in scarves and colourful octopuses below hanging woven bags.",
+   "twins": []
+  },
+  {
+   "id": "img-008.jpg",
+   "src": "/media/gallery/img-008.jpg",
+   "w": 744,
+   "h": 992,
+   "tab": "animals",
+   "caption": "A brown dog with a cream muzzle",
+   "alt": "A caramel brown crocheted dog with a cream muzzle and floppy ear stands on a black table beside a vase of red and white flowers.",
+   "twins": []
+  },
+  {
+   "id": "img-009.jpg",
+   "src": "/media/story/octopuses-rows.jpg",
+   "w": 736,
+   "h": 628,
+   "tab": "animals",
+   "caption": "Octopuses in rows",
+   "alt": "Rows of red, green, white and yellow crocheted octopuses in front of grey crocheted elephants on a white table.",
+   "twins": []
+  },
+  {
+   "id": "img-010.jpg",
+   "src": "/media/moments/moment-07-stall-visitors.jpg",
+   "w": 961,
+   "h": 1440,
+   "tab": "market",
+   "caption": "Visitors at the stall",
+   "alt": "A man holding a crocheted giraffe and elephant and a woman in a red visor stand beside a market table of crocheted lions and elephants under a blue umbrella.",
+   "twins": []
+  },
+  {
+   "id": "img-011.jpg",
+   "src": "/media/story/girl-with-lion-bag.jpg",
+   "w": 568,
+   "h": 544,
+   "tab": "moments",
+   "caption": "A lion in a white bag",
+   "alt": "A girl in a black hoodie wears a white crossbody bag holding a small crocheted lion at an outdoor craft market.",
+   "twins": []
+  },
+  {
+   "id": "img-012.jpg",
+   "src": "/media/gallery/img-012.jpg",
+   "w": 736,
+   "h": 736,
+   "tab": "animals",
+   "caption": "A large and a small grey elephant",
+   "alt": "A large dark grey crocheted elephant with a white tusk and a small light grey baby elephant sitting on a striped cloth with town rooftops behind.",
+   "twins": []
+  },
+  {
+   "id": "img-013.jpg",
+   "src": "/media/story/hands-crocheting-yellow-giraffe.jpg",
+   "w": 890,
+   "h": 1024,
+   "tab": "making",
+   "caption": "Hands crocheting a yellow giraffe",
+   "alt": "A woman in a black t-shirt sewing a mustard yellow piece onto a bright yellow crocheted animal, with cream and brown crochet pieces in the foreground.",
+   "twins": []
+  },
+  {
+   "id": "img-014.jpg",
+   "src": "/media/moments/moment-04-giraffes-sofa.jpg",
+   "w": 643,
+   "h": 687,
+   "tab": "making",
+   "caption": "Giraffes on the sofa",
+   "alt": "A woman in a blue patterned dress sitting on a sofa covered with a teal crocheted blanket, surrounded by about fourteen yellow and cream crocheted giraffes.",
+   "twins": []
+  },
+  {
+   "id": "img-015.jpg",
+   "src": "/media/story/man-with-giraffe-and-elephant.jpg",
+   "w": 605,
+   "h": 649,
+   "tab": "market",
+   "caption": "A giraffe and an elephant",
+   "alt": "A smiling man in an orange jacket holding a yellow crocheted giraffe and a grey crocheted elephant under a blue umbrella at an outdoor market, with lions and elephants on the table behind.",
+   "twins": []
+  },
+  {
+   "id": "img-016.jpg",
+   "src": "/media/gallery/img-016.jpg",
+   "w": 705,
+   "h": 678,
+   "tab": "animals",
+   "caption": "A blue butterfly",
+   "alt": "A blue crocheted butterfly with turquoise patterned wings, yellow antennae and a red smile, laid flat on a pale background.",
+   "twins": []
+  },
+  {
+   "id": "img-017.jpg",
+   "src": "/media/gallery/img-017.jpg",
+   "w": 736,
+   "h": 736,
+   "tab": "animals",
+   "caption": "A white octopus in a hand",
+   "alt": "A hand holding a white crocheted toy with an orange and red ruffled edge, surrounded by grey elephants, yellow giraffes and green animals.",
+   "twins": []
+  },
+  {
+   "id": "img-018.jpg",
+   "src": "/media/gallery/img-018.jpg",
+   "w": 610,
+   "h": 609,
+   "tab": "moments",
+   "caption": "A lion head on a shoulder bag",
+   "alt": "A person in a black top with a rainbow wing print wearing a cream shoulder bag with a crocheted lion head peeking out, at an outdoor market.",
+   "twins": []
+  },
+  {
+   "id": "img-019.jpg",
+   "src": "/media/gallery/img-019.jpg",
+   "w": 600,
+   "h": 640,
+   "tab": "making",
+   "caption": "A lion head with a fringed mane",
+   "alt": "A crocheted lion head with a golden fringed mane and a dark nose, mounted on a patterned wall",
+   "twins": []
+  },
+  {
+   "id": "img-020.jpg",
+   "src": "/media/gallery/img-020.jpg",
+   "w": 736,
+   "h": 736,
+   "tab": "animals",
+   "caption": "A doll in a peach dress",
+   "alt": "A crocheted doll with yellow hair and a peach orange skirt dress against a plain background.",
+   "twins": []
+  },
+  {
+   "id": "img-021.jpg",
+   "src": "/media/gallery/img-021.jpg",
+   "w": 426,
+   "h": 640,
+   "tab": "animals",
+   "caption": "A zebra head to hang on a wall",
+   "alt": "A crocheted zebra head with black and white stripes, mounted on a table in a craft room",
+   "twins": []
+  },
+  {
+   "id": "img-022.jpg",
+   "src": "/media/gallery/img-022.jpg",
+   "w": 691,
+   "h": 680,
+   "tab": "animals",
+   "caption": "A cream and pink butterfly",
+   "alt": "A cream crocheted butterfly with pink, purple and blue speckled wings and yellow antennae on a plain background.",
+   "twins": []
+  },
+  {
+   "id": "img-023.jpg",
+   "src": "/media/gallery/img-023.jpg",
+   "w": 736,
+   "h": 736,
+   "tab": "animals",
+   "caption": "A red butterfly",
+   "alt": "Red crocheted butterfly toy with grey antennae and pink, black and white speckled wings, laid flat on a plain light background.",
+   "twins": []
+  },
+  {
+   "id": "img-024.jpg",
+   "src": "/media/gallery/img-024.jpg",
+   "w": 736,
+   "h": 736,
+   "tab": "animals",
+   "caption": "A yellow octopus in a hand",
+   "alt": "A hand holding a small yellow crocheted toy with a red and orange ruffled skirt, in front of rows of grey elephants, brown rabbits and other crocheted animals.",
+   "twins": []
+  },
+  {
+   "id": "img-025.jpg",
+   "src": "/media/gallery/img-025.jpg",
+   "w": 744,
+   "h": 992,
+   "tab": "animals",
+   "caption": "A unicorn head to hang on a wall",
+   "alt": "Crocheted unicorn head mounted on a yellow wall, with a cream face, brown horn, small flowers and a long bright pink yarn mane.",
+   "twins": []
+  },
+  {
+   "id": "img-026.jpg",
+   "src": "/media/moments/moment-01-market-stall.jpg",
+   "w": 1600,
+   "h": 1047,
+   "tab": "market",
+   "caption": "At the market stall",
+   "alt": "A smiling woman in glasses sits behind a market table covered in rows of grey elephants, light blue rhinos, orange giraffes and tan rabbits, holding one small grey animal.",
+   "twins": []
+  },
+  {
+   "id": "img-027.jpg",
+   "src": "/media/gallery/img-027.jpg",
+   "w": 746,
+   "h": 1600,
+   "tab": "market",
+   "caption": "Looking closely at a lion",
+   "alt": "A man in a cream cap and brown leather jacket holds a crocheted lion with a fringe mane at a market stall, with giraffes and smaller lions on a blue table.",
+   "twins": []
+  },
+  {
+   "id": "img-028.jpg",
+   "src": "/media/gallery/img-028.jpg",
+   "w": 770,
+   "h": 890,
+   "tab": "animals",
+   "caption": "Five sharks in five colours",
+   "alt": "Five crocheted sharks in yellow, pink, green, slate purple and charcoal grey with cream bellies laid in a row on a white sheet.",
+   "twins": []
+  },
+  {
+   "id": "img-029.jpg",
+   "src": "/media/gallery/img-029.jpg",
+   "w": 1080,
+   "h": 662,
+   "tab": "animals",
+   "caption": "Six slim giraffes in a row",
+   "alt": "Six slim crocheted giraffes in yellow with brown spots, red, purple, light blue, pale yellow and royal blue lined up on a shaggy rug.",
+   "twins": []
+  },
+  {
+   "id": "img-030.jpg",
+   "src": "/media/gallery/img-030.jpg",
+   "w": 984,
+   "h": 1280,
+   "tab": "animals",
+   "caption": "A sky blue bear in a striped top",
+   "alt": "Sky blue crocheted bear with round ears, black nose, grey and yellow striped top and yellow feet, lying flat on a white background.",
+   "twins": []
+  },
+  {
+   "id": "img-031.jpg",
+   "src": "/media/gallery/img-031.jpg",
+   "w": 720,
+   "h": 1600,
+   "tab": "animals",
+   "caption": "Three dolls in dresses",
+   "alt": "Three crocheted dolls in pink, purple and aqua dresses standing side by side on a wooden shelf.",
+   "twins": []
+  },
+  {
+   "id": "img-032.jpg",
+   "src": "/media/gallery/img-032.jpg",
+   "w": 885,
+   "h": 957,
+   "tab": "animals",
+   "caption": "A yellow dinosaur",
+   "alt": "Yellow crocheted dinosaur with orange spikes and large eyes sitting on a white cloth, seen from the side.",
+   "twins": []
+  },
+  {
+   "id": "img-033.jpg",
+   "src": "/media/gallery/img-033.jpg",
+   "w": 1280,
+   "h": 1257,
+   "tab": "animals",
+   "caption": "A mint green butterfly",
+   "alt": "Crocheted butterfly with a mint green body, blue antennae and pale yellow wings with green, white and blue spots on a plain background.",
+   "twins": []
+  },
+  {
+   "id": "img-034.jpg",
+   "src": "/media/gallery/img-034.jpg",
+   "w": 1095,
+   "h": 1280,
+   "tab": "animals",
+   "caption": "A cream bear in a rainbow top",
+   "alt": "Cream crocheted bear with a rainbow striped top, red shoulders and yellow feet, on a plain grey background",
+   "twins": []
+  },
+  {
+   "id": "img-035.jpg",
+   "src": "/media/gallery/img-035.jpg",
+   "w": 878,
+   "h": 432,
+   "tab": "animals",
+   "caption": "A zebra, an elephant and a lion",
+   "alt": "Crocheted black and white zebra, lavender elephant and tan lion with a brown yarn mane on a wooden table outdoors",
+   "twins": []
+  },
+  {
+   "id": "img-036.jpg",
+   "src": "/media/gallery/img-036.jpg",
+   "w": 480,
+   "h": 640,
+   "tab": "animals",
+   "caption": "A lime green chameleon",
+   "alt": "Bright green crocheted chameleon with a striped body perched on a branch",
+   "twins": []
+  },
+  {
+   "id": "img-037.jpg",
+   "src": "/media/gallery/img-037.jpg",
+   "w": 770,
+   "h": 1406,
+   "tab": "animals",
+   "caption": "Two zebras",
+   "alt": "Two crocheted black and white zebras standing on a wooden table in a sunny garden",
+   "twins": []
+  },
+  {
+   "id": "img-038.jpg",
+   "src": "/media/gallery/img-038.jpg",
+   "w": 1543,
+   "h": 1600,
+   "tab": "animals",
+   "caption": "A close look at giraffe heads",
+   "alt": "Close view of many crocheted giraffe heads in yellow, tan and cream with brown and orange horns, mostly out of focus",
+   "twins": []
+  },
+  {
+   "id": "img-039.jpg",
+   "src": "/media/moments/moment-06-market-table.jpg",
+   "w": 1200,
+   "h": 1600,
+   "tab": "market",
+   "caption": "Lions, giraffes and elephants",
+   "alt": "Market stall table covered with crocheted giraffes, lions, elephants, rhinos and a rabbit in a vest",
+   "twins": [
+    "img-075.jpg"
+   ]
+  },
+  {
+   "id": "img-040.jpg",
+   "src": "/media/gallery/img-040.jpg",
+   "w": 770,
+   "h": 1025,
+   "tab": "animals",
+   "caption": "Lavender and caramel elephants",
+   "alt": "A herd of crocheted elephants in lavender purple and caramel brown on a wooden table outdoors",
+   "twins": []
+  },
+  {
+   "id": "img-041.jpg",
+   "src": "/media/gallery/img-041.jpg",
+   "w": 736,
+   "h": 736,
+   "tab": "animals",
+   "caption": "Two cats with linked arms",
+   "alt": "Two cream crocheted cats with linked arms, one with a turquoise bag and one with a pink variegated bag",
+   "twins": []
+  },
+  {
+   "id": "img-042.jpg",
+   "src": "/media/gallery/img-042.jpg",
+   "w": 744,
+   "h": 977,
+   "tab": "animals",
+   "caption": "A heap of animals",
+   "alt": "Large pile of crocheted lions, elephants and giraffes in tan, grey, navy, light blue, yellow and white",
+   "twins": [
+    "img-085.jpg"
+   ]
+  },
+  {
+   "id": "img-043.jpg",
+   "src": "/media/gallery/img-043.jpg",
+   "w": 1600,
+   "h": 1200,
+   "tab": "market",
+   "caption": "A stall at a busy craft fair",
+   "alt": "Craft fair stall with a white heart print tablecloth covered in crocheted lions, giraffes, rabbits, elephants and rhinos, with visitors behind",
+   "twins": []
+  },
+  {
+   "id": "img-044.jpg",
+   "src": "/media/moments/moment-08-shelf-ready.jpg",
+   "w": 744,
+   "h": 562,
+   "tab": "outlets",
+   "caption": "Ready to go home",
+   "alt": "Shop shelves stacked with crocheted yellow giraffes, tan lions, grey elephants and light blue rhinos with hang tags",
+   "twins": []
+  },
+  {
+   "id": "img-045.jpg",
+   "src": "/media/moments/moment-12-table-of-animals.jpg",
+   "w": 744,
+   "h": 992,
+   "tab": "market",
+   "caption": "A table of animals",
+   "alt": "Table at a market covered with rows of crocheted yellow giraffes, grey elephants, brown maned lions and four bright cat-like toys in orange, green, blue and pink",
+   "twins": []
+  },
+  {
+   "id": "img-046.jpg",
+   "src": "/media/story/long-table-whole-range.jpg",
+   "w": 744,
+   "h": 992,
+   "tab": "market",
+   "caption": "The whole range on a long table",
+   "alt": "Craft fair table with a turquoise cloth displaying crocheted lions, elephants, giraffes, zebras and a grey rhino, with more lions and elephants lined on the floor",
+   "twins": []
+  },
+  {
+   "id": "img-047.jpg",
+   "src": "/media/gallery/img-047.jpg",
+   "w": 708,
+   "h": 308,
+   "tab": "moments",
+   "caption": "The courtyard gathering, wider",
+   "alt": "Group of about thirteen adults and children posing outdoors in front of a blue wall, some seated, including elderly people with walking sticks and a toddler in an orange jacket",
+   "twins": [],
+   "cardSrc": "/media/gallery/img-047-frame.jpg"
+  },
+  {
+   "id": "img-048.jpg",
+   "src": "/media/story/hippo-pink-dress.jpg",
+   "w": 665,
+   "h": 736,
+   "tab": "moments",
+   "caption": "A hippo in a magenta dress",
+   "alt": "Hand holding a slate blue crocheted animal wearing a magenta crocheted dress with a multicolour trim, a woman sitting on a sofa in the background",
+   "twins": [
+    "img-082.jpg"
+   ]
+  },
+  {
+   "id": "img-049.jpg",
+   "src": "/media/gallery/img-049.jpg",
+   "w": 539,
+   "h": 810,
+   "tab": "making",
+   "caption": "Crocheting with orange yarn",
+   "alt": "Woman in a blue patterned top and a brown head wrap crocheting with orange yarn, eyes looking down",
+   "twins": []
+  },
+  {
+   "id": "img-050.jpg",
+   "src": "/media/moments/moment-03-giraffe-family.jpg",
+   "w": 673,
+   "h": 927,
+   "tab": "making",
+   "caption": "A family of giraffes",
+   "alt": "Woman in a yellow and black striped dress sitting behind a crowd of crocheted giraffes in yellow and cream with brown patches on a teal blanket",
+   "twins": []
+  },
+  {
+   "id": "img-051.jpg",
+   "src": "/media/story/hands-stitching-giraffe-parts.jpg",
+   "w": 744,
+   "h": 992,
+   "tab": "making",
+   "caption": "Stitching giraffe parts",
+   "alt": "Close up of crocheted yellow giraffe necks and an ochre knob with a woman in a black t shirt sewing in the background",
+   "twins": []
+  },
+  {
+   "id": "img-052.jpg",
+   "src": "/media/story/maker-crocheting-toy-waiting.jpg",
+   "w": 622,
+   "h": 992,
+   "tab": "making",
+   "caption": "Crocheting on a chair",
+   "alt": "Woman in a yellow striped dress and head wrap sitting in a white chair stitching, with a bright patterned fabric on her lap and crocheted toys at the lower right",
+   "twins": []
+  },
+  {
+   "id": "img-053.jpg",
+   "src": "/media/story/workroom-giraffe-pieces.jpg",
+   "w": 960,
+   "h": 935,
+   "tab": "making",
+   "caption": "A break in the workroom",
+   "alt": "Woman in a red hat and navy hoodie sitting with a phone beside a table of crocheted cream and yellow giraffes waiting to be finished",
+   "twins": []
+  },
+  {
+   "id": "img-054.jpg",
+   "src": "/media/story/finishing-giraffe-orange-yarn.jpg",
+   "w": 477,
+   "h": 886,
+   "tab": "making",
+   "caption": "Finishing a giraffe",
+   "alt": "Woman in a striped top and red head wrap holding a yellow crocheted giraffe, with a box of orange yarn at the lower right",
+   "twins": []
+  },
+  {
+   "id": "img-055.jpg",
+   "src": "/media/story/sewing-bear-face.jpg",
+   "w": 678,
+   "h": 867,
+   "tab": "making",
+   "caption": "Sewing a bear face",
+   "alt": "Smiling woman with locs holding a tan crocheted teddy bear on her lap while she works with a pink crochet hook",
+   "twins": []
+  },
+  {
+   "id": "img-056.jpg",
+   "src": "/media/story/grey-elephants-lion-in-making.jpg",
+   "w": 545,
+   "h": 909,
+   "tab": "making",
+   "caption": "Many hands, many animals",
+   "alt": "A young woman in a red skirt and white cardigan sits on a blue sofa finishing a crocheted lion, with piles of grey elephants, blue rhinos and yellow giraffes on the floor in front of her.",
+   "twins": []
+  },
+  {
+   "id": "img-057.jpg",
+   "src": "/media/moments/moment-05-lion-mane.jpg",
+   "w": 738,
+   "h": 930,
+   "tab": "making",
+   "caption": "Giving a lion its mane",
+   "alt": "A woman in a yellow hoodie sits on the floor of a workroom, attaching a brown yarn mane to a crocheted lion, with piles of tan lion bodies and yellow giraffes around her.",
+   "twins": []
+  },
+  {
+   "id": "img-058.jpg",
+   "src": "/media/story/trimming-lion-mane.jpg",
+   "w": 609,
+   "h": 907,
+   "tab": "making",
+   "caption": "Trimming a lion mane",
+   "alt": "A woman in a yellow hoodie trims the mane of a crocheted lion with scissors, surrounded by piles of tan lions and yellow giraffes.",
+   "twins": []
+  },
+  {
+   "id": "img-059.jpg",
+   "src": "/media/gallery/img-059.jpg",
+   "w": 481,
+   "h": 661,
+   "tab": "animals",
+   "caption": "A rabbit with a colourful collar",
+   "alt": "A brown crocheted rabbit with long ears and a multicoloured crocheted collar sits on a table in front of carved wooden safari animals.",
+   "twins": []
+  },
+  {
+   "id": "img-060.jpg",
+   "src": "/media/gallery/img-060.jpg",
+   "w": 630,
+   "h": 964,
+   "tab": "animals",
+   "caption": "A lion on a wooden table",
+   "alt": "A tan crocheted lion with a long brown yarn mane and a dark maroon nose stands on a wooden table outdoors.",
+   "twins": []
+  },
+  {
+   "id": "img-061.jpg",
+   "src": "/media/moments/moment-10-garden-giraffes.jpg",
+   "w": 1200,
+   "h": 1600,
+   "tab": "market",
+   "caption": "Giraffes in the shade",
+   "alt": "Rows of crocheted giraffes in yellow and cream with brown spots stand on a blue table under a canopy in a garden.",
+   "twins": []
+  },
+  {
+   "id": "img-062.jpg",
+   "src": "/media/story/rhinos-elephants-garden-stall.jpg",
+   "w": 960,
+   "h": 1280,
+   "tab": "market",
+   "caption": "Rhinos and elephants",
+   "alt": "Crocheted grey elephants and blue grey rhinos arranged on a blue table at an outdoor market, with a brown rabbit in a colourful collar at the left edge.",
+   "twins": []
+  },
+  {
+   "id": "img-063.jpg",
+   "src": "/media/gallery/img-063.jpg",
+   "w": 866,
+   "h": 1298,
+   "tab": "animals",
+   "caption": "Lions from large to small, four photos in one",
+   "alt": "A collage of four photos showing crocheted lions in a line from largest to smallest on a black shelf, and a single tan lion with a brown mane on a wooden table outdoors.",
+   "twins": []
+  },
+  {
+   "id": "img-064.jpg",
+   "src": "/media/gallery/img-064.jpg",
+   "w": 866,
+   "h": 1298,
+   "tab": "animals",
+   "caption": "Giraffes in different shades, four photos in one",
+   "alt": "A collage of four photos of crocheted giraffes in yellow, mustard and cream with brown spots, shown on a teal blanket, on a workshop table and against a wall.",
+   "twins": []
+  },
+  {
+   "id": "img-065.jpg",
+   "src": "/media/moments/moment-11-garden-restaurant.jpg",
+   "w": 1200,
+   "h": 1600,
+   "tab": "moments",
+   "caption": "On show in a garden",
+   "alt": "Rows of crocheted giraffes in yellow, cream and caramel and mauve brown elephants on a white table at a busy outdoor restaurant, with guests seated behind.",
+   "twins": []
+  },
+  {
+   "id": "img-066.jpg",
+   "src": "/media/story/elephants-rhinos-in-rows.jpg",
+   "w": 645,
+   "h": 952,
+   "tab": "outlets",
+   "caption": "Elephants, rhinos and giraffes in rows",
+   "alt": "A white table with neat rows of crocheted yellow giraffes, light blue rhinos and grey elephants, with tan lions and brown rabbits at the back.",
+   "twins": []
+  },
+  {
+   "id": "img-067.jpg",
+   "src": "/media/gallery/img-067.jpg",
+   "w": 1059,
+   "h": 1600,
+   "tab": "animals",
+   "caption": "A rabbit in a striped vest",
+   "alt": "Brown crocheted rabbit with long ears and a red, teal and white striped vest, waving from a log among green leaves",
+   "twins": []
+  },
+  {
+   "id": "img-068.jpg",
+   "src": "/media/gallery/img-068.jpg",
+   "w": 1059,
+   "h": 1600,
+   "tab": "animals",
+   "caption": "A lion among green leaves",
+   "alt": "Tan crocheted lion with a long brown yarn mane standing among green leaves",
+   "twins": []
+  },
+  {
+   "id": "img-069.jpg",
+   "src": "/media/story/two-rabbits-waistcoats.jpg",
+   "w": 1600,
+   "h": 1059,
+   "tab": "animals",
+   "caption": "Two rabbits in waistcoats",
+   "alt": "Two brown crocheted rabbits in blue and red vests holding paws on a stall, with giraffes and an elephant behind them",
+   "twins": []
+  },
+  {
+   "id": "img-070.jpg",
+   "src": "/media/story/three-giraffes-cream-yellow-tan.jpg",
+   "w": 1059,
+   "h": 1600,
+   "tab": "animals",
+   "caption": "Three giraffes in a row",
+   "alt": "Row of crocheted giraffes in cream, yellow, brown and tan with spiral spots, standing on a stall under trees",
+   "twins": []
+  },
+  {
+   "id": "img-071.jpg",
+   "src": "/media/story/elephants-rhinos-bamboo-roof.jpg",
+   "w": 1600,
+   "h": 1059,
+   "tab": "market",
+   "caption": "In the shade of a bamboo roof",
+   "alt": "Table of crocheted elephants, brown and blue rhinos, giraffes, a lion and a rabbit at an outdoor market stall",
+   "twins": []
+  },
+  {
+   "id": "img-072.jpg",
+   "src": "/media/story/giraffes-rabbits-elephants-bamboo.jpg",
+   "w": 1059,
+   "h": 1600,
+   "tab": "market",
+   "caption": "Giraffes, rabbits and elephants",
+   "alt": "Stall display of crocheted elephants, a blue rhino, rabbits, a lion and giraffes under a bamboo roof",
+   "twins": []
+  },
+  {
+   "id": "img-073.jpg",
+   "src": "/media/story/hand-holding-two-monkeys.jpg",
+   "w": 1200,
+   "h": 1600,
+   "tab": "animals",
+   "caption": "Two long limbed monkeys",
+   "alt": "Two long-limbed crocheted monkeys, one brown with cream ears and one tan with yellow ears, held by a hand against a grey sofa",
+   "twins": []
+  },
+  {
+   "id": "img-074.jpg",
+   "src": "/media/gallery/img-074.jpg",
+   "w": 1600,
+   "h": 1200,
+   "tab": "animals",
+   "caption": "Four rabbits in four vests",
+   "alt": "Four brown crocheted rabbits in pink, blue, yellow and lilac variegated vests sitting in a row on a grey sofa",
+   "twins": []
+  },
+  {
+   "id": "img-076.jpg",
+   "src": "/media/gallery/img-076.jpg",
+   "w": 1600,
+   "h": 1059,
+   "tab": "animals",
+   "caption": "Two slate blue elephants",
+   "alt": "Close-up of two slate blue crocheted elephants with white tusks standing on a stall table",
+   "twins": []
+  },
+  {
+   "id": "img-077.jpg",
+   "src": "/media/gallery/img-077.jpg",
+   "w": 886,
+   "h": 1191,
+   "tab": "animals",
+   "caption": "A cream goose",
+   "alt": "Cream coloured crocheted bird with an orange beak and foot on a plain pale background",
+   "twins": []
+  },
+  {
+   "id": "img-078.jpg",
+   "src": "/media/gallery/img-078.jpg",
+   "w": 623,
+   "h": 432,
+   "tab": "animals",
+   "caption": "Four monkeys side by side",
+   "alt": "Four crocheted monkeys lying side by side, two brown with yellow ears and muzzles and two purple with blue and pink ears and muzzles.",
+   "twins": []
+  },
+  {
+   "id": "img-079.jpg",
+   "src": "/media/gallery/img-079.jpg",
+   "w": 698,
+   "h": 736,
+   "tab": "animals",
+   "caption": "Five dolls in crocheted dresses",
+   "alt": "Five crocheted dolls in colourful crocheted dresses, three with tan skin and black hair buns and two with cream skin and tan hair buns.",
+   "twins": []
+  },
+  {
+   "id": "img-080.jpg",
+   "src": "/media/moments/moment-09-orange-giraffes.jpg",
+   "w": 1600,
+   "h": 1236,
+   "tab": "market",
+   "caption": "Orange giraffes and rabbits",
+   "alt": "A market stall table packed with crocheted orange giraffes, grey and purple elephants and brown rabbits.",
+   "twins": []
+  },
+  {
+   "id": "img-081.jpg",
+   "src": "/media/gallery/img-081.jpg",
+   "w": 1080,
+   "h": 1080,
+   "tab": "animals",
+   "caption": "Three white geese",
+   "alt": "Three crocheted ducks with white bodies, pale yellow wings and orange beaks sitting on a wooden table.",
+   "twins": []
+  },
+  {
+   "id": "img-083.jpg",
+   "src": "/media/story/lion-size-ladder-unlabelled.jpg",
+   "w": 716,
+   "h": 470,
+   "tab": "animals",
+   "caption": "Four lions, large to small",
+   "alt": "Four crocheted tan lions with brown manes in a row on a black table, from largest at the left to smallest at the right, against a cream wall",
+   "twins": []
+  },
+  {
+   "id": "img-084.jpg",
+   "src": "/media/gallery/img-084.jpg",
+   "w": 720,
+   "h": 720,
+   "tab": "animals",
+   "caption": "Three turtles from above",
+   "alt": "Three crocheted turtles seen from above on a red striped cloth, one mint green and cream, one coral pink and one blue and purple.",
+   "twins": []
+  },
+  {
+   "id": "img-087.jpg",
+   "src": "/media/story/zebras-giraffes-bunnies.jpg",
+   "w": 960,
+   "h": 1280,
+   "tab": "outlets",
+   "caption": "Giraffes, zebras and rabbits on a teal cloth",
+   "alt": "A stall display of crocheted giraffes, black and white zebras, brown rabbits and long cream, yellow and pink rabbits in crocheted outfits.",
+   "twins": []
+  }
+ ],
+ "video": {
+  "id": "vid-001.mp4",
+  "src": "/media/video/market-stall.mp4",
+  "poster": "/media/video/market-stall-poster.jpg",
+  "w": 848,
+  "h": 478,
+  "tab": "market",
+  "caption": "A market stall, in motion",
+  "alt": "A market stall with crocheted giraffes, elephants and lions, filmed up close"
+ }
+}

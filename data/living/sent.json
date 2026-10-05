@@ -1,0 +1,71 @@
+{
+ "template": "sent",
+ "thread": "off",
+ "peek": false,
+ "bands": {
+  "parade": {
+   "habitat": "savanna",
+   "h": [
+    76,
+    100
+   ],
+   "residents": [
+    {
+     "sprite": "rabbit",
+     "role": "rise",
+     "at": 50,
+     "size": [
+      46,
+      64
+     ],
+     "prio": 5,
+     "inline": true,
+     "anim": "celebrate"
+    },
+    {
+     "sprite": "elephant",
+     "role": "walk",
+     "at": 10,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "giraffe",
+     "role": "walk",
+     "at": 30,
+     "size": [
+      58,
+      80
+     ],
+     "prio": 4,
+     "min": "lite"
+    },
+    {
+     "sprite": "zebra",
+     "role": "walk",
+     "at": 70,
+     "size": [
+      80,
+      111
+     ],
+     "prio": 3,
+     "min": "md"
+    },
+    {
+     "sprite": "cheetah-stand",
+     "role": "walk",
+     "at": 90,
+     "size": [
+      71,
+      98
+     ],
+     "prio": 3,
+     "min": "md"
+    }
+   ]
+  }
+ }
+}

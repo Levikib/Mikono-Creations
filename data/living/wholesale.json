@@ -1,0 +1,55 @@
+{
+ "template": "wholesale",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "path": {
+   "habitat": "market",
+   "knot": true,
+   "props": [
+    {
+     "sprite": "prop-thread-loop",
+     "at": 60,
+     "size": [
+      44,
+      58
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "elephant",
+     "role": "walk",
+     "at": 12,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 4
+    },
+    {
+     "sprite": "buffalo-peek",
+     "role": "rise",
+     "at": 82,
+     "size": [
+      72,
+      100
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "warthog-peek",
+     "role": "rise",
+     "at": 40,
+     "size": [
+      62,
+      86
+     ],
+     "prio": 2,
+     "find": "warthog-wholesale"
+    }
+   ],
+   "calm": true
+  }
+ }
+}

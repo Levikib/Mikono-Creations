@@ -1,0 +1,43 @@
+{
+ "template": "post",
+ "thread": "on",
+ "peek": false,
+ "bands": {
+  "end": {
+   "habitat": "workshop",
+   "knot": true,
+   "residents": [
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 20,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "tortoise-stand",
+     "role": "walk",
+     "at": 56,
+     "size": [
+      75,
+      104
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "ladybird-crawl",
+     "role": "walk",
+     "at": 86,
+     "size": [
+      58,
+      81
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "template": "not-found",
+ "thread": "off",
+ "peek": false,
+ "bands": {
+  "lost": {
+   "habitat": "grove",
+   "h": [
+    96,
+    120
+   ],
+   "props": [
+    {
+     "sprite": "prop-acacia-branch",
+     "at": 78,
+     "size": [
+      100,
+      140
+     ]
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "giraffe",
+     "role": "rise",
+     "at": 38,
+     "size": [
+      58,
+      80
+     ],
+     "prio": 5,
+     "inline": true,
+     "anim": "lost"
+    },
+    {
+     "sprite": "monkey",
+     "role": "perch",
+     "at": 80,
+     "size": [
+      53,
+      73
+     ],
+     "prio": 3,
+     "inline": true
+    }
+   ]
+  }
+ }
+}

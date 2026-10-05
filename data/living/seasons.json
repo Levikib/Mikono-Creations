@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "variants": {
+    "christmas": { "from": "12-01", "to": "12-31", "swap": {} },
+    "easter": { "from": "03-25", "to": "04-25", "swap": {} },
+    "eid": { "from": "03-01", "to": "03-10", "swap": {} }
+  }
+}

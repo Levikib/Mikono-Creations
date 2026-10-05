@@ -1,0 +1,23 @@
+{
+ "template": "cart",
+ "thread": "off",
+ "peek": false,
+ "bands": {
+  "empty": {
+   "habitat": "cart",
+   "residents": [
+    {
+     "sprite": "tortoise-stand",
+     "role": "rise",
+     "at": 50,
+     "size": [
+      75,
+      104
+     ],
+     "prio": 4,
+     "inline": true
+    }
+   ]
+  }
+ }
+}

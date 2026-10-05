@@ -1,0 +1,105 @@
+{
+ "template": "footer",
+ "thread": "off",
+ "peek": false,
+ "bands": {
+  "pond": {
+   "habitat": "pond",
+   "h": [
+    64,
+    88
+   ],
+   "props": [
+    {
+     "sprite": "prop-pond-ripple",
+     "at": 52,
+     "size": [
+      120,
+      168
+     ]
+    },
+    {
+     "sprite": "prop-grass-tuft",
+     "at": 8,
+     "size": [
+      26,
+      36
+     ]
+    },
+    {
+     "sprite": "prop-grass-tuft",
+     "at": 94,
+     "size": [
+      24,
+      32
+     ],
+     "flip": true
+    }
+   ],
+   "residents": [
+    {
+     "sprite": "rabbit",
+     "role": "rise",
+     "at": 10,
+     "size": [
+      46,
+      64
+     ],
+     "prio": 1,
+     "find": "rabbit-footer"
+    },
+    {
+     "sprite": "hippo",
+     "role": "rise",
+     "at": 50,
+     "size": [
+      91,
+      126
+     ],
+     "prio": 4,
+     "inline": true
+    },
+    {
+     "sprite": "flamingo-stand",
+     "role": "rise",
+     "at": 74,
+     "size": [
+      57,
+      79
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "elephant",
+     "role": "rise",
+     "at": 90,
+     "size": [
+      81,
+      112
+     ],
+     "prio": 3
+    },
+    {
+     "sprite": "butterfly",
+     "role": "float",
+     "at": 30,
+     "size": [
+      42,
+      59
+     ],
+     "prio": 2
+    },
+    {
+     "sprite": "crocodile-float",
+     "role": "rise",
+     "at": 62,
+     "size": [
+      91,
+      126
+     ],
+     "prio": 2
+    }
+   ]
+  }
+ }
+}
