@@ -27,7 +27,7 @@ export const termsOfSale = defineDoc({
     sec("definitions", "Words we use", [
       "These words have the same meaning throughout our legal documents.",
     ], [
-      "\"Site\" means mikono-creations.vercel.app and any website address we move to.",
+      "\"Site\" means mikonocreations.co.ke and any website address we move to.",
       "\"Order\" means the list of items, quantities, sizes, colours and delivery details you send us on WhatsApp.",
       "\"Confirmation\" means our written message on WhatsApp that accepts your Order and states the price, delivery and payment details.",
       "\"Goods\" means the crocheted animals and other items in your Order.",

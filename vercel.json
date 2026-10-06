@@ -1,4 +1,18 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "regions": ["cpt1"]
+  "regions": ["cpt1"],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.mikonocreations.co.ke" }],
+      "destination": "https://mikonocreations.co.ke/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "mikono-creations.vercel.app" }],
+      "destination": "https://mikonocreations.co.ke/$1",
+      "permanent": true
+    }
+  ]
 }
