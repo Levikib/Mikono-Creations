@@ -6,7 +6,7 @@ import { FooterActions } from "./FooterActions";
 import { Band } from "./fx/Band";
 import { AnimalsBar } from "./fx/AnimalsBar";
 import { gameDef } from "@/data/living";
-import { PHONE_DISPLAY, PHONE_TEL, footerGroups, legalLinks, site } from "@/lib/site";
+import { CONTACT_EMAIL, CONTACT_EMAIL_LINK, PHONE_DISPLAY, PHONE_TEL, footerGroups, legalLinks, site } from "@/lib/site";
 
 const link = "hit-y inline-flex min-h-8 items-center text-[.8125rem] text-dusk-ink/90 hover:text-amber hover:underline underline-offset-4";
 
@@ -26,6 +26,11 @@ export function Footer() {
           <p className="mt-1">
             <a href={PHONE_TEL} className="hit-y inline-flex min-h-8 items-center gap-2 text-[.8125rem] font-semibold text-dusk-ink underline underline-offset-4 hover:text-amber">
               <Icon name="phone" size={16} /><span className="sr-only">Call us on </span>{PHONE_DISPLAY}
+            </a>
+          </p>
+          <p>
+            <a href={CONTACT_EMAIL_LINK} className="hit-y inline-flex min-h-8 items-center text-[.8125rem] font-semibold text-dusk-ink underline underline-offset-4 hover:text-amber">
+              <span className="sr-only">Email us at </span>{CONTACT_EMAIL}
             </a>
           </p>
           <div className="mt-1 flex gap-3">

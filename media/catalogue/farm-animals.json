@@ -1,0 +1,100 @@
+{
+ "group": "farm-animals-2026-10-05",
+ "products": [
+  {
+   "slug": "pig",
+   "species": "pig",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "pink",
+     "label": "Pink",
+     "images": [
+      {
+       "file": "media/raw/img-090.jpg",
+       "source_id": "img-090.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 1080,
+       "height": 1335,
+       "quality": "good",
+       "alt": "Pink crocheted pig standing upright, with a peach body, bright pink ears, snout and hooves and small black eyes, on a pale grey background.",
+       "verified": true
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "cow",
+   "species": "cow",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "black-and-white",
+     "label": "Black and white",
+     "images": [
+      {
+       "file": "media/work/cow/cow-black-and-white-01.jpg",
+       "source_id": "img-091.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 960,
+       "height": 1305,
+       "quality": "good",
+       "alt": "Black and white crocheted cow standing upright, with a cream body, black patches, black ears, tan horns and a large pink nose, on a pale grey background.",
+       "verified": true,
+       "note": "The client photo had a ruler beside the cow. The ruler was removed so no measurements show (R5)."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  },
+  {
+   "slug": "duck",
+   "species": "duck",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "file": "media/raw/img-088.jpg",
+       "source_id": "img-088.jpg",
+       "crop": null,
+       "role": "hero",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 1600,
+       "height": 1358,
+       "quality": "ok",
+       "alt": "Two yellow crocheted ducklings side by side with orange beaks and feet, one standing and one sitting in a white crocheted eggshell.",
+       "verified": true,
+       "note": "Soft photo. A sharper photo of one duck would be better. The client confirmed these yellow birds are the ducks."
+      }
+     ]
+    }
+   ],
+   "range_images": []
+  }
+ ]
+}

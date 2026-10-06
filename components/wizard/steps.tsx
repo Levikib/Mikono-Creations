@@ -138,14 +138,15 @@ export function StepDelivery({ form, set, errors, minDate, maxDate, lines }: Ste
       {form.split ? <SplitDelivery form={form} set={set} errors={errors} lines={lines} /> : null}
       <fieldset className={`min-w-0 border-0 p-0 ${form.split ? "hidden" : ""}`} aria-describedby={errors.fulfilment ? "fulfilment-err" : undefined}>
         <legend className="mb-1 text-[.8125rem] font-semibold text-baobab">How should we get it to you?</legend>
+        <p className="mb-1.5 text-[.8125rem] text-stone">We deliver anywhere in Kenya. We confirm the delivery cost and time on WhatsApp for each order.</p>
         <div id="fulfilment" tabIndex={-1} className="grid gap-1.5 focus:outline-none">
           {([
-            ["pickup", "I will collect it from a pickup point", pickupText()],
+            ["pickup", "I will collect it at a place we agree", pickupText()],
             ["collect", "Someone else will collect it", "We confirm who collects it, and where, on WhatsApp."],
             ["nairobi", "Deliver it in Nairobi", ""],
-            ["town", "Send it to another Kenyan town", "Any of the 47 counties. We confirm how it travels, the cost and the time on WhatsApp."],
+            ["town", "Send it to another Kenyan town", "We deliver anywhere in Kenya, in any of the 47 counties. We confirm how it travels, the cost and the time on WhatsApp."],
             ["courier", "A courier or bus parcel service of my choice", "Tell us the county, town and service. We confirm how it reaches them."],
-            ["abroad", "Send it abroad (ask us)", "We have not confirmed shipping abroad yet. Tell us the country and we say what is possible."],
+            ["abroad", "Send it outside Kenya (ask us)", "Tell us the country and we say what is possible."],
             ["other", "Other, tell us", "Another way you would like it to reach you."],
           ] as const).map(([v, l, help]) => {
             const on = form.fulfilment === v;

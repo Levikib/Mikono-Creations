@@ -12,6 +12,7 @@ import { Button } from "../Button";
 import { Icon } from "../Icon";
 import { useCatalogue } from "../CatalogueContext";
 import { sizeWord } from "@/lib/sizes";
+import { formatKes, unitPriceKes } from "@/lib/pricing";
 
 const toShare = (lines: CartLine[]): ShareLine[] => lines.map((l) => ({ slug: l.slug, colourKey: l.colourKey, size: l.size, qty: l.qty }));
 
@@ -84,12 +85,12 @@ export function SharedListBanner() {
   return (
     <section aria-labelledby="shared-h" data-testid="shared-banner" className="rounded-[var(--radius-card)] bg-oat p-3 shadow-clay-sm">
       <h2 id="shared-h" className="text-[.9375rem]">Someone shared this list with you</h2>
-      <p className="mt-0.5 text-[.8125rem] text-stone">{countAnimals(total)}. Your own order list is not changed unless you add these.</p>
+      <p className="mt-0.5 text-[.8125rem] text-stone">{countAnimals(total)}. Items total {formatKes(items.reduce((n, i) => n + (unitPriceKes(i.slug, i.size) ?? 0) * i.qty, 0))}, delivery not included. Your own order list is not changed unless you add these.</p>
       <ul className="mt-2 grid gap-1">
         {items.map((i) => (
           <li key={i.sku} className="flex items-center gap-2 text-[.8125rem]">
             <span className="ck-thumb size-8 !rounded-[9px]">{i.image ? <Image src={i.image} alt="" fill sizes="32px" className="object-cover" /> : null}</span>
-            <span className="min-w-0 flex-1 truncate"><span className="font-semibold">{i.qty} x {i.name}</span>, {i.colourKey === "ask" ? "colour to confirm" : i.colourLabel}, {sizeWord(i.size)}</span>
+            <span className="min-w-0 flex-1 truncate"><span className="font-semibold">{i.qty} x {i.name}</span>, {i.colourKey === "ask" ? "colour to confirm" : i.colourLabel}, {sizeWord(i.size)}{unitPriceKes(i.slug, i.size) !== null ? `, ${formatKes(unitPriceKes(i.slug, i.size) as number)} each` : ""}</span>
           </li>
         ))}
       </ul>

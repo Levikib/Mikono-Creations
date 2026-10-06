@@ -3,6 +3,7 @@ import { Icon } from "@/components/Icon";
 import { AnimalPhoto } from "./AnimalPhoto";
 import { FAMILY_MAX_QTY } from "@/data/helpers";
 import { sizeWord } from "@/data/studio/labels";
+import { formatKes, unitPriceKes } from "@/lib/pricing";
 import { freeCombo, skuFor } from "@/lib/helpers/family";
 import type { FamilyLine, HelperAnimal, SizeKey } from "@/lib/helpers/types";
 
@@ -65,7 +66,7 @@ export function FamilyTray({ lines, animals, onPatch, onRemove, onDuplicate, ful
               <div className="w-14 flex-none"><AnimalPhoto image={c.image} sizes="56px" alt="" className="!rounded-[12px]" /></div>
               <div className="min-w-0 flex-1">
                 <p className="truncate font-display text-[1rem] font-bold leading-tight">{a.name}</p>
-                <p className="mkh-muted truncate text-[.9375rem]">{c.label}, {sizeWord(l.size).toLowerCase()}</p>
+                <p className="mkh-muted truncate text-[.9375rem]">{c.label}, {sizeWord(l.size).toLowerCase()}{unitPriceKes(a.slug, l.size) !== null ? <span className="price">, {formatKes(unitPriceKes(a.slug, l.size) as number)} each</span> : null}</p>
               </div>
               <button type="button" onClick={() => onRemove(i)} aria-label={`Remove ${a.name}, ${c.label}, ${sizeWord(l.size).toLowerCase()}`}
                 className="flex size-11 flex-none items-center justify-center rounded-full" style={{ color: "var(--h-soft)" }}>

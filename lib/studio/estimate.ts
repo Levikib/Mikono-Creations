@@ -1,5 +1,6 @@
 // Rough guide for the Brief Card and the WhatsApp message. Built from data/studio/estimates.ts, which holds ESTIMATES only.
 // Shown only when every piece has a size class, so it never appears for an empty brief. Never a price: the wording always says rough or estimate.
+import { isWallArtSlug, WALL_ART_PRICE_KES } from "../../data/facts";
 import { BULK_FROM, ESTIMATE_CONFIRM, ESTIMATE_MESSAGE_LABEL, ROUGH_BULK, ROUGH_COMPLEXITY, ROUGH_PER_PIECE, budgetBands, fmtKes, genericBaseById } from "../../data/studio";
 import { pieceCount, totalCount } from "./flow";
 import type { Brief, Piece } from "./types";
@@ -17,7 +18,10 @@ export function roughGuide(b: Brief): RoughGuide | null {
   let low = 0, high = 0;
   for (const p of b.pieces) {
     if (!hasSize(p)) continue;
-    const r = ROUGH_PER_PIECE[p.size];
+    // A wall head is never rough-estimated below its fixed shop price.
+    const wall = typeof p.baseId === "string" && (isWallArtSlug(p.baseId) || p.baseId === "wall-head");
+    const base = ROUGH_PER_PIECE[p.size];
+    const r = wall ? { lowKes: Math.max(base.lowKes, WALL_ART_PRICE_KES), highKes: Math.max(base.highKes, WALL_ART_PRICE_KES) } : base;
     const n = pieceCount(p);
     const c = complex(p);
     low += r.lowKes * n * (c ? 1 + ROUGH_COMPLEXITY.lowPercent / 100 : 1);

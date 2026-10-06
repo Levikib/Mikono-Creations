@@ -1,4 +1,5 @@
 import type { LegalSection } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 /** Short section builder. note is optional. */
 export const sec = (id: string, heading: string, paragraphs: string[], list?: string[], note?: string): LegalSection => {
@@ -9,4 +10,4 @@ export const sec = (id: string, heading: string, paragraphs: string[], list?: st
 };
 
 export const CONTACT_PARA =
-  "You can reach us on WhatsApp or by phone on +254 724 592 115, our official business number, or by email at [CONTACT EMAIL].";
+  "You can reach us on WhatsApp or by phone on +254 724 592 115, our official business number, or by email at " + CONTACT_EMAIL + ".";

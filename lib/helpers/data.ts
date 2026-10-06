@@ -25,10 +25,11 @@ export function toHelperAnimal(p: Product): HelperAnimal | null {
   };
 }
 
-/** Every catalogue product, wall art and dolls included. Safari first, then catalogue order. */
+/** Every catalogue product except wall art, dolls and bags included. Safari first, then catalogue order. */
 export function helperAnimals(): HelperAnimal[] {
   const list = allProducts()
-    .filter((p) => !NOT_IN_HELPERS.has(p.slug))
+    // Wall art is one fixed size and price, so it is not part of the size based helpers.
+    .filter((p) => !NOT_IN_HELPERS.has(p.slug) && p.category !== "wall-art")
     .map(toHelperAnimal)
     .filter((a): a is HelperAnimal => a !== null);
   return list;

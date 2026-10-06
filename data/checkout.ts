@@ -80,7 +80,7 @@ export const monthNames = ["January", "February", "March", "April", "May", "June
 export const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31] as const;
 
 export const interestOptions = [
-  "Safari animals", "Domestic animals", "More animals", "Sea animals", "Birds and insects", "Wall art", "Dolls", "Gifts for babies and families", "Home decor",
+  "Safari animals", "Farm and pet animals", "More animals", "Sea animals", "Birds and insects", "Wall art", "Dolls", "Gifts for babies and families", "Home decor",
   "Neutral colours", "Warm colours", "Bright colours", "Cool colours", "Pastel colours", "Custom or personalised pieces", "Bulk or wholesale", "Other, tell us",
 ] as const;
 export const INTEREST_OTHER = "Other, tell us";

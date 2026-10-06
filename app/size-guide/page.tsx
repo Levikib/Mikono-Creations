@@ -1,3 +1,6 @@
+import { sizePricesKes, WALL_ART_PRICE_KES } from "@/data/facts";
+import { formatKes } from "@/lib/pricing";
+import { WALL_SIZE_NOTE } from "@/lib/sizes";
 import { FxPage } from "@/components/fx/FxPage";
 import { Band } from "@/components/fx/Band";
 import { CardGrid, StatCard } from "@/components/card/Card";
@@ -16,10 +19,10 @@ export const metadata = pageMetadata({
 });
 
 const sizes = [
-  { s: "Small", text: "The smallest size in the range." },
-  { s: "Medium", text: "One step up from Small." },
-  { s: "Large", text: "One step up from Medium." },
-  { s: "Extra large", text: "The largest size in the range." },
+  { s: "Small", text: `The smallest size in the range. ${formatKes(sizePricesKes.S)}.` },
+  { s: "Medium", text: `One step up from Small. ${formatKes(sizePricesKes.M)}.` },
+  { s: "Large", text: `One step up from Medium. ${formatKes(sizePricesKes.L)}.` },
+  { s: "Extra large", text: `The largest animal size. ${formatKes(sizePricesKes.XL)}.` },
 ];
 
 export default function SizeGuidePage() {
@@ -35,6 +38,7 @@ export default function SizeGuidePage() {
         <CardGrid kind="four">
           {sizes.map((z) => <StatCard key={z.s} tone="slate" big={z.s} title={`Size ${z.s}`} text={z.text} />)}
         </CardGrid>
+        <p data-testid="wall-size-note" className="mt-3 text-[.9375rem] leading-[1.7]">{WALL_SIZE_NOTE} It costs {formatKes(WALL_ART_PRICE_KES)}, one fixed price.</p>
         <div className="mt-6 grid items-center gap-5 md:grid-cols-2">
           <div className="grid gap-4">
             <h2 className="text-display-md">Four lions, side by side</h2>

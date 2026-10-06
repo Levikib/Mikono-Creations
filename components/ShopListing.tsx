@@ -8,7 +8,7 @@ import { DensityToggle } from "./card/DensityToggle";
 import { ProductCard } from "./ProductCard";
 import { colourFamilies } from "@/data/colours";
 import { sizeWord } from "@/lib/sizes";
-import { sizeClasses } from "@/data/facts";
+import { sizeClasses, WALL_SIZE } from "@/data/facts";
 import { allProducts, categories, speciesLabel, type Category } from "@/lib/catalogue";
 import { toCard } from "@/lib/cards";
 import { variantPath } from "@/lib/imageLoader";
@@ -44,9 +44,9 @@ export function ShopListing({ category }: { category?: Category }) {
     unitPieces: !!category && (category.key === "wall-art" || category.key === "dolls"),
     species: [...new Set(scope.map((p) => p.species))].map((k) => ({ key: k, label: speciesLabel(k) })),
     colours: colourFamilies.filter((cf) => scope.some((p) => !p.colourAsk && p.colourways.some((c) => c.family === cf.key))).map((c) => ({ key: c.key, label: colourWords[c.key] ?? c.label })),
-    sizes: sizeClasses.map((s) => ({ key: s, label: sizeWord(s) })),
+    sizes: [...sizeClasses, WALL_SIZE].filter((s) => scope.some((p) => (p.sizes as readonly string[]).includes(s))).map((s) => ({ key: s, label: sizeWord(s) })),
     sizesDiffer: new Set(scope.map((p) => p.sizes.join())).size > 1,
-    items: rows.map((r) => ({ name: r.p.name, species: r.p.species, colours: r.colours, sizes: [...r.p.sizes], several: !r.p.colourAsk && r.p.colourways.length > 1 })),
+    items: rows.map((r) => ({ name: r.p.name, species: r.p.species, colours: r.colours, sizes: [...r.p.sizes], several: !r.p.colourAsk && r.p.colourways.length > 1, from: r.p.priceKes })),
   };
   const heading = category ? category.label : "Crocheted animals";
   const lede = category ? category.blurb : "Every animal is crocheted by hand in Nairobi from recycled acrylic yarn. Choose an animal, then a colour and a size.";

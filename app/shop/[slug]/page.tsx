@@ -12,6 +12,7 @@ import { Section, SectionHeader } from "@/components/Section";
 import { availabilityLabel, defaultAvailability, pricesConfirmed } from "@/data/facts";
 import { claimsFor, copyFor } from "@/data/copy";
 import { siteBaseUrl } from "@/lib/env";
+import { formatKes } from "@/lib/pricing";
 import { pageMetadata } from "@/lib/pageMeta";
 import { toCard } from "@/lib/cards";
 import {
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const hero = heroImage(p);
   return pageMetadata({
     title: metaTitle(p.name),
-    description: `${copy.lead} ${copy.claims === "none" ? "Handmade in Nairobi." : "Handmade in Nairobi from recycled acrylic yarn."}`,
+    description: `${copy.lead} From ${formatKes(p.priceKes ?? 0)}, by size. ${copy.claims === "none" ? "Handmade in Nairobi." : "Handmade in Nairobi from recycled acrylic yarn."}`,
     path: `/shop/${p.slug}`, og: `product-${p.slug}`, ogAlt: hero?.image.alt, ogTitle: `${p.name} | ${site.name}`,
   });
 }
@@ -61,8 +62,10 @@ function productJsonLd(p: Product, lead: string) {
   const variants = variantsOf(p).map((v) => {
     const cw = p.colourways.find((c) => c.key === v.colourKey)!;
     const img = heroImage(p, v.colourKey);
-    const offer = pricesConfirmed && p.priceKes != null
-      ? { offers: { "@type": "Offer", price: p.priceKes, priceCurrency: "KES", url: `${base}/shop/${p.slug}`,
+    // One Offer per size, at that size's retail price (R12). Products without a price carry no offer.
+    const unit = pricesConfirmed ? p.sizePrices?.[v.size] : undefined;
+    const offer = typeof unit === "number"
+      ? { offers: { "@type": "Offer", price: unit, priceCurrency: "KES", url: `${base}/shop/${p.slug}`,
           ...(schemaAvailability[v.availability] ? { availability: schemaAvailability[v.availability] } : {}) } }
       : {};
     return {
@@ -70,7 +73,7 @@ function productJsonLd(p: Product, lead: string) {
       ...(img ? { image: abs(img.image.src) } : {}), ...offer,
     };
   });
-  // No offers and no ratings while pricesConfirmed is false (R7, D11).
+  // No offers when a product has no price, and no ratings (R7, D11, R12).
   return {
     "@context": "https://schema.org", "@type": "ProductGroup", name: p.name, description: lead,
     url: `${base}/shop/${p.slug}`, productGroupID: p.slug, brand: { "@type": "Brand", name: site.name },
@@ -123,7 +126,7 @@ export default async function ProductPage({ params }: Props) {
         <div className="mt-4">
           <ProductPurchase
             slug={p.slug} name={p.name} colours={colours} galleries={galleries} openOn={open} sizes={p.sizes}
-            priceLabel={p.priceKes && pricesConfirmed ? `KES ${p.priceKes.toLocaleString("en-KE")}` : "Ask for price"}
+            sizePrices={pricesConfirmed ? p.sizePrices : null}
             availability={availabilityLabel[defaultAvailability]} skuFor={skuFor}
             colourAsk={p.colourAsk} noun={copy.noun} category={cat.label} hopSprite={hopSprite(p.species, p.category)}
             below={

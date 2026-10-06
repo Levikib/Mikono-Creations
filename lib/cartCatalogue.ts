@@ -14,7 +14,10 @@ export interface CartProduct {
   /** Whole animals only: wall art, dolls and the handbag are not suggested. */
   suggestable: boolean;
   sizes: string[];
+  /** Lowest retail price in KES, or null when prices are off. */
   priceKes: number | null;
+  /** Retail price per size in KES, or null when prices are off. */
+  sizePrices: Record<string, number> | null;
   colours: CartColour[];
 }
 
@@ -28,7 +31,7 @@ function toCartProduct(p: Product): CartProduct | null {
   const whole = p.category === "safari" || p.category === "domestic" || p.category === "more";
   return {
     slug: p.slug, name: p.name, category: categoryByKey(p.category).label, group: GROUP_BY_SLUG[p.slug] ?? "other",
-    colourAsk: p.colourAsk, suggestable: whole && !NOT_IN_HELPERS.has(p.slug), sizes: [...p.sizes], priceKes: p.priceKes, colours,
+    colourAsk: p.colourAsk, suggestable: whole && !NOT_IN_HELPERS.has(p.slug), sizes: [...p.sizes], priceKes: p.priceKes, sizePrices: p.sizePrices, colours,
   };
 }
 
@@ -39,7 +42,7 @@ export function cartCatalogue(): CartProduct[] {
 export interface RescueCard { label: string; href: string; src: string; alt: string; focal: [number, number]; blurb: string }
 const rescueKeys: Array<{ key: CategoryKey; blurb: string }> = [
   { key: "safari", blurb: "Elephants, giraffes, lions and more" },
-  { key: "domestic", blurb: "Rabbits, cats and dogs" },
+  { key: "domestic", blurb: "Rabbits, pigs, cows, dogs and more" },
   { key: "more", blurb: "Octopuses, sharks, turtles and more" },
 ];
 /** Three entry cards for an empty order list, each with the lead photo of the first animal in the category. */

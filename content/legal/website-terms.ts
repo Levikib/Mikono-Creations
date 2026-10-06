@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const websiteTerms = defineDoc({
@@ -47,7 +48,7 @@ export const websiteTerms = defineDoc({
       "If you break these terms and we suffer loss because of it, you agree to compensate us for that loss, to the extent the law allows.",
     ]),
     sec("takedown", "Reports and takedown", [
-      "If you think something on the Site infringes your rights, or shows you or your child and you want it removed, write to [TAKEDOWN EMAIL]. We will reply promptly. See the Intellectual Property and Takedown Notice for what to include.",
+      "If you think something on the Site infringes your rights, or shows you or your child and you want it removed, write to " + CONTACT_EMAIL + ". We will reply promptly. See the Intellectual Property and Takedown Notice for what to include.",
     ]),
     sec("law", "Law and changes", [
       "These terms are governed by the laws of Kenya and the courts in Nairobi. We may update them and the version on the Site applies from its date.",

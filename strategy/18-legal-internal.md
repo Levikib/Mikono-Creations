@@ -48,3 +48,7 @@ Exercises: walk through the plan once before launch (DP-18). Keep this page and 
 - Customer inspiration pictures: private folder, maker and owner only, deleted [IMAGE DELETION PERIOD] days after the order closes, never used in marketing without a signed Photo and Content Consent form.
 - Data requests: log day 0, acknowledge within 2 days, answer within the legal time (access 7, erase and correct 14, port 30).
 - Keep signed Photo and Content Consent and Stockist Permission forms with the media record.
+
+## D. Owner note (2026-10-05)
+
+The registration number and physical address were removed from the public legal text because the business has no registration details to share and no physical shop yet. Add them back to the Privacy Policy and Terms of Sale "Who we are" sections when available. The privacy contact email is now the general business address Mikonocreations@gmail.com; confirm this is intended. Takedown and accessibility contacts use it too.

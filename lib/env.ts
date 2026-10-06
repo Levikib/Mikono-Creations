@@ -1,4 +1,4 @@
-import { PHONE_DIGITS } from "./site";
+import { CONTACT_EMAIL, PHONE_DIGITS } from "./site";
 
 // Typed env access. NEXT_PUBLIC_* values must be read with static property
 // access so Next can inline them into the client bundle.
@@ -11,7 +11,8 @@ export const env = {
   tiktokPixelId: process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID ?? "",
   // Falls back to the official business number, so a WhatsApp link always exists.
   whatsappNumber: (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "").replace(/\D/g, "") || PHONE_DIGITS,
-  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
+  // The business email is a constant in lib/site.ts (client message of 2026-10-05).
+  contactEmail: CONTACT_EMAIL,
 } as const;
 
 /** Names reserved for server use later (D19). Never read in client code. */
@@ -33,7 +34,6 @@ export const optionalEnvNames: Record<string, string> = {
   NEXT_PUBLIC_META_PIXEL_ID: env.metaPixelId,
   NEXT_PUBLIC_TIKTOK_PIXEL_ID: env.tiktokPixelId,
   NEXT_PUBLIC_WHATSAPP_NUMBER: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "",
-  NEXT_PUBLIC_CONTACT_EMAIL: env.contactEmail,
 };
 
 export function missingEnv(): string[] {

@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const safetyNotice = defineDoc({
@@ -37,7 +38,7 @@ export const safetyNotice = defineDoc({
       "Parts added to a Custom Piece, such as buttons, beads or sewn on extras, are agreed with you in the quote. We will tell you what is used. Such parts are not covered by the statement that nothing is detachable unless the quote says so.",
     ]),
     sec("report", "Tell us about a problem", [
-      "If you have a safety concern about something we made, tell us at once on WhatsApp on +254 724 592 115 or at [CONTACT EMAIL]. We take every report seriously and will stop selling an item if we find a problem.",
+      "If you have a safety concern about something we made, tell us at once on WhatsApp on +254 724 592 115 or at " + CONTACT_EMAIL + ". We take every report seriously and will stop selling an item if we find a problem.",
     ]),
   ],
 });

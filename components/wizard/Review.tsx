@@ -7,7 +7,8 @@ import { OTHER_AREA } from "@/data/deliveryAreas";
 import { completeOccasions, occasionLine, occasionText, type Errors, type Form, type StepId, type Ticks } from "@/lib/orderForm";
 import { normalisePhone } from "@/lib/phone";
 import { countAnimals } from "@/lib/plural";
-import type { MsgLine } from "@/lib/whatsapp";
+import { ITEMS_TOTAL_LABEL, itemsTotal, type MsgLine } from "@/lib/whatsapp";
+import { formatKes } from "@/lib/pricing";
 import { sizeWord } from "@/lib/sizes";
 import { Button } from "../Button";
 import { CheckboxField, TextareaField, TextField } from "../Form";
@@ -57,9 +58,9 @@ export function StepReview({ form, set, errors, lines, skipGift, skipAbout, tick
 }) {
   const ph = normalisePhone(form.phone);
   const rp = normalisePhone(form.recipientPhone);
-  const where = form.fulfilment === "pickup" ? "Pickup. We confirm the pickup point on WhatsApp."
+  const where = form.fulfilment === "pickup" ? "Collect it. We agree the place and time on WhatsApp."
     : form.fulfilment === "collect" ? "Someone else will collect it. We confirm who and where on WhatsApp."
-    : form.fulfilment === "abroad" ? `Abroad (to be confirmed): ${form.fulfilmentOther}`
+    : form.fulfilment === "abroad" ? `Outside Kenya (to be confirmed): ${form.fulfilmentOther}`
     : form.fulfilment === "other" ? `Other: ${form.fulfilmentOther}`
     : form.fulfilment === "nairobi" ? `Nairobi, ${form.area === OTHER_AREA ? form.areaOther : form.area}. ${form.landmark}`
     : `${form.fulfilment === "courier" ? "Courier or bus parcel service: " : ""}${form.town}, ${form.county} county${form.landmark ? `. ${form.landmark}` : ""}`;
@@ -73,8 +74,15 @@ export function StepReview({ form, set, errors, lines, skipGift, skipAbout, tick
   return (
     <div className="grid grid-cols-[minmax(0,1fr)] gap-2.5">
       <Block title="Items" link="/cart">
-        {lines.map((l) => <p key={l.sku}><span className="font-semibold">{l.qty} x {l.name}</span>, {l.colourLabel}, {sizeWord(l.size)}{l.note ? <span className="text-stone">. Note: {l.note}</span> : null}</p>)}
-        <p className="text-[.8125rem] text-stone">{countAnimals(count)}. Prices and delivery are confirmed on WhatsApp.</p>
+        {lines.map((l) => (
+          <p key={l.sku}>
+            <span className="font-semibold">{l.qty} x {l.name}</span>, {l.colourLabel}, {sizeWord(l.size)}
+            {typeof l.totalKes === "number" && typeof l.unitKes === "number" ? <span data-testid="review-line-price">, {formatKes(l.unitKes)} each, <span className="price">{formatKes(l.totalKes)}</span></span> : null}
+            {l.note ? <span className="text-stone">. Note: {l.note}</span> : null}
+          </p>
+        ))}
+        {itemsTotal(lines).any ? <p data-testid="review-items-total" className="font-semibold">{itemsTotal(lines).all ? ITEMS_TOTAL_LABEL : "Items total, priced items only (delivery not included)"}: <span className="price">{formatKes(itemsTotal(lines).totalKes)}</span></p> : null}
+        <p className="text-[.8125rem] text-stone">{countAnimals(count)}. {itemsTotal(lines).any ? "Delivery to be confirmed on WhatsApp." : "Delivery is confirmed on WhatsApp."}</p>
       </Block>
       <Block title="Who is ordering" step="who" onEdit={onEdit}><p>{customerTypesLabel(form.customerTypes, form.customerOther)}</p></Block>
       <Block title="Your details" step="details" onEdit={onEdit}>
@@ -175,7 +183,7 @@ export function StepReview({ form, set, errors, lines, skipGift, skipAbout, tick
           <span role="status" aria-live="polite" className="text-[.8125rem] text-olive-deep">{copied}</span>
         </div>
       </div>
-      <p className="text-[.8125rem] text-stone">Nothing is charged here. We reply on WhatsApp to confirm items, price and delivery, and to arrange payment with you there. Details are confirmed after you send.</p>
+      <p className="text-[.8125rem] text-stone">Nothing is charged here. We reply on WhatsApp to confirm items and delivery, and to arrange payment with you there. Details are confirmed after you send.</p>
     </div>
   );
 }

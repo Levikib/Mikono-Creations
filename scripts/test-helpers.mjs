@@ -24,11 +24,12 @@ const t = (name, fn) => { fn(); pass++; console.log(`ok  ${name}`); };
 const animals = helperAnimals();
 const bySlug = (s) => animals.find((a) => a.slug === s);
 
-t("pool has every catalogue product, wall art, dolls and bags included", () => {
-  assert.ok(animals.length >= 30, String(animals.length));
-  assert.equal(animals.length, C.allProducts().filter((p) => p.colourways.length > 0).length);
-  for (const k of ["wall", "dolls", "air", "sea", "pets", "safari"]) assert.ok(animals.some((a) => a.group === k), `group ${k}`);
-  for (const slug of ["unicorn-wall-head", "doll", "dress-doll", "lion-head-handbag", "secretary-bird-wall-head"]) assert.ok(bySlug(slug), slug);
+t("pool has every catalogue product except wall art (one fixed size and price), dolls and bags included", () => {
+  assert.ok(animals.length >= 20, String(animals.length));
+  assert.equal(animals.length, C.allProducts().filter((p) => p.colourways.length > 0 && p.category !== "wall-art").length);
+  assert.ok(!animals.some((a) => a.group === "wall"), "no wall art in the helpers");
+  for (const k of ["dolls", "air", "sea", "pets", "safari"]) assert.ok(animals.some((a) => a.group === k), `group ${k}`);
+  for (const slug of ["doll", "dress-doll", "lion-head-handbag", "pig", "cow", "duck"]) assert.ok(bySlug(slug), slug);
   assert.ok(animals.every((a) => a.colours.length > 0 && a.colours.every((c) => c.image.src.startsWith("/media/"))));
 });
 t("safari animals come first", () => {
@@ -122,9 +123,9 @@ t("mood swatch pairs exist in the catalogue", () => {
 });
 t("gift finder offers broad occasions, every kind of product, and Other with free text", () => {
   for (const v of ["birthday", "baby-shower", "naming-ceremony", "wedding", "engagement", "cultural-ceremony", "graduation", "new-home", "christmas", "easter", "eid", "diwali", "mothers-day", "fathers-day", "valentines", "anniversary", "retirement", "get-well", "sympathy", "thank-you", "school-event", "corporate-event", "fundraiser", "madaraka-day", "mashujaa-day", "jamhuri-day", "just-because", "other"]) assert.ok(D.OCCASIONS.some((o) => o.value === v), v);
-  for (const v of ["safari", "pets", "sea", "air", "wall", "dolls", "more", "surprise", "other"]) assert.ok(D.KINDS.some((o) => o.value === v), v);
+  for (const v of ["safari", "pets", "sea", "air", "dolls", "more", "surprise", "other"]) assert.ok(D.KINDS.some((o) => o.value === v), v);
   for (const list of [D.WHO, D.OCCASIONS, D.KINDS, D.SIZE_FEEL, D.MOODS]) assert.ok(list.some((o) => (o.value ?? o) === "other"));
-  for (const k of ["wall", "dolls"]) assert.equal(G.recommend(animals, { kind: k }).filter((p) => p.animal.group === k).length, Math.min(3, animals.filter((a) => a.group === k).length), k);
+  for (const k of ["dolls"]) assert.equal(G.recommend(animals, { kind: k }).filter((p) => p.animal.group === k).length, Math.min(3, animals.filter((a) => a.group === k).length), k);
   assert.ok(G.recommend(animals, { kind: ["other"], mood: ["other"], size: ["other"] }).length === 3, "Other alone still gives picks");
   assert.ok(!/parent/i.test(JSON.stringify(D.WHO)));
 });
@@ -244,7 +245,7 @@ t("picks message contains the picks and no names", () => {
   assert.equal(text.split("\n").filter((r) => /^\d\. /.test(r)).length, 3);
 });
 t("ask message is plain", () => {
-  assert.equal(M.buildAskMessage("Giraffe", "Orange", "M"), "Hello Mikono Creations, I am interested in the giraffe (orange, size medium). Can you tell me the price and availability?");
+  assert.equal(M.buildAskMessage("Giraffe", "Orange", "M"), "Hello Mikono Creations, I am interested in the giraffe (orange, size medium). The price is KES 2,000 on the site. Can you confirm availability and the delivery cost?");
 });
 
 

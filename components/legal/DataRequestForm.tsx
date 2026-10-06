@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { whatsappUrl } from "@/lib/env";
-import { PHONE_DIGITS } from "@/lib/site";
+import { mailtoLink, PHONE_DIGITS } from "@/lib/site";
 
 const OTHER = "Other, tell us";
 const TYPES = ["Access (see my data)", "Correct my data", "Delete my data", "Object to a use of my data", "Restrict a use of my data", "Move my data to another provider", "Withdraw a consent", OTHER];
@@ -32,7 +32,7 @@ export function DataRequestForm() {
     "Please do not ask me for an ID document. I have not included a child's name, school or age.",
   ].filter(Boolean).join("\n");
   const wa = whatsappUrl(message) ?? `https://wa.me/${PHONE_DIGITS}?text=${encodeURIComponent(message)}`;
-  const mail = `mailto:?subject=${encodeURIComponent("Data request")}&body=${encodeURIComponent(message)}`;
+  const mail = mailtoLink("Data request", message);
   return (
     <section id="request-form" aria-labelledby="request-form-h">
       <h2 id="request-form-h">Make a request</h2>

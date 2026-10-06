@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const dataRequest = defineDoc({
@@ -23,7 +24,7 @@ export const dataRequest = defineDoc({
       "Withdraw consent: take back a tick you gave for messages, analytics, ads or reminders (within 2 working days).",
     ]),
     sec("how", "How to ask", [
-      "Fill in the request form below and send it by WhatsApp to +254 724 592 115 or by email to [PRIVACY EMAIL]. You may also just write to us in your own words. There is no charge.",
+      "Fill in the request form below and send it by WhatsApp to +254 724 592 115 or by email to " + CONTACT_EMAIL + ". You may also just write to us in your own words. There is no charge.",
     ]),
     sec("verify", "Proving it is you", [
       "To protect your data we confirm it is you. We usually reply to the phone number or email you gave us, or ask for your order reference and one more detail. We will not ask you for a copy of your ID.",

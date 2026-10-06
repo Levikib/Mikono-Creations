@@ -8,7 +8,8 @@ interface Cat {
   products: CartProduct[];
   rescue: RescueCard[];
   bySlug: (slug: string) => CartProduct | undefined;
-  priceBySlug: Record<string, number | null>;
+  /** Retail price of one piece in KES by slug and size, or null. */
+  priceFor: (slug: string, size: string) => number | null;
   /** The catalogue entry for a line, or null when the animal, colour or size no longer exists. */
   resolve: (l: Pick<CartLine, "slug" | "colourKey" | "size">) => { product: CartProduct; colour: CartProduct["colours"][number] } | null;
 }
@@ -21,7 +22,7 @@ export function CatalogueProvider({ products, rescue = [], children }: { product
     return {
       products, rescue,
       bySlug: (s) => map.get(s),
-      priceBySlug: Object.fromEntries(products.map((p) => [p.slug, p.priceKes])),
+      priceFor: (slug, size) => map.get(slug)?.sizePrices?.[size] ?? null,
       resolve: (l) => {
         const product = map.get(l.slug);
         const colour = l.colourKey === ASK_COLOUR_KEY ? (product?.colourAsk ? product.colours[0] : undefined) : product?.colours.find((c) => c.key === l.colourKey);

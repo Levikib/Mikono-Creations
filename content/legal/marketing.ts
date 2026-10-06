@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const marketingTerms = defineDoc({
@@ -29,7 +30,7 @@ export const marketingTerms = defineDoc({
       "If you tick this box we remind you about a gift occasion you choose, using the day and month only, about 3 weeks before. We do not ask who it is for.",
     ]),
     sec("stop", "Stopping messages", [
-      "Reply STOP to any WhatsApp message, click unsubscribe in any email, use the Data Request page, or contact [PRIVACY EMAIL]. We stop within 24 hours and keep your number on a list so we do not message you again. Objecting to marketing is absolute and needs no reason.",
+      "Reply STOP to any WhatsApp message, click unsubscribe in any email, use the Data Request page, or contact " + CONTACT_EMAIL + ". We stop within 24 hours and keep your number on a list so we do not message you again. Objecting to marketing is absolute and needs no reason.",
     ]),
     sec("when", "When we send", [
       "We send marketing between 7 am and 7 pm East Africa Time and no more often than we told you.",

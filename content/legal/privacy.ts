@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const privacyPolicy = defineDoc({
@@ -18,8 +19,8 @@ export const privacyPolicy = defineDoc({
   ],
   sections: [
     sec("who", "Who we are", [
-      "Mikono Creations, a business registered in Kenya (registration number [REGISTRATION NUMBER]), of [PHYSICAL ADDRESS], Nairobi, Kenya, is the data controller for the personal data described here (\"Mikono\", \"we\"). Our registration with the Office of the Data Protection Commissioner is number [ODPC REGISTRATION NUMBER].",
-      "Our Privacy Contact is [PRIVACY CONTACT NAME]. Email [PRIVACY EMAIL]. Phone or WhatsApp +254 724 592 115.",
+      "Mikono Creations is a business in Kenya, run by women across the country. We do not have a physical shop. We work online and by WhatsApp. Mikono Creations is the data controller for the personal data described here (\"Mikono\", \"we\"). Our registration with the Office of the Data Protection Commissioner is number [ODPC REGISTRATION NUMBER].",
+      "Our Privacy Contact is [PRIVACY CONTACT NAME]. Email " + CONTACT_EMAIL + " (the general business address). Phone or WhatsApp +254 724 592 115.",
     ]),
     sec("short", "In short", [
       "We keep your order details so we can make, deliver and support your order. Marketing messages, analytics and ads stay off unless you say yes. This site is for adults. We do not want children's names, ages, schools or photos.",

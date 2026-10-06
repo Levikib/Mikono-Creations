@@ -6,7 +6,8 @@ import { AddToOrder } from "./AddToOrder";
 import { buttonClass } from "./Button";
 import { Icon } from "./Icon";
 import { QuantityStepper } from "./QuantityStepper";
-import { sizeWord } from "@/lib/sizes";
+import { sizeWord, WALL_SIZE_NOTE } from "@/lib/sizes";
+import { formatKes } from "@/lib/pricing";
 import { whatsappUrl } from "@/lib/env";
 import { ASK_COLOUR_KEY, ASK_COLOUR_LABEL, MAX_QTY_PER_LINE } from "@/lib/site";
 import { track } from "@/lib/track";
@@ -32,7 +33,10 @@ export type PurchaseProps = {
   /** The colourway the page opens on. */
   openOn: string;
   sizes: readonly string[];
-  priceLabel: string;
+  /** Retail price in KES for each size, or null when the piece has no price (shows the price label instead). */
+  sizePrices?: Record<string, number> | null;
+  /** Shown only when there is no price per size. */
+  priceLabel?: string;
   availability: string;
   /** Only group photos exist: no colour selector, colour is confirmed on WhatsApp. */
   colourAsk?: boolean;
@@ -54,7 +58,9 @@ export function ProductPurchase(p: PurchaseProps) {
   const single = p.colours.length === 1;
   const [shownKey, setShownKey] = useState(p.openOn);
   const [chosenKey, setChosenKey] = useState<string | null>(single ? p.colours[0].key : null);
-  const [size, setSize] = useState<string | null>(null);
+  // Wall art has one size, so it opens already chosen.
+  const oneSize = p.sizes.length === 1;
+  const [size, setSize] = useState<string | null>(oneSize ? p.sizes[0] : null);
   const [qty, setQty] = useState(1);
   const [photo, setPhoto] = useState(0);
   const [nudge, setNudge] = useState(false);
@@ -72,6 +78,8 @@ export function ProductPurchase(p: PurchaseProps) {
   // The frame follows the lead photo's shape (kept between 4:5 and 5:4) so no mat shows beside it. It stays fixed while photos change.
   const lead = items[0];
   const frameRatio = lead ? Math.min(1.25, Math.max(0.8, lead.width / lead.height)) : 0.8;
+  const unitKes = size && p.sizePrices ? p.sizePrices[size] ?? null : null;
+  const fromKes = p.sizePrices ? Math.min(...Object.values(p.sizePrices)) : null;
   const sku = chosen && size ? p.skuFor[`${chosen.key}|${size}`] ?? null : null;
 
   const missing = ask ? (size ? null : "size") : !chosen ? (size ? "colour" : "colour and size") : !size ? "size" : null;
@@ -156,7 +164,14 @@ export function ProductPurchase(p: PurchaseProps) {
         <h1 className="text-display-lg">{p.name}</h1>
         <p className="mt-0.5 text-[.8125rem] text-stone">{ask ? "Colours vary" : (chosen ?? shown).title}</p>
         {current?.kind === "group" ? <p className="mt-0.5 text-[.75rem] text-stone md:hidden">Photo shown with other colours.</p> : null}
-        <p className="price mt-1.5 text-lg text-terracotta-deep">{p.priceLabel}</p>
+        <p data-testid="product-price" data-size={size ?? ""} data-price={unitKes ?? ""} aria-live="polite" className="price mt-1.5 text-lg text-terracotta-deep">
+          {unitKes !== null ? formatKes(unitKes) : fromKes !== null ? `From ${formatKes(fromKes)}` : p.priceLabel ?? "Ask on WhatsApp"}
+        </p>
+        {unitKes !== null || fromKes !== null ? (
+          <p data-testid="product-price-note" className="text-[.75rem] leading-snug text-stone">
+            {unitKes !== null ? (qty > 1 ? `${qty} x ${formatKes(unitKes)} = ${formatKes(unitKes * qty)}. ` : "") : "The price depends on the size. "}Delivery is not included.
+          </p>
+        ) : null}
         <p className="mt-0.5 flex items-center gap-1.5 text-[.8125rem] text-charcoal"><Icon name="info" size={16} className="text-baobab" />{p.availability}</p>
       </div>
 
@@ -206,20 +221,30 @@ export function ProductPurchase(p: PurchaseProps) {
             {p.sizes.map((s) => (
               <label key={s} className="relative cursor-pointer">
                 <input type="radio" name={`${uid}-size`} value={s} checked={size === s} onChange={() => pickSize(s)} className="peer sr-only" />
-                <span className="hit-area flex h-8 min-w-10 items-center justify-center gap-0.5 rounded-full bg-oat px-3 text-sm font-semibold text-baobab shadow-clay-sm ring-2 ring-transparent peer-checked:bg-baobab peer-checked:text-bone peer-focus-visible:outline-[3px] peer-focus-visible:outline-offset-3 peer-focus-visible:outline-focus">
+                <span className="hit-area flex min-h-11 min-w-10 flex-col items-center justify-center rounded-[18px] bg-oat px-3 py-0.5 text-sm font-semibold leading-tight text-baobab shadow-clay-sm ring-2 ring-transparent peer-checked:bg-baobab peer-checked:text-bone peer-focus-visible:outline-[3px] peer-focus-visible:outline-offset-3 peer-focus-visible:outline-focus">
                   {sizeWord(s)}
+                  {p.sizePrices?.[s] ? <span className="price text-[.6875rem] font-medium opacity-90">{formatKes(p.sizePrices[s])}</span> : null}
                 </span>
                 {size === s ? <Icon name="check" size={16} className="pointer-events-none absolute -right-1 -top-1 rounded-full bg-terracotta-deep p-0.5 text-bone" /> : null}
               </label>
             ))}
           </div>
-          <p className="mt-2 text-[.8125rem] text-stone">
-            Sizes are relative: Small is the smallest of this {noun} and Extra large the largest. We do not list centimetres.{" "}
-            <Link href="/size-guide" className="hit font-semibold text-terracotta-deep underline underline-offset-4">Size guide</Link>
-          </p>
-          <p className="mt-1">
-            <Link prefetch={false} href="/size-finder?src=product" data-track="product_size_finder" className="inline-flex min-h-11 items-center gap-1 font-semibold text-terracotta-deep underline underline-offset-4">Find the right size<Icon name="arrow" size={16} /></Link>
-          </p>
+          {oneSize ? (
+            <p className="mt-2 text-[.8125rem] text-stone">
+              {WALL_SIZE_NOTE} We do not list centimetres.{" "}
+              <Link href="/size-guide" className="hit font-semibold text-terracotta-deep underline underline-offset-4">Size guide</Link>
+            </p>
+          ) : (
+            <>
+              <p className="mt-2 text-[.8125rem] text-stone">
+                Sizes are relative: Small is the smallest of this {noun} and Extra large the largest. We do not list centimetres.{" "}
+                <Link href="/size-guide" className="hit font-semibold text-terracotta-deep underline underline-offset-4">Size guide</Link>
+              </p>
+              <p className="mt-1">
+                <Link prefetch={false} href="/size-finder?src=product" data-track="product_size_finder" className="inline-flex min-h-11 items-center gap-1 font-semibold text-terracotta-deep underline underline-offset-4">Find the right size<Icon name="arrow" size={16} /></Link>
+              </p>
+            </>
+          )}
         </fieldset>
 
         <div className="mt-2">

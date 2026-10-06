@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const accessibilityStatement = defineDoc({
@@ -23,7 +24,7 @@ export const accessibilityStatement = defineDoc({
       "If the site is hard for you to use, you can order or ask anything by WhatsApp or phone on +254 724 592 115, and we will help you in plain words.",
     ]),
     sec("feedback", "Tell us", [
-      "If you find a barrier, tell us at [ACCESSIBILITY EMAIL] or on WhatsApp. We reply within 5 working days and will say what we can do and by when.",
+      "If you find a barrier, tell us at " + CONTACT_EMAIL + " or on WhatsApp. We reply within 5 working days and will say what we can do and by when.",
     ]),
   ],
 });

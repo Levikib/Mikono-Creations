@@ -10,6 +10,7 @@ import { useCart, useHydrated } from "@/lib/cart";
 import { showToast } from "@/lib/toast";
 import { copyText, generateRef, sourceFromAttribution } from "@/lib/whatsapp";
 import { FAMILY_MAX_LINES, PRICE_NOTE } from "@/data/helpers";
+import { formatKes, unitPriceKes } from "@/lib/pricing";
 import { addAnimal, duplicateLine, skuFor, decodeHash, encodeHash, summaryText, totalAnimals, updateLine } from "@/lib/helpers/family";
 import { buildShareMessage, familyMsgLines, planFamilySend } from "@/lib/helpers/message";
 import { readPersisted, writePersisted } from "@/lib/helpers/store";
@@ -183,6 +184,7 @@ export function FamilyBuilder({ animals }: { animals: HelperAnimal[] }) {
           {full ? <p className="mkh-muted mt-2 text-[.9375rem]">This list is full. For a bigger set, <Link href="/wholesale" className="underline">send a wholesale request</Link> or tell us on WhatsApp.</p> : null}
 
           <div className="mt-4 grid gap-2">
+            {hasLines ? <p data-testid="family-total" className="font-display text-[1rem] font-bold">Items total (delivery not included): <span className="price">{formatKes(lines.reduce((n, l) => n + (unitPriceKes(l.slug, l.size) ?? 0) * l.qty, 0))}</span></p> : null}
             <p className="mkh-muted text-[.9375rem] leading-snug">{PRICE_NOTE}</p>
             <a href={`https://wa.me/${env.whatsappNumber}`} target="_blank" rel="noopener noreferrer" onClick={onSend} aria-disabled={!hasLines}
               className={buttonClass("whatsapp", "large", "w-full aria-disabled:pointer-events-none")}><Icon name="whatsapp" size={22} />Send my family on WhatsApp</a>

@@ -1,6 +1,7 @@
 import { FxPage } from "@/components/fx/FxPage";
 import { Band } from "@/components/fx/Band";
 import { Container } from "@/components/Container";
+import { PriceLadderNote } from "@/components/PriceLadderNote";
 import { PlainHero, Taped } from "@/components/Scrap";
 import { CardGrid, LinkCard } from "@/components/card/Card";
 import { ButtonLink } from "@/components/Button";
@@ -44,6 +45,7 @@ export default function StockistsPage() {
           <div className="grid gap-4">
             <h2 className="text-display-md">Run a shop and want to stock us?</h2>
             <p className="text-[.9375rem] leading-[1.7]">Send a short wholesale request and a person replies on WhatsApp. You can also call or message {business.phoneDisplay}, our official business number.</p>
+            <PriceLadderNote className="text-[.9375rem] leading-[1.7]" />
             <div className="flex flex-col gap-3 sm:flex-row">
               <ButtonLink href="/wholesale" variant="primary">Wholesale request</ButtonLink>
               <ButtonLink href="/contact" variant="ghost">Contact</ButtonLink>

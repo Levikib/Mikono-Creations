@@ -11,7 +11,7 @@ export type ProductCardData = {
   /** Colours count, for example "4 colours". */
   meta: string;
   sizes: readonly string[];
-  /** KES, whole shillings. Null or undefined shows the "Ask for price" action. */
+  /** KES, whole shillings. Null or undefined shows an "Ask on WhatsApp" action. */
   priceKes?: number | null;
   /** WhatsApp link with the price question filled in. Falls back to the product page. */
   askHref?: string | null;
@@ -37,8 +37,8 @@ export function ProductCard({ item, sizes, eager, tone = "amber" }: { item: Prod
   return (
     <PhotoCard tone={tone} href={item.href} title={item.title} tag={item.tag} image={item.image} eager={eager} sizes={sizes} peek={item.peek}
       meta={sizeRange(item.sizes)}
-      price={item.priceKes ? `From ${formatKes(item.priceKes)}` : undefined}
-      action={item.priceKes ? undefined : { label: "Ask for price", href: item.askHref ?? item.href }} />
+      price={item.priceKes ? `${item.sizes.length > 1 ? "From " : ""}${formatKes(item.priceKes)}` : undefined}
+      action={item.priceKes ? undefined : { label: "Ask on WhatsApp", href: item.askHref ?? item.href }} />
   );
 }
 

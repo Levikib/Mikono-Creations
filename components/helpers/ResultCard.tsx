@@ -3,6 +3,7 @@ import { buttonClass } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimalPhoto } from "./AnimalPhoto";
 import { sizeWord } from "@/data/studio/labels";
+import { formatKes, unitPriceKes } from "@/lib/pricing";
 import type { GiftPick } from "@/lib/helpers/types";
 
 /**
@@ -25,6 +26,7 @@ export function ResultCard({ pick, rank, askHref, customHref, onAdd, onAsk, onCu
           <p className="mt-1.5 flex flex-wrap gap-1.5">
             <span className="mkh-pill">{colour.label}</span>
             <span className="mkh-pill">{sizeWord(size)}</span>
+            {unitPriceKes(animal.slug, size) !== null ? <span className="mkh-pill price" data-testid="result-price">{formatKes(unitPriceKes(animal.slug, size) as number)}</span> : null}
           </p>
         </div>
       </div>

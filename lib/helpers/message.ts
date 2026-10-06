@@ -2,6 +2,7 @@
 // PRICES_SENTENCE, URL_BUDGET). buildOrderMessage itself is not reused because it needs the customer and delivery
 // details the order form collects, and these tools do not ask for them. The ITEMS block uses the same line format.
 import { PRICES_SENTENCE, URL_BUDGET, buildWaUrl, clean } from "@/lib/whatsapp";
+import { formatKes, unitPriceKes } from "@/lib/pricing";
 import { sizeWord } from "../../data/studio/labels";
 import { skuFor } from "./family";
 import type { FamilyLine, HelperAnimal, GiftPick } from "./types";
@@ -58,7 +59,7 @@ export function buildShareMessage(shareUrl: string, summary: string): string {
 
 /** Question about one animal. No quiz answers are included. */
 export function buildAskMessage(name: string, colourLabel: string, size: string): string {
-  return `Hello Mikono Creations, I am interested in the ${name.toLowerCase()} (${colourLabel.toLowerCase()}, size ${sizeWord(size).toLowerCase()}). Can you tell me the price and availability?`;
+  return `Hello Mikono Creations, I am interested in the ${name.toLowerCase()} (${colourLabel.toLowerCase()}, size ${sizeWord(size).toLowerCase()}). The price is ${formatKes(unitPriceKes("", size) ?? 0)} on the site. Can you confirm availability and the delivery cost?`;
 }
 
 const occ = (v?: string) => (v ?? "").replace(/-/g, " ");
@@ -89,6 +90,6 @@ export function buildGroupsMessage(groups: PicksGroup[]): string {
     if (bits.length) out.push(bits.join(". ") + ".");
     g.picks.forEach((p, i) => out.push(`${i + 1}. ${p.animal.name}, ${p.colour.label}, size ${sizeWord(p.size).toLowerCase()}`));
   });
-  out.push("", "Can you tell me the price and availability?");
+  out.push("", "Prices are on the site by size. Can you confirm availability and the delivery cost?");
   return out.join("\n");
 }

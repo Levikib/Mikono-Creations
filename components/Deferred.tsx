@@ -37,7 +37,7 @@ export function Deferred() {
     const t = window.setTimeout(() => { navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(() => {}); }, 12000);
     return () => window.clearTimeout(t);
   }, []);
-  // One delegated listener for the "Ask for price" chips on product cards (server rendered, so they carry no handlers of their own).
+  // One delegated listener for the "Ask on WhatsApp" chips on product cards (server rendered, so they carry no handlers of their own).
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const t = e.target as Element | null;

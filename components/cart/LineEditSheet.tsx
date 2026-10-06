@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { lineName, lineSku, useCart, type CartLine } from "@/lib/cart";
 import type { CartProduct } from "@/lib/cartCatalogue";
-import { sizeWord } from "@/lib/sizes";
+import { sizeWord, WALL_SIZE_NOTE } from "@/lib/sizes";
 import { ASK_COLOUR_KEY, ASK_COLOUR_LABEL } from "@/lib/site";
 import { cx } from "@/lib/cx";
 import { Button } from "../Button";
@@ -84,7 +84,7 @@ export function LineEditSheet({ line, product, mode = "edit", onClose }: { line:
             ))}
           </div>
           <p className="mt-1.5 text-[.8125rem] text-stone">
-            Small is the smallest and Extra large the largest. We do not list centimetres.{" "}
+            {product.sizes.length === 1 ? WALL_SIZE_NOTE : "Small is the smallest and Extra large the largest."} We do not list centimetres.{" "}
             <Link href="/size-guide" className="hit font-semibold text-terracotta-deep underline underline-offset-4">Size guide</Link>
             {" "}<Link prefetch={false} href="/size-finder?src=cart" className="hit font-semibold text-terracotta-deep underline underline-offset-4">Find the right size</Link>
           </p>

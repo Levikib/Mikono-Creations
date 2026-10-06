@@ -6,24 +6,24 @@ export const deliveryPolicy = defineDoc({
   title: "Delivery Policy",
   route: "/delivery",
   acceptedAt: ["checkout"],
-  summary: "How delivery and pickup work, who carries the risk, and what happens if a delivery fails or something arrives damaged. Fees and times are agreed on WhatsApp.",
+  summary: "We deliver anywhere in Kenya. This page says how delivery works, who carries the risk, and what happens if a delivery fails or something arrives damaged. The cost and time are agreed on WhatsApp for each order.",
   advocateNotes: [
     "[V] CPA s.21: a consumer may cancel if delivery is more than 30 days after the stated delivery date (or 30 days after the agreement if no date). Drafted in.",
     "[U] Sale of Goods Act ss.20 and 22 on property and risk; this policy passes risk on delivery or collection.",
-    "Replaces the live /delivery page text 'Not confirmed yet' once the owner supplies zones, fees and times (data/deliveryAreas.ts).",
+    "Owner ruling 2026-10-05: Mikono delivers anywhere in Kenya and has no shop, so there is no fixed pickup place. Fees and zones are not supplied yet, so cost and time are confirmed on WhatsApp for each order. Add fees to data/deliveryAreas.ts when they exist.",
   ],
   sections: [
     sec("how", "How delivery works", [
-      "When you send your order you choose pickup, delivery in a Nairobi area, or delivery to another Kenyan town. A person at Mikono replies on WhatsApp to confirm what is available, the price, and how and when it can reach you. Nothing is sent until you agree.",
+      "We deliver anywhere in Kenya, because our makers are all over the country. When you send your order you tell us where it should go: a Nairobi area, another Kenyan town, a courier or bus parcel service you choose, or a place we agree for you to collect it. A person at Mikono replies on WhatsApp to confirm the price, the delivery cost, and how and when it can reach you. Nothing is sent until you agree.",
     ]),
-    sec("zones", "Areas and fees", [
-      "Delivery areas and fees are: [DELIVERY ZONES AND FEES]. The fee for your order is stated in the Confirmation before you agree to it. We deliver to Kenya only unless we tell you otherwise: [INTERNATIONAL DELIVERY STATEMENT].",
+    sec("zones", "Cost and areas", [
+      "The delivery cost depends on where the order is going. It is not included in the price of the animals. We confirm it on WhatsApp for each order, and it is stated in the Confirmation before you agree to it. If you want an order sent outside Kenya, ask us and we will say what is possible.",
     ]),
     sec("times", "Delivery times", [
-      "Ready made items are usually delivered within [READY ITEM DELIVERY TIME] of your Confirmation and payment. Custom Pieces follow the lead time in the quote. Times are estimates. If we will miss a date we will tell you straight away. If delivery is more than 30 days after the date we gave you, you may cancel and be refunded for what has not been delivered.",
+      "We confirm the delivery time on WhatsApp for each order. Custom Pieces follow the lead time in the quote. Times are estimates. If we will miss a date we will tell you straight away. If delivery is more than 30 days after the date we gave you, you may cancel and be refunded for what has not been delivered.",
     ]),
-    sec("pickup", "Pickup", [
-      "Pickup is from [PICKUP LOCATION] at a time we agree on WhatsApp. Bring your order reference.",
+    sec("pickup", "Collecting an order", [
+      "We do not have a shop to collect from. If you would like to collect your order yourself, or send someone to collect it, we agree a meeting place and time on WhatsApp. Bring your order reference.",
     ]),
     sec("risk", "Risk and ownership", [
       "The goods are at our risk until they are delivered to you or collected. They are then at your risk. Ownership passes to you when we have received full payment.",

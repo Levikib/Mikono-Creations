@@ -5,7 +5,7 @@ import "./cards.css";
 import "./layout-fixes.css";
 import "@/components/fx/fx.css";
 import { display, sans, mono } from "@/lib/fonts";
-import { PHONE_E164, site } from "@/lib/site";
+import { CONTACT_EMAIL, PHONE_E164, site } from "@/lib/site";
 import { missingEnv, siteBaseUrl, whatsappUrl } from "@/lib/env";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -47,10 +47,10 @@ if (process.env.NODE_ENV !== "test") {
 
 const organizationLd = () => ({
   "@context": "https://schema.org", "@type": "Organization", name: site.name, url: siteBaseUrl(),
-  logo: `${siteBaseUrl()}/logo.png`, telephone: PHONE_E164, description: site.description,
+  logo: `${siteBaseUrl()}/logo.png`, telephone: PHONE_E164, email: CONTACT_EMAIL.toLowerCase(), description: site.description,
   foundingDate: String(site.founded), founder: { "@type": "Person", name: site.founder },
   sameAs: [site.facebook, site.instagram],
-  contactPoint: [{ "@type": "ContactPoint", telephone: PHONE_E164, contactType: "customer service", areaServed: "KE", availableLanguage: ["en", "sw"] }],
+  contactPoint: [{ "@type": "ContactPoint", telephone: PHONE_E164, email: CONTACT_EMAIL.toLowerCase(), contactType: "customer service", areaServed: "KE", availableLanguage: ["en", "sw"] }],
 });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

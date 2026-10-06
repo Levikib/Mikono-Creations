@@ -14,7 +14,7 @@ import { only, useQueryString, writeQuery } from "./filters/url";
 import "./filters/filters.css";
 
 /** What the client needs to filter: no photos or card copy, only the facets of each item in grid order. */
-export type FilterItem = { name: string; species: string; colours: string[]; sizes: string[]; several: boolean };
+export type FilterItem = { name: string; species: string; colours: string[]; sizes: string[]; several: boolean; /** Lowest retail price in KES, or null. */ from: number | null };
 export type FilterData = {
   base: string; unitPieces: boolean;
   species: { key: string; label: string }[]; colours: { key: string; label: string }[]; sizes: { key: string; label: string }[]; sizesDiffer: boolean;
@@ -22,6 +22,8 @@ export type FilterData = {
 };
 type Facets = { animal: string[]; colour: string[]; size: string[]; several: boolean; q: string; sort: string };
 const SORTS = [{ value: "featured", label: "Featured" }, { value: "az", label: "A to Z" }];
+const PRICE_SORTS = [{ value: "low", label: "Price: low to high" }, { value: "high", label: "Price: high to low" }];
+const SORT_VALUES = ["featured", "az", "low", "high"];
 const EMPTY: Facets = { animal: [], colour: [], size: [], several: false, q: "", sort: "featured" };
 
 const matches = (it: FilterItem, f: Facets) => {
@@ -32,7 +34,7 @@ const matches = (it: FilterItem, f: Facets) => {
     && (!f.several || it.several)
     && f.q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w));
 };
-const save = (f: Facets) => writeQuery({ animal: f.animal, colour: f.colour, size: f.size, several: f.several ? "1" : "", q: f.q, sort: f.sort === "az" ? "az" : "" });
+const save = (f: Facets) => writeQuery({ animal: f.animal, colour: f.colour, size: f.size, several: f.several ? "1" : "", q: f.q, sort: f.sort === "featured" ? "" : f.sort });
 
 /**
  * The shop filter: search, sort, a sticky slim bar, a bottom sheet on phones and a sticky sidebar on desktop, all fed by the same groups.
@@ -48,7 +50,7 @@ export function ShopFilters({ data, children }: { data: FilterData; children: Re
     size: only(sp.getAll("size"), data.sizes.map((s) => s.key)),
     several: sp.get("several") === "1",
     q: sp.get("q") ?? "",
-    sort: sp.get("sort") === "az" ? "az" : "featured",
+    sort: SORT_VALUES.includes(sp.get("sort") ?? "") ? (sp.get("sort") as string) : "featured",
   };
   const [sheet, setSheet] = useState(false);
   const { items } = data;
@@ -77,7 +79,20 @@ export function ShopFilters({ data, children }: { data: FilterData; children: Re
     const lis = Array.from(ul.children) as HTMLElement[];
     lis.forEach((li, i) => { if (li.dataset.i === undefined) li.dataset.i = String(i); });
     const idx = (li: HTMLElement) => Number(li.dataset.i);
-    const ordered = [...lis].sort((a, b) => (f.sort === "az" ? items[idx(a)].name.localeCompare(items[idx(b)].name) : 0) || idx(a) - idx(b));
+    // Pieces without a price go last in both price orders.
+    const priceOf = (li: HTMLElement) => items[idx(li)].from ?? Number.POSITIVE_INFINITY;
+    const by = (a: HTMLElement, b: HTMLElement) => {
+      if (f.sort === "az") return items[idx(a)].name.localeCompare(items[idx(b)].name);
+      if (f.sort === "low" || f.sort === "high") {
+        const pa = priceOf(a), pb = priceOf(b);
+        if (pa === pb) return 0;
+        if (pa === Number.POSITIVE_INFINITY) return 1;
+        if (pb === Number.POSITIVE_INFINITY) return -1;
+        return f.sort === "low" ? pa - pb : pb - pa;
+      }
+      return 0;
+    };
+    const ordered = [...lis].sort((a, b) => by(a, b) || idx(a) - idx(b));
     if (ordered.some((li, i) => li !== lis[i])) ul.append(...ordered);
     const fam = f.colour[0];
     lis.forEach((li) => {
@@ -130,7 +145,7 @@ export function ShopFilters({ data, children }: { data: FilterData; children: Re
             activeCount={active.filter((a) => a.key !== "q").length} onOpen={() => setSheet(true)}
             search={<SearchBox label="Find an animal by name" value={f.q} onChange={(q) => save({ ...f, q })} />}
             count={<ResultCount shown={results} total={total} one={noun[0]} many={noun[1]} />}
-            sort={<SortSelect value={f.sort} options={SORTS} onChange={(sort) => save({ ...f, sort })} />}
+            sort={<SortSelect value={f.sort} options={items.some((it) => it.from !== null) ? [...SORTS, ...PRICE_SORTS] : SORTS} onChange={(sort) => save({ ...f, sort })} />}
           />
           <ActiveFilters sidebar items={active} onClear={clearAll} />
           {results === 0 ? (

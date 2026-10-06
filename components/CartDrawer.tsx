@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { pricesConfirmed } from "@/data/facts";
 import { useCart } from "@/lib/cart";
+import { formatKes, unitPriceKes } from "@/lib/pricing";
 import { track } from "@/lib/track";
 import { trackItem } from "@/lib/trackCart";
 import { countAnimals } from "@/lib/plural";
@@ -14,6 +15,8 @@ export function CartDrawer() {
   const { drawerOpen, closeDrawer, lines, count } = useCart();
   const ref = useRef<HTMLDialogElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
+  const prices = pricesConfirmed ? lines.map((l) => unitPriceKes(l.slug, l.size)) : [];
+  const itemsKes = prices.length && prices.every((p) => p !== null) ? lines.reduce((n, l, i) => n + (prices[i] as number) * l.qty, 0) : null;
 
   useEffect(() => {
     const d = ref.current;
@@ -21,7 +24,7 @@ export function CartDrawer() {
     if (drawerOpen && !d.open) {
       d.showModal();
       headingRef.current?.focus();
-      track("view_cart", { items: lines.map((l) => trackItem(l)), item_count: count, price_mode: pricesConfirmed ? "confirmed" : "ask", surface: "drawer" });
+      track("view_cart", { items: lines.map((l) => trackItem({ ...l, priceKes: unitPriceKes(l.slug, l.size) })), item_count: count, price_mode: pricesConfirmed ? "confirmed" : "ask", surface: "drawer" });
     }
     if (!drawerOpen && d.open) d.close();
     document.body.style.overflow = drawerOpen ? "hidden" : "";
@@ -52,14 +55,25 @@ export function CartDrawer() {
               <ButtonLink href="/shop" onClick={closeDrawer}>See the animals</ButtonLink>
             </div>
           ) : (
-            <ul className="grid gap-1.5">{lines.map((l) => <CartLineItem key={l.sku} line={l} variant="drawer" onNavigate={closeDrawer} />)}</ul>
+            <ul className="grid gap-1.5">
+              {lines.map((l) => {
+                const unit = pricesConfirmed ? unitPriceKes(l.slug, l.size) : null;
+                return <CartLineItem key={l.sku} line={l} variant="drawer" onNavigate={closeDrawer} edit={{ price: { unitKes: unit, totalKes: unit === null ? null : unit * l.qty } }} />;
+              })}
+            </ul>
           )}
           <QuotePrompt count={count} onNavigate={closeDrawer} className="my-2" />
         </div>
         {lines.length > 0 ? (
           <div className="shrink-0 border-t border-sand bg-bone p-3 pb-[max(.75rem,env(safe-area-inset-bottom))]">
+            {itemsKes !== null ? (
+              <p data-testid="drawer-items-total" className="mb-1 flex items-baseline justify-between gap-2 text-[.875rem] font-semibold">
+                <span>Items total <span className="text-[.8125rem] font-normal text-stone">(delivery not included)</span></span>
+                <span className="price tabular-nums">{formatKes(itemsKes)}</span>
+              </p>
+            ) : null}
             <p className="mb-2 text-[.8125rem] text-stone">
-              {pricesConfirmed ? "Prices and the total are on the order list page." : "Prices and delivery are confirmed with you on WhatsApp."} Nothing is charged here.
+              {pricesConfirmed ? "Items total is on the order list page. Delivery is not included and is confirmed on WhatsApp." : "Delivery is confirmed with you on WhatsApp."} Nothing is charged here.
             </p>
             <div className="grid grid-cols-2 gap-2">
               <ButtonLink href="/cart" variant="secondary" onClick={closeDrawer}>View order list</ButtonLink>

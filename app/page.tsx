@@ -30,7 +30,7 @@ const circleProduct: Record<CategoryKey, string> = {
 const herd = ["elephant", "zebra", "hippo", "monkey", "octopus", "dog"];
 
 const ways: { tone: Tone; icon: IconName; tag: string; num: string; title: string; text: string; facts: string[]; cta: string; href: string; feat?: boolean }[] = [
-  { tone: "amber", icon: "giraffe", tag: "Shop", num: "01", title: "Ready to go", text: "Pick an animal and a size from the shop, then ask for the price on WhatsApp.", facts: ["Small to Extra large", "Made in Nairobi"], cta: "Shop the animals", href: "/shop" },
+  { tone: "amber", icon: "giraffe", tag: "Shop", num: "01", title: "Ready to go", text: "Pick an animal and a size from the shop. Prices start at KES 1,500.", facts: ["Small to Extra large", "Made in Nairobi"], cta: "Shop the animals", href: "/shop" },
   { tone: "terracotta", icon: "hook", tag: "Custom", num: "02", title: "Make it yours", text: "Tell us the animal, colours and size you have in mind. A person replies on WhatsApp.", facts: ["Your colours", "Your size"], cta: "Start a custom order", href: "/custom", feat: true },
   { tone: "olive", icon: "people", tag: "Trade", num: "03", title: "For many", text: "Lodges, shops, schools and organisations can ask for a price list or a quote.", facts: ["Price list", "Sample pack"], cta: "Wholesale and groups", href: "/wholesale" },
 ];
@@ -70,7 +70,7 @@ export default function Home() {
             <p className="eyebrow">Mikono Creations</p>
             <h1 id="hero" className="text-display-xl">Crocheted animals, made by hand in Nairobi</h1>
             <p className="max-w-[46ch] text-base text-stone">
-              Safari and domestic animals crocheted from recycled acrylic yarn. Pick one, then ask for the price on WhatsApp.
+              Safari, farm and pet animals crocheted from recycled acrylic yarn. Prices start at KES 1,500, by size. Wall art is KES 8,000.
             </p>
             <div className="mt-1 grid grid-cols-2 gap-2 sm:flex">
               <ButtonLink href="/shop" size="large" className="!px-3 sm:!px-6">Shop the animals</ButtonLink>
@@ -101,7 +101,7 @@ export default function Home() {
 
       {/* ---- Categories ---- */}
       <Section compact labelledBy="cats" className="!pt-1">
-        <SectionHeader id="cats" title="Shop by kind of animal" ledeFrom="md" lede={`${count} crocheted pieces: safari, domestic and more animals, plus wall art and dolls.`} />
+        <SectionHeader id="cats" title="Shop by kind of animal" ledeFrom="md" lede={`${count} crocheted pieces: safari, farm and pet, and more animals, plus wall art and dolls.`} />
         <CategoryCircles items={categories.map((c) => {
           const h = heroImage(bySlug(circleProduct[c.key])!);
           return { label: c.label, href: `/shop/${c.slug}`, image: h ? { src: h.image.src, alt: "" } : undefined };

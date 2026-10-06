@@ -8,12 +8,12 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { ButtonLink } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { ContactForm } from "@/components/ContactForm";
-import { env, whatsappUrl } from "@/lib/env";
-import { PHONE_DISPLAY, PHONE_TEL, site } from "@/lib/site";
+import { whatsappUrl } from "@/lib/env";
+import { CONTACT_EMAIL, CONTACT_EMAIL_LINK, PHONE_DISPLAY, PHONE_TEL, site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Contact",
-  description: "Message Mikono Creations on WhatsApp, Instagram or Facebook.",
+  description: "Message Mikono Creations on WhatsApp, Instagram, Facebook or email.",
   path: "/contact",
 });
 
@@ -40,7 +40,7 @@ export default function ContactPage() {
           <ButtonLink href={PHONE_TEL} variant="ghost"><Icon name="phone" size={22} />Call {PHONE_DISPLAY}</ButtonLink>
           <ButtonLink href={site.instagram} external variant="ghost"><Icon name="instagram" size={22} />Instagram {site.handle}</ButtonLink>
           <ButtonLink href={site.facebook} external variant="ghost"><Icon name="facebook" size={22} />Facebook</ButtonLink>
-          {env.contactEmail ? <ButtonLink href={`mailto:${env.contactEmail}`} variant="ghost">Email {env.contactEmail}</ButtonLink> : null}
+          <ButtonLink href={CONTACT_EMAIL_LINK} variant="ghost">Email {CONTACT_EMAIL}</ButtonLink>
         </aside>
       </Container>
     </FxPage>

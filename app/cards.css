@@ -122,6 +122,14 @@ svg.i{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke
 .mk-card--photo .mk-foot .mk-title{grid-area:t;font:600 13px/1.2 var(--font-sans);letter-spacing:-.005em;-webkit-line-clamp:2;line-clamp:2;align-self:start}
 .mk-card--photo .mk-foot .mk-meta{grid-area:m;font-size:11px;font-family:var(--font-mono);letter-spacing:.02em;text-transform:uppercase}
 .mk-card--photo .mk-cta{grid-area:c;justify-self:end}
+/* A price is a label, not a control: the whole card stays one link. */
+.mk-card--photo span.mk-cta.price{pointer-events:none}
+/* Narrow photo cards (three across on a phone): a price pill takes the whole foot row and the size line steps aside, so "From KES 1,500" is never cut. */
+@container (max-width:175px){
+  .mk-card--photo .mk-foot:has(.mk-cta.price){grid-template-areas:"t t" "c c"}
+  .mk-card--photo .mk-foot:has(.mk-cta.price) .mk-meta{display:none}
+  .mk-card--photo .mk-cta.price{justify-self:stretch;padding:0 4px;font-size:12px}
+}
 .mk-card--photo .mk-cta--icon{width:32px;height:32px;padding:0}
 .mk-card--photo .mk-cta--icon svg{width:16px;height:16px}
 .mk-card--photo .mk-cta__t{display:none}

@@ -20,7 +20,7 @@ export const wholesaleTerms = defineDoc({
       CONTACT_PARA,
     ]),
     sec("request", "Requests and price list", [
-      "A wholesale request on the Site is a request for information. It is not an order. A person at Mikono answers it on WhatsApp and sends the wholesale price list. We do not publish trade prices on the Site.",
+      "A wholesale request on the Site is a request for information. It is not an order. A person at Mikono answers it on WhatsApp and sends the price list or a quote. The Site shows prices by size, and those prices apply to wholesale too unless we agree something else with you on WhatsApp.",
       "The price list, our terms of discount and any quote are confidential. You may use them to decide whether to buy and for your own accounts. You may not give them to another seller or publish them. This does not stop you telling your professional advisers or a regulator.",
     ]),
     sec("orders", "Orders and acceptance", [

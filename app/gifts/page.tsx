@@ -31,7 +31,7 @@ export default function GiftsPage() {
         <h2 className="mb-3 text-display-md">Choose by animal</h2>
         <InfoGrid items={[
           { eyebrow: "Shop", title: "Safari animals", text: "Elephants, giraffes, lions, rhinos, zebras, hippos and monkeys.", image: "lionsGiraffes", cta: { label: "See safari animals", href: "/shop/safari-animals" } },
-          { eyebrow: "Shop", title: "Domestic animals", text: "Rabbits, cats and dogs.", image: "rabbits", cta: { label: "See domestic animals", href: "/shop/domestic-animals" } },
+          { eyebrow: "Shop", title: "Farm and pet animals", text: "Rabbits, pigs, cows, dogs, ducks and cats.", image: "rabbits", cta: { label: "See farm and pet animals", href: "/shop/domestic-animals" } },
           { eyebrow: "Shop", title: "More animals", text: "Octopuses, sharks, turtles, a goose, a bear and more.", image: "octopuses", cta: { label: "See more animals", href: "/shop/more-animals" } },
         ]} />
         <div className="mt-7">
@@ -42,7 +42,7 @@ export default function GiftsPage() {
             </Sec>
             <Sec id="order" title="In the order form">
               <Bullets items={["A gift note, with a hint not to include a child's surname, school or age.", "An option to ask us to arrange delivery to the person receiving it, using an adult's name and phone number. We confirm it with you on WhatsApp."]} />
-              <p>Prices and delivery are confirmed on WhatsApp, so you see them before you agree to anything.</p>
+              <p>Prices are shown in KES by size. The delivery cost is confirmed on WhatsApp, so you see it before you agree to anything.</p>
             </Sec>
           </Prose>
         </div>

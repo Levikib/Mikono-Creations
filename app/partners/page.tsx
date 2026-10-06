@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { PriceLadderNote } from "@/components/PriceLadderNote";
 import { CatalogueProvider } from "@/components/CatalogueContext";
 import { cartCatalogue } from "@/lib/cartCatalogue";
 import { PlainHero, Taped } from "@/components/Scrap";
@@ -30,7 +31,8 @@ export default function Page() {
             <ol className="mt-3 grid gap-3 text-[.9375rem]">
               {steps.map((s, i) => <li key={s}>{i + 1}. {s}</li>)}
             </ol>
-            <p className="mt-4 text-base text-stone">Partner names and logos are not shown on this site yet. No prices are shown here.</p>
+            <p className="mt-4 text-base text-stone">Partner names and logos are not shown on this site yet.</p>
+            <PriceLadderNote className="mt-2 text-base text-stone" />
           </div>
           <Taped id="lionsGiraffes" ratio="aspect-[4/3]" tilt={1.5} sizes="380px" className="mx-auto w-full max-w-[340px]" />
         </aside>

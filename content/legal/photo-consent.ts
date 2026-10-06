@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const photoConsent = defineDoc({
@@ -25,7 +26,7 @@ export const photoConsent = defineDoc({
       "Credit: [CREDIT PREFERENCE].",
     ]),
     sec("rights", "What you are agreeing to", [
-      "You can say no to any use without any effect on an order or on your work with us. You can withdraw permission at any time by writing to [PRIVACY EMAIL]. We will stop new use and remove the picture from the Site within 14 days. We cannot recall material already printed or published by others. Your picture is personal data and is handled under our Privacy Policy. You keep the right to complain to the Data Protection Commissioner.",
+      "You can say no to any use without any effect on an order or on your work with us. You can withdraw permission at any time by writing to " + CONTACT_EMAIL + ". We will stop new use and remove the picture from the Site within 14 days. We cannot recall material already printed or published by others. Your picture is personal data and is handled under our Privacy Policy. You keep the right to complain to the Data Protection Commissioner.",
     ]),
     sec("sign", "Signature", [
       "Name: [SIGNER NAME]. Signature: [SIGNATURE]. Date: [SIGNATURE DATE]. If signing for a child: I confirm I am the child's parent or guardian. Relationship: [RELATIONSHIP]. Witness: [WITNESS NAME].",

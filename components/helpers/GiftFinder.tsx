@@ -195,7 +195,7 @@ export function GiftFinder({ animals }: { animals: HelperAnimal[] }) {
         </div>
         <div className="mkh-card mt-3 flex flex-col gap-3 p-3.5 sm:flex-row sm:items-center sm:justify-between md:p-4">
           <p className="mkh-muted text-[.9375rem] leading-snug sm:max-w-[48ch]">
-            Want a second opinion? Share your picks and we will reply on WhatsApp. This sends the animals and the occasions, nothing else. Prices and availability are confirmed there.
+            Want a second opinion? Share your picks and we will reply on WhatsApp. This sends the animals and the occasions, nothing else. Availability and delivery are confirmed there.
           </p>
           <div className="flex flex-col gap-2 sm:flex-row">
             <a href={shareHref ?? "/contact"} {...(shareHref ? { target: "_blank", rel: "noopener noreferrer" } : {})}

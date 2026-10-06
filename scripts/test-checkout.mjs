@@ -32,10 +32,46 @@ const t = (name, fn) => { fn(); pass++; console.log(`ok  ${name}`); };
 const mem = new Map();
 globalThis.window = { localStorage: { getItem: (k) => (mem.has(k) ? mem.get(k) : null), setItem: (k, v) => mem.set(k, String(v)), removeItem: (k) => mem.delete(k) } };
 
+/* ---------- price ladder (R12): S 1500, M 2000, L 3500, XL 5000, one ladder for every product ---------- */
+const FACTS = await imp("data/facts.ts");
+t("price ladder is S 1500, M 2000, L 3500, XL 5000 and the flag is on", () => {
+  assert.deepEqual(FACTS.sizePricesKes, { S: 1500, M: 2000, L: 3500, XL: 5000 });
+  assert.equal(FACTS.pricesConfirmed, true);
+  for (const [size, kes] of [["S", 1500], ["M", 2000], ["L", 3500], ["XL", 5000]]) assert.equal(P.unitPriceKes("elephant", size), kes);
+  assert.equal(FACTS.WALL_ART_PRICE_KES, 8000);
+  for (const size of ["WALL", "S", "XL"]) assert.equal(P.unitPriceKes("lion-wall-head", size), 8000, "wall art is one fixed price");
+  assert.equal(P.unitPriceKes("dress-doll", "XL"), 5000, "dolls use the same ladder");
+  assert.equal(P.unitPriceKes("elephant", "XXL"), null, "unknown size has no price");
+});
+t("from price is the cheapest size", () => { assert.equal(P.fromPriceKes("rabbit"), 1500); assert.equal(P.fromPriceKes("pig"), 1500); });
+t("price ladder text reads in words, not codes", () => assert.equal(P.priceLadderText(), "Small KES 1,500, Medium KES 2,000, Large KES 3,500 and Extra large KES 5,000. Wall art: KES 8,000"));
+t("every catalogue product has a price for every size, and the cards read From KES 1,500", () => {
+  assert.ok(catalogue.products.length >= 30);
+  for (const p of catalogue.products) for (const sz of (p.category === "wall-art" ? ["WALL"] : ["S", "M", "L", "XL"])) assert.equal(typeof P.unitPriceKes(p.slug, sz), "number", p.slug);
+  const wall = catalogue.products.filter((p) => p.category === "wall-art");
+  assert.equal(wall.length, 9); assert.ok(wall.every((p) => p.slug.endsWith("-wall-head")), "wall art is exactly the -wall-head slugs");
+  for (const slug of ["pig", "cow", "duck"]) assert.ok(catalogue.products.some((p) => p.slug === slug), `${slug} is a product`);
+  assert.ok(!catalogue.products.some((p) => p.slug === "chick"), "the yellow birds are ducks, not chicks");
+});
+
 /* ---------- price states ---------- */
-const lines = [{ sku: "elephant-grey-m", slug: "elephant", qty: 2 }, { sku: "giraffe-orange-l", slug: "giraffe", qty: 1 }];
-const prices = { elephant: 1500, giraffe: 2000 };
-const base = { lines, priceBySlug: prices, pricesConfirmed: true, fulfilment: "nairobi", deliveryFeeKes: 300 };
+const lines = [{ sku: "elephant-grey-m", slug: "elephant", size: "M", qty: 2 }, { sku: "giraffe-orange-l", slug: "giraffe", size: "L", qty: 1 }];
+const base = { lines, pricesConfirmed: true, fulfilment: "nairobi", deliveryFeeKes: 300 };
+t("line totals follow the size: 2 x Medium = 4000, 1 x Large = 3500", () => {
+  const x = P.computeTotals(base);
+  assert.deepEqual(x.lines.map((l) => [l.unitKes, l.totalKes]), [[2000, 4000], [3500, 3500]]);
+  assert.equal(x.subtotalKes, 7500);
+});
+t("the same animal in two sizes prices each size", () => {
+  const x = P.computeTotals({ ...base, lines: [{ sku: "a-s", slug: "lion", size: "S", qty: 1 }, { sku: "a-xl", slug: "lion", size: "XL", qty: 3 }] });
+  assert.equal(x.subtotalKes, 1500 + 15000);
+});
+t("wall art lines cost 8000 each, mixed with animals, and the same wall head merges on one sku", () => {
+  const x = P.computeTotals({ ...base, lines: [{ sku: "lion-wall-head-yellow-wall", slug: "lion-wall-head", size: "WALL", qty: 2 }, { sku: "pig-pink-s", slug: "pig", size: "S", qty: 1 }] });
+  assert.deepEqual(x.lines.map((l) => l.totalKes), [16000, 1500]); assert.equal(x.subtotalKes, 17500);
+  assert.equal(SZ.sizeWord("WALL"), "Wall size");
+  assert.equal(`${"lion-wall-head"}-${"yellow"}-${"WALL"}`.toLowerCase(), "lion-wall-head-yellow-wall", "same sku for the same wall head, so lines merge");
+});
 t("P0: prices not confirmed shows no figure at all", () => {
   const x = P.computeTotals({ ...base, pricesConfirmed: false });
   assert.equal(x.state, "P0");
@@ -44,30 +80,30 @@ t("P0: prices not confirmed shows no figure at all", () => {
 });
 t("P0 even when prices exist in data: the flag decides", () => assert.equal(P.computeTotals({ ...base, pricesConfirmed: false }).state, "P0"));
 t("P1: confirmed but a line has no price shows no subtotal and no total", () => {
-  const x = P.computeTotals({ ...base, priceBySlug: { elephant: 1500 } });
+  const x = P.computeTotals({ ...base, priceFor: (slug) => (slug === "elephant" ? 1500 : null) });
   assert.equal(x.state, "P1"); assert.equal(x.subtotalKes, null); assert.equal(x.totalKes, null);
   assert.equal(x.lines[0].totalKes, 3000); assert.equal(x.lines[1].totalKes, null);
 });
-t("P2: every line priced but delivery fee unknown gives a subtotal and no total", () => {
+t("P2: every line priced but delivery fee unknown gives an items total and no total", () => {
   const x = P.computeTotals({ ...base, deliveryFeeKes: null });
-  assert.equal(x.state, "P2"); assert.equal(x.subtotalKes, 5000); assert.equal(x.totalKes, null); assert.equal(x.valueKnown, false);
+  assert.equal(x.state, "P2"); assert.equal(x.subtotalKes, 7500); assert.equal(x.totalKes, null); assert.equal(x.valueKnown, false);
 });
 t("P2 also while no delivery option is chosen", () => assert.equal(P.computeTotals({ ...base, fulfilment: "" }).state, "P2"));
 t("P3: delivery fee known gives a total", () => {
   const x = P.computeTotals(base);
-  assert.equal(x.state, "P3"); assert.equal(x.subtotalKes, 5000); assert.equal(x.deliveryFeeKes, 300); assert.equal(x.totalKes, 5300); assert.equal(x.valueKnown, true);
+  assert.equal(x.state, "P3"); assert.equal(x.subtotalKes, 7500); assert.equal(x.deliveryFeeKes, 300); assert.equal(x.totalKes, 7800); assert.equal(x.valueKnown, true);
 });
 t("P3: pickup has no delivery cost", () => {
   const x = P.computeTotals({ ...base, fulfilment: "pickup", deliveryFeeKes: null });
-  assert.equal(x.state, "P3"); assert.equal(x.deliveryFeeKes, 0); assert.equal(x.totalKes, 5000);
+  assert.equal(x.state, "P3"); assert.equal(x.deliveryFeeKes, 0); assert.equal(x.totalKes, 7500);
 });
 t("discount lowers the total and never below zero", () => {
-  assert.equal(P.computeTotals({ ...base, discountKes: 500 }).totalKes, 4800);
+  assert.equal(P.computeTotals({ ...base, discountKes: 500 }).totalKes, 7300);
   assert.equal(P.computeTotals({ ...base, discountKes: 99999 }).totalKes, 0);
 });
 t("bad prices are treated as missing", () => {
-  assert.equal(P.computeTotals({ ...base, priceBySlug: { elephant: -5, giraffe: 2000 } }).state, "P1");
-  assert.equal(P.computeTotals({ ...base, priceBySlug: { elephant: 1500.5, giraffe: 2000 } }).state, "P1");
+  assert.equal(P.computeTotals({ ...base, priceFor: (slug) => (slug === "elephant" ? -5 : 2000) }).state, "P1");
+  assert.equal(P.computeTotals({ ...base, priceFor: (slug) => (slug === "elephant" ? 1500.5 : 2000) }).state, "P1");
   assert.equal(P.computeTotals({ ...base, lines: [] }).state, "P1");
 });
 t("KES format", () => assert.equal(P.formatKes(1500).replace(/ /g, " "), "KES 1,500"));
@@ -431,7 +467,7 @@ t("every new way to receive is accepted and written plainly", () => {
   const base = { customerTypes: ["personal"], name: "Amina", phone: "0712 345 678" };
   const cases = [
     [{ fulfilment: "collect" }, "Method: Someone else will collect it"],
-    [{ fulfilment: "pickup" }, "Method: Pickup"],
+    [{ fulfilment: "pickup" }, "Method: I will collect it"],
     [{ fulfilment: "courier", county: "Kisumu", town: "Kisumu town", landmark: "Easy Coach office" }, "Method: A courier or bus parcel service of my choice"],
     [{ fulfilment: "abroad", fulfilmentOther: "Leeds, United Kingdom" }, "Country and city: Leeds, United Kingdom"],
     [{ fulfilment: "other", fulfilmentOther: "Hand it to the choir leader" }, "How: Hand it to the choir leader"],

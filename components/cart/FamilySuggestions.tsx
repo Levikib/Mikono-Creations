@@ -7,6 +7,7 @@ import { ASK_COLOUR_KEY, ASK_COLOUR_LABEL } from "@/lib/site";
 import { CardGrid, PhotoCard } from "../card";
 import { useCatalogue } from "../CatalogueContext";
 import { sizeWord } from "@/lib/sizes";
+import { formatKes } from "@/lib/pricing";
 
 /** Complete the family: real catalogue animals that are not in the list yet, in the same uniform cards. Deterministic, no "popular" claims. */
 export function FamilySuggestions() {
@@ -30,7 +31,7 @@ export function FamilySuggestions() {
             const colour = s.product.colourAsk ? ASK_COLOUR_LABEL : s.colour.label;
             return (
               <PhotoCard key={s.product.slug} cardType="suggestion" tone={s.product.group === "safari" ? "amber" : s.product.group === "pets" ? "terracotta" : "olive"}
-                href={`/shop/${s.product.slug}`} title={s.product.name} meta={`${colour}, ${sizeWord(s.size)}`}
+                href={`/shop/${s.product.slug}`} title={s.product.name} meta={`${sizeWord(s.size)}, ${formatKes(s.product.sizePrices?.[s.size] ?? 0)}`}
                 image={{ src: s.colour.src, alt: s.colour.alt, focal: s.colour.focal, fit: "cover", multiply: s.colour.multiply }}
                 sizes="(min-width:1024px) 190px, 30vw"
                 button={{

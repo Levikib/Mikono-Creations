@@ -4,6 +4,7 @@ import { pageMetadata } from "@/lib/pageMeta";
 import { CatalogueProvider } from "@/components/CatalogueContext";
 import { cartCatalogue } from "@/lib/cartCatalogue";
 import { Container } from "@/components/Container";
+import { PriceLadderNote } from "@/components/PriceLadderNote";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Suspense } from "react";
 import { CtaBand } from "@/components/CtaBand";
@@ -44,7 +45,7 @@ export default function WholesalePage() {
           <ol className="mt-3 grid gap-3 text-[.9375rem]">
             {steps.map((s, i) => <li key={s}>{i + 1}. {s}</li>)}
           </ol>
-          <p className="mt-4 text-base text-stone">We do not show wholesale prices on the website. A person sends them to you on WhatsApp.</p>
+          <PriceLadderNote className="mt-4 text-base text-stone" />
         </aside>
       </Container>
       <Container className="pb-5 md:pb-8">

@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const cookiePolicy = defineDoc({
@@ -52,7 +53,7 @@ export const cookiePolicy = defineDoc({
       "Analytics, advertising and linking your visits to your customer record are three separate switches, all off by default. We record your choice and the version of this policy when you make it, and you can withdraw it as easily as you gave it.",
     ]),
     sec("more", "More information", [
-      "See the Privacy Policy for how personal data is used. Contact [PRIVACY EMAIL] with questions.",
+      "See the Privacy Policy for how personal data is used. Contact " + CONTACT_EMAIL + " with questions.",
     ]),
   ],
 });

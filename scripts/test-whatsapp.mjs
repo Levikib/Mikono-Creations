@@ -129,7 +129,7 @@ t("optional About me block appears only when filled", () => {
   const m = W.buildOrderMessage({ ...base, about: { occasions: ["Birthday, 12 March", "Christmas, 20 December"], interests: ["Safari animals"], heardFrom: "Instagram, A shop or stockist" } }, "full");
   assert.ok(m.includes("Help us suggest: Birthday, Christmas; likes Safari animals") && m.includes("Heard about us: Instagram, A shop or stockist"));
 });
-t("prices and delivery sentence is present", () => assert.ok(W.buildOrderMessage(base, "full").includes("Prices and delivery are confirmed on WhatsApp.")));
+t("prices and delivery sentence is present", () => assert.ok(W.buildOrderMessage(base, "full").includes(W.PRICES_DELIVERY_SENTENCE)));
 t("adult only recipient fields: an adult name and phone, nothing about a child", () => {
   const m = W.buildOrderMessage(base, "full");
   assert.ok(m.includes("Receiving adult: Wanjiru, +254722000111"));
@@ -308,5 +308,42 @@ t("an enquiry far over the link budget keeps its full text for copying and a sho
   const plan = W.planEnquirySend("254724592115", "Hello Mikono Creations, wholesale enquiry.", "WS-261001-7KQ2", long);
   assert.ok(plan.url.length <= W.URL_BUDGET && plan.pasteRest && plan.fullText === long && plan.text.includes("WS-261001-7KQ2"));
 });
+
+
+/* ---------- prices in the order message (R12) ---------- */
+{
+  const mk = (lines, over = {}) => ({ ref: "MK-261005-ABCD", lines, customerType: "A parent", name: "Amina", phone: "+254712345678", fulfilment: "nairobi", area: "Karen", landmark: "Gate 2",
+    consent: { whatsapp: false, email: false, occasion: false, terms: true, version: "v1" }, ...over });
+  const L = (sku, name, size, qty, unit) => ({ sku, name, colourLabel: "Pink", size, qty, unitKes: unit, totalKes: unit * qty });
+  t("order message shows unit price, line total and the items total without delivery", () => {
+    const m = W.buildOrderMessage(mk([L("pig-pink-m", "Pig", "M", 2, 2000), L("cow-black-and-white-xl", "Cow", "XL", 1, 5000)]));
+    assert.ok(m.includes("2 x Pig, Pink, Medium, KES 2,000 each, KES 4,000, SKU pig-pink-m"));
+    assert.ok(m.includes("Items total (delivery not included): KES 9,000"));
+    assert.ok(/delivery to be confirmed/i.test(m));
+    assert.ok(!m.includes(W.PRICES_DELIVERY_SENTENCE));
+  });
+  t("compact message keeps the line totals", () => {
+    const m = W.buildOrderMessage(mk([L("pig-pink-s", "Pig", "S", 3, 1500)]), "compact");
+    assert.ok(m.includes("1. 3x pig-pink-s, KES 4,500"));
+  });
+  t("a line without a price is said plainly and the total counts priced lines only", () => {
+    const m = W.buildOrderMessage(mk([L("pig-pink-l", "Pig", "L", 1, 3500), { sku: "x", name: "X", colourLabel: "Pink", size: "S", qty: 1 }]));
+    assert.ok(m.includes("priced items only"));
+    assert.ok(m.includes("KES 3,500"));
+  });
+  t("collecting says no delivery cost", () => {
+    const m = W.buildOrderMessage(mk([L("pig-pink-s", "Pig", "S", 1, 1500)], { fulfilment: "pickup" }));
+    assert.ok(m.includes("Delivery: none, I will collect it."));
+  });
+  t("a wall art line reads Wall size and KES 8,000", () => {
+    const m = W.buildOrderMessage(mk([L("lion-wall-head-yellow-wall", "Lion wall head", "WALL", 1, 8000)]));
+    assert.ok(m.includes("Wall size, KES 8,000 each, KES 8,000, SKU lion-wall-head-yellow-wall"));
+    assert.ok(m.includes("Items total (delivery not included): KES 8,000"));
+  });
+  t("itemsTotal sums only priced lines", () => {
+    const x = W.itemsTotal([{ unitKes: 1500, totalKes: 3000 }, {}]);
+    assert.equal(x.totalKes, 3000); assert.equal(x.all, false); assert.equal(x.any, true);
+  });
+}
 
 console.log(`\n${pass} tests passed`);

@@ -96,7 +96,7 @@ function SentView({ celebrate }: { celebrate?: ReactNode }) {
         <ol className="mt-1.5 grid gap-1 text-[.875rem]">
           <li>1. You send the message in WhatsApp.</li>
           <li>2. We reply on WhatsApp to confirm your items.</li>
-          <li>3. We confirm the price and the delivery cost, and tell you how to pay. Nothing is charged until you agree.</li>
+          <li>3. We confirm the items and the delivery cost, and tell you how to pay. The prices on the site are in KES. Nothing is charged until you agree.</li>
         </ol>
       </section>
 

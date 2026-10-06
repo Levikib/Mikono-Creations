@@ -25,7 +25,7 @@ import { showToast } from "@/lib/toast";
 import { attribution, track } from "@/lib/track";
 import { trackItem } from "@/lib/trackCart";
 import { useKeyboardOpen } from "@/lib/useKeyboard";
-import { buildOrderMessage, copyText, digitsOnly, generateRef, planOrderSend, sourceFromAttribution } from "@/lib/whatsapp";
+import { buildOrderMessage, copyText, digitsOnly, generateRef, planOrderSend, sourceFromAttribution, type MsgLine } from "@/lib/whatsapp";
 import { readOrders } from "@/lib/orderForm";
 import { cx } from "@/lib/cx";
 import { Button, ButtonLink } from "./Button";
@@ -57,7 +57,7 @@ function initialForm(profile: Profile | null): Form {
 function Wizard() {
   const router = useRouter();
   const { lines, count, addMany } = useCart();
-  const { priceBySlug, products, bySlug } = useCatalogue();
+  const { priceFor, products, bySlug } = useCatalogue();
   const kb = useKeyboardOpen();
   const [saved] = useState<Draft | null>(() => readDraft());
   const [profile, setProfile] = useState<Profile | null>(() => readProfile());
@@ -96,10 +96,10 @@ function Wizard() {
   useEffect(() => { listRef.current = list; });
 
   const totals = computeTotals({
-    lines: lines.map((l) => ({ sku: l.sku, slug: l.slug, qty: l.qty })), priceBySlug, pricesConfirmed,
+    lines: lines.map((l) => ({ sku: l.sku, slug: l.slug, size: l.size, qty: l.qty })), priceFor, pricesConfirmed,
     fulfilment: estimateFulfilment(form.fulfilment), deliveryFeeKes: feeFor({ fulfilment: estimateFulfilment(form.fulfilment), area: form.area, areaOther: form.areaOther, county: form.county, town: form.town }),
   });
-  const items = lines.map((l) => trackItem({ ...l, priceKes: pricesConfirmed ? priceBySlug[l.slug] ?? null : null, category: l.category ?? bySlug(l.slug)?.category }));
+  const items = lines.map((l) => trackItem({ ...l, priceKes: pricesConfirmed ? priceFor(l.slug, l.size) : null, category: l.category ?? bySlug(l.slug)?.category }));
   const money = totals.valueKnown && totals.totalKes !== null ? { value: totals.totalKes, currency: "KES" } : {};
 
   // Autosave on every change (kept 24 hours, device only). The KRA PIN, the consent boxes and the remember tick are never written.
@@ -182,7 +182,10 @@ function Wizard() {
     track("consent_update", { consent_scope: "order", tier: k, granted: v });
   };
 
-  const msgLines: Array<{ sku: string; name: string; colourLabel: string; size: string; qty: number; note?: string }> = lines.map((l) => ({ sku: l.sku, name: l.name, colourLabel: lineColour(l), size: l.size, qty: l.qty, note: l.note }));
+  const msgLines: MsgLine[] = lines.map((l) => {
+    const t = totals.lines.find((x) => x.sku === l.sku);
+    return { sku: l.sku, name: l.name, colourLabel: lineColour(l), size: l.size, qty: l.qty, note: l.note, unitKes: t?.unitKes ?? null, totalKes: t?.totalKes ?? null };
+  });
   const source = sourceFromAttribution(attribution());
   const currentRef = ref ?? "MK-pending";
   const ctx = { ...dates, lines: msgLines };
@@ -408,7 +411,7 @@ function Wizard() {
             </li>
           ))}
         </ul>
-        <p className="mt-2 text-[.8125rem] text-stone">{BUSINESS_NAME} confirms prices and delivery on WhatsApp.</p>
+        <p className="mt-2 text-[.8125rem] text-stone">{BUSINESS_NAME} confirms the delivery cost on WhatsApp.</p>
         <Link href="/cart" className="ck-tbtn -ml-2 !justify-start">Change items</Link>
       </aside>
     </div>

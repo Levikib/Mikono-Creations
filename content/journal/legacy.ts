@@ -177,7 +177,7 @@ export const posts: Post[] = [
       { t: "h", text: "Monkey" },
       { t: "p", text: "Monkeys use their long arms and legs to climb. Ours have long arms and legs too, with a face and ears in a second colour." },
       { t: "h", text: "Not only safari" },
-      { t: "p", text: "We also crochet domestic animals such as rabbits, cats and dogs, and others such as octopuses, sharks and turtles. You will find them under More animals in the shop." },
+      { t: "p", text: "We also crochet farm and pet animals such as rabbits, pigs, cows, dogs and ducks, and others such as octopuses, sharks and turtles. You will find them under Farm and pet animals and More animals in the shop." },
       { t: "p", text: "Here is a game for a child. Pick one animal in each photo on this page and say what it eats. A library book or a ranger at the park can check the answers." },
     ],
     cta: { text: "Looking for one animal in particular? Tell us which.", message: "Hello Mikono Creations, I read about your safari animals and would like to ask about" },
@@ -262,7 +262,7 @@ export const posts: Post[] = [
       { t: "p", text: "The message is a request, not a confirmed order, until we reply and you agree. Prices, availability and delivery are settled with you in the chat before anyone pays or anything is sent." },
       { t: "h", text: "Good to know" },
       { t: "ul", items: [
-        "Prices are confirmed on WhatsApp. For now every animal shows Ask for price.",
+        "Animals show a price by size: Small KES 1,500, Medium KES 2,000, Large KES 3,500 and Extra large KES 5,000. The same prices apply to dolls. Wall art is one size, larger than Extra large, at KES 8,000. Delivery is not included and is confirmed on WhatsApp.",
         "Some animals are shown only in group photos. For those, the colour is confirmed with you on WhatsApp.",
         "Your order list stays on your device while you decide. An unfinished order form is kept for 24 hours and then removed.",
         "If WhatsApp does not open, the form gives you the message to copy and paste.",

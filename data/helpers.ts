@@ -3,12 +3,14 @@
 // Sizes are relative classes only (R5). No centimetre values, no age guidance, no safety claims (R9).
 
 import type { ColourFamilyKey } from "./colours";
+import { priceLadderText } from "../lib/pricing";
 
 export const HELPER_TTL_HOURS = 24;
 export const HELPER_STORE_KEY = "mk.helpers.v1";
 export const FAMILY_MAX_LINES = 24;
 export const FAMILY_MAX_QTY = 200;
-export const PRICE_NOTE = "Set prices are confirmed on WhatsApp.";
+/** Prices come from the one ladder in data/facts.ts. */
+export const PRICE_NOTE = `Prices are by size: ${priceLadderText()}. Delivery is not included and is confirmed on WhatsApp.`;
 
 export type Option<V extends string = string> = { value: V; label: string; hint?: string };
 
@@ -72,7 +74,6 @@ export const KINDS: { value: KindKey | "other"; label: string }[] = [
   { value: "pets", label: "Farm and pets" },
   { value: "sea", label: "Sea animals" },
   { value: "air", label: "Birds and insects" },
-  { value: "wall", label: "Wall art" },
   { value: "dolls", label: "Dolls" },
   { value: "more", label: "More animals" },
   { value: "surprise", label: "Surprise me" },
@@ -82,7 +83,7 @@ export const KINDS: { value: KindKey | "other"; label: string }[] = [
 /** Which published animals sit in which group. Anything not listed is "other" and only appears under Surprise me. */
 export const GROUP_BY_SLUG: Record<string, "safari" | "pets" | "sea" | "air" | "wall" | "dolls" | "other"> = {
   elephant: "safari", giraffe: "safari", lion: "safari", rhino: "safari", zebra: "safari", hippo: "safari", monkey: "safari",
-  rabbit: "pets", cat: "pets", dog: "pets", goose: "pets",
+  rabbit: "pets", cat: "pets", dog: "pets", goose: "pets", pig: "pets", cow: "pets", duck: "pets",
   octopus: "sea", shark: "sea", turtle: "sea",
   butterfly: "air",
   bear: "other", chameleon: "other", dinosaur: "other", "lion-head-handbag": "other",
@@ -91,7 +92,7 @@ export const GROUP_BY_SLUG: Record<string, "safari" | "pets" | "sea" | "air" | "
   doll: "dolls", "dress-doll": "dolls",
 };
 
-/** Every catalogue product is offered in the helpers (wall art, dolls and bags too). Add a slug here only to hide one. */
+/** Every catalogue product except wall art (one fixed size and price) is offered in the helpers. Add a slug here only to hide one. */
 export const NOT_IN_HELPERS = new Set<string>();
 
 export const SIZE_FEEL: Option[] = [

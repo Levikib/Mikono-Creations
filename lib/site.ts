@@ -16,6 +16,15 @@ export const PHONE_DISPLAY = "+254 724 592 115";
 export const PHONE_E164 = `+${PHONE_DIGITS}`;
 export const PHONE_TEL = `tel:+${PHONE_DIGITS}`;
 
+/** The business email, shown as the client wrote it (2026-10-05). Links always use the lower case form. */
+export const CONTACT_EMAIL = "Mikonocreations@gmail.com";
+export const CONTACT_EMAIL_LINK = `mailto:${CONTACT_EMAIL.toLowerCase()}`;
+/** Builds a mailto link to the business address with an optional subject and body. */
+export const mailtoLink = (subject?: string, body?: string) => {
+  const q = [subject ? `subject=${encodeURIComponent(subject)}` : "", body ? `body=${encodeURIComponent(body)}` : ""].filter(Boolean).join("&");
+  return `${CONTACT_EMAIL_LINK}${q ? `?${q}` : ""}`;
+};
+
 /** Cart and SKU colour key for animals shown only in group photos (no colour selector). */
 /** How long an unfinished order draft stays on the device. The wizard, /privacy and /cookies all quote this one value. */
 export const DRAFT_TTL_HOURS = 24;
@@ -50,7 +59,7 @@ export const footerGroups = [
     links: [
       { label: "Home", href: "/" },
       { label: "Safari animals", href: "/shop/safari-animals" },
-      { label: "Domestic animals", href: "/shop/domestic-animals" },
+      { label: "Farm and pet animals", href: "/shop/domestic-animals" },
       { label: "More animals", href: "/shop/more-animals" },
       { label: "Gifts", href: "/gifts" },
       { label: "Gift finder", href: "/gifts/finder?src=footer" },
@@ -102,7 +111,7 @@ export const staticRoutes = ["/", "/shop", "/wholesale", "/contact", "/custom/st
 
 export const categories = [
   { label: "Safari animals", href: "/shop/safari-animals" },
-  { label: "Domestic animals", href: "/shop/domestic-animals" },
+  { label: "Farm and pet animals", href: "/shop/domestic-animals" },
   { label: "More animals", href: "/shop/more-animals" },
 ] as const;
 

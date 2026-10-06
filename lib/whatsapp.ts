@@ -1,11 +1,18 @@
 // Order and enquiry messages for WhatsApp. Pure functions, no browser access except copyText.
 import { sizeWord } from "./sizes";
+import { formatKes } from "./pricing";
 
 export type Level = "full" | "compact" | "short";
 /** pickup: a pickup point. collect: someone else collects. courier: a courier or bus parcel service the customer chooses. abroad: outside Kenya (an enquiry). other: in their own words. */
 export type Fulfilment = "pickup" | "nairobi" | "town" | "courier" | "collect" | "abroad" | "other";
 
-export interface MsgLine { sku: string; name: string; colourLabel: string; size: string; qty: number; note?: string }
+export interface MsgLine {
+  sku: string; name: string; colourLabel: string; size: string; qty: number; note?: string;
+  /** Retail price of one piece in KES. Missing or null means no price is known. */
+  unitKes?: number | null;
+  /** Price of the whole line in KES (unit price times quantity). */
+  totalKes?: number | null;
+}
 
 export interface BusinessMsg {
   businessName?: string; businessType?: string; outletLocation?: string; volumeBand?: string; invoiceName?: string;
@@ -83,8 +90,18 @@ export interface OrderMsg {
 }
 
 export const URL_BUDGET = 2000;
-export const PRICES_SENTENCE = "Prices are confirmed on WhatsApp.";
-export const PRICES_DELIVERY_SENTENCE = "Prices and delivery are confirmed on WhatsApp.";
+export const PRICES_SENTENCE = "Prices are on the site by size. Delivery to be confirmed on WhatsApp.";
+export const PRICES_DELIVERY_SENTENCE = "Prices are on the site by size. Delivery to be confirmed on WhatsApp.";
+/** Used when every line has a price. */
+export const DELIVERY_TBC_SENTENCE = "Delivery to be confirmed on WhatsApp.";
+export const ITEMS_TOTAL_LABEL = "Items total (delivery not included)";
+
+const priced = (l: { totalKes?: number | null; unitKes?: number | null }) => typeof l.totalKes === "number" && typeof l.unitKes === "number";
+/** Sum of the priced lines, and whether every line has a price. */
+export function itemsTotal(lines: Array<{ totalKes?: number | null; unitKes?: number | null }>): { totalKes: number; all: boolean; any: boolean } {
+  const ok = lines.filter(priced);
+  return { totalKes: ok.reduce((n, l) => n + (l.totalKes as number), 0), all: lines.length > 0 && ok.length === lines.length, any: ok.length > 0 };
+}
 
 const REF_ALPHABET = "23456789ABCDEFGHJKMNPQRSTUVWXYZ"; // no 0, O, 1, I, L
 
@@ -118,9 +135,10 @@ export function sourceFromAttribution(a: Record<string, string> | null | undefin
 }
 
 function line(l: MsgLine, i: number, level: Level): string {
-  // The SKU already names the animal, colour and size, so the compact line is just quantity and SKU.
-  if (level === "compact") return `${i + 1}. ${l.qty}x ${l.sku}`;
-  return `${i + 1}. ${l.qty} x ${l.name}, ${l.colourLabel}, ${sizeWord(l.size)}, SKU ${l.sku}`;
+  // The SKU already names the animal, colour and size, so the compact line is just quantity, SKU and the line total.
+  if (level === "compact") return `${i + 1}. ${l.qty}x ${l.sku}${priced(l) ? `, ${formatKes(l.totalKes as number)}` : ""}`;
+  const price = priced(l) ? `, ${formatKes(l.unitKes as number)} each, ${formatKes(l.totalKes as number)}` : "";
+  return `${i + 1}. ${l.qty} x ${l.name}, ${l.colourLabel}, ${sizeWord(l.size)}${price}, SKU ${l.sku}`;
 }
 
 /** "WhatsApp updates, Newsletter by email" or "none". */
@@ -155,7 +173,14 @@ export function buildOrderMessage(o: OrderMsg, level: Level = "full"): string {
     const notes = o.lines.map((l, i) => (l.note ? `${i + 1}) ${clean(l.note, 60)}` : "")).filter(Boolean);
     if (notes.length) out.push(`Item notes: ${notes.join("; ").slice(0, 200)}`);
   }
-  out.push(PRICES_DELIVERY_SENTENCE, "", "CUSTOMER");
+  const sum = itemsTotal(o.lines);
+  if (sum.any) {
+    out.push(`${sum.all ? ITEMS_TOTAL_LABEL : "Items total, priced items only (delivery not included)"}: ${formatKes(sum.totalKes)}`);
+    const collecting = !o.drops?.length && (o.fulfilment === "pickup" || o.fulfilment === "collect");
+    out.push(collecting ? "Delivery: none, I will collect it." : DELIVERY_TBC_SENTENCE, "Payment is arranged with you on WhatsApp.");
+    if (!sum.all) out.push("Items without a price: we confirm them on WhatsApp.");
+  } else out.push(PRICES_DELIVERY_SENTENCE);
+  out.push("", "CUSTOMER");
   pushKv(out, "Type", o.customerType);
   out.push(`Name: ${clean(o.name, 80)}`, `Phone: ${o.phone}`);
   pushKv(out, "Email", o.email ? clean(o.email, 120) : "");
@@ -177,11 +202,11 @@ export function buildOrderMessage(o: OrderMsg, level: Level = "full"): string {
 
   const place = (d: { fulfilment: Fulfilment; area?: string; areaOther?: string; town?: string; county?: string; landmark?: string; mapsPin?: string; other?: string }, into: string[]) => {
     if (d.fulfilment === "pickup") {
-      into.push("Method: Pickup", "Pickup point: confirmed on WhatsApp");
+      into.push("Method: I will collect it", "Place and time: agreed on WhatsApp");
     } else if (d.fulfilment === "collect") {
       into.push("Method: Someone else will collect it", "Who collects and where: confirmed on WhatsApp");
     } else if (d.fulfilment === "abroad") {
-      into.push("Method: Send abroad (to be confirmed)");
+      into.push("Method: Send outside Kenya (to be confirmed)");
       pushKv(into, "Country and city", d.other ? clean(d.other, 120) : "");
     } else if (d.fulfilment === "other") {
       into.push("Method: Other, in my own words");

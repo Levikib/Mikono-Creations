@@ -41,7 +41,7 @@ const configs: Record<EnquiryKind, Config> = {
       { value: "tools or equipment", label: "Tools or equipment" }, { value: "photography or design", label: "Photography or design" }, { value: "crochet or sewing work", label: "Crochet or sewing work" }],
     typeOtherLabel: "Other, tell us what you supply",
     orgLabel: "Business name", orgRequired: true,
-    messageLabel: "Tell us what you supply", messageHint: "What it is, where you are based, and anything we should know. We do not share prices on this page.",
+    messageLabel: "Tell us what you supply", messageHint: "What it is, where you are based, and anything we should know. We agree prices with you on WhatsApp.",
     button: "Send supply enquiry on WhatsApp", privacy: "We use your details only to answer this enquiry.",
     locations: true, products: false, productSizes: false, productTitle: "",
   },

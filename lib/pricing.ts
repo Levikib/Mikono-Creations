@@ -1,18 +1,35 @@
 // Price states for the cart, drawer and order form (strategy/16 section 1.6). Pure functions.
 // Four states, from the one flag pricesConfirmed and the fees:
-//   P0  prices not confirmed: every line is "price on request". No figure of any kind is shown.
+//   P0  prices not confirmed: no price is shown. This only happens if the flag in data/facts.ts is switched off.
 //   P1  prices confirmed, but some lines have no price: known line totals only, no subtotal.
 //   P2  every line priced, delivery cost not known yet: lines and subtotal, total reads "plus delivery".
 //   P3  every line priced and delivery known (or pickup): lines, subtotal, delivery, total.
 // A total is never shown, and never estimated, before P3.
 
+import { pricesConfirmed as PRICES_ON, sizePricesKes, sizeClasses, isWallArtSlug, WALL_ART_PRICE_KES } from "../data/facts";
+import { sizeWord } from "./sizes";
+
 export type PriceState = "P0" | "P1" | "P2" | "P3";
 
-export interface PriceLineInput { sku: string; slug: string; qty: number }
+/** Retail price of one piece in one size (wall art: always the fixed wall art price), or null for an unknown size. */
+export function unitPriceKes(slug: string, size: string): number | null {
+  if (!PRICES_ON) return null;
+  // Wall art is one fixed price, whatever the size code says.
+  if (isWallArtSlug(slug)) return WALL_ART_PRICE_KES;
+  return (sizeClasses as readonly string[]).includes(size) ? sizePricesKes[size as keyof typeof sizePricesKes] : null;
+}
+
+/** The lowest price a piece is sold at ("From KES 1,500"), or null when prices are off. */
+export function fromPriceKes(slug: string): number | null {
+  const all = sizeClasses.map((s) => unitPriceKes(slug, s)).filter((n): n is number => n !== null);
+  return all.length ? Math.min(...all) : null;
+}
+
+export interface PriceLineInput { sku: string; slug: string; size: string; qty: number }
 export interface PricingInput {
   lines: PriceLineInput[];
-  /** KES per product slug. Missing means "no price". */
-  priceBySlug: Record<string, number | null | undefined>;
+  /** Price of one animal by slug and size. Defaults to the retail ladder in data/facts.ts. Null means "no price". */
+  priceFor?: (slug: string, size: string) => number | null | undefined;
   pricesConfirmed: boolean;
   fulfilment: "" | "pickup" | "nairobi" | "town";
   /** Fee for the chosen delivery area, or null when unknown. */
@@ -36,7 +53,7 @@ const whole = (n: unknown): n is number => typeof n === "number" && Number.isFin
 export function computeTotals(input: PricingInput): Totals {
   const discountKes = whole(input.discountKes) ? input.discountKes : 0;
   const lines = input.lines.map((l) => {
-    const unit = input.pricesConfirmed ? input.priceBySlug[l.slug] : null;
+    const unit = input.pricesConfirmed ? (input.priceFor ?? unitPriceKes)(l.slug, l.size) : null;
     const unitKes = whole(unit) ? unit : null;
     return { sku: l.sku, unitKes, totalKes: unitKes === null ? null : unitKes * l.qty };
   });
@@ -60,3 +77,9 @@ export function computeTotals(input: PricingInput): Totals {
 
 const kes = new Intl.NumberFormat("en-KE", { maximumFractionDigits: 0 });
 export const formatKes = (n: number) => `KES ${kes.format(n)}`;
+
+/** "Small KES 1,500, Medium KES 2,000, Large KES 3,500 and Extra large KES 5,000. Wall art: KES 8,000". Built from data/facts.ts. */
+export function priceLadderText(): string {
+  const parts = sizeClasses.map((s) => `${sizeWord(s)} ${formatKes(sizePricesKes[s])}`);
+  return `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}. Wall art: ${formatKes(WALL_ART_PRICE_KES)}`;
+}

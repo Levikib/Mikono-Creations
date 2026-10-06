@@ -222,6 +222,23 @@
      "quality": "ok",
      "alt": "Market stall under white tents with brown rabbits in vests, lions, giraffes and elephants on a table with a white heart print cloth",
      "verified": true
+    },
+    {
+     "file": "media/raw/img-089.jpg",
+     "source_id": "img-089.jpg",
+     "crop": null,
+     "role": "gallery",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1080,
+     "height": 1056,
+     "quality": "good",
+     "alt": "A pink crocheted bunny in a pink dress, with a cream face and pink ears, standing beside a tan crocheted rabbit with long ears and a blue vest.",
+     "verified": true
     }
    ]
   },

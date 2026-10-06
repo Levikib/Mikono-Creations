@@ -1,4 +1,5 @@
 "use client";
+import { priceLadderText } from "@/lib/pricing";
 import { useState } from "react";
 import Image from "@/components/Img";
 import Link from "next/link";
@@ -100,6 +101,7 @@ export function SizeFinder() {
                   <p className="font-display text-[1.125rem] font-bold leading-tight">{rec.mains.length > 1 ? `${words(rec.mains)}, depending on the use` : `${sizeWord(rec.mains[0])}${rec.alsos[0] ? `, or ${sizeWord(rec.alsos[0]).toLowerCase()}` : ""}`}</p>
                 </div>
               </div>
+              <p data-testid="size-prices" className="mkh-muted mt-2 text-[.875rem]">Prices: {priceLadderText()}. Delivery is not included.</p>
               <ul className="mt-3 grid gap-2" data-compare>
                 {rec.items.map((i) => (
                   <li key={i.use} className="mkh-well px-3 py-2 text-[.9375rem] leading-snug">

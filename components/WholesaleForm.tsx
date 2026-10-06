@@ -11,7 +11,7 @@ import { Icon } from "./Icon";
 import "./cart/checkout.css";
 
 const kinds = [
-  { value: "price list", label: "Price list", help: "We send the wholesale price list on WhatsApp." },
+  { value: "price list", label: "Price list", help: "We send the price list on WhatsApp." },
   { value: "sample pack", label: "Sample pack", help: "Ask about a small sample set to see the animals in person." },
   { value: "quote", label: "Quote", help: "Tell us what you need and we reply with a quote." },
   { value: "reorder", label: "Reorder", help: "You have ordered from us before." },
@@ -97,7 +97,7 @@ export function WholesaleForm({ initialKind = "" }: { initialKind?: string }) {
       <PayFields value={pay} onChange={setPay} errors={errors} />
       <ReachFields idBase="reach" value={reach} onChange={setReach} errors={errors} />
       <CheckboxField id="consent" checked={consent} onChange={setConsent} label="Yes, you may send me news and offers on WhatsApp or email." hint="This is optional. I can say stop at any time." />
-      <p className="text-base text-stone">We use your details only to answer this request. No prices are shown on this page. We send the price list on WhatsApp.</p>
+      <p className="text-base text-stone">We use your details only to answer this request. Prices are by size, as in the shop. These prices apply to wholesale too, unless we agree something else with you on WhatsApp.</p>
       <button type="submit" className="btn-primary inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-6 text-[.9375rem] font-semibold sm:w-fit">
         <Icon name="whatsapp" size={24} />Send request on WhatsApp
       </button>

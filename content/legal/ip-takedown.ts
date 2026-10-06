@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec } from "./h";
 
 export const ipNotice = defineDoc({
@@ -25,7 +26,7 @@ export const ipNotice = defineDoc({
       "Names of other brands and characters shown or mentioned belong to their owners. We do not make licensed characters or logos without proof of licence.",
     ]),
     sec("notice", "Telling us about an infringement or asking for removal", [
-      "Write to [TAKEDOWN EMAIL] with:",
+      "Write to " + CONTACT_EMAIL + " with:",
     ], [
       "your name and contact details;",
       "what you say is yours or is about you, and where it appears (the page address);",

@@ -64,13 +64,13 @@ export function SplitDelivery({ form, set, errors, lines }: { form: Form; set: <
             </div>
             {errors[k("units")] ? <p id={k("units")} tabIndex={-1} className="text-[.8125rem] font-bold text-brick">{errors[k("units")]}</p> : null}
             <Segmented id={k("fulfilment")} legend="How should this place get it?" value={d.fulfilment} onChange={(v) => patch(i, { fulfilment: v as Drop["fulfilment"] })}
-              options={[{ value: "nairobi", label: "Nairobi" }, { value: "town", label: "Other Kenyan town" }, { value: "courier", label: "Courier or bus service" }, { value: "pickup", label: "Pickup point" },
-                { value: "collect", label: "Someone collects" }, { value: "abroad", label: "Abroad (ask us)" }, { value: "other", label: "Other, tell us" }]} />
+              options={[{ value: "nairobi", label: "Nairobi" }, { value: "town", label: "Other Kenyan town" }, { value: "courier", label: "Courier or bus service" }, { value: "pickup", label: "Meet and collect" },
+                { value: "collect", label: "Someone collects" }, { value: "abroad", label: "Outside Kenya (ask us)" }, { value: "other", label: "Other, tell us" }]} />
             {d.fulfilment === "pickup" || d.fulfilment === "collect" ? (
-              <p className="text-[.8125rem] text-stone">{d.fulfilment === "pickup" ? "We confirm the pickup point on WhatsApp." : "We confirm who collects it, and where, on WhatsApp."}</p>
+              <p className="text-[.8125rem] text-stone">{d.fulfilment === "pickup" ? "We have no shop, so we agree a meeting place and time on WhatsApp." : "We confirm who collects it, and where, on WhatsApp."}</p>
             ) : d.fulfilment === "abroad" ? (
               <TextField id={k("other")} label="Which country and city?" autoComplete="off" maxLength={80} value={d.other} onChange={(v) => patch(i, { other: v })} error={errors[k("other")]}
-                hint="We have not confirmed shipping abroad yet. We say what is possible." />
+                hint="We say what is possible." />
             ) : d.fulfilment === "other" ? (
               <TextareaField id={k("other")} label="How should this place get it?" rows={2} maxLength={200} value={d.other} onChange={(v) => patch(i, { other: v })} error={errors[k("other")]} />
             ) : d.fulfilment === "nairobi" ? (

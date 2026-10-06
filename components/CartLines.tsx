@@ -39,9 +39,9 @@ export function QtyStepper({ line }: { line: Pick<CartLine, "sku" | "qty" | "siz
   );
 }
 
-/** The price slot of a line: "Price on request" until prices are confirmed, then the line total. */
+/** The price slot of a line: the line total, or "To be confirmed" for a line that is no longer listed. */
 export function LinePrice({ unitKes, totalKes, qty }: { unitKes: number | null; totalKes: number | null; qty: number }) {
-  if (totalKes === null || unitKes === null) return <span className="shrink-0 text-right text-[.75rem] leading-tight text-stone">Price on request</span>;
+  if (totalKes === null || unitKes === null) return <span className="shrink-0 text-right text-[.75rem] leading-tight text-stone">To be confirmed</span>;
   return (
     <span className="shrink-0 text-right leading-tight">
       <span className="price block text-[.875rem] text-baobab">{formatKes(totalKes)}</span>

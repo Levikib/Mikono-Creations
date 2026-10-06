@@ -22,7 +22,7 @@ export const genericBases: BaseFormDef[] = [
   b("bird", "A bird", "A bird of any kind", "sparkle"),
   b("sea", "A sea animal", "A fish, whale, turtle or another sea animal", "sparkle"),
   b("insect", "An insect", "A bee, butterfly or another small creature", "sparkle"),
-  b("farm", "A farm animal", "A cow, goat, hen or another farm animal", "sparkle"),
+  b("farm", "A farm animal", "A goat, hen, sheep or another farm animal", "sparkle"),
   b("describe", "Other, tell us", "Something else, in your own words", "info", { pending: false }),
 ];
 

@@ -1,5 +1,7 @@
 // Sizes are written as words in the interface. The codes S, M, L and XL stay inside SKUs and data (R5: relative classes only).
-export const SIZE_WORDS: Record<string, string> = { S: "Small", M: "Medium", L: "Large", XL: "Extra large" };
+export const SIZE_WORDS: Record<string, string> = { S: "Small", M: "Medium", L: "Large", XL: "Extra large", WALL: "Wall size" };
+/** Said where wall art has its one size. */
+export const WALL_SIZE_NOTE = "Wall art is one size, larger than our Extra large animals.";
 export const sizeWord = (s: string): string => SIZE_WORDS[String(s).toUpperCase()] ?? s;
 
 /** "Small to Extra large" for a list of size codes, or the single size word. */

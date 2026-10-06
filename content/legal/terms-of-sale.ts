@@ -1,4 +1,5 @@
 import { defineDoc } from "./types";
+import { CONTACT_EMAIL } from "@/lib/site";
 import { sec, CONTACT_PARA } from "./h";
 
 export const termsOfSale = defineDoc({
@@ -19,7 +20,7 @@ export const termsOfSale = defineDoc({
   ],
   sections: [
     sec("about", "Who we are and what these terms cover", [
-      "These Terms of Sale apply to every order you place with Mikono Creations (registration number [REGISTRATION NUMBER]), trading as Mikono Creations, of [PHYSICAL ADDRESS], Nairobi, Kenya (\"Mikono\", \"we\", \"us\"). \"You\" means the person placing the order.",
+      "These Terms of Sale apply to every order you place with Mikono Creations, a business in Kenya, run by women across the country. We do not have a physical shop. We work online and by WhatsApp (\"Mikono\", \"we\", \"us\"). \"You\" means the person placing the order.",
       "They apply to the animals shown on the Site and to Custom Pieces, which are also covered by the Custom Order Terms. Trade buyers are also covered by the Wholesale and Trade Terms. If those documents conflict with these Terms of Sale on a custom or trade point, the more specific document applies.",
       CONTACT_PARA,
     ]),
@@ -46,7 +47,7 @@ export const termsOfSale = defineDoc({
       "If we cannot accept your Order we will tell you and will not charge you. If you have already paid, we will refund you in full.",
     ]),
     sec("prices", "Prices and availability", [
-      "Prices and availability are confirmed on WhatsApp before you pay. At the date of these terms Mikono has not published prices on the Site. [PRICE POLICY].",
+      "Prices are shown on the Site in Kenya shillings (KES), and delivery costs and availability are confirmed on WhatsApp before you pay. The Site shows retail prices in Kenya shillings (KES) by size: Small KES 1,500, Medium KES 2,000, Large KES 3,500 and Extra large KES 5,000. The same prices apply to dolls. Wall art is one size, larger than Extra large, at one fixed price of KES 8,000. Delivery is not included in those prices and is confirmed on WhatsApp. For wholesale orders the same prices apply unless we agree something else with you on WhatsApp. [PRICE POLICY].",
       "The Price we confirm is the price you pay for the Goods named in the Confirmation. Delivery is quoted separately before you agree. We will not add charges that were not stated in the Confirmation.",
       "If we made an obvious mistake in a price, we will tell you before we accept your Order and you can choose to go ahead at the correct price or cancel at no cost.",
     ]),
@@ -102,7 +103,7 @@ export const termsOfSale = defineDoc({
       "Severability: if a part of these terms is found to be unenforceable, the rest stays in force.",
       "Entire agreement: these terms, the Confirmation and the documents they refer to are the whole agreement for the Order. They replace anything said earlier, but do not remove any statement we made about the Goods that you relied on.",
       "Assignment: we may transfer our rights and duties to a successor of the business if it takes them on. You may not transfer your Order without our written agreement, except by giving the Goods as a gift.",
-      "Notices: we give notice to the phone number or email you gave us. You give notice by WhatsApp to +254 724 592 115 or by email to [CONTACT EMAIL].",
+      "Notices: we give notice to the phone number or email you gave us. You give notice by WhatsApp to +254 724 592 115 or by email to " + CONTACT_EMAIL + ".",
       "Variation: we may change these terms for future Orders. The version in force when we send the Confirmation governs that Order. A change to an existing Order needs agreement from both of us.",
       "No waiver: if we do not enforce a term at once, we may still enforce it later.",
     ]),

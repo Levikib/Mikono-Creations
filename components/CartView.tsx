@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { pricesConfirmed } from "@/data/facts";
 import { useCart, type CartLine } from "@/lib/cart";
 import { feeFor, useDelivery } from "@/lib/delivery";
-import { computeTotals } from "@/lib/pricing";
+import { computeTotals, formatKes } from "@/lib/pricing";
 import { countAnimals, countLines } from "@/lib/plural";
 import { track } from "@/lib/track";
 import { trackItem } from "@/lib/trackCart";
@@ -31,7 +31,7 @@ export function CartView({ emptyArt }: { emptyArt?: ReactNode }) {
 
 function Loaded({ emptyArt }: { emptyArt?: ReactNode }) {
   const { lines, count, saveForLater } = useCart();
-  const { priceBySlug, resolve, bySlug } = useCatalogue();
+  const { priceFor, resolve, bySlug } = useCatalogue();
   const d = useDelivery();
   const kb = useKeyboardOpen();
   const [editSku, setEditSku] = useState<string | null>(null);
@@ -39,16 +39,16 @@ function Loaded({ emptyArt }: { emptyArt?: ReactNode }) {
   const [bulk, setBulk] = useState(false);
 
   const totals = useMemo(() => computeTotals({
-    lines: lines.map((l) => ({ sku: l.sku, slug: l.slug, qty: l.qty })), priceBySlug, pricesConfirmed,
+    lines: lines.map((l) => ({ sku: l.sku, slug: l.slug, size: l.size, qty: l.qty })), priceFor, pricesConfirmed,
     fulfilment: d.fulfilment, deliveryFeeKes: feeFor(d),
-  }), [lines, priceBySlug, d]);
+  }), [lines, priceFor, d]);
 
   const tracked = useRef(false);
   useEffect(() => {
     if (tracked.current) return;
     tracked.current = true;
     track("view_cart", {
-      items: lines.map((l) => trackItem({ ...l, priceKes: priceBySlug[l.slug] ?? null, category: l.category ?? bySlug(l.slug)?.category })),
+      items: lines.map((l) => trackItem({ ...l, priceKes: priceFor(l.slug, l.size), category: l.category ?? bySlug(l.slug)?.category })),
       item_count: count, price_mode: pricesConfirmed ? "confirmed" : "ask",
     });
     // once per visit
@@ -67,7 +67,7 @@ function Loaded({ emptyArt }: { emptyArt?: ReactNode }) {
         <EmptyCart art={emptyArt} />
       ) : (
         <>
-          <div className="grid items-start gap-3 lg:grid-cols-[minmax(0,1fr)_360px]">
+          <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-3 lg:grid-cols-[minmax(0,1fr)_360px]">
             <section aria-labelledby="cart-items" className="min-w-0 lg:col-start-1">
               <h2 id="cart-items" className="sr-only">Items in your order list</h2>
               <ul className="grid gap-1.5">
@@ -119,7 +119,7 @@ function Loaded({ emptyArt }: { emptyArt?: ReactNode }) {
             <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-3">
               <p className="min-w-0 text-[.8125rem] leading-tight">
                 <span className="block font-semibold">{countAnimals(count)}</span>
-                <span className="block truncate text-stone">{totals.state === "P3" ? `Total ${new Intl.NumberFormat("en-KE").format(totals.totalKes ?? 0)} KES` : "Prices on WhatsApp"}</span>
+                <span data-testid="cart-bar-total" className="block truncate text-stone">{totals.totalKes !== null ? `Total ${formatKes(totals.totalKes)}` : totals.subtotalKes !== null ? `Items total ${formatKes(totals.subtotalKes)}` : "Prices on WhatsApp"}</span>
               </p>
               <ButtonLink href="/order" size="large" className="shrink-0">Continue to order form</ButtonLink>
             </div>

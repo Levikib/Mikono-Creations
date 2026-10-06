@@ -14,4 +14,4 @@ export const sizeLabel = (code: string): string => {
 };
 
 /** Size codes in the catalogue data become words. Anything else is returned unchanged. */
-export const sizeWord = (code: string): string => sizeLabels[code as SizeCode] ?? code;
+export const sizeWord = (code: string): string => sizeLabels[code as SizeCode] ?? (code === "WALL" ? "Wall size" : code);

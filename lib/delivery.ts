@@ -65,6 +65,6 @@ export function zoneFor(d: DeliveryChoice): string | null {
 export function leadTimeText(): string {
   return leadTimeDays === null ? "We confirm timing on WhatsApp." : `Usually ${leadTimeDays} working days after we confirm your order.`;
 }
-export const pickupText = (): string => (pickupPoints.length ? `Pickup points: ${pickupPoints.join(", ")}.` : "We confirm the pickup point on WhatsApp.");
+export const pickupText = (): string => (pickupPoints.length ? `Pickup points: ${pickupPoints.join(", ")}.` : "We have no shop, so we agree a meeting place and time on WhatsApp.");
 
 onClearMemory(resetDelivery);

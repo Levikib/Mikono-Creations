@@ -14,7 +14,7 @@ export function toCard(p: Product, colourKey?: string): ProductCardData {
     sizes: p.sizes,
     peek: peekFor(p.species),
     priceKes: p.priceKes,
-    askHref: whatsappUrl(`Hello Mikono, what is the price of the ${p.name.toLowerCase()}?`),
+    askHref: whatsappUrl(`Hello Mikono, is the ${p.name.toLowerCase()} available?`),
     image: h
       ? {
           // A small source shows its own-size sand panel version, so the card never stretches or blurs it.

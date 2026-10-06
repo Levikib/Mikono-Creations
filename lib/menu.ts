@@ -61,7 +61,7 @@ export function buildMenu(): MenuPanel[] {
       overview: "See all animals", chip: "Four sizes", photo: shopPhoto,
       groups: [{ links: [
         { label: "Safari animals", href: "/shop/safari-animals", icon: "giraffe", caption: "Giraffe, lion, elephant, zebra" },
-        { label: "Domestic animals", href: "/shop/domestic-animals", icon: "rabbit", caption: "Rabbit, cat, dog" },
+        { label: "Farm and pet animals", href: "/shop/domestic-animals", icon: "rabbit", caption: "Rabbit, pig, cow, dog, duck" },
         { label: "More animals", href: "/shop/more-animals", icon: "yarn", caption: "Octopus, turtle, goose and more" },
         { label: "Wall art", href: "/shop/wall-art", icon: "lion", caption: "Crocheted heads to hang" },
         { label: "Dolls", href: "/shop/dolls", icon: "heart", caption: "Hand finished dresses" },

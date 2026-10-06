@@ -59,4 +59,10 @@ Deploy only from a tested snapshot: type check, all tests, copy scan and a webpa
 
 ## Still open
 
-Prices, delivery fees, payment details, legal registration details, domain and email, tracking IDs (GA4, Meta, TikTok), ODPC registration before any database, SEO fixes from `strategy/21-seo-sweep.md`, and the instant-loading plan.
+- Delivery fees and delivery times (Mikono delivers anywhere in Kenya; the cost is confirmed on WhatsApp for each order).
+- Domain.
+- Wholesale prices apart from the retail ladder (the retail ladder applies to wholesale too unless agreed on WhatsApp).
+- Tracking IDs (GA4, Meta, TikTok).
+- Legal registration number and address (not needed for now, no physical shop), and ODPC registration before any database.
+- Remaining legal placeholders such as return windows, payment methods and retention periods (see each legal page).
+- Sharper photos for the Duck, Cow and Rabbit pair if the client has them.

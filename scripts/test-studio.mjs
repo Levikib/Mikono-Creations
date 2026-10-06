@@ -122,10 +122,10 @@ t("budget bands are the owner's rough guide, with not sure and prefer not to say
 t("rough estimates are all flagged estimate and never in the shop data", async () => {
   for (const r of Object.values(D.ROUGH_PER_PIECE)) assert.equal(r.estimate, true);
   assert.deepEqual(Object.keys(D.ROUGH_PER_PIECE), ["S", "M", "L", "XL"]);
-  assert.equal(D.ROUGH_PER_PIECE.S.lowKes, 1200); assert.equal(D.ROUGH_PER_PIECE.XL.highKes, 18000); assert.equal(D.ROUGH_COMPLEXITY.estimate, true);
-  const facts = await imp("data/facts.ts"); assert.equal(facts.pricesConfirmed, false); assert.deepEqual(facts.prices, {});
+  assert.equal(D.ROUGH_PER_PIECE.S.lowKes, 1500); assert.equal(D.ROUGH_PER_PIECE.XL.lowKes, 5000, "low end is the retail price"); assert.equal(D.ROUGH_PER_PIECE.XL.highKes, 18000); assert.equal(D.ROUGH_COMPLEXITY.estimate, true);
+  const facts = await imp("data/facts.ts"); assert.equal(facts.pricesConfirmed, true); assert.deepEqual(facts.sizePricesKes, { S: 1500, M: 2000, L: 3500, XL: 5000 });
   const { readFileSync } = await import("node:fs"); const head = readFileSync(new URL("data/studio/estimates.ts", root), "utf8").split("\n")[0];
-  assert.ok(head.includes("ROUGH ESTIMATES set by the lead on the owner's instruction, to be refined by the client; not published as prices"));
+  assert.ok(head.includes("ROUGH ESTIMATES for custom pieces, set by the lead on the owner's instruction, to be refined by the client; not published as prices"));
 });
 t("the rough guide note shows only when every piece has a size and a count, always says roughly", async () => {
   const E = await imp("lib/studio/estimate.ts");
@@ -133,18 +133,23 @@ t("the rough guide note shows only when every piece has a size and a count, alwa
   assert.equal(E.roughGuide(brief({ pieces: [piece("a", { size: "L" }), piece("b", { size: "" })] })), null, "one piece without a size");
   assert.equal(E.roughGuide(brief({ pieces: [piece("a", { size: "advise" })] })), null, "not sure about size");
   const g = E.roughGuide(brief({ pieces: [piece("a", { baseId: "giraffe", size: "S", qtyBand: "1", qtyExact: "2" })] }));
-  assert.equal(g.lowKes, 2400); assert.equal(g.highKes, 5000);
-  assert.match(g.text, /^This looks like roughly KES 2,400 to 5,000 at these sizes\. We confirm the exact price in your quote\.$/);
+  assert.equal(g.lowKes, 3000); assert.equal(g.highKes, 5000);
+  assert.match(g.text, /^This looks like roughly KES 3,000 to 5,000 at these sizes\. We confirm the exact price in your quote\.$/);
   const bulk = E.roughGuide(brief({ pieces: [piece("a", { baseId: "giraffe", size: "M", qtyBand: "20-49", qtyExact: "20" })] }));
-  assert.ok(bulk.lowKes < 2500 * 20 && /roughly/.test(bulk.text), "bulk is rough and lower per piece");
+  assert.ok(bulk.lowKes < 2000 * 20 * 1.0 + 1 && /roughly/.test(bulk.text), "bulk is rough and lower per piece");
   const cx = E.roughGuide(brief({ pieces: [piece("a", { baseId: "new-animal", baseNote: "x", size: "S", qtyExact: "1" })] }));
-  assert.equal(cx.lowKes, 1400); assert.equal(cx.highKes, 4000, "complexity adds 20 to 60 percent");
+  assert.equal(cx.lowKes, 1800); assert.equal(cx.highKes, 4000, "complexity adds 20 to 60 percent");
   const under = E.roughGuide(brief({ budgetBand: "u2", pieces: [piece("a", { size: "XL", qtyExact: "1" })] })); assert.match(under.budgetNote, /a little below/);
-  assert.ok(g.messageLine.startsWith("Rough guide shown on the site: KES 2,400 to 5,000") && /rough estimate, not a price/.test(g.messageLine));
+  assert.ok(g.messageLine.startsWith("Rough guide shown on the site: KES 3,000 to 5,000") && /rough estimate, not a price/.test(g.messageLine));
+});
+t("a wall head is never roughly estimated below its fixed shop price of 8000", async () => {
+  const E = await imp("lib/studio/estimate.ts");
+  const g = E.roughGuide(brief({ pieces: [piece("a", { baseId: "lion-wall-head", size: "S", qtyBand: "1", qtyExact: "1" })] }));
+  assert.equal(g.lowKes, 8000); assert.ok(g.highKes >= 8000);
 });
 t("the message carries the rough guide line only when there is one, and never a price", () => {
   const withG = M.buildBriefMessage(msgInput({ brief: brief({ pieces: [piece("a", { size: "M", qtyExact: "1" })] }) }), "full");
-  assert.ok(withG.includes("Rough guide shown on the site: KES 2,500 to 5,000"));
+  assert.ok(withG.includes("Rough guide shown on the site: KES 2,000 to 5,000"));
   const none = M.buildBriefMessage(msgInput({ brief: brief({ pieces: [piece("a", { size: "", qtyExact: "1" })] }) }), "full");
   assert.ok(!none.includes("Rough guide"));
 });

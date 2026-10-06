@@ -268,6 +268,93 @@
    ]
   },
   {
+   "slug": "pig",
+   "species": "pig",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "pink",
+     "label": "Pink",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 1080,
+       "height": 1335,
+       "quality": "good",
+       "alt": "Pink crocheted pig standing upright, with a peach body, bright pink ears, snout and hooves and small black eyes, on a pale grey background.",
+       "source_id": "img-090.jpg",
+       "src": "/media/products/pig/pig-pink-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "cow",
+   "species": "cow",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "black-and-white",
+     "label": "Black and white",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "neutral",
+       "focal": [
+        0.5,
+        0.45
+       ],
+       "shownSize": null,
+       "width": 960,
+       "height": 1305,
+       "quality": "good",
+       "alt": "Black and white crocheted cow standing upright, with a cream body, black patches, black ears, tan horns and a large pink nose, on a pale grey background.",
+       "source_id": "img-091.jpg",
+       "src": "/media/products/cow/cow-black-and-white-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
+   "slug": "duck",
+   "species": "duck",
+   "category": "domestic",
+   "colourways": [
+    {
+     "key": "yellow",
+     "label": "Yellow",
+     "images": [
+      {
+       "role": "hero",
+       "bg": "white",
+       "focal": [
+        0.5,
+        0.5
+       ],
+       "shownSize": null,
+       "width": 1600,
+       "height": 1358,
+       "quality": "ok",
+       "alt": "Two yellow crocheted ducklings side by side with orange beaks and feet, one standing and one sitting in a white crocheted eggshell.",
+       "source_id": "img-088.jpg",
+       "src": "/media/products/duck/duck-yellow-01.jpg"
+      }
+     ]
+    }
+   ],
+   "range": []
+  },
+  {
    "slug": "giraffe",
    "species": "giraffe",
    "category": "safari",
@@ -1470,6 +1557,21 @@
      "alt": "Market stall under white tents with brown rabbits in vests, lions, giraffes and elephants on a table with a white heart print cloth",
      "source_id": "img-043.jpg",
      "src": "/media/products/rabbit/rabbit-range-03.jpg"
+    },
+    {
+     "role": "gallery",
+     "bg": "neutral",
+     "focal": [
+      0.5,
+      0.5
+     ],
+     "shownSize": null,
+     "width": 1080,
+     "height": 1056,
+     "quality": "good",
+     "alt": "A pink crocheted bunny in a pink dress, with a cream face and pink ears, standing beside a tan crocheted rabbit with long ears and a blue vest.",
+     "source_id": "img-089.jpg",
+     "src": "/media/products/rabbit/rabbit-range-04.jpg"
     }
    ]
   },

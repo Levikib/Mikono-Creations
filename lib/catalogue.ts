@@ -1,9 +1,10 @@
 // Typed accessors over data/catalogue.generated.json (built by scripts/build-catalogue.py).
 import raw from "@/data/catalogue.generated.json";
-import { defaultAvailability, prices, pricesConfirmed, sizeClasses, type Availability } from "@/data/facts";
+import { defaultAvailability, isWallArtSlug, pricesConfirmed, sizeClasses, WALL_SIZE, type Availability } from "@/data/facts";
+import { fromPriceKes, unitPriceKes } from "@/lib/pricing";
 import { familyOf, familyRank, type ColourFamilyKey } from "@/data/colours";
 
-export type Size = (typeof sizeClasses)[number];
+export type Size = (typeof sizeClasses)[number] | typeof WALL_SIZE;
 export type CategoryKey = "safari" | "domestic" | "more" | "wall-art" | "dolls";
 /** "group": the photo shows this animal together with others (a crop with neighbours at its edges, or the whole group photo). */
 export type ImageRole = "hero" | "gallery" | "lifestyle" | "size_ladder" | "group";
@@ -56,7 +57,10 @@ export type Product = {
   /** Range photos that show this animal with others. Never used as a colourway image. */
   range: MediaRef[];
   sizes: readonly Size[];
+  /** Lowest retail price in KES ("From KES 1,500"), or null when prices are off. */
   priceKes: number | null;
+  /** Retail price per size in KES, or null when prices are off. */
+  sizePrices: Record<Size, number> | null;
   /** True when only group photos exist: no colour selector, colour is confirmed on WhatsApp. */
   colourAsk: boolean;
 };
@@ -67,7 +71,7 @@ export type Category = { key: CategoryKey; slug: string; label: string; blurb: s
 
 export const categories: Category[] = [
   { key: "safari", slug: "safari-animals", label: "Safari animals", blurb: "Elephants, giraffes, lions, rhinos, zebras, hippos and monkeys, crocheted by hand in Nairobi." },
-  { key: "domestic", slug: "domestic-animals", label: "Domestic animals", blurb: "Rabbits, cats and dogs, crocheted by hand in Nairobi." },
+  { key: "domestic", slug: "domestic-animals", label: "Farm and pet animals", blurb: "Rabbits, pigs, cows, dogs, ducks and cats, crocheted by hand in Nairobi." },
   { key: "more", slug: "more-animals", label: "More animals", blurb: "Octopuses, sharks, turtles, a goose, a bear and more." },
   { key: "wall-art", slug: "wall-art", label: "Wall art", blurb: "Crocheted animal heads to hang on a wall." },
   { key: "dolls", slug: "dolls", label: "Dolls", blurb: "Crocheted dolls in hand finished dresses." },
@@ -79,7 +83,7 @@ export const categoryByKey = (key: CategoryKey) => categories.find((c) => c.key 
 /** Listing order: species order inside each category (Photo Colour Rule). */
 const speciesOrder = [
   "elephant", "giraffe", "lion", "rhino", "zebra", "hippo", "monkey",
-  "rabbit", "cat", "dog",
+  "rabbit", "cat", "dog", "pig", "cow", "duck",
   "bear", "goose", "octopus", "shark", "turtle", "butterfly", "chameleon", "dinosaur", "lion-head-handbag",
   "lion-wall-head", "giraffe-wall-head", "elephant-wall-head", "rhino-wall-head", "hippo-wall-head",
   "zebra-wall-head", "warthog-wall-head", "unicorn-wall-head", "secretary-bird-wall-head",
@@ -135,7 +139,9 @@ const products: Product[] = (raw.products as unknown as {
     const range = (p.range ?? []).map(toMedia).filter((i) => i.alt.toLowerCase().includes(word));
     return {
       slug: p.slug, species: p.species, name, category: p.category as CategoryKey, colourways, range,
-      sizes: sizeClasses, priceKes: prices[p.slug] ?? null, colourAsk: Boolean(p.colourAsk),
+      sizes: (isWallArtSlug(p.slug) ? [WALL_SIZE] : [...sizeClasses]) as readonly Size[], priceKes: fromPriceKes(p.slug),
+      sizePrices: fromPriceKes(p.slug) === null ? null : (Object.fromEntries((isWallArtSlug(p.slug) ? [WALL_SIZE] : [...sizeClasses]).map((sz) => [sz, unitPriceKes(p.slug, sz)])) as Record<Size, number>),
+      colourAsk: Boolean(p.colourAsk),
     } satisfies Product;
   })
   .sort((a, b) => {
@@ -144,10 +150,10 @@ const products: Product[] = (raw.products as unknown as {
     return speciesOrder.indexOf(a.slug) - speciesOrder.indexOf(b.slug);
   });
 
-// R7: when prices are confirmed every product must have one.
+// R7 and R12: when prices are confirmed, every product must have a price for every size.
 if (pricesConfirmed) {
-  const missing = products.filter((p) => p.priceKes == null).map((p) => p.slug);
-  if (missing.length) throw new Error(`pricesConfirmed is true but no price for: ${missing.join(", ")}`);
+  const bad = products.filter((p) => !p.sizePrices || !p.sizes.every((s) => typeof p.sizePrices![s] === "number")).map((p) => p.slug);
+  if (bad.length) throw new Error(`pricesConfirmed is true but no price for every size: ${bad.join(", ")}`);
 }
 
 export const allProducts = (): Product[] => products;
