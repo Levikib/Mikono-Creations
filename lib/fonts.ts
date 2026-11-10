@@ -9,9 +9,11 @@ export const display = Unbounded({
   subsets: ["latin"],
   weight: ["600", "700", "800"],
   variable: "--font-display-loaded",
-  display: "swap",
-  // Headings render in the metric adjusted fallback first, so the 50KB file does not compete with the stylesheet and the first photos on slow networks.
-  preload: false,
+  // "optional", preloaded: the hero headline used to render in the fallback and then swap to Unbounded, which is much
+  // wider, shifting the whole hero (PageSpeed CLS 0.8, Nov 2026). Now the font is used if it arrives within the short
+  // block period (preloaded, so usually yes), otherwise the fallback stays for that page view with no shift.
+  display: "optional",
+  preload: true,
   fallback: ["system-ui", "sans-serif"],
   adjustFontFallback: true,
 });

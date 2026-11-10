@@ -165,7 +165,7 @@ export function SiteNav({ panels, whatsappHref }: { panels: MenuPanel[]; whatsap
     <div ref={zone} className="nav-zone" data-scrolled={scrolled ? "true" : "false"} data-open={open ? "true" : "false"}>
       <div className="nav-pill glass">
         <Link href="/" prefetch={false} aria-label={`${site.name} home`} className="nav-logo">
-          <span className="nav-mark"><img src="/logo-mark.png" alt="" width={44} height={46} /></span>
+          <span className="nav-mark"><img src="/logo-mark-88.webp" alt="" width={44} height={46} /></span>
           <span className="nav-word" aria-hidden="true">Mikono<span className="nav-word-rest"> Creations</span></span>
         </Link>
 

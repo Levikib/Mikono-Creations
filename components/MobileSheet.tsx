@@ -66,7 +66,7 @@ export function MobileSheet({ panels, whatsappHref, open: openProp, onClose }: {
     }}>
       <div className="mnav-body">
         <div className="mnav-head">
-          <span className="mnav-title"><span className="nav-mark"><img src="/logo-mark.png" alt="" width={44} height={46} /></span>{site.name}</span>
+          <span className="mnav-title"><span className="nav-mark"><img src="/logo-mark-88.webp" alt="" width={44} height={46} /></span>{site.name}</span>
           <button type="button" aria-label="Close menu" onClick={onClose} className="mnav-close iconbtn"><Icon name="close" size={20} /></button>
         </div>
         <nav aria-label="Mobile" className="mnav-scroll">
