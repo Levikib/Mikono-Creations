@@ -4,7 +4,7 @@ import { Character } from "./Character";
  * The lane under the hero buttons on the home page. On every full load a rabbit rises out of the grass under a stitched arrow and a
  * "Start here" pill that point up at Shop, then it stays and performs on a 9 s loop (a hop, a wave, an ear flick, a blink) for as long as the
  * page is open. It is server rendered and pure CSS (components/fx/fx.css): it starts the frame the intro splash leaves (held paused while
- * html[data-splash=on], see public/splash-gate.js) and needs no engine. A tap does not end it. Reduced motion shows the rabbit, arrow and pill
+ * html[data-splash=on], see lib/splashGate.ts) and needs no engine. A tap does not end it. Reduced motion shows the rabbit, arrow and pill
  * standing still; the Animals switch off hides all of it. The lane has a fixed height, so the page never shifts. Decorative parts are aria-hidden.
  */
 export function WelcomeLane() {

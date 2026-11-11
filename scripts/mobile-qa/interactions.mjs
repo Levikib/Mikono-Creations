@@ -793,7 +793,7 @@ async function s7(browser, dev) {
       await page.keyboard.press("Shift").catch(() => {});
       await page.waitForTimeout(1500);
       const l2 = await page.evaluate(() => { const c = document.querySelector(".fx-lane .fx-char"); const pl = document.querySelector(".fx-lane-pill"); return { here: !!c, loop: !!c && c.getAnimations().some((x) => x.animationName === "fx-lane-perform" && x.playState === "running"), pill: pl ? Number(getComputedStyle(pl).opacity) : 0, over: document.documentElement.dataset.welcome || null, path: location.pathname }; });
-      if (l2.path === "/") check(l2.here && l2.loop && l2.pill > 0.9 && l2.over !== "over", "Serious", "S7", D, ".fx-lane", "a tap or key press does NOT end the rabbit: it keeps looping", "The owner wants the rabbit constantly there; splash-gate.js must not set data-welcome=over.");
+      if (l2.path === "/") check(l2.here && l2.loop && l2.pill > 0.9 && l2.over !== "over", "Serious", "S7", D, ".fx-lane", "a tap or key press does NOT end the rabbit: it keeps looping", "The owner wants the rabbit constantly there; lib/splashGate.ts must not set data-welcome=over.");
       // it is still there after 12 more seconds (more than one 9 s cycle)
       if (l2.path === "/") { await page.waitForTimeout(10000); const l3 = await look(); check(l3.loop && l3.pill > 0.9, "Serious", "S7", D, ".fx-lane", "rabbit is still performing more than 10 s later", "The loop must be infinite.", sh); }
     }
@@ -832,7 +832,7 @@ async function s7(browser, dev) {
     const early = await page.evaluate(() => document.documentElement.dataset.animals);
     await page.waitForTimeout(2800);
     const persisted = await page.evaluate(() => ({ a: document.documentElement.dataset.animals, c: document.querySelector("button.an-switch")?.getAttribute("aria-checked"), mv: (() => { return document.getAnimations().filter((x) => x.playState === "running" && x.effect && x.effect.target && x.effect.target.closest && x.effect.target.closest(".fx-char, [data-sp]")).length; })() }));
-    check(early === "off" && persisted.a === "off" && persisted.c === "false" && persisted.mv === 0, "Critical", "S7", D, "html[data-animals]", `Off persists across reload (first paint ${early}, after ${persisted.a}, aria-checked ${persisted.c}, moving ${persisted.mv})`, "Read mk-animals in splash-gate.js before first paint.");
+    check(early === "off" && persisted.a === "off" && persisted.c === "false" && persisted.mv === 0, "Critical", "S7", D, "html[data-animals]", `Off persists across reload (first paint ${early}, after ${persisted.a}, aria-checked ${persisted.c}, moving ${persisted.mv})`, "Read mk-animals in lib/splashGate.ts before first paint.");
     await go(page, "/shop");
     await page.waitForTimeout(2500);
     const shopState = await page.evaluate(() => ({ a: document.documentElement.dataset.animals, mv: document.getAnimations().filter((x) => x.playState === "running" && x.effect && x.effect.target && x.effect.target.closest && x.effect.target.closest(".fx-char, [data-sp]")).length }));

@@ -18,6 +18,8 @@ import { Deferred } from "@/components/Deferred";
 import { JsonLd } from "@/components/JsonLd";
 import { SPLASH_CSS, SPLASH_HTML } from "@/lib/splashAssets";
 
+import { SPLASH_GATE_JS } from "@/lib/splashGate";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteBaseUrl()),
   title: {
@@ -57,11 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-KE" className={`${display.variable} ${sans.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>
-        {/* Critical CSS for the intro: inline, so the overlay is painted with the very first frame. The CSP already allows inline styles; no inline script is added. */}
+        {/* Critical CSS for the intro: inline, so the overlay is painted with the very first frame. The CSP allows inline styles and scripts. */}
         <style dangerouslySetInnerHTML={{ __html: SPLASH_CSS }} />
-        {/* Sets html[data-splash] before first paint (reduced motion and bots skip), wires Skip and Escape, and reports "done". Same origin, no inline script. */}
-        {/* eslint-disable-next-line @next/next/no-sync-scripts -- must run before first paint */}
-        <script src="/splash-gate.js" />
+        {/* Sets html[data-splash] before first paint (reduced motion and bots skip), wires Skip and Escape, and reports "done". Inline (lib/splashGate.ts), so first paint does not wait on a separate request. */}
+        <script dangerouslySetInnerHTML={{ __html: SPLASH_GATE_JS }} />
       </head>
       <body>
         <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: SPLASH_HTML }} />

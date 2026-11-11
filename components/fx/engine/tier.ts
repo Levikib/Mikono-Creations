@@ -1,5 +1,5 @@
 // Which animal tier this visitor gets. Kept tiny and free of imports: the Animals switch (in every footer) and the engine both use it.
-// public/splash-gate.js does the same decision before first paint and sets html[data-fx]; keep the two in step.
+// lib/splashGate.ts does the same decision before first paint and sets html[data-fx]; keep the two in step.
 //   off    the Animals switch is off, or Save-Data / a 2g connection (unless the visitor switched Animals on)
 //   still  prefers-reduced-motion: static decorations only
 //   lite   weak device (low memory, few cores, 3g): a small budget, no peek-a-boo, no welcome

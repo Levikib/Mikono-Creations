@@ -5,7 +5,7 @@ const KEY = "mk-density";
 const read = () => (document.documentElement.dataset.density === "comfy" ? "comfy" : "compact");
 const subscribe = (cb: () => void) => { window.addEventListener("mk:density", cb); return () => window.removeEventListener("mk:density", cb); };
 
-/** Two state phone grid control: compact (3 across, default) or comfortable (2 across). public/splash-gate.js applies the stored choice before first paint. */
+/** Two state phone grid control: compact (3 across, default) or comfortable (2 across). lib/splashGate.ts applies the stored choice before first paint. */
 export function DensityToggle() {
   const mode = useSyncExternalStore(subscribe, read, () => "compact");
   const set = (m: "compact" | "comfy") => {

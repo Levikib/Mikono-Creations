@@ -5,7 +5,7 @@ import { applyTier, setChoice, FX_EVENT } from "./engine/tier";
 
 /**
  * Footer control: the Animals on/off switch (every page) and the find-the-herd counter (pages that have animals).
- * Server markup is a complete, still version; the switch state is read from html[data-animals], which public/splash-gate.js sets before first paint.
+ * Server markup is a complete, still version; the switch state is read from html[data-animals], which lib/splashGate.ts sets before first paint.
  * Storage keys: mk-animals (the switch) and mk-found (the game). Both are listed in /privacy and /cookies and removed by Clear my saved details.
  */
 const FOUND_KEY = "mk-found";

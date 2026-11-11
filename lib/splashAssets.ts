@@ -5,7 +5,7 @@
  * Pure CSS animation, transform and opacity only (plus one discrete visibility step at the end). No counter, no @property.
  * Timeline: 0 to .25 s stack fades in, .15 to 1.55 s thread ring turns and the progress line fills while the animals walk,
  * 1.62 to 1.94 s the whole overlay fades and then leaves the layout (visibility hidden, pointer-events none, display none).
- * public/splash-gate.js only adds Skip, Escape and the "done" signal; with no script the CSS timeline still ends it.
+ * lib/splashGate.ts only adds Skip, Escape and the "done" signal; with no script the CSS timeline still ends it.
  */
 
 import { SPLASH_MARK } from "./splashMark";
