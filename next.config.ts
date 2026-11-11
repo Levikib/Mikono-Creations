@@ -38,8 +38,8 @@ const nextConfig: NextConfig = {
   // Annotation mode: the compiler only touches functions marked "use memo". Its automatic memo cache code added 5 to 17 KB gzip of script per route.
   reactCompiler: { compilationMode: "annotation" },
   poweredByHeader: false,
-  // CSS is inlined into the HTML, so the first paint no longer waits on separate stylesheet requests (PageSpeed: ~2.9 s of render-blocking CSS on mobile).
-  experimental: { inlineCss: true },
+  // experimental.inlineCss was tried (2026-11-11) and removed: it shipped the CSS three times (a <style> tag plus twice in the RSC
+  // payload), taking the HTML from ~50 KB to 630 KB with no gain in first paint on PageSpeed mobile.
   env: {
     NEXT_PUBLIC_SITE_URL: siteUrl,
     NEXT_PUBLIC_SITE_ENV: siteEnv,
