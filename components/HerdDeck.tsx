@@ -93,7 +93,7 @@ export function HerdDeck({ items }: { items: readonly DeckItem[] }) {
             <article key={it.href} className="herd-card" data-front={front ? "true" : "false"} style={style}
               aria-roledescription="slide" aria-label={`${i + 1} of ${n}`} aria-hidden={front ? undefined : true}>
               <div className="herd-photo">
-                <Image src={it.image.src} alt={it.image.alt} fill sizes="(min-width:768px) 320px, 80vw" draggable={false}
+                <Image src={it.image.src} alt={it.image.alt} fill sizes="(min-width:768px) 240px, 210px" draggable={false}
                   className="object-cover" style={it.image.focal ? { objectPosition: `${it.image.focal[0] * 100}% ${it.image.focal[1] * 100}%` } : undefined} />
                 <span className="herd-chip">{it.category}</span>
               </div>
